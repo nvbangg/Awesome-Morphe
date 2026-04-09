@@ -1,0 +1,60 @@
+name: Submit Patch Bundle
+description: Request to add a new ReVanced/Morphe patch bundle to Patch Explorer
+title: "[Bundle Request] "
+labels: ["bundle-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a patch bundle! Please fill in the details below.
+  - type: input
+    id: bundle-name
+    attributes:
+      label: Bundle Name
+      description: A short name for this patch bundle
+      placeholder: e.g. my-patches
+    validations:
+      required: true
+  - type: input
+    id: patches-repo
+    attributes:
+      label: Patches Repository
+      description: GitHub URL of the patches repo
+      placeholder: https://github.com/username/revanced-patches
+    validations:
+      required: true
+  - type: input
+    id: integrations-repo
+    attributes:
+      label: Integrations Repository (if applicable)
+      description: GitHub URL of the integrations repo (leave empty if using extensions/API v4)
+      placeholder: https://github.com/username/revanced-integrations
+    validations:
+      required: false
+  - type: dropdown
+    id: api-version
+    attributes:
+      label: API Version
+      options:
+        - API v4 (ReVanced Manager Compose)
+        - Morphe
+        - API v3 (Legacy)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of what this patch bundle does or which apps it targets
+      placeholder: e.g. Custom patches for YouTube with extra ad-blocking features
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This repo has at least one published release
+          required: true
+        - label: The patches are compatible with ReVanced Manager or Morphe
+          required: true

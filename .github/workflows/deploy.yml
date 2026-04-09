@@ -35,21 +35,3 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
-
-  update-repo:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Update repo description, homepage & topics
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh repo edit ${{ github.repository }} \
-            --description "Browse and search all ReVanced patch bundles — apps, patches, versions, changelogs" \
-            --homepage "https://${{ github.repository_owner }}.github.io/patch-explorer/" \
-            --add-topic revanced \
-            --add-topic revanced-patches \
-            --add-topic revanced-manager \
-            --add-topic patch-bundles \
-            --add-topic vite

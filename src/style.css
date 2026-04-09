@@ -65,6 +65,7 @@ header h1 {
   font-weight: 700;
   letter-spacing: -.3px;
 }
+.hdr-links { display: flex; gap: 6px; align-items: center }
 .hdr-gh {
   display: flex;
   align-items: center;
