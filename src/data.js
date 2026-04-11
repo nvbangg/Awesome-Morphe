@@ -95,37 +95,14 @@ export function filter(query, bundle, app) {
   return f;
 }
 
-// Derive friendly name from package — smart parsing
+import knownApps from './known-apps.json';
+
+// Derive friendly name — known map first, then smart parse
 export function friendlyName(pkg) {
+  if (knownApps[pkg]) return knownApps[pkg];
   const parts = pkg.split('.');
-  const skip = new Set(['com','org','net','android','app','apps','player','client','mobile','thirdpartyclient','redditdonation']);
-  // Take meaningful parts from the end
+  const skip = new Set(['com','org','net','android','app','apps','player','client','mobile','thirdpartyclient']);
   const meaningful = parts.filter(p => !skip.has(p) && p.length > 1);
-  let name = meaningful.length ? meaningful[meaningful.length - 1] : parts[parts.length - 1];
-  // Special multi-word cases
-  if (meaningful.length >= 2) {
-    const last2 = meaningful.slice(-2).join(' ');
-    // If second-to-last is a known company, use just the last
-    const companies = new Set(['google','amazon','adobe','samsung','sec','naver','proton','protonmail','protonvpn']);
-    if (!companies.has(meaningful[meaningful.length - 2])) {
-      name = meaningful[meaningful.length - 1];
-    }
-  }
-  return name
-    .replace(/[-_]/g, ' ')
-    .replace(/\b\w/g, c => c.toUpperCase())
-    .replace(/^Fm$/, 'FM Radio')
-    .replace(/^Ugc$/, 'TikTok')
-    .replace(/^Musically$/, 'TikTok')
-    .replace(/^Katana$/, 'Facebook')
-    .replace(/^Frontpage$/, 'Reddit')
-    .replace(/^Avod$/, 'Prime Video')
-    .replace(/^Mshop$/, 'Amazon Shopping')
-    .replace(/^Lrmobile$/, 'Lightroom')
-    .replace(/^Photoshopmix$/, 'Photoshop Mix')
-    .replace(/^Crunchyroid$/, 'Crunchyroll')
-    .replace(/^Kleinanzeigen$/, 'eBay Kleinanzeigen')
-    .replace(/^Latin$/, 'Gboard')
-    .replace(/^Disneyplus$/, 'Disney+')
-    .replace(/^Warnapp$/, 'WarnWetter');
+  const name = meaningful.length ? meaningful[meaningful.length - 1] : parts[parts.length - 1];
+  return name.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }

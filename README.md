@@ -19,8 +19,8 @@ A fast, static web app to browse and search all [ReVanced Patch Bundles](https:/
 - **Bundles view** — grouped by bundle source with version, type badge, release date, changelog, download link, and repo link
 - **All Patches view** — full searchable table of every patch across all bundles
 - **Test Bundle** — paste any GitHub repo URL and instantly preview its patches (auto-detects `patches-list.json` from repo root or release assets)
+- **191 verified app names** — all package names mapped to real Play Store names via [`known-apps.json`](src/known-apps.json), with smart fallback parser for unknown packages
 - **Bundle type detection** — automatically identifies ReVanced (`.rvp`), Morphe (`.mpp`), and Legacy (`.jar`) bundles
-- **Smart app names** — derives friendly names from package names (e.g. `com.google.android.youtube` → YouTube)
 - **Progressive loading** — data streams in and renders as each batch arrives, no waiting for all bundles
 - **Search** — filter across app names, package names, patch names, descriptions, and bundle names
 - **Filter** — narrow by bundle source or target app
@@ -40,6 +40,8 @@ All data is fetched dynamically from [Jman-Github/ReVanced-Patch-Bundles](https:
 - `bundle-sources.json` — discovers all bundle names (zero hardcoded)
 - `*-latest-patches-list.json` — patch details, compatible apps, versions, options
 - `*-latest-patches-bundle.json` — version, download URL, type, changelog, release date
+
+App names are resolved from [`src/known-apps.json`](src/known-apps.json) — a verified map of 191 package names to their real Play Store names.
 
 ## Development
 
