@@ -92,14 +92,14 @@ export function renderBundles(data, el) {
         <div class="m">${date ? `<span class="m-date">${date}</span>` : ''}<span>${ps.length} patches</span><span>${apps.size} apps</span><span>▼</span></div>
       </div>
       ${m.changelog ? `<div class="changelog hide" data-changelog>${fmtChangelog(m.changelog.slice(0, 800))}</div>` : ''}
-      <div>${patchTable(ps)}</div></div>`;
+      <div class="table-wrap">${patchTable(ps)}</div></div>`;
   }
   el.innerHTML = h;
 }
 
 export function renderPatches(data, el) {
   if (!data.length) { el.innerHTML = '<div class="loader">No results.</div>'; return; }
-  el.innerHTML = patchTable(data);
+  el.innerHTML = `<div class="table-wrap">${patchTable(data)}</div>`;
 }
 
 function patchTable(ps) {
@@ -185,7 +185,7 @@ export async function loadTestBundle(input, el) {
         <td class="c-pkg">${p.pkg}</td><td class="c-ver">${fmtVer(p.vers)}</td>
         <td class="c-desc">${esc(p.desc)}</td></tr>`;
     }
-    el.innerHTML = h + '</tbody></table>';
+    el.innerHTML = '<div class="table-wrap">' + h + '</tbody></table></div>';
   } catch (e) {
     el.innerHTML = `<div class="loader" style="color:var(--red)">Failed: ${esc(e.message)}<br><small>Accepts: GitHub repo URL, release asset URL, or raw JSON URL</small></div>`;
   }
@@ -202,12 +202,12 @@ export function showAppModal(pkg, allData) {
     const ps = byB[b], m = bundleMeta[b] || {};
     h += `<h3 style="margin:12px 0 4px;font-size:13px">${b} <span class="tag">${ps[0]?.bVer || ''}</span>${m.type ? `<span class="tag tag-type ${typeClass(m.type)}">${m.type}</span>` : ''}
       ${m.repo ? ` <a href="https://github.com/${m.repo}" target="_blank" class="bundle-link" style="font-size:11px">↗ repo</a>` : ''}</h3>`;
-    h += '<table><thead><tr><th>Patch</th><th>Versions</th><th>Desc</th></tr></thead><tbody>';
+    h += '<div class="table-wrap"><table><thead><tr><th>Patch</th><th>Versions</th><th>Desc</th></tr></thead><tbody>';
     for (const p of ps) {
       h += `<tr><td>${esc(p.name)}</td><td class="c-ver">${fmtVer(p.vers)}</td>
         <td class="c-desc">${esc(p.desc)}</td></tr>`;
     }
-    h += '</tbody></table>';
+    h += '</tbody></table></div>';
   }
   const modal = document.getElementById('modal');
   modal.innerHTML = h + '</div>';

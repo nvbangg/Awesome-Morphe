@@ -365,6 +365,7 @@ main {
 .tag-legacy { background: rgba(125,141,161,.2); color: var(--dim) }
 
 /* ── Tables ── */
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch }
 table { width: 100%; border-collapse: collapse }
 th {
   background: var(--bg2);
@@ -519,19 +520,51 @@ tr:hover .ver-chip { background: rgba(63, 185, 80, .18) }
 @keyframes sp { to { transform: rotate(360deg) } }
 
 /* ── Responsive ── */
-@media (max-width: 640px) {
+@media (max-width: 768px) {
+  .hdr-inner { padding: 10px 12px }
   header h1 { font-size: 14px }
+  .hdr-icon { width: 18px; height: 18px }
   .panel { padding: 0 8px; margin-top: 8px }
   .panel-row { flex-direction: column; align-items: stretch; gap: 0 }
-  .stats { padding: 6px 12px; justify-content: center; border-top: 1px solid var(--bdr) }
-  #tabs { justify-content: center }
-  .tab { padding: 8px 12px; font-size: 12px }
-  .panel-search { flex-wrap: wrap }
-  .panel-search input { min-width: 100% }
-  .panel-search select { flex: 1; min-width: 0 }
+  .stats { padding: 6px 12px; justify-content: center; border-top: 1px solid var(--bdr); gap: 10px }
+  #tabs { justify-content: center; overflow-x: auto; -webkit-overflow-scrolling: touch }
+  .tab { padding: 8px 10px; font-size: 12px; white-space: nowrap }
+  .tab svg { width: 13px; height: 13px }
+  .panel-search { flex-wrap: wrap; padding: 8px }
+  .panel-search input { min-width: 100%; order: 1 }
+  .panel-search select { flex: 1; min-width: 0; order: 2 }
   .search-icon { display: none }
-  .grid { grid-template-columns: 1fr }
-  td, th { padding: 5px 8px; font-size: 11px }
+  main { padding: 10px 8px 40px }
+  .grid { grid-template-columns: 1fr; gap: 8px }
   .card { padding: 12px }
-  .modal { padding: 16px; border-radius: 10px }
+  .card:hover { transform: none }
+  .card h3 { font-size: 14px }
+  .card .pkg { font-size: 10px; word-break: break-all }
+  .group-hdr { padding: 10px 12px; flex-wrap: wrap; gap: 6px }
+  .group-hdr h3 { font-size: 12px; flex-wrap: wrap; gap: 4px }
+  .group-hdr .m { font-size: 10px; gap: 8px; width: 100%; justify-content: flex-end }
+  .bundle-link { padding: 2px 4px }
+  .tag { font-size: 9px; padding: 1px 6px; margin-left: 4px }
+  /* Table: horizontal scroll */
+  .group > div:last-child, .test-panel > table { overflow-x: auto; -webkit-overflow-scrolling: touch }
+  table { min-width: 500px }
+  td, th { padding: 6px 8px; font-size: 11px; white-space: nowrap }
+  .c-desc { max-width: 180px; white-space: normal }
+  .c-pkg { font-size: 10px }
+  .ver-chip { font-size: 9px; padding: 1px 5px }
+  .modal { padding: 14px; border-radius: 10px; width: 98%; max-height: 90vh }
+  .modal h2 { font-size: 16px }
+  .modal table { min-width: 400px }
+  .changelog { padding: 8px 10px; font-size: 11px; max-height: 150px }
+  .m-date { display: none }
+  .test-panel { max-width: 100% }
+  .test-input { flex-direction: column }
+  .test-input button { width: 100% }
+}
+
+@media (max-width: 380px) {
+  header h1 { font-size: 13px }
+  .tab { padding: 7px 8px; font-size: 11px; gap: 4px }
+  .tab svg { display: none }
+  .stats span { font-size: 11px }
 }

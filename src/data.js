@@ -64,8 +64,8 @@ async function fetchBundle(name) {
   } catch { return []; }
 }
 
-// Load all bundles with progress callback
-export async function loadAll(onProgress) {
+// Load all bundles with progress + render callback per batch
+export async function loadAll(onProgress, onBatch) {
   const total = bundleNames.length;
   let loaded = 0;
   const BATCH = 8;
@@ -75,6 +75,7 @@ export async function loadAll(onProgress) {
     for (const r of res) if (r.status === 'fulfilled') allData.push(...r.value);
     loaded = Math.min(i + BATCH, total);
     onProgress?.(loaded / total);
+    onBatch?.();
   }
 }
 

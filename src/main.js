@@ -21,14 +21,33 @@ async function init() {
   const bSel = $('bundleFilter');
   bundleNames.forEach(b => { const o = document.createElement('option'); o.value = b; o.textContent = b; bSel.appendChild(o); });
 
-  await loadAll(pct => { $('pbar').style.width = (pct * 100) + '%'; });
-  $('progress').style.display = 'none';
-
-  // Populate app filter from fetched data
-  const apps = [...new Set(allData.map(d => d.pkg))].sort((a, b) => friendlyName(a).localeCompare(friendlyName(b)));
+  const seenApps = new Set();
   const aSel = $('appFilter');
-  apps.forEach(p => { const o = document.createElement('option'); o.value = p; o.textContent = friendlyName(p); aSel.appendChild(o); });
 
+  await loadAll(
+    pct => { $('pbar').style.width = (pct * 100) + '%'; },
+    () => {
+      // Re-render current view with data so far
+      if (view !== 'test') render();
+      // Progressively add new apps to filter
+      for (const d of allData) {
+        if (!seenApps.has(d.pkg)) {
+          seenApps.add(d.pkg);
+          const o = document.createElement('option');
+          o.value = d.pkg;
+          o.textContent = friendlyName(d.pkg);
+          aSel.appendChild(o);
+        }
+      }
+    }
+  );
+
+  // Sort app filter after all loaded
+  const opts = [...aSel.options].slice(1).sort((a, b) => a.text.localeCompare(b.text));
+  while (aSel.options.length > 1) aSel.remove(1);
+  opts.forEach(o => aSel.appendChild(o));
+
+  $('progress').style.display = 'none';
   render();
 }
 
