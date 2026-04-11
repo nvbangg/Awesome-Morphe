@@ -115,20 +115,56 @@ function patchTable(ps) {
 export function renderTest(el) {
   el.innerHTML = `<div class="test-panel">
     <h3>Test a Bundle</h3>
-    <p class="test-desc">Paste a raw GitHub URL to a patches list JSON to preview it. Your bundle is not listed? <a href="https://github.com/Paresh-Maheshwari/patch-explorer/issues/new?template=submit-bundle.yml" target="_blank">Submit it here</a>.</p>
+    <p class="test-desc">Paste a GitHub repo URL or direct JSON link — we'll auto-detect the patches.<br>
+      Your bundle is not listed? <a href="https://github.com/Paresh-Maheshwari/patch-explorer/issues/new?template=submit-bundle.yml" target="_blank">Submit it here</a>.</p>
     <div class="test-input">
-      <input type="text" id="testUrl" placeholder="https://raw.githubusercontent.com/.../patches-list.json">
+      <input type="text" id="testUrl" placeholder="https://github.com/user/repo or direct JSON URL">
       <button id="testBtn">Load</button>
     </div>
     <div id="testResult"></div>
   </div>`;
 }
 
-export async function loadTestBundle(url, el) {
-  el.innerHTML = '<div class="loader"><span class="spin"></span> Fetching...</div>';
+// Resolve any GitHub URL to a patches list JSON
+async function resolveUrl(input) {
+  input = input.trim().replace(/\/$/, '');
+  // Already a raw/direct JSON URL
+  if (input.includes('raw.githubusercontent.com') || input.endsWith('.json')) return { listUrl: input };
+  // GitHub repo URL — extract owner/repo
+  const m = input.match(/github\.com\/([^/]+)\/([^/]+)/);
+  if (!m) throw new Error('Not a valid GitHub URL');
+  const [, owner, repoRaw] = m;
+  const repo = repoRaw.replace(/\.git$/, '');
+
+  // 1. Try patches-list.json in repo root (main/master)
+  for (const branch of ['main', 'master', 'dev']) {
+    const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/patches-list.json`;
+    const r = await fetch(rawUrl, { method: 'HEAD' });
+    if (r.ok) return { listUrl: rawUrl };
+  }
+
+  // 2. Try latest release assets
+  const api = `https://api.github.com/repos/${owner}/${repo}/releases/latest`;
+  const rr = await fetch(api);
+  if (rr.ok) {
+    const rel = await rr.json();
+    const assets = rel.assets || [];
+    const listAsset = assets.find(a => a.name.includes('patches') && a.name.endsWith('.json'));
+    const patchFile = assets.find(a => a.name.endsWith('.rvp') || a.name.endsWith('.mpp') || a.name.endsWith('.jar'));
+    if (listAsset) return { listUrl: listAsset.browser_download_url, version: rel.tag_name, dl: patchFile?.browser_download_url };
+    const jsonAsset = assets.find(a => a.name.endsWith('.json'));
+    if (jsonAsset) return { listUrl: jsonAsset.browser_download_url, version: rel.tag_name, dl: patchFile?.browser_download_url };
+  }
+
+  throw new Error('No patches-list.json found in repo root or release assets');
+}
+
+export async function loadTestBundle(input, el) {
+  el.innerHTML = '<div class="loader"><span class="spin"></span> Detecting & fetching...</div>';
   try {
-    const r = await fetch(url);
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const { listUrl, version, dl } = await resolveUrl(input);
+    const r = await fetch(listUrl);
+    if (!r.ok) throw new Error(`Failed to fetch JSON (${r.status})`);
     const j = await r.json();
     const patches = j.patches || [];
     if (!patches.length) { el.innerHTML = '<div class="loader">No patches found in this JSON.</div>'; return; }
@@ -137,11 +173,12 @@ export async function loadTestBundle(url, el) {
       return Object.entries(pkgs).map(([pkg, vers]) => ({
         name: p.name, desc: p.description || '', pkg,
         vers: Array.isArray(vers) ? vers.map(String) : null,
-        use: p.use !== false, options: p.options || []
       }));
     });
     const apps = new Set(rows.map(r => r.pkg));
-    let h = `<div class="test-stats">Version: <strong>${esc(j.version || 'unknown')}</strong> · ${patches.length} patches · ${apps.size} apps</div>`;
+    const ver = j.version || version || 'unknown';
+    const type = dl?.endsWith('.mpp') ? 'Morphe' : dl?.endsWith('.rvp') ? 'ReVanced' : dl?.endsWith('.jar') ? 'Legacy' : listUrl.endsWith('.json') ? '' : '';
+    let h = `<div class="test-stats">Version: <strong>${esc(ver)}</strong> · ${patches.length} patches · ${apps.size} apps${type ? ` · <span class="tag tag-type ${typeClass(type)}">${type}</span>` : ''}</div>`;
     h += '<table><thead><tr><th>Patch</th><th>App</th><th>Package</th><th>Versions</th><th>Desc</th></tr></thead><tbody>';
     for (const p of rows) {
       h += `<tr><td>${esc(p.name)}</td><td>${friendlyName(p.pkg)}</td>
@@ -150,7 +187,7 @@ export async function loadTestBundle(url, el) {
     }
     el.innerHTML = h + '</tbody></table>';
   } catch (e) {
-    el.innerHTML = `<div class="loader" style="color:var(--red)">Failed to load: ${esc(e.message)}<br><small>Make sure it's a raw GitHub URL to a patches-list.json file</small></div>`;
+    el.innerHTML = `<div class="loader" style="color:var(--red)">Failed: ${esc(e.message)}<br><small>Accepts: GitHub repo URL, release asset URL, or raw JSON URL</small></div>`;
   }
 }
 
