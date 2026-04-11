@@ -39,6 +39,13 @@ async function fetchBundle(name) {
       bundleMeta[name].signatureUrl = bundle.signature_download_url || null;
       bundleMeta[name].createdAt = bundle.created_at || null;
       bundleMeta[name].changelog = bundle.description || null;
+      // Detect type from download URL extension
+      const dl = bundle.download_url || bundle.patches?.url || null;
+      bundleMeta[name].downloadUrl = dl;
+      if (dl?.endsWith('.mpp')) bundleMeta[name].type = 'Morphe';
+      else if (dl?.endsWith('.rvp')) bundleMeta[name].type = 'ReVanced';
+      else if (dl?.endsWith('.jar')) bundleMeta[name].type = 'Legacy';
+      else bundleMeta[name].type = null;
     }
     return (list.patches || []).flatMap(p => {
       const pkgs = p.compatiblePackages || {};

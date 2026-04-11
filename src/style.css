@@ -359,6 +359,11 @@ main {
 /* ── Bundle meta date ── */
 .m-date { color: var(--dim); opacity: .8 }
 
+.tag-type { font-weight: 600; letter-spacing: .4px }
+.tag-rv { background: rgba(76,154,255,.2); color: var(--acc) }
+.tag-morphe { background: rgba(210,153,34,.2); color: var(--yellow) }
+.tag-legacy { background: rgba(125,141,161,.2); color: var(--dim) }
+
 /* ── Tables ── */
 table { width: 100%; border-collapse: collapse }
 th {

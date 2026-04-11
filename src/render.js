@@ -66,6 +66,8 @@ export function renderApps(data, el) {
   el.innerHTML = h + '</div>';
 }
 
+function typeClass(t) { return t === 'Morphe' ? 'tag-morphe' : t === 'Legacy' ? 'tag-legacy' : 'tag-rv'; }
+
 export function renderBundles(data, el) {
   const byB = {};
   data.forEach(d => (byB[d.bundle] = byB[d.bundle] || []).push(d));
@@ -79,7 +81,7 @@ export function renderBundles(data, el) {
 
     h += `<div class="group">
       <div class="group-hdr" data-toggle>
-        <h3>${b}<span class="tag">${ver}</span>
+        <h3>${b}<span class="tag">${ver}</span>${m.type ? `<span class="tag tag-type ${typeClass(m.type)}">${m.type}</span>` : ''}
           <a class="bundle-link" href="${bundleUrl}" target="_blank" onclick="event.stopPropagation()" title="Bundle JSON">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg></a>
           ${m.repo ? `<a class="bundle-link" href="https://github.com/${m.repo}" target="_blank" onclick="event.stopPropagation()" title="Source repo">
@@ -161,7 +163,7 @@ export function showAppModal(pkg, allData) {
     <p style="margin:8px 0;color:var(--dim);font-size:13px">${patches.length} patches · ${Object.keys(byB).length} bundles</p>`;
   for (const b of Object.keys(byB).sort()) {
     const ps = byB[b], m = bundleMeta[b] || {};
-    h += `<h3 style="margin:12px 0 4px;font-size:13px">${b} <span class="tag">${ps[0]?.bVer || ''}</span>
+    h += `<h3 style="margin:12px 0 4px;font-size:13px">${b} <span class="tag">${ps[0]?.bVer || ''}</span>${m.type ? `<span class="tag tag-type ${typeClass(m.type)}">${m.type}</span>` : ''}
       ${m.repo ? ` <a href="https://github.com/${m.repo}" target="_blank" class="bundle-link" style="font-size:11px">↗ repo</a>` : ''}</h3>`;
     h += '<table><thead><tr><th>Patch</th><th>Versions</th><th>Desc</th></tr></thead><tbody>';
     for (const p of ps) {
