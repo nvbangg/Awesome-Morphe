@@ -23,6 +23,8 @@
   <meta name="twitter:title" content="Patch Explorer — Browse All ReVanced & Morphe Patches">
   <meta name="twitter:description" content="Browse, search and compare 60+ ReVanced & Morphe patch bundles across 190+ Android apps.">
 
+  <link rel="manifest" href="/patch-explorer/manifest.json">
+  <link rel="apple-touch-icon" href="/patch-explorer/icon-192.png">
   <meta name="theme-color" content="#0a0e14">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none'><rect x='4' y='6' width='16' height='20' rx='3' fill='%23151b23' stroke='%234c9aff' stroke-width='1.5'/><rect x='12' y='2' width='16' height='20' rx='3' fill='%230a0e14' stroke='%234c9aff' stroke-width='1.5'/><path d='M17 9l3 3 5-6' stroke='%233fb950' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/></svg>">
   <link rel="stylesheet" href="/src/style.css">
@@ -74,12 +76,24 @@
         <input type="text" id="search" placeholder="Search app, package, patch, bundle...">
         <select id="bundleFilter"><option value="">All Bundles</option></select>
         <select id="appFilter"><option value="">All Apps</option></select>
+        <div class="type-toggles">
+          <button class="type-btn" data-type="ReVanced">ReVanced</button>
+          <button class="type-btn active" data-type="Morphe">Morphe</button>
+          <button class="type-btn" data-type="Legacy">Legacy</button>
+        </div>
       </div>
     </div>
     <div id="progress"><div id="pbar"></div></div>
   </div>
 
   <main id="content"><div class="loader"><span class="spin"></span> Loading from GitHub...</div></main>
+  <div id="installBanner" class="install-banner hide">
+    <span>Install Patch Explorer as an app</span>
+    <div class="install-btns">
+      <button id="installBtn">Install</button>
+      <button id="installDismiss" class="install-dismiss">✕</button>
+    </div>
+  </div>
   <div id="modal" class="modal-bg hide"></div>
 
   <script type="module" src="/src/main.js"></script>

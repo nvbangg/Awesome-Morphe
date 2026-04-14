@@ -80,9 +80,16 @@ export async function loadAll(onProgress, onBatch) {
 }
 
 // Filter data based on search/bundle/app
-export function filter(query, bundle, app) {
+export function filter(query, bundle, app, types) {
   const q = query.toLowerCase().trim();
   let f = allData;
+  if (types && types.length) {
+    const typeSet = new Set(types);
+    f = f.filter(d => {
+      const t = bundleMeta[d.bundle]?.type;
+      return t ? typeSet.has(t) : typeSet.has('Legacy');
+    });
+  }
   if (q) f = f.filter(d =>
     d.name.toLowerCase().includes(q) ||
     d.pkg.toLowerCase().includes(q) ||

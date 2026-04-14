@@ -195,9 +195,10 @@ export function showAppModal(pkg, allData) {
   const patches = allData.filter(d => d.pkg === pkg);
   const byB = {};
   patches.forEach(p => (byB[p.bundle] = byB[p.bundle] || []).push(p));
-  let h = `<div class="modal"><button class="close" data-close>✕</button>
-    <h2>${friendlyName(pkg)}</h2><div class="pkg">${pkg}</div>
-    <p style="margin:8px 0;color:var(--dim);font-size:13px">${patches.length} patches · ${Object.keys(byB).length} bundles</p>`;
+  let h = `<div class="modal">
+    <div class="modal-header"><div><h2>${friendlyName(pkg)}</h2><div class="pkg">${pkg}</div></div><button class="close" data-close>✕</button></div>
+    <div class="modal-body">
+    <p style="margin:0 0 8px;color:var(--dim);font-size:13px">${patches.length} patches · ${Object.keys(byB).length} bundles</p>`;
   for (const b of Object.keys(byB).sort()) {
     const ps = byB[b], m = bundleMeta[b] || {};
     h += `<h3 style="margin:12px 0 4px;font-size:13px">${b} <span class="tag">${ps[0]?.bVer || ''}</span>${m.type ? `<span class="tag tag-type ${typeClass(m.type)}">${m.type}</span>` : ''}
@@ -210,6 +211,6 @@ export function showAppModal(pkg, allData) {
     h += '</tbody></table></div>';
   }
   const modal = document.getElementById('modal');
-  modal.innerHTML = h + '</div>';
+  modal.innerHTML = h + '</div></div>';
   modal.classList.remove('hide');
 }

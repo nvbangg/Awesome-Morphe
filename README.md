@@ -11,9 +11,7 @@
 
 A fast, static web app to browse and search all [ReVanced Patch Bundles](https://github.com/Jman-Github/ReVanced-Patch-Bundles) — zero backend, everything fetched live from GitHub.
 
-Also check out my custom patches: [![My Patches](https://img.shields.io/badge/My-Patches-black?style=for-the-badge&logo=github)](https://github.com/Paresh-Maheshwari/paresh-patches)
-
-**Live:** [paresh-maheshwari.github.io/patch-explorer](https://paresh-maheshwari.github.io/patch-explorer/)
+**Live:** [paresh-maheshwari.github.io/patch-explorer](https://paresh-maheshwari.github.io/patch-explorer/) · **My Patches:** [paresh-patches](https://github.com/Paresh-Maheshwari/paresh-patches)
 
 ## Features
 
@@ -29,6 +27,8 @@ Also check out my custom patches: [![My Patches](https://img.shields.io/badge/My
 - **Version chips** — shows compatible app versions per patch
 - **Changelog** — expandable markdown-rendered changelogs per bundle
 - **Fully responsive** — works on mobile with horizontal-scrollable tables
+- **PWA** — installable as a phone/desktop app with offline support
+- **Type filters** — toggle ReVanced, Morphe, and Legacy bundles on/off
 - **Dark theme** — custom scrollbars, themed dropdowns, consistent styling
 - **Zero dependencies** — vanilla JS, no framework
 

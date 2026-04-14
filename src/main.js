@@ -4,8 +4,12 @@ import { renderStats, renderApps, renderBundles, renderPatches, renderTest, load
 let view = 'apps';
 const $ = id => document.getElementById(id);
 
+function getActiveTypes() {
+  return [...document.querySelectorAll('.type-btn.active')].map(b => b.dataset.type);
+}
+
 function render() {
-  const data = filter($('search').value, $('bundleFilter').value, $('appFilter').value);
+  const data = filter($('search').value, $('bundleFilter').value, $('appFilter').value, getActiveTypes());
   renderStats(data);
   const el = $('content');
   if (view === 'apps') renderApps(data, el);
@@ -57,6 +61,12 @@ $('search').addEventListener('input', () => { clearTimeout(t); t = setTimeout(re
 $('bundleFilter').addEventListener('change', render);
 $('appFilter').addEventListener('change', render);
 
+// Type toggle buttons
+document.querySelectorAll('.type-btn').forEach(btn => btn.addEventListener('click', () => {
+  btn.classList.toggle('active');
+  render();
+}));
+
 document.querySelectorAll('.tab').forEach(tab => tab.addEventListener('click', () => {
   document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
   tab.classList.add('active');
@@ -86,3 +96,28 @@ $('modal').addEventListener('click', e => {
 document.addEventListener('keydown', e => { if (e.key === 'Escape') $('modal').classList.add('hide'); });
 
 init();
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/patch-explorer/sw.js').catch(() => {});
+}
+
+// PWA install prompt
+let deferredPrompt;
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault();
+  deferredPrompt = e;
+  if (!localStorage.getItem('pwa-dismissed')) {
+    document.getElementById('installBanner').classList.remove('hide');
+  }
+});
+document.getElementById('installBtn')?.addEventListener('click', () => {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then(() => { deferredPrompt = null; });
+  }
+  document.getElementById('installBanner').classList.add('hide');
+});
+document.getElementById('installDismiss')?.addEventListener('click', () => {
+  document.getElementById('installBanner').classList.add('hide');
+  localStorage.setItem('pwa-dismissed', '1');
+});
