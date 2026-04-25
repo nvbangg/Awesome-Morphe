@@ -47,6 +47,7 @@ async function fetchBundle(name) {
       else if (dl?.endsWith('.jar')) bundleMeta[name].type = 'Legacy';
       else bundleMeta[name].type = null;
     }
+    if (bundleMeta[name]?.type !== 'Morphe') return [];
     return (list.patches || []).flatMap(p => {
       const pkgs = p.compatiblePackages || {};
       return Object.entries(pkgs).map(([pkg, vers]) => ({
@@ -81,6 +82,7 @@ export async function loadAll(onProgress, onBatch) {
 
 // Filter data based on search/bundle/app
 export function filter(query, bundle, app, types) {
+  types = ['Morphe'];
   const q = query.toLowerCase().trim();
   let f = allData;
   if (types && types.length) {

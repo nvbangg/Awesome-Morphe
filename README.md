@@ -1,3 +1,76 @@
+# [nvbangg/awesome-morphe](https://github.com/nvbangg/awesome-morphe)
+> [!NOTE]
+> I’ve just created this repository and will continue updating it over time.
+
+![Morphe logo](https://raw.githubusercontent.com/MorpheApp/.github/refs/heads/main/profile/assets/morphe-wordmark/morphe_wordmark_dark.svg)
+
+## ✅ Official
+
+- [![GitHub](https://img.shields.io/badge/GitHub-Active-brightgreen?logo=github&labelColor=181717)](https://github.com/MorpheApp)
+  - 💊 [![Morphe Manager](https://img.shields.io/github/last-commit/MorpheApp/morphe-manager?label=Morphe%20Manager&logo=github)](https://github.com/MorpheApp/morphe-manager)
+  - 🧩 [![Morphe Patches](https://img.shields.io/github/last-commit/MorpheApp/morphe-patches?label=Morphe%20Patches&logo=github)](https://github.com/MorpheApp/morphe-patches)
+  - ⚙️ [![MicroG RE](https://img.shields.io/github/last-commit/MorpheApp/MicroG-RE?label=MicroG%20RE&logo=github)](https://github.com/MorpheApp/MicroG-RE/releases)
+  - 💻 [![Morphe CLI](https://img.shields.io/github/last-commit/MorpheApp/morphe-cli?label=Morphe%20CLI&logo=github)](https://github.com/MorpheApp/morphe-cli)
+  - [![morphe-documentation](https://img.shields.io/github/last-commit/MorpheApp/morphe-documentation?label=Morphe%20Documentation&logo=github)](https://github.com/MorpheApp/morphe-documentation)
+
+- [![Website](https://img.shields.io/badge/Website-Active-brightgreen?logo=google-chrome&logoColor=white&labelColor=4285F4)](https://morphe.software/)
+- [![Reddit](https://img.shields.io/badge/Reddit-Active-brightgreen?logo=reddit&logoColor=white&labelColor=FF4500)](https://www.reddit.com/r/MorpheApp)
+- [![X](https://img.shields.io/badge/Twitter-Active-brightgreen?logo=x&logoColor=white&labelColor=000000)](https://x.com/MorpheApp)
+- [![Crowdin](https://img.shields.io/badge/Crowdin-Active-brightgreen?logo=crowdin&logoColor=white&labelColor=2E3340)](https://crowdin.com/project/morphe)
+
+## 🧩 Patches
+
+- [![hoo-dles](https://img.shields.io/github/last-commit/hoo-dles/morphe-patches?label=hoo-dles&logo=github)](https://github.com/hoo-dles/morphe-patches)
+- [![RookieEnough/De-ReVanced](https://img.shields.io/github/last-commit/RookieEnough/De-ReVanced?label=RookieEnough%2FDe-ReVanced&logo=github)](https://github.com/RookieEnough/De-ReVanced)
+- [![crimera/piko](https://img.shields.io/github/last-commit/crimera/piko?label=crimera%2Fpiko&logo=github)](https://github.com/crimera/piko)
+- [![Paresh-Maheshwari](https://img.shields.io/github/last-commit/Paresh-Maheshwari/paresh-patches?label=Paresh-Maheshwari&logo=github)](https://github.com/Paresh-Maheshwari/paresh-patches)
+- [![jkennethcarino/adobo](https://img.shields.io/github/last-commit/jkennethcarino/adobo?label=jkennethcarino%2Fadobo&logo=github)](https://github.com/jkennethcarino/adobo)
+- [![AmpleReVanced](https://img.shields.io/github/last-commit/AmpleReVanced/revanced-patches?label=AmpleReVanced&logo=github)](https://github.com/AmpleReVanced/revanced-patches)
+- [![binarymend](https://img.shields.io/github/last-commit/binarymend/morphe-patches?label=binarymend&logo=github)](https://github.com/binarymend/morphe-patches) 
+- [![anddea](https://img.shields.io/github/last-commit/anddea/revanced-patches?label=anddea&logo=github&branch=all)](https://github.com/anddea/revanced-patches)
+- [![wchill/patcheddit](https://img.shields.io/github/last-commit/wchill/patcheddit?label=wchill%2Fpatcheddit&logo=github&branch=all)](https://github.com/wchill/patcheddit)
+- [![brosssh](https://img.shields.io/github/last-commit/brosssh/morphe-patches?label=brosssh&logo=github&branch=all)](https://github.com/brosssh/morphe-patches)
+- [![andronedev](https://img.shields.io/github/last-commit/andronedev/morphe-patches?label=andronedev&logo=github&branch=all)](https://github.com/andronedev/morphe-patches)
+- [![docbt/patched-up](https://img.shields.io/github/last-commit/docbt/patched-up?label=docbt%2Fpatched-up&logo=github&branch=all)](https://github.com/docbt/patched-up)
+- [![rabilrbl/fluffy-patches](https://img.shields.io/github/last-commit/rabilrbl/fluffy-patches?label=rabilrbl%2Ffluffy-patches&logo=github&branch=all)](https://github.com/rabilrbl/fluffy-patches)
+- [![PixelPusher247](https://img.shields.io/github/last-commit/PixelPusher247/morphe-patches?label=PixelPusher247&logo=github&branch=all)](https://github.com/PixelPusher247/morphe-patches)
+- [![RealCyberwash/max-patches](https://img.shields.io/github/last-commit/RealCyberwash/max-patches?label=RealCyberwash%2Fmax-patches&logo=github&branch=all)](https://github.com/RealCyberwash/max-patches)
+- [![polka-bear](https://img.shields.io/github/last-commit/polka-bear/morphe-patches?label=polka-bear&logo=github&branch=all)](https://github.com/polka-bear/morphe-patches)
+- [![Almewty](https://img.shields.io/github/last-commit/Almewty/my-morphe-patches?label=Almewty&logo=github&branch=all)](https://github.com/Almewty/my-morphe-patches)
+- [![jasonwu1994/Gboard-patches](https://img.shields.io/github/last-commit/jasonwu1994/Gboard-patches?label=jasonwu1994%2FGboard-patches&logo=github&branch=all)](https://github.com/jasonwu1994/Gboard-patches)
+
+## 🛠️ Projects
+
+- [![nvbangg/awesome-morphe](https://img.shields.io/github/last-commit/nvbangg/awesome-morphe?label=nvbangg%2Fawesome-morphe&logo=github&branch=all)](https://github.com/nvbangg/awesome-morphe)
+- [![nvbangg/morphe-builder](https://img.shields.io/github/last-commit/nvbangg/morphe-builder?label=nvbangg%2Fmorphe-builder&logo=github&branch=all)](https://github.com/nvbangg/morphe-builder)
+- [![j-hc/revanced-magisk-module](https://img.shields.io/github/last-commit/j-hc/revanced-magisk-module?label=j-hc%2Frevanced-magisk-module&logo=github&branch=all)](https://github.com/j-hc/revanced-magisk-module)
+- [![Paresh-Maheshwari/patch-explorer](https://img.shields.io/github/last-commit/Paresh-Maheshwari/patch-explorer?label=Paresh-Maheshwari%2Fpatch-explorer&logo=github&branch=all)](https://github.com/Paresh-Maheshwari/patch-explorer)
+- [![Jman-Github/ReVanced-Patch-Bundles](https://img.shields.io/github/last-commit/Jman-Github/ReVanced-Patch-Bundles?label=Jman-Github%2FReVanced-Patch-Bundles&logo=github&branch=all)](https://github.com/Jman-Github/ReVanced-Patch-Bundles)
+- [![Jman-Github/Awesome-ReVanced](https://img.shields.io/github/last-commit/Jman-Github/Awesome-ReVanced?label=Jman-Github%2FAwesome-ReVanced&logo=github&branch=all)](https://github.com/Jman-Github/Awesome-ReVanced)
+- [![Jman-Github/Universal-ReVanced-Manager](https://img.shields.io/github/last-commit/Jman-Github/Universal-ReVanced-Manager?label=Jman-Github%2FUniversal-ReVanced-Manager&logo=github&branch=all)](https://github.com/Jman-Github/Universal-ReVanced-Manager)
+
+
+## 📖 Guide
+- Enable Expert Mode
+  - Open Morphe Manager
+  - Click settings button (bottom right)
+  - Locate Expert settings
+  - Toggle Expert mode to on
+  - Click Enable 
+
+- How to Add Patches
+  - Click on the Patches you want to add from the Community Patch list below.
+  - Add patch source page comes up.
+  - Click Open in Morphe.
+  - Morphe opens to Add Source page.
+  - Click Add (bottom right).
+
+- Optional Steps if You Want To Use Pre-release Patches
+  - Open Morphe Manager.
+  - Click folder icon (bottom left)
+  - Click down arrow next to the patch source you want for pre-release
+  - Enable "Use pre-release patches" by clicking the toggle button.
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/icon.svg">
@@ -7,7 +80,7 @@
 <h1 align="center">Patch Explorer</h1>
 <p align="center">Browse and search all ReVanced patch bundles — zero backend, live from GitHub</p>
 
----
+--
 
 A fast, static web app to browse and search all [ReVanced Patch Bundles](https://github.com/Jman-Github/ReVanced-Patch-Bundles) — zero backend, everything fetched live from GitHub.
 
