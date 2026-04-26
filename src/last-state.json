@@ -15,6 +15,14 @@
     ]
   },
   {
+    "repo": "BholeyKaBhakt/revanced-patches-xtra",
+    "apps": [
+      "com.llamalab.automate",
+      "com.ttxapps.autosync",
+      "org.zwanoo.android.speedtest"
+    ]
+  },
+  {
     "repo": "andronedev/morphe-patches",
     "apps": [
       "com.thetransitapp.droid"
@@ -73,7 +81,8 @@
       "org.languageapp.lingory",
       "org.totschnig.myexpenses",
       "pl.solidexplorer2",
-      "ru.iiec.pydroid3"
+      "ru.iiec.pydroid3",
+      "videoeditor.videorecorder.screenrecorder"
     ]
   },
   {
@@ -233,7 +242,8 @@
       "com.solid.teleprompter",
       "com.ticktick.task",
       "com.truecaller",
-      "in.cricketexchange.app.cricketexchange"
+      "in.cricketexchange.app.cricketexchange",
+      "org.telegram.messenger.web"
     ]
   },
   {
