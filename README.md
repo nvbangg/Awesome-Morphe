@@ -2,8 +2,10 @@
 > [!NOTE]
 > 🌐 A curated list of all Morphe links — patches, projects, and guides.    
 > 🔍 Browse and search all Morphe patch bundles — apps, patches, versions, changelogs    
-> [nvbangg.github.io/awesome-morphe](https://nvbangg.github.io/awesome-morphe)    
-> I’ve just created this repository and will continue updating it over time.
+> 👉 Visit the site: _**[nvbangg.github.io/awesome-morphe](https://nvbangg.github.io/awesome-morphe)**_ 
+
+**Jump to:**  
+[✅ Official](#-official) • [📚 Resources](#-resources) • [🧩 Patches](#-patches) • [🛠️ Projects](#️-projects) • [⬇️ Builder](#️-builder)
 
 <div align="center"> 
 <picture>
@@ -26,9 +28,22 @@
   - [![Morphe Patches](https://img.shields.io/github/release-date-pre/MorpheApp/morphe-patches?label=%F0%9F%A7%A9%20Morphe%20Patches)](https://github.com/MorpheApp/morphe-patches)
   - [![MicroG RE](https://img.shields.io/github/release-date-pre/MorpheApp/MicroG-RE?label=%E2%9A%99%EF%B8%8F%20MicroG%20RE)](https://github.com/MorpheApp/MicroG-RE/releases)
   - [![Morphe CLI](https://img.shields.io/github/release-date-pre/MorpheApp/morphe-cli?label=%F0%9F%92%BB%20Morphe%20CLI)](https://github.com/MorpheApp/morphe-cli)
-  - [![Morphe Documentation](https://img.shields.io/github/last-commit/MorpheApp/morphe-documentation?label=%F0%9F%97%84%20Morphe%20Documentation)](https://github.com/MorpheApp/morphe-documentation)
+  - [![Morphe Patcher](https://img.shields.io/github/release-date-pre/MorpheApp/morphe-patcher?label=%F0%9F%92%89%20Morphe%20Patcher)](https://github.com/MorpheApp/morphe-patcher)
+  - [![Morphe Patches Template](https://img.shields.io/github/last-commit/MorpheApp/morphe-patches-template?label=%F0%9F%91%8B%F0%9F%A7%A9%20Morphe%20Patches%20Template)](https://github.com/MorpheApp/morphe-patches-template)
+  - [![Morphe Website](https://img.shields.io/github/last-commit/MorpheApp/morphe-website?label=%F0%9F%8C%90%20Morphe%20Website)](https://github.com/MorpheApp/morphe-website)
 
 - [![Website](https://img.shields.io/badge/Website-morphe.software-gray?logo=google-chrome&logoColor=white&labelColor=4285F4)](https://morphe.software/)　[![Reddit](https://img.shields.io/badge/Reddit-r%2FMorpheApp-gray?logo=reddit&logoColor=white&labelColor=FF4500)](https://www.reddit.com/r/MorpheApp)　[![X](https://img.shields.io/badge/Twitter-%40MorpheApp-gray?logo=x&logoColor=white&labelColor=0F1419)](https://x.com/MorpheApp)　[![Crowdin](https://img.shields.io/badge/Crowdin-morphe-gray?logo=crowdin&logoColor=white&labelColor=2E3340)](https://crowdin.com/project/morphe)　[![OpenCollective](https://img.shields.io/badge/OpenCollective-morpheapp-gray?logo=opencollective&logoColor=white&labelColor=4773AC)](https://opencollective.com/morpheapp)
+
+## 📚 Resources
+
+- [![Morphe Documentation](https://img.shields.io/github/last-commit/MorpheApp/morphe-documentation?label=%F0%9F%97%84%20Morphe%20Documentation)](https://github.com/MorpheApp/morphe-documentation)
+    - [Basic patching guide](https://github.com/MorpheApp/morphe-documentation/blob/main/docs/morphe-resources/guide.md)
+    - [Frequently asked questions](https://github.com/MorpheApp/morphe-documentation/blob/main/docs/morphe-resources/questions.md)
+    - [Troubleshooting Help](https://github.com/MorpheApp/morphe-documentation/blob/main/docs/morphe-resources/troubleshooting.md)
+- 🔍 [Explore supported Morphe apps and their patch details](https://nvbangg.github.io/awesome-morphe)
+- [Morphe Manager & Patch Index](https://www.reddit.com/r/MorpheApp/comments/1recqxc/morphe_manager_patch_index/)
+- [Regarding the Morphe DMCA](https://www.reddit.com/r/MorpheApp/comments/1s3w1er/regarding_the_morphe_dmca/)
+- [How to patch X with Piko patches, and how to login](https://www.reddit.com/r/MorpheApp/comments/1r4xt24/x_twitter_can_now_be_patched_with_piko_patches/)
 
 ## 🧩 Patches
 
@@ -64,34 +79,32 @@
 ## 🛠️ Projects
 
 - [![nvbangg/awesome-morphe](https://img.shields.io/github/last-commit/nvbangg/awesome-morphe?label=nvbangg%2Fawesome-morphe&logo=github)](https://github.com/nvbangg/awesome-morphe)
-- [![nvbangg/morphe-builder](https://img.shields.io/github/last-commit/nvbangg/morphe-builder?label=nvbangg%2Fmorphe-builder&logo=github)](https://github.com/nvbangg/morphe-builder)
-- [![j-hc/revanced-magisk-module](https://img.shields.io/github/last-commit/j-hc/revanced-magisk-module?label=j-hc%2Frevanced-magisk-module&logo=github)](https://github.com/j-hc/revanced-magisk-module)
 - [![Paresh-Maheshwari/patch-explorer](https://img.shields.io/github/last-commit/Paresh-Maheshwari/patch-explorer?label=Paresh-Maheshwari%2Fpatch-explorer&logo=github)](https://github.com/Paresh-Maheshwari/patch-explorer)
 - [![Jman-Github/ReVanced-Patch-Bundles](https://img.shields.io/github/last-commit/Jman-Github/ReVanced-Patch-Bundles?label=Jman-Github%2FReVanced-Patch-Bundles&logo=github)](https://github.com/Jman-Github/ReVanced-Patch-Bundles)
 - [![Jman-Github/Awesome-ReVanced](https://img.shields.io/github/last-commit/Jman-Github/Awesome-ReVanced?label=Jman-Github%2FAwesome-ReVanced&logo=github)](https://github.com/Jman-Github/Awesome-ReVanced)
 - [![Jman-Github/Universal-ReVanced-Manager](https://img.shields.io/github/release-date-pre/Jman-Github/Universal-ReVanced-Manager?label=Jman-Github%2FUniversal-ReVanced-Manager&logo=github)](https://github.com/Jman-Github/Universal-ReVanced-Manager)
+- [![Graywizard888/Enhancify](https://img.shields.io/github/last-commit/Graywizard888/Enhancify?label=Graywizard888%2FEnhancify&logo=github)](https://github.com/Graywizard888/Enhancify)
+- [![Xisrr1/Revancify-Xisr](https://img.shields.io/github/last-commit/Xisrr1/Revancify-Xisr?label=Xisrr1%2FRevancify-Xisr&logo=github)](https://github.com/Xisrr1/Revancify-Xisr)
+- [![brosssh/revanced-external-bundles](https://img.shields.io/github/last-commit/brosssh/revanced-external-bundles?label=brosssh%2Frevanced-external-bundles&logo=github)](https://github.com/brosssh/revanced-external-bundles)
+- [![hoo-dles/jadx-morphe](https://img.shields.io/github/last-commit/hoo-dles/jadx-morphe?label=hoo-dles%2Fjadx-morphe&logo=github)](https://github.com/hoo-dles/jadx-morphe)
 
+## ⬇️ Builder
 
-## 📖 Guide
-- Enable Expert Mode
-  - Open Morphe Manager
-  - Click settings button (bottom right)
-  - Locate Expert settings
-  - Toggle Expert mode to on
-  - Click Enable 
-
-- How to Add Patches
-  - Click on the Patches you want to add from the Community Patch list below.
-  - Add patch source page comes up.
-  - Click Open in Morphe.
-  - Morphe opens to Add Source page.
-  - Click Add (bottom right).
-
-- Optional Steps if You Want To Use Pre-release Patches
-  - Open Morphe Manager.
-  - Click folder icon (bottom left)
-  - Click down arrow next to the patch source you want for pre-release
-  - Enable "Use pre-release patches" by clicking the toggle button.
+- [![nvbangg/morphe-builder](https://img.shields.io/github/last-commit/nvbangg/morphe-builder?label=nvbangg%2Fmorphe-builder&logo=github)](https://github.com/nvbangg/morphe-builder)
+- [![j-hc/revanced-magisk-module](https://img.shields.io/github/last-commit/j-hc/revanced-magisk-module?label=j-hc%2Frevanced-magisk-module&logo=github)](https://github.com/j-hc/revanced-magisk-module)
+- [![cybernobie/docker-py-revanced](https://img.shields.io/github/last-commit/cybernobie/docker-py-revanced?label=cybernobie%2Fdocker-py-revanced&logo=github)](https://github.com/cybernobie/docker-py-revanced)
+- [![crimera/twitter-apk](https://img.shields.io/github/last-commit/crimera/twitter-apk?label=crimera%2Ftwitter-apk&logo=github)](https://github.com/crimera/twitter-apk)
+- [![krvstek/uni-apks](https://img.shields.io/github/last-commit/krvstek/uni-apks?label=krvstek%2Funi-apks&logo=github)](https://github.com/krvstek/uni-apks)
+- [![LeddaZ/morphe-repo](https://img.shields.io/github/last-commit/LeddaZ/morphe-repo?label=LeddaZ%2Fmorphe-repo&logo=github)](https://github.com/LeddaZ/morphe-repo)
+- [![LeddaZ/MorpheUpdater](https://img.shields.io/github/last-commit/LeddaZ/MorpheUpdater?label=LeddaZ%2FMorpheUpdater&logo=github)](https://github.com/LeddaZ/MorpheUpdater)
+- [![NexAlloy/NexAlloy](https://img.shields.io/github/last-commit/NexAlloy/NexAlloy?label=NexAlloy%2FNexAlloy&logo=github)](https://github.com/NexAlloy/NexAlloy)
+- [![Zenlua/AT-YT](https://img.shields.io/github/last-commit/Zenlua/AT-YT?label=Zenlua%2FAT-YT&logo=github)](https://github.com/Zenlua/AT-YT)
+- [![farag2/YouTube-Patcher](https://img.shields.io/github/last-commit/farag2/YouTube-Patcher?label=farag2%2FYouTube-Patcher&logo=github)](https://github.com/farag2/YouTube-Patcher)
+- [![NoName-exe/revanced-extended](https://img.shields.io/github/last-commit/NoName-exe/revanced-extended?label=NoName-exe%2Frevanced-extended&logo=github)](https://github.com/NoName-exe/revanced-extended)
+- [![FiorenMas/Revanced-And-Revanced-Extended-Non-Root](https://img.shields.io/github/last-commit/FiorenMas/Revanced-And-Revanced-Extended-Non-Root?label=FiorenMas%2FRevanced-And-Revanced-Extended-Non-Root&logo=github)](https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root)
+- [![peternmuller/revanced-morphe-builder](https://img.shields.io/github/last-commit/peternmuller/revanced-morphe-builder?label=peternmuller%2Frevanced-morphe-builder&logo=github)](https://github.com/peternmuller/revanced-morphe-builder)
+- [![Svznify/MorpheX](https://img.shields.io/github/last-commit/Svznify/MorpheX?label=Svznify%2FMorpheX&logo=github)](https://github.com/Svznify/MorpheX)
+- [![RookieEnough/Morphe-AutoBuilds](https://img.shields.io/github/last-commit/RookieEnough/Morphe-AutoBuilds?label=RookieEnough%2FMorphe-AutoBuilds&logo=github)](https://github.com/RookieEnough/Morphe-AutoBuilds)
 
 ## 🙏 Credits
 
