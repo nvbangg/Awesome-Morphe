@@ -1,6 +1,6 @@
 # [nvbangg/awesome-morphe](https://github.com/nvbangg/awesome-morphe)
 > [!NOTE]
-> 🌐 A curated list of all Morphe links — patches, projects, and guides.    
+> 🌐 A curated list of all Morphe resources, patches and projects.    
 > 🔍 Browse and search all Morphe patch bundles — apps, patches, versions, changelogs    
 > 👉 Visit the site: _**[nvbangg.github.io/awesome-morphe](https://nvbangg.github.io/awesome-morphe)**_ 
 
