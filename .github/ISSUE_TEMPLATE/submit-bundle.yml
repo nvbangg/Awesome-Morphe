@@ -1,5 +1,5 @@
 name: Submit Patch Bundle
-description: Request to add a new ReVanced/Morphe patch bundle to Patch Explorer
+description: Request to add a new Morphe patch bundle to Patch Explorer
 title: "[Bundle Request] "
 labels: ["bundle-request"]
 body:
