@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/patch-explorer/',
+  base: '/awesome-for-morphe/',
 })

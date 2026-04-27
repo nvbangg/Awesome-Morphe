@@ -1,5 +1,5 @@
-const CACHE = 'patch-explorer-v1';
-const STATIC = ['/patch-explorer/'];
+const CACHE = 'awesome-for-morphe-v2';
+const STATIC = ['/awesome-for-morphe/'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(STATIC)));

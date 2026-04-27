@@ -1,4 +1,4 @@
-import { discoverBundles, loadAll, filter, allData, bundleNames, friendlyName } from './data.js';
+import { discoverBundles, loadAll, filter, allData, bundleNames, bundleMeta, friendlyName } from './data.js';
 import { renderStats, renderApps, renderBundles, renderPatches, renderTest, loadTestBundle, showAppModal } from './render.js';
 
 let view = 'apps';
@@ -51,6 +51,10 @@ async function init() {
   while (aSel.options.length > 1) aSel.remove(1);
   opts.forEach(o => aSel.appendChild(o));
 
+  [...bSel.options].slice(1).forEach(o => {
+    if (bundleMeta[o.value]?.type !== 'Morphe') o.remove();
+  });
+
   $('progress').style.display = 'none';
   render();
 }
@@ -98,7 +102,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') $('modal').c
 init();
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/patch-explorer/sw.js').catch(() => {});
+  navigator.serviceWorker.register('/awesome-for-morphe/sw.js').catch(() => {});
 }
 
 // PWA install prompt

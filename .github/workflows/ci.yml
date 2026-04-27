@@ -1,0 +1,84 @@
+# Copyright (c) 2026 nvbangg (github.com/nvbangg)
+
+name: Check Updates
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Check for updates
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cat << 'EOF' > run.mjs
+          import { discoverBundles, loadAll, allData, bundleMeta, friendlyName } from './src/data.js';
+          import { readFileSync, writeFileSync, existsSync } from 'fs';
+
+          await discoverBundles();
+          await loadAll();
+
+          const bundles = Object.keys(bundleMeta)
+            .filter(name => bundleMeta[name].type === 'Morphe')
+            .map(name => ({
+              repo: bundleMeta[name].repo,
+              apps: [...new Set(allData.filter(d => d.bundle === name).map(d => d.pkg))].sort(),
+            }));
+
+          const STATE = 'src/last-state.json';
+          if (!existsSync(STATE)) {
+            writeFileSync(STATE, JSON.stringify(bundles, null, 2));
+            console.log('First run — initialized state.');
+            process.exit(0);
+          }
+
+          const old = JSON.parse(readFileSync(STATE, 'utf8'));
+          const oldMap = Object.fromEntries(old.map(b => [b.repo, b]));
+
+          const newBundles = bundles.filter(b => !oldMap[b.repo]).map(b => b.repo);
+          const newAppsGroups = bundles.flatMap(b => {
+            const added = b.apps.filter(a => !(oldMap[b.repo]?.apps || []).includes(a));
+            if (!added.length) return [];
+            return [`## [${b.repo}](https://github.com/${b.repo}/releases)\n${added.map(a => `- \`${a}\` (${friendlyName(a)})`).join('\n')}`];
+          });
+
+          if (!newBundles.length && !newAppsGroups.length) {
+            console.log('No changes detected.');
+            process.exit(0);
+          }
+
+          const lines = [];
+          if (newBundles.length) {
+            lines.push(`# 🧩 New Patches\n${newBundles.map(repo => `- [${repo}](https://github.com/${repo})`).join('\n')}`);
+          }
+          if (newAppsGroups.length) {
+            lines.push(`# 📱 New Apps\n${newAppsGroups.join('\n')}`);
+          }
+
+          writeFileSync('notes.md', lines.join('\n\n'));
+          writeFileSync(STATE, JSON.stringify(bundles, null, 2));
+          EOF
+
+          bun run run.mjs
+          echo "TODAY=$(date +%F)" >> $GITHUB_ENV
+
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Update state (${{ env.TODAY }})"
+          file_pattern: src/last-state.json
+
+      - name: Create release
+        if: hashFiles('notes.md') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release create "${{ env.TODAY }}" --title "🔔 Updates (${{ env.TODAY }})" --notes-file notes.md

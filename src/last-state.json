@@ -1,0 +1,303 @@
+[
+  {
+    "repo": "crimera/piko",
+    "apps": [
+      "com.instagram.android",
+      "com.twitter.android"
+    ]
+  },
+  {
+    "repo": "anddea/revanced-patches",
+    "apps": [
+      "com.google.android.apps.youtube.music",
+      "com.google.android.youtube",
+      "com.reddit.frontpage"
+    ]
+  },
+  {
+    "repo": "BholeyKaBhakt/revanced-patches-xtra",
+    "apps": [
+      "com.llamalab.automate",
+      "com.ttxapps.autosync",
+      "org.zwanoo.android.speedtest"
+    ]
+  },
+  {
+    "repo": "andronedev/morphe-patches",
+    "apps": [
+      "com.thetransitapp.droid"
+    ]
+  },
+  {
+    "repo": "brosssh/revanced-patches",
+    "apps": [
+      "com.instagram.android",
+      "cz.seznam.mapy",
+      "de.komoot.android",
+      "fr.chargeprice.app",
+      "fr.tramb.park4night"
+    ]
+  },
+  {
+    "repo": "hoo-dles/morphe-patches",
+    "apps": [
+      "app.ttmikstories.android",
+      "ch.protonvpn.android",
+      "cn.ommiao.iconpacker",
+      "cn.wps.moffice_eng",
+      "com.adguard.android",
+      "com.alltrails.alltrails",
+      "com.amazon.avod.thirdpartyclient",
+      "com.avocards",
+      "com.bambuna.podcastaddict",
+      "com.busuu.android.enc",
+      "com.duolingo",
+      "com.getmimo",
+      "com.hellochinese",
+      "com.lyfta",
+      "com.merriamwebster",
+      "com.mobilefootie.wc2010",
+      "com.myfitnesspal.android",
+      "com.pandora.android",
+      "com.qbis.guessthecountry",
+      "com.sbs.diet",
+      "com.sbs.train",
+      "com.snorelab.app",
+      "com.sofascore.results",
+      "com.soundcloud.android",
+      "com.teslacoilsw.launcher",
+      "com.wallpaperscraft.wallpaper",
+      "com.windyty.android",
+      "com.xodo.pdf.reader",
+      "com.zombodroid.MemeGenerator",
+      "cz.ackee.ventusky",
+      "ginlemon.flowerfree",
+      "jp.ne.ibis.ibispaintx.app",
+      "kr.co.yjteam.dailypay",
+      "kr.eggbun.eggconvo",
+      "me.mycake",
+      "net.teuida.teuida",
+      "nom.vrd",
+      "org.languageapp.lingory",
+      "org.totschnig.myexpenses",
+      "pl.solidexplorer2",
+      "ru.iiec.pydroid3",
+      "videoeditor.videorecorder.screenrecorder"
+    ]
+  },
+  {
+    "repo": "amplerevanced/revanced-patches",
+    "apps": [
+      "com.dcinside.app.android",
+      "com.kakao.talk"
+    ]
+  },
+  {
+    "repo": "morpheapp/morphe-patches",
+    "apps": [
+      "com.google.android.apps.youtube.music",
+      "com.google.android.youtube",
+      "com.reddit.frontpage"
+    ]
+  },
+  {
+    "repo": "wchill/patcheddit",
+    "apps": [
+      "com.andrewshu.android.reddit",
+      "com.andrewshu.android.redditdonation",
+      "com.laurencedawson.reddit_sync",
+      "com.laurencedawson.reddit_sync.dev",
+      "com.laurencedawson.reddit_sync.pro",
+      "com.onelouder.baconreader",
+      "com.onelouder.baconreader.premium",
+      "com.rubenmayayo.reddit",
+      "free.reddit.news",
+      "io.syncapps.lemmy_sync",
+      "me.edgan.redditslide",
+      "ml.docilealligator.infinityforreddit.patreon",
+      "ml.docilealligator.infinityforreddit.plus",
+      "o.o.joey",
+      "o.o.joey.dev",
+      "o.o.joey.pro",
+      "org.cygnusx1.continuum",
+      "reddit.news"
+    ]
+  },
+  {
+    "repo": "wchill/rvx-morphed",
+    "apps": [
+      "com.google.android.apps.youtube.music",
+      "com.google.android.youtube"
+    ]
+  },
+  {
+    "repo": "imxeren/mix-patches",
+    "apps": [
+      "tv.trakt.trakt"
+    ]
+  },
+  {
+    "repo": "almewty/my-morphe-patches",
+    "apps": [
+      "com.application.pokecardex",
+      "com.example.app"
+    ]
+  },
+  {
+    "repo": "wchill/anddea-rvx-morphed",
+    "apps": [
+      "com.google.android.apps.youtube.music",
+      "com.google.android.youtube",
+      "com.reddit.frontpage",
+      "com.spotify.music",
+      "com.ysy.app.firewall"
+    ]
+  },
+  {
+    "repo": "RookieEnough/De-ReVanced",
+    "apps": [
+      "ch.protonmail.android",
+      "com.adobe.photoshopmix",
+      "com.amazon.mShop.android.shopping",
+      "com.amazon.mp3",
+      "com.bandcamp.android",
+      "com.cricbuzz.android",
+      "com.disney.disneyplus",
+      "com.drinkplusplus.angulus",
+      "com.facebook.katana",
+      "com.facebook.orca",
+      "com.google.android.apps.magazines",
+      "com.google.android.apps.photos",
+      "com.google.android.apps.recorder",
+      "com.instagram.barcelona",
+      "com.letterboxd.letterboxd",
+      "com.microblink.photomath",
+      "com.microsoft.office.officelens",
+      "com.myprog.hexedit",
+      "com.nis.app",
+      "com.nothing.smartcenter",
+      "com.peacocktv.peacockandroid",
+      "com.rarlab.rar",
+      "com.soundcloud.android",
+      "com.ss.android.ugc.trill",
+      "com.strava",
+      "com.tumblr",
+      "com.viber.voip",
+      "com.zhiliaoapp.musically",
+      "de.gmx.mobile.android.mail",
+      "ginlemon.iconpackstudio",
+      "jp.pxv.android",
+      "net.binarymode.android.irplus",
+      "nl.sanomamedia.android.nu",
+      "tv.twitch.android.app"
+    ]
+  },
+  {
+    "repo": "jkennethcarino/adobo",
+    "apps": [
+      "com.google.android.inputmethod.latin",
+      "com.imdb.mobile",
+      "com.reddit.frontpage"
+    ]
+  },
+  {
+    "repo": "docbt/patched-up",
+    "apps": [
+      "com.ebay.kleinanzeigen",
+      "com.google.android.apps.magazines"
+    ]
+  },
+  {
+    "repo": "PixelPusher247/morphe-patches",
+    "apps": [
+      "tv.trakt.trakt"
+    ]
+  },
+  {
+    "repo": "rabilrbl/fluffy-patches",
+    "apps": [
+      "com.jio.jioplay.tv"
+    ]
+  },
+  {
+    "repo": "jasonwu1994/Gboard-patches",
+    "apps": [
+      "com.google.android.inputmethod.latin"
+    ]
+  },
+  {
+    "repo": "realcyberwash/max-patches",
+    "apps": [
+      "ru.oneme.app"
+    ]
+  },
+  {
+    "repo": "paresh-maheshwari/paresh-patches",
+    "apps": [
+      "com.cv.docscanner",
+      "com.eyecon.global",
+      "com.frontrow.vlog",
+      "com.markOne.ss_app",
+      "com.overlook.android.fing",
+      "com.solid.teleprompter",
+      "com.ticktick.task",
+      "com.truecaller",
+      "in.cricketexchange.app.cricketexchange",
+      "org.telegram.messenger.web"
+    ]
+  },
+  {
+    "repo": "aniketshinde007/morphe-patches-ani",
+    "apps": []
+  },
+  {
+    "repo": "binarymend/morphe-patches",
+    "apps": [
+      "app.symfonik.music.player",
+      "com.burton999.notecal",
+      "com.flyersoft.moonreader",
+      "com.pinterest",
+      "com.quickcursor",
+      "com.truecaller",
+      "org.withouthat.acalendar"
+    ]
+  },
+  {
+    "repo": "polka-bear/morphe-patches",
+    "apps": [
+      "com.ipoji.app",
+      "com.vladlee.easyblacklist"
+    ]
+  },
+  {
+    "repo": "ajstrick81/peacock-atv-patches",
+    "apps": []
+  },
+  {
+    "repo": "eyalm2000/tidal-debug-menu",
+    "apps": [
+      "com.aspiro.tidal"
+    ]
+  },
+  {
+    "repo": "vladon/morphe-patches-navi",
+    "apps": [
+      "ru.yandex.yandexnavi"
+    ]
+  },
+  {
+    "repo": "raiusky/patches-repo",
+    "apps": [
+      "com.example.app",
+      "com.tracked.mobile"
+    ]
+  },
+  {
+    "repo": "ariecos/gemini-patches",
+    "apps": [
+      "com.example.app",
+      "com.google.android.apps.bard",
+      "com.google.android.googlequicksearchbox"
+    ]
+  }
+]

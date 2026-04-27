@@ -1,9 +1,9 @@
 {
-  "name": "Patch Explorer",
+  "name": "Patch Explorer for Morphe",
   "short_name": "Patches",
-  "description": "Browse and search all ReVanced & Morphe patch bundles",
-  "start_url": "/patch-explorer/",
-  "scope": "/patch-explorer/",
+  "description": "Explore all supported Morphe apps and their patch details",
+  "start_url": "/awesome-for-morphe/",
+  "scope": "/awesome-for-morphe/",
   "display": "standalone",
   "background_color": "#0a0e14",
   "theme_color": "#0a0e14",

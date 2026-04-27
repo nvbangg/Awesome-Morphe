@@ -116,7 +116,7 @@ export function renderTest(el) {
   el.innerHTML = `<div class="test-panel">
     <h3>Test a Bundle</h3>
     <p class="test-desc">Paste a GitHub repo URL or direct JSON link — we'll auto-detect the patches.<br>
-      Your bundle is not listed? <a href="https://github.com/Paresh-Maheshwari/patch-explorer/issues/new?template=submit-bundle.yml" target="_blank">Submit it here</a>.</p>
+      Your bundle is not listed? <a href="https://github.com/nvbangg/awesome-for-morphe/issues/new?template=submit-bundle.yml" target="_blank">Submit it here</a>.</p>
     <div class="test-input">
       <input type="text" id="testUrl" placeholder="https://github.com/user/repo or direct JSON URL">
       <button id="testBtn">Load</button>
