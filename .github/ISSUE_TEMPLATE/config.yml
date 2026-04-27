@@ -1,0 +1,4 @@
+contact_links:
+  - name: Submit Patch Bundle
+    url: https://github.com/Paresh-Maheshwari/patch-explorer/issues/new?template=submit-bundle.yml
+    about: Submit your patch bundle to the Patch Explorer repository by Paresh Maheshwari.
