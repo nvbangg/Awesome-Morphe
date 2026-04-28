@@ -16,14 +16,40 @@ function render() {
   else if (view === 'bundles') renderBundles(data, el);
   else if (view === 'test') renderTest(el);
   else renderPatches(data, el);
+  syncUrl();
+}
+
+function syncUrl() {
+  const params = new URLSearchParams();
+  const bundle = $('bundleFilter').value;
+  const app = $('appFilter').value;
+  if (bundle) params.set('bundle', bundle);
+  if (app) params.set('app', app);
+  const queryString = params.toString();
+
+  let newUrl = window.location.pathname;
+  if (view !== 'apps') {
+    newUrl += '#' + view + (queryString ? '?' + queryString : '');
+  } else if (queryString) {
+    newUrl += '?' + queryString;
+  }
+  window.history.replaceState(null, '', newUrl);
 }
 
 async function init() {
+  const hashParts = location.hash.substring(1).split('?');
+  const pathView = hashParts[0];
+  if (['bundles', 'patches', 'test'].includes(pathView)) view = pathView;
+  document.querySelectorAll('.tab').forEach(tab => tab.classList.toggle('active', tab.dataset.view === view));
+
+  const urlParams = new URLSearchParams(hashParts[1] || window.location.search);
+
   await discoverBundles();
 
   // Populate bundle filter from discovered names
   const bSel = $('bundleFilter');
   bundleNames.forEach(b => { const o = document.createElement('option'); o.value = b; o.textContent = b; bSel.appendChild(o); });
+  if (urlParams.has('bundle')) bSel.value = urlParams.get('bundle');
 
   const seenApps = new Set();
   const aSel = $('appFilter');
@@ -43,6 +69,7 @@ async function init() {
           aSel.appendChild(o);
         }
       }
+      if (urlParams.has('app')) aSel.value = urlParams.get('app');
     }
   );
 
@@ -50,6 +77,7 @@ async function init() {
   const opts = [...aSel.options].slice(1).sort((a, b) => a.text.localeCompare(b.text));
   while (aSel.options.length > 1) aSel.remove(1);
   opts.forEach(o => aSel.appendChild(o));
+  if (urlParams.has('app')) aSel.value = urlParams.get('app');
 
   [...bSel.options].slice(1).forEach(o => {
     if (bundleMeta[o.value]?.type !== 'Morphe') o.remove();

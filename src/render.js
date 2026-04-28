@@ -1,4 +1,4 @@
-import { friendlyName, bundleMeta, RAW } from './data.js';
+import { friendlyName, bundleMeta, RAW, parseCompatiblePackages } from './data.js';
 
 const esc = s => { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; };
 
@@ -169,8 +169,8 @@ export async function loadTestBundle(input, el) {
     const patches = j.patches || [];
     if (!patches.length) { el.innerHTML = '<div class="loader">No patches found in this JSON.</div>'; return; }
     const rows = patches.flatMap(p => {
-      const pkgs = p.compatiblePackages || {};
-      return Object.entries(pkgs).map(([pkg, vers]) => ({
+      const pkgsObj = parseCompatiblePackages(p);
+      return Object.entries(pkgsObj).map(([pkg, vers]) => ({
         name: p.name, desc: p.description || '', pkg,
         vers: Array.isArray(vers) ? vers.map(String) : null,
       }));

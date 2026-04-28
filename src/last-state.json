@@ -15,7 +15,7 @@
     ]
   },
   {
-    "repo": "BholeyKaBhakt/revanced-patches-xtra",
+    "repo": "BholeyKaBhakt/android-patches-xtra",
     "apps": [
       "com.llamalab.automate",
       "com.ttxapps.autosync",

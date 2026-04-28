@@ -23,6 +23,35 @@ export async function discoverBundles() {
   return bundleNames;
 }
 
+export function parseCompatiblePackages({ compatiblePackages: pkgs }) {
+  if (!pkgs) return {};
+
+  if (!Array.isArray(pkgs)) {
+    // Old format 
+    return pkgs;
+  }
+
+  // New format
+  const res = {};
+  for (const p of pkgs) {
+    if (typeof p === 'string') {
+      res[p] = [];
+    } else if (p.packageName || p.name) {
+      const name = p.packageName || p.name;
+      let vers = [];
+      if (p.targets) {
+        for (const t of p.targets) if (t.version) vers.push(t.version);
+      } else if (p.versions) {
+        vers = p.versions;
+      }
+      res[name] = vers;
+    }
+  }
+  return res;
+}
+
+export const isPatchActive = p => p.use ?? p.default ?? true;
+
 // Fetch one bundle's patch list + bundle info
 async function fetchBundle(name) {
   const dir = `${name}-patch-bundles`;
@@ -50,13 +79,14 @@ async function fetchBundle(name) {
     if (bundleMeta[name]?.type !== 'Morphe') return [];
     
     return (list.patches || []).flatMap(p => {
-      const pkgs = p.compatiblePackages || {};
-      return Object.entries(pkgs).map(([pkg, vers]) => ({
+      const pkgsObj = parseCompatiblePackages(p);
+      const isActive = isPatchActive(p);
+      return Object.entries(pkgsObj).map(([pkg, vers]) => ({
         bundle: name,
         bVer: list.version,
         name: p.name,
         desc: p.description || '',
-        use: p.use !== false,
+        use: isActive,
         options: p.options || [],
         deps: (p.dependencies || []).filter(d => !['BytecodePatch','ResourcePatch'].includes(d)),
         pkg,
