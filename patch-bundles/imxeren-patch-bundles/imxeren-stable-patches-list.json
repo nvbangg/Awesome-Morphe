@@ -1,0 +1,17 @@
+{
+    "version": "v1.1.0",
+    "patches": [
+        {
+            "compatiblePackages": {
+                "tv.trakt.trakt": [
+                    "2.2.1"
+                ]
+            },
+            "dependencies": [],
+            "description": "Remove ads, add VIP badge and allow to view 'Your Month in Review'.",
+            "name": "Unlock pro",
+            "options": [],
+            "use": true
+        }
+    ]
+}

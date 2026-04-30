@@ -1,0 +1,67 @@
+# Copyright (c) 2026 nvbangg (github.com/nvbangg)
+
+name: Sync Patch Bundles
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Sync patch-bundles
+        run: python src/download-patch-bundles.py
+
+      - name: Check git changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Update sources
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python src/update-sources.py
+          DATE=$(date +'%Y-%m-%d')
+          DAY=$(date +'%b %d, %Y')
+          if gh release view "$DATE" >/dev/null 2>&1; then
+            echo "RELEASE_TAG=${DATE}-$(date +'%H.%M')" >> $GITHUB_ENV
+            echo "RELEASE_DAY=${DAY} ($(date +'%H:%M'))" >> $GITHUB_ENV
+          else
+            echo "RELEASE_TAG=${DATE}" >> $GITHUB_ENV
+            echo "RELEASE_DAY=${DAY}" >> $GITHUB_ENV
+          fi
+
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        if: steps.changes.outputs.changed == 'true'
+        with:
+          commit_message: "Sync patch bundles (${{ env.RELEASE_TAG }})"
+          file_pattern: |
+            patch-bundles/**
+            src/sources-stable.json
+            src/sources-latest.json
+            src/app-names.json
+
+      - name: Create release
+        if: steps.changes.outputs.changed == 'true' && hashFiles('changelog.md') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release create "${{ env.RELEASE_TAG }}" --title "🔔 Updates (${{ env.RELEASE_DAY }})" --notes-file changelog.md
+
+      - name: Create pre-release
+        if: steps.changes.outputs.changed == 'true' && hashFiles('changelog-pre-release.md') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release create "${{ env.RELEASE_TAG }}-pre" --prerelease --title "🧪 Pre-release (${{ env.RELEASE_DAY }})" --notes-file changelog-pre-release.md

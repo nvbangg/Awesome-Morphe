@@ -1,0 +1,365 @@
+{
+  "adobo": {
+    "repo": "jkennethcarino/adobo",
+    "tag": "v1.1.1-dev.2",
+    "created_at": "2026-04-25T16:02:39",
+    "apps": [
+      "com.google.android.inputmethod.latin"
+    ]
+  },
+  "almewty": {
+    "repo": "Almewty/my-morphe-patches",
+    "tag": "v1.0.0-dev.1",
+    "created_at": "2026-01-30T07:54:21",
+    "apps": [
+      "com.application.pokecardex",
+      "com.example.app"
+    ]
+  },
+  "anddea": {
+    "repo": "anddea/revanced-patches",
+    "tag": "v4.0.0",
+    "created_at": "2026-03-27T16:50:39",
+    "apps": [
+      "com.google.android.apps.youtube.music",
+      "com.google.android.youtube",
+      "com.reddit.frontpage"
+    ]
+  },
+  "anddea-morphed": {
+    "repo": "wchill/anddea-rvx-morphed",
+    "tag": "v3.17.0-dev.2",
+    "created_at": "2026-02-11T15:55:58",
+    "apps": [
+      "com.google.android.apps.youtube.music",
+      "com.google.android.youtube",
+      "com.reddit.frontpage",
+      "com.spotify.music",
+      "com.ysy.app.firewall"
+    ]
+  },
+  "andronedev": {
+    "repo": "andronedev/morphe-patches",
+    "tag": "v2.3.0",
+    "created_at": "2026-04-01T21:23:06",
+    "apps": [
+      "com.thetransitapp.droid"
+    ]
+  },
+  "aniketshinde007": {
+    "repo": "aniketshinde007/morphe-patches-ani",
+    "tag": "v1.0.0",
+    "created_at": "2026-04-09T14:53:10",
+    "apps": []
+  },
+  "ariecos": {
+    "repo": "ariecos/gemini-patches",
+    "tag": "v1.1.15",
+    "created_at": "2026-04-28T00:47:20",
+    "apps": [
+      "com.google.android.apps.bard",
+      "com.google.android.googlequicksearchbox"
+    ]
+  },
+  "bholeykabhakt": {
+    "repo": "BholeyKaBhakt/android-patches-xtra",
+    "tag": "v2.0.0",
+    "created_at": "2026-04-26T14:47:10",
+    "apps": [
+      "com.llamalab.automate",
+      "com.ttxapps.autosync",
+      "org.zwanoo.android.speedtest"
+    ]
+  },
+  "binarymend": {
+    "repo": "binarymend/morphe-patches",
+    "tag": "v1.3.1",
+    "created_at": "2026-04-27T12:49:57",
+    "apps": [
+      "app.symfonik.music.player",
+      "com.burton999.notecal",
+      "com.flyersoft.moonreader",
+      "com.pinterest",
+      "com.quickcursor",
+      "com.truecaller",
+      "org.withouthat.acalendar"
+    ]
+  },
+  "brosssh": {
+    "repo": "brosssh/morphe-patches",
+    "tag": "v2.5.0",
+    "created_at": "2026-04-21T04:38:47",
+    "apps": [
+      "com.instagram.android",
+      "cz.seznam.mapy",
+      "de.komoot.android",
+      "fr.chargeprice.app",
+      "fr.tramb.park4night"
+    ]
+  },
+  "docbt": {
+    "repo": "docbt/patched-up",
+    "tag": "v1.7.0",
+    "created_at": "2026-04-19T03:45:24",
+    "apps": [
+      "com.ebay.kleinanzeigen",
+      "com.google.android.apps.magazines"
+    ]
+  },
+  "eyalm2000": {
+    "repo": "eyalm2000/tidal-debug-menu",
+    "tag": "v1.2.0",
+    "created_at": "2026-03-26T08:55:30",
+    "apps": [
+      "com.aspiro.tidal"
+    ]
+  },
+  "hoo-dles": {
+    "repo": "hoo-dles/morphe-patches",
+    "tag": "v1.28.0",
+    "created_at": "2026-04-26T19:37:58",
+    "apps": [
+      "app.ttmikstories.android",
+      "ch.protonvpn.android",
+      "cn.ommiao.iconpacker",
+      "cn.wps.moffice_eng",
+      "com.adguard.android",
+      "com.alltrails.alltrails",
+      "com.amazon.avod.thirdpartyclient",
+      "com.avocards",
+      "com.bambuna.podcastaddict",
+      "com.busuu.android.enc",
+      "com.duolingo",
+      "com.getmimo",
+      "com.hellochinese",
+      "com.lyfta",
+      "com.merriamwebster",
+      "com.mobilefootie.wc2010",
+      "com.myfitnesspal.android",
+      "com.pandora.android",
+      "com.qbis.guessthecountry",
+      "com.sbs.diet",
+      "com.sbs.train",
+      "com.snorelab.app",
+      "com.sofascore.results",
+      "com.soundcloud.android",
+      "com.teslacoilsw.launcher",
+      "com.wallpaperscraft.wallpaper",
+      "com.windyty.android",
+      "com.xodo.pdf.reader",
+      "com.zombodroid.MemeGenerator",
+      "cz.ackee.ventusky",
+      "ginlemon.flowerfree",
+      "jp.ne.ibis.ibispaintx.app",
+      "kr.co.yjteam.dailypay",
+      "kr.eggbun.eggconvo",
+      "me.mycake",
+      "net.teuida.teuida",
+      "nom.vrd",
+      "org.languageapp.lingory",
+      "org.totschnig.myexpenses",
+      "pl.solidexplorer2",
+      "ru.iiec.pydroid3",
+      "videoeditor.videorecorder.screenrecorder"
+    ]
+  },
+  "imxeren": {
+    "repo": "IMXEren/mix-patches",
+    "tag": "v1.2.0-dev.1",
+    "created_at": "2026-03-30T01:20:04",
+    "apps": [
+    ]
+  },
+  "jasonwu1994": {
+    "repo": "jasonwu1994/Gboard-patches",
+    "tag": "v1.4.0",
+    "created_at": "2026-04-13T07:07:47",
+    "apps": [
+      "com.google.android.inputmethod.latin"
+    ]
+  },
+  "joganubaid": {
+    "repo": "joganubaid/adguard-morphe-patches",
+    "tag": "v1.0.3",
+    "created_at": "2026-04-28T13:45:18",
+    "apps": [
+      "com.adguard.android"
+    ]
+  },
+  "joristdh": {
+    "repo": "Joristdh/Platypatch",
+    "tag": "v1.1.3",
+    "created_at": "2026-04-16T07:52:27",
+    "apps": []
+  },
+  "loskutov": {
+    "repo": "loskutov/youtube-domain-fronting-patch",
+    "tag": "v1.0.1",
+    "created_at": "2026-04-28T23:06:27",
+    "apps": [
+      "com.google.android.apps.youtube.music",
+      "com.google.android.youtube"
+    ]
+  },
+  "meridianfresco": {
+    "repo": "meridianfresco/morphe-meta-patches",
+    "tag": "v1.0.0",
+    "created_at": "2026-04-11T21:51:39",
+    "apps": [
+      "com.facebook.katana"
+    ]
+  },
+  "morphe": {
+    "repo": "MorpheApp/morphe-patches",
+    "tag": "v1.25.0-dev.9",
+    "created_at": "2026-04-29T10:08:06",
+    "apps": [
+      "com.google.android.apps.youtube.music",
+      "com.google.android.youtube",
+      "com.reddit.frontpage"
+    ]
+  },
+  "paresh-maheshwari": {
+    "repo": "Paresh-Maheshwari/paresh-patches",
+    "tag": "v1.14.0",
+    "created_at": "2026-04-28T18:47:24",
+    "apps": [
+      "ch.protonvpn.android",
+      "com.cv.docscanner",
+      "com.eyecon.global",
+      "com.frontrow.vlog",
+      "com.markOne.ss_app",
+      "com.overlook.android.fing",
+      "com.solid.teleprompter",
+      "com.ticktick.task",
+      "com.truecaller",
+      "in.cricketexchange.app.cricketexchange",
+      "org.telegram.messenger.web"
+    ]
+  },
+  "patcheddit": {
+    "repo": "wchill/patcheddit",
+    "tag": "v1.4.1-dev.1",
+    "created_at": "2026-04-09T06:59:40",
+    "apps": [
+      "com.andrewshu.android.reddit",
+      "com.andrewshu.android.redditdonation",
+      "com.laurencedawson.reddit_sync",
+      "com.laurencedawson.reddit_sync.dev",
+      "com.laurencedawson.reddit_sync.pro",
+      "com.onelouder.baconreader",
+      "com.onelouder.baconreader.premium",
+      "com.rubenmayayo.reddit",
+      "free.reddit.news",
+      "io.syncapps.lemmy_sync",
+      "me.edgan.redditslide",
+      "ml.docilealligator.infinityforreddit.patreon",
+      "ml.docilealligator.infinityforreddit.plus",
+      "o.o.joey",
+      "o.o.joey.dev",
+      "o.o.joey.pro",
+      "org.cygnusx1.continuum",
+      "reddit.news"
+    ]
+  },
+  "piko": {
+    "repo": "crimera/piko",
+    "tag": "v3.3.0-dev.3",
+    "created_at": "2026-04-26T18:07:42",
+    "apps": [
+      "com.instagram.android",
+      "com.twitter.android"
+    ]
+  },
+  "pixelpusher247": {
+    "repo": "PixelPusher247/morphe-patches",
+    "tag": "v1.3.0",
+    "created_at": "2026-03-31T09:28:51",
+    "apps": [
+      "tv.trakt.trakt"
+    ]
+  },
+  "polka-bear": {
+    "repo": "polka-bear/morphe-patches",
+    "tag": "v1.4.1-dev.1",
+    "created_at": "2026-04-14T10:04:57",
+    "apps": [
+      "com.ipoji.app",
+      "com.vladlee.easyblacklist"
+    ]
+  },
+  "rabilrbl": {
+    "repo": "rabilrbl/fluffy-patches",
+    "tag": "v1.0.0-dev.14",
+    "created_at": "2026-04-06T18:34:55",
+    "apps": [
+      "com.jio.jioplay.tv"
+    ]
+  },
+  "realcyberwash": {
+    "repo": "RealCyberwash/max-patches",
+    "tag": "v1.1.1",
+    "created_at": "2026-04-06T18:30:55",
+    "apps": [
+      "ru.oneme.app"
+    ]
+  },
+  "rookieenough": {
+    "repo": "RookieEnough/De-ReVanced",
+    "tag": "v1.0.3-dev.1",
+    "created_at": "2026-04-02T03:58:26",
+    "apps": [
+      "ch.protonmail.android",
+      "com.adobe.photoshopmix",
+      "com.amazon.mShop.android.shopping",
+      "com.amazon.mp3",
+      "com.bandcamp.android",
+      "com.cricbuzz.android",
+      "com.disney.disneyplus",
+      "com.drinkplusplus.angulus",
+      "com.facebook.katana",
+      "com.facebook.orca",
+      "com.google.android.apps.magazines",
+      "com.google.android.apps.photos",
+      "com.google.android.apps.recorder",
+      "com.instagram.barcelona",
+      "com.letterboxd.letterboxd",
+      "com.microblink.photomath",
+      "com.microsoft.office.officelens",
+      "com.myprog.hexedit",
+      "com.nis.app",
+      "com.nothing.smartcenter",
+      "com.peacocktv.peacockandroid",
+      "com.rarlab.rar",
+      "com.soundcloud.android",
+      "com.ss.android.ugc.trill",
+      "com.strava",
+      "com.tumblr",
+      "com.viber.voip",
+      "com.zhiliaoapp.musically",
+      "de.gmx.mobile.android.mail",
+      "ginlemon.iconpackstudio",
+      "jp.pxv.android",
+      "net.binarymode.android.irplus",
+      "nl.sanomamedia.android.nu",
+      "tv.twitch.android.app"
+    ]
+  },
+  "rvx-morphed": {
+    "repo": "wchill/rvx-morphed",
+    "tag": "v5.16.4",
+    "created_at": "2026-03-05T14:38:07",
+    "apps": [
+      "com.google.android.apps.youtube.music",
+      "com.google.android.youtube"
+    ]
+  },
+  "vladon": {
+    "repo": "vladon/morphe-patches-navi",
+    "tag": "v1.0.6",
+    "created_at": "2026-04-20T14:53:42",
+    "apps": [
+      "ru.yandex.yandexnavi"
+    ]
+  }
+}

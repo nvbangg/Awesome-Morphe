@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-04-13T07:07:47",
+  "description": "# 1.4.0\n\n## \u65b0\u589e\n\n- \u65b0\u589e Signature Bypass\n- \u65b0\u589e Enable Undo/Redo feature\n\n\n## \u6ce8\u610f\n\n- \u76ee\u524d\u652f\u63f4\u5b98\u65b9 Gboard 17.0.10.880768217-release-arm64-v8a\n",
+  "download_url": "https://github.com/jasonwu1994/Gboard-patches/releases/download/v1.4.0/patches-1.4.0.mpp",
+  "signature_download_url": "N/A",
+  "version": "v1.4.0"
+}
