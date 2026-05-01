@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   sync:
@@ -56,6 +57,12 @@ jobs:
           
           echo "RELEASE_TAG=${RELEASE_TAG}" >> $GITHUB_ENV
           echo "RELEASE_DAY=${RELEASE_DAY}" >> $GITHUB_ENV
+
+      - name: Deploy to GitHub Pages
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml
 
       - name: Create release
         if: steps.changes.outputs.changed == 'true' && hashFiles('changelog.md') != ''
