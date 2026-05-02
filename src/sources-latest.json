@@ -141,8 +141,8 @@
   },
   "hoo-dles": {
     "repo": "hoo-dles/morphe-patches",
-    "tag": "v1.29.0-dev.2",
-    "created_at": "2026-05-02T02:44:09",
+    "tag": "v1.29.0-dev.3",
+    "created_at": "2026-05-02T05:50:17",
     "apps": [
       "app.ttmikstories.android",
       "ch.protonvpn.android",
