@@ -69,7 +69,7 @@ def build_notes(label, old_sources, new_sources, app_names):
         entry = new_sources.get(key) or {}
         apps = entry.get("apps") or []
         if key not in old_sources:
-            link = f"[{key}](https://nvbangg.github.io/awesome-for-morphe/#sources?source={key})"
+            link = f"[{key}](https://github.com/{entry['repo']})"
             new_bundles.append(f"- {link}")
         old_apps = set(old_sources.get(key, {}).get("apps") or [])
         added = [pkg for pkg in apps if pkg not in old_apps]
