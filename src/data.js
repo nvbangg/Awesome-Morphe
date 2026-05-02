@@ -1,7 +1,11 @@
+// Copyright (c) 2026 nvbangg (github.com/nvbangg)
+
+
 const CHANNELS = new Set(['stable', 'latest']);
 const DEFAULT_CHANNEL = 'stable';
 const jsonCache = new Map();
 const dataCache = new Map();
+const simplify = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
 
 async function json(url) {
   const key = url.toString();
@@ -60,6 +64,7 @@ async function loadSource(key, meta, channel, names) {
     key,
     repo: meta.repo || '',
     version: list.version || meta.tag || '',
+    tag: meta.tag || '',
     createdAt: meta.created_at || '',
   };
 
@@ -82,8 +87,16 @@ async function loadSource(key, meta, channel, names) {
         appName: name,
         versions: target.versions,
         enabled: patch.use ?? patch.default ?? true,
-        optionCount: Array.isArray(patch.options) ? patch.options.length : 0,
-        searchText: [key, source.repo, patch.name, packageName, name].join(' ').toLowerCase(),
+        options: Array.isArray(patch.options) ? patch.options : [],
+        searchText: [
+          key,
+          source.repo,
+          patch.name,
+          patch.description,
+          packageName,
+          name,
+          ...(Array.isArray(patch.options) ? patch.options : []).flatMap(opt => [opt.title, opt.key, opt.description])
+        ].filter(Boolean).join(' ').toLowerCase(),
       };
     });
   });
@@ -119,12 +132,20 @@ export async function loadChannelData(channelInput) {
 }
 
 export function filterRows(data, filters) {
-  const query = filters.query.trim().toLowerCase();
-  return data.rows.filter(row =>
-    (!filters.source || row.sourceKey === filters.source) &&
-    (!filters.app || row.packageName === filters.app) &&
-    (!query || row.searchText.includes(query))
-  );
+  const words = filters.query.split(/\s+/).map(simplify).filter(Boolean);
+  return data.rows.filter(row => {
+    if (filters.source && row.sourceKey !== filters.source) return false;
+    if (filters.app) {
+      if (filters.app === 'universal') {
+        if (row.packageName) return false;
+      } else if (row.packageName !== filters.app) {
+        return false;
+      }
+    }
+    if (words.length === 0) return true;
+    const searchTarget = simplify(row.searchText);
+    return words.every(word => searchTarget.includes(word));
+  });
 }
 
 export function getFilterOptions(data) {
@@ -135,8 +156,11 @@ export function getFilterOptions(data) {
 
   return {
     sourceOptions: data.sources.map(source => ({ value: source.key, label: source.key })),
-    appOptions: [...appMap].map(([value, label]) => ({ value, label }))
-      .sort((a, b) => a.label.localeCompare(b.label) || a.value.localeCompare(b.value)),
+    appOptions: [
+      { value: 'universal', label: 'Universal' },
+      ...([...appMap].map(([value, label]) => ({ value, label }))
+        .sort((a, b) => a.label.localeCompare(b.label) || a.value.localeCompare(b.value)))
+    ],
   };
 }
 

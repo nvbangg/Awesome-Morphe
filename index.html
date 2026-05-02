@@ -1,3 +1,5 @@
+<!-- Copyright (c) 2026 nvbangg (github.com/nvbangg) -->
+
 <!doctype html>
 <html lang="en" class="bg-gray-950 text-gray-200 antialiased">
 <head>
@@ -16,249 +18,170 @@
     ::-webkit-scrollbar-track { background: #030712; }
     ::-webkit-scrollbar-thumb { background: #1f2937; border-radius: 5px; }
     ::-webkit-scrollbar-thumb:hover { background: #374151; }
-    .fade-enter-active, .fade-leave-active { transition: opacity 0.15s ease; }
-    .fade-enter-from, .fade-leave-to { opacity: 0; }
     
     input[type="search"]::-webkit-search-decoration,
     input[type="search"]::-webkit-search-cancel-button,
     input[type="search"]::-webkit-search-results-button,
     input[type="search"]::-webkit-search-results-decoration { display: none; }
     
-    .no-scrollbar::-webkit-scrollbar { display: none; }
-    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
   </style>
 </head>
 <body>
   <div id="app" v-cloak>
-    <section class="mt-3 md:mt-20 max-w-6xl mx-auto px-3" aria-label="Filters">
+    <section class="mt-2 md:mt-12 max-w-4xl mx-auto px-3 flex flex-col gap-2 md:gap-4" aria-label="Main Content">
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-1.5 md:gap-3 text-[11px] md:text-sm">
+        <a href="https://github.com/nvbangg/awesome-for-morphe" target="_blank" rel="noreferrer" class="flex items-center gap-1.5 md:gap-2 px-2.5 py-1 md:px-3 md:py-1.5 bg-gray-900 border border-gray-800 rounded-full text-gray-400 hover:text-gray-200 hover:bg-gray-800 hover:border-gray-700 transition-all shadow-sm">
+          <i class="fa-brands fa-github text-sm md:text-base"></i>
+          <span class="font-medium">github.com/nvbangg/awesome-for-morphe</span>
+        </a>
+        <a href="https://nvbangg.github.io/awesome-for-morphe/" target="_blank" rel="noreferrer" class="flex items-center gap-1.5 md:gap-2 px-2.5 py-1 md:px-3 md:py-1.5 bg-gray-900 border border-gray-800 rounded-full text-gray-400 hover:text-gray-200 hover:bg-gray-800 hover:border-gray-700 transition-all shadow-sm">
+          <i class="fa-solid fa-globe text-sm md:text-base"></i>
+          <span class="font-medium">nvbangg.github.io/awesome-for-morphe</span>
+        </a>
+      </div>
       <div class="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden">
-        <div class="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] items-center border-b border-gray-800 gap-1 md:gap-0">
-          <div class="flex items-center gap-1 px-4 h-12 justify-center md:justify-start">
-            <a class="text-2xl font-extrabold hover:opacity-80 transition-opacity whitespace-nowrap flex items-center h-full text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400" href="https://github.com/nvbangg/awesome-for-morphe" target="_blank" rel="noreferrer" title="View Source on GitHub">Awesome for Morphe</a>
-          </div>
-          <div class="flex justify-self-center gap-1 px-2" role="tablist" aria-label="Views">
-            <button class="inline-flex h-12 items-center gap-2 px-4 text-lg font-bold border-b-2 border-transparent text-gray-400 hover:text-blue-500 transition-colors" :class="{'text-blue-500 border-blue-500': view === 'apps'}" @click="view = 'apps'" role="tab" :aria-selected="view === 'apps'">
-              <i class="fa-solid fa-mobile-screen-button w-5 text-lg leading-none"></i><span>Apps</span>
-            </button>
-            <button class="inline-flex h-12 items-center gap-2 px-4 text-lg font-bold border-b-2 border-transparent text-gray-400 hover:text-blue-500 transition-colors" :class="{'text-blue-500 border-blue-500': view === 'sources'}" @click="view = 'sources'" role="tab" :aria-selected="view === 'sources'">
-              <i class="fa-solid fa-cubes w-5 text-lg leading-none"></i><span>Patch Sources</span>
-            </button>
-          </div>
-          <span class="flex flex-wrap gap-2 text-xs text-gray-400 shrink-0 justify-center md:justify-end items-center px-4 py-2 md:py-0" aria-live="polite">
-            <span class="px-2 py-1 bg-white/5 border border-white/5 rounded-full">{{ stats?.sources || 0 }} sources</span>
-            <span class="px-2 py-1 bg-white/5 border border-white/5 rounded-full">{{ stats?.patches || 0 }} patches</span>
-            <span class="px-2 py-1 bg-white/5 border border-white/5 rounded-full">{{ stats?.apps || 0 }} apps</span>
-          </span>
+        <div class="flex items-center justify-center border-b border-gray-800 h-12">
+          <h1 class="text-2xl font-extrabold whitespace-nowrap flex items-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Awesome for Morphe</h1>
         </div>
         
-        <div class="grid grid-cols-2 md:grid-cols-[auto_1fr_160px_160px_160px] gap-1.5 p-2 md:gap-3 md:p-3">
-          <div class="col-span-2 md:col-span-2 flex gap-1.5">
-            <button @click="resetFilters" class="h-10 w-10 flex items-center justify-center bg-gray-950 border border-gray-800 rounded-md hover:bg-white/5 transition-colors text-gray-400 shrink-0" title="Reset Filters">
-              <i class="fa-solid fa-arrow-rotate-left text-sm"></i>
-            </button>
-
-            <form @submit.prevent="$event.target.querySelector('input').blur()" class="relative flex-1">
-              <input type="search" v-model="query" autocomplete="off" enterkeyhint="search" placeholder="Search source, app, patch" class="w-full h-10 pl-3 pr-9 bg-gray-950 border border-gray-800 rounded-md focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 outline-none transition-all text-sm">
-              <button v-if="query" type="button" @click="query = ''" class="absolute right-0 top-0 h-10 w-9 flex items-center justify-center text-gray-500 hover:text-gray-300 transition-colors" title="Clear search">
-                <i class="fa-solid fa-circle-xmark"></i>
+        <div class="flex flex-col gap-3 p-2 md:p-3">
+          <div class="grid grid-cols-2 md:grid-cols-[auto_360px_1fr_1fr] gap-2 md:gap-3">
+            <div class="col-span-2 md:col-span-2 flex gap-2">
+              <button @click="resetFilters" class="h-10 w-10 flex items-center justify-center bg-gray-950 border border-gray-800 rounded-md hover:bg-white/5 transition-colors text-gray-400 shrink-0" title="Reset Filters">
+                <i class="fa-solid fa-arrow-rotate-left text-sm"></i>
               </button>
-            </form>
+
+              <form @submit.prevent="$event.target.querySelector('input').blur()" class="relative flex-1">
+                <input type="search" v-model="query" autocomplete="off" enterkeyhint="search" placeholder="Search apps, sources, patches" class="w-full h-10 pl-3 pr-9 bg-gray-950 border border-gray-800 rounded-md focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 outline-none transition-all text-sm">
+                <button v-if="query" type="button" @click="query = ''" class="absolute right-0 top-0 h-10 w-9 flex items-center justify-center text-gray-500 hover:text-gray-300 transition-colors" title="Clear search">
+                  <i class="fa-solid fa-circle-xmark"></i>
+                </button>
+              </form>
+            </div>
+            
+            <select v-model="app" aria-label="Apps filter" class="col-span-1 w-full h-10 pl-3 pr-8 bg-gray-950 border border-gray-800 rounded-md focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 outline-none transition-all cursor-pointer text-sm appearance-none bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20stroke%3D%22%236b7280%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%221.5%22%20d%3D%22m6%208%204%204%204-4%22%2F%3E%3C%2Fsvg%3E')] bg-[length:1.25rem_1.25rem] bg-[right_0.5rem_center] bg-no-repeat">
+              <option value="">All Apps</option>
+              <option v-for="opt in filterOptions.appOptions" :key="opt.value" :value="opt.value">{{ opt.label }}</option>
+            </select>
+
+            <select v-model="source" aria-label="Patch Sources filter" class="col-span-1 w-full h-10 pl-3 pr-8 bg-gray-950 border border-gray-800 rounded-md focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 outline-none transition-all cursor-pointer text-sm appearance-none bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20stroke%3D%22%236b7280%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%221.5%22%20d%3D%22m6%208%204%204%204-4%22%2F%3E%3C%2Fsvg%3E')] bg-[length:1.25rem_1.25rem] bg-[right_0.5rem_center] bg-no-repeat">
+              <option value="">All Sources</option>
+              <option v-for="opt in filterOptions.sourceOptions" :key="opt.value" :value="opt.value">{{ opt.label }}</option>
+            </select>
           </div>
-          
-          <select v-model="source" aria-label="Patch Sources filter" class="col-span-1 w-full h-10 pl-3 pr-8 bg-gray-950 border border-gray-800 rounded-md focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 outline-none transition-all cursor-pointer text-sm appearance-none bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20stroke%3D%22%236b7280%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%221.5%22%20d%3D%22m6%208%204%204%204-4%22%2F%3E%3C%2Fsvg%3E')] bg-[length:1.25rem_1.25rem] bg-[right_0.5rem_center] bg-no-repeat">
-            <option value="">All Sources</option>
-            <option v-for="opt in filterOptions.sourceOptions" :key="opt.value" :value="opt.value">{{ opt.label }}</option>
-          </select>
 
-          <select v-model="app" aria-label="Apps filter" class="col-span-1 w-full h-10 pl-3 pr-8 bg-gray-950 border border-gray-800 rounded-md focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 outline-none transition-all cursor-pointer text-sm appearance-none bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20stroke%3D%22%236b7280%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%221.5%22%20d%3D%22m6%208%204%204%204-4%22%2F%3E%3C%2Fsvg%3E')] bg-[length:1.25rem_1.25rem] bg-[right_0.5rem_center] bg-no-repeat">
-            <option value="">All Apps</option>
-            <option v-for="opt in filterOptions.appOptions" :key="opt.value" :value="opt.value">{{ opt.label }}</option>
-          </select>
-
-          <div class="col-span-2 md:col-span-1 flex items-center gap-2">
-            <button @click="channel = 'stable'" class="flex-1 h-10 rounded-full text-sm font-medium transition-all border" :class="channel === 'stable' ? 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20' : 'text-gray-400 bg-white/5 border-white/5 hover:bg-white/10'">Stable</button>
-            <button @click="channel = 'latest'" class="flex-1 h-10 rounded-full text-sm font-medium transition-all border" :class="channel === 'latest' ? 'text-amber-400 bg-amber-500/10 border-amber-500/20' : 'text-gray-400 bg-white/5 border-white/5 hover:bg-white/10'">Latest</button>
+          <div class="grid grid-cols-1 md:grid-cols-3 items-center gap-3">
+            <div class="hidden md:block"></div>
+            <div class="flex items-center justify-center gap-2">
+              <button @click="channel = 'stable'" class="h-8 px-5 rounded-full text-sm font-medium transition-all border" :class="channel === 'stable' ? 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20' : 'text-gray-400 bg-white/5 border-white/5 hover:bg-white/10'">Stable</button>
+              <button @click="channel = 'latest'" class="h-8 px-5 rounded-full text-sm font-medium transition-all border" :class="channel === 'latest' ? 'text-amber-400 bg-amber-500/10 border-amber-500/20' : 'text-gray-400 bg-white/5 border-white/5 hover:bg-white/10'">Latest</button>
+            </div>
+            <div class="flex flex-wrap gap-2 text-xs text-gray-400 shrink-0 justify-center md:justify-end" aria-live="polite">
+              <span class="px-2 py-1 bg-white/5 rounded-full border border-white/5">{{ stats?.apps || 0 }} apps</span>
+              <span class="px-2 py-1 bg-white/5 rounded-full border border-white/5">{{ stats?.sources || 0 }} sources</span>
+              <span class="px-2 py-1 bg-white/5 rounded-full border border-white/5">{{ stats?.patches || 0 }} patches</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <main class="max-w-6xl mx-auto px-4 py-4 pb-16">
-      <Transition name="fade" mode="out-in">
-        <div :key="channel + view">
+    <main class="max-w-4xl mx-auto px-3 py-4 pb-16">
+      <div>
           <div v-if="isLoading" class="grid min-h-[220px] place-items-center text-gray-400">Loading {{ channel }} data...</div>
           <div v-else-if="errorMsg" class="grid min-h-[220px] place-items-center">
             <div class="text-center p-8 bg-gray-900 border border-gray-800 rounded-lg">
-          <h2 class="text-lg font-bold mb-2">Could not load data</h2>
-          <p class="text-gray-400">{{ errorMsg }}</p>
+              <h2 class="text-lg font-bold mb-2">Could not load data</h2>
+              <p class="text-gray-400">{{ errorMsg }}</p>
+            </div>
+          </div>
+          
+          <div v-else>
+            <div v-if="!sourcesGroups.length" class="grid min-h-[220px] place-items-center">
+              <div class="text-center p-8 bg-gray-900 border border-gray-800 rounded-lg max-w-lg w-full">
+                <h2 class="text-lg font-bold mb-2">No patch sources found</h2>
+                <p class="text-gray-400">Try changing the search, source, app, or channel filter.</p>
+              </div>
+            </div>
+            <div v-else class="grid gap-4">
+              <details v-for="group in sourcesGroups" :key="group.key" :open="sourcesGroups.length === 1" class="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden group/source">
+                <summary class="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 p-4 cursor-pointer hover:bg-gray-800 transition-colors">
+                  <span class="flex flex-wrap items-center gap-2 text-gray-400 shrink-0 w-full md:w-auto">
+                    <div class="flex items-center gap-2 w-full md:w-auto">
+                      <strong class="font-bold text-base flex items-center text-gray-100">{{ group.key }}</strong>
+                      <a v-if="group.source.repo" :href="'https://github.com/' + group.source.repo" target="_blank" rel="noreferrer" @click.stop class="text-gray-100 hover:text-blue-500 transition-colors flex items-center justify-center w-8 h-8" aria-label="GitHub" title="GitHub">
+                        <i class="fa-brands fa-github text-2xl leading-none"></i>
+                      </a>
+                      <template v-if="group.source.version">
+                        <a v-if="releaseUrl(group.source)" :href="releaseUrl(group.source)" target="_blank" rel="noreferrer" @click.stop class="px-1.5 py-0.5 text-sm text-blue-400 bg-blue-500/10 border border-blue-500/20 rounded-full font-medium hover:bg-blue-500/20 hover:underline transition-colors">{{ group.source.version }}</a>
+                        <span v-else class="px-1.5 py-0.5 text-sm text-blue-400 bg-blue-500/10 border border-blue-500/20 rounded-full font-medium">{{ group.source.version }}</span>
+                      </template>
+                    </div>
+                    <div class="flex justify-center w-full md:w-auto md:justify-start">
+                      <a v-if="group.source.repo" :href="morpheUrl(group.source.repo)" target="_blank" rel="noreferrer" @click.stop class="px-1.5 py-0.5 text-sm text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-full font-medium hover:bg-emerald-500/20 hover:text-emerald-300 transition-colors">Add to Morphe</a>
+                    </div>
+                  </span>
+                  <span class="flex flex-wrap gap-2 text-xs text-gray-400 shrink-0 justify-start md:justify-end w-full md:w-auto">
+                    <span v-if="group.source.createdAt" class="px-2 py-1 bg-white/5 rounded-full border border-white/5">{{ formatDate(group.source.createdAt) }}</span>
+                    <span class="px-2 py-1 bg-white/5 rounded-full border border-white/5">{{ countBy(group.rows, r => r.packageName) }} apps</span>
+                    <span class="px-2 py-1 bg-white/5 rounded-full border border-white/5">{{ countBy(group.rows, r => r.patchId) }} patches</span>
+                  </span>
+                </summary>
+                
+                <div class="border-t border-gray-800 bg-gray-950/50">
+                  <div class="divide-y divide-gray-800">
+                    <div v-for="patch in group.patches" :key="patch.id" class="p-4 hover:bg-white/5 transition-colors" :class="{'cursor-pointer': patch.options.length}" @click="patch.options.length && toggleOptions(patch.id)">
+                      <div class="flex items-center justify-between gap-2">
+                        <div class="flex items-center gap-2">
+                          <strong class="font-semibold text-gray-300 text-sm">{{ patch.patchName }}</strong>
+                          <span v-if="!patch.enabled" class="px-1.5 py-0.5 text-[10px] text-red-400 bg-red-500/10 rounded-full font-bold inline-flex items-center">off</span>
+                        </div>
+                        <button v-if="patch.options.length" @click.stop="toggleOptions(patch.id)" class="text-gray-400 hover:text-white transition-colors px-2 py-1" aria-label="Toggle Options" :title="expandedOptions.has(patch.id) ? 'Hide options' : 'Show options'">
+                          <i class="fa-solid fa-chevron-down transition-transform" :class="{'rotate-180': expandedOptions.has(patch.id)}"></i>
+                        </button>
+                      </div>
+                      <p class="text-xs text-gray-500 mt-1 mb-3 max-w-3xl">{{ patch.description }}</p>
+                      
+                      <div class="flex flex-col gap-2">
+                        <div v-for="app in patch.apps" :key="app.id" class="flex flex-wrap items-center gap-2">
+                          <button v-if="app.packageName" @click.stop="togglePackage(app.id)" class="px-2 py-1 text-xs font-bold text-blue-400 bg-blue-500/10 border border-blue-500/20 rounded hover:bg-blue-500/20 transition-colors focus:outline-none">{{ app.appName }}</button>
+                          <span v-else class="px-2 py-1 text-xs font-bold text-gray-400 bg-gray-800 border border-gray-700 rounded">Universal</span>
+                          
+                          <a v-if="app.packageName && expandedPackages.has(app.id)" :href="playUrl(app.packageName)" target="_blank" rel="noreferrer" @click.stop class="px-2 py-1 text-[11px] font-mono text-blue-400 bg-blue-500/10 border border-blue-500/20 rounded hover:bg-blue-500/20 transition-colors shadow-sm">{{ app.packageName }}</a>
+                          
+                          <div class="flex flex-wrap gap-1 items-center ml-auto">
+                            <template v-if="app.versions && app.versions.length">
+                              <span class="px-1.5 py-0.5 text-[10px] text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-full font-mono font-bold">{{ app.versions[app.versions.length - 1] }}</span>
+                              <button v-if="app.versions.length > 1 && !expandedVersions.has(app.id)" @click.stop="toggleVersions(app.id)" class="px-1.5 py-0.5 text-[10px] text-blue-400 bg-blue-500/10 border border-blue-500/20 rounded-full font-mono font-bold hover:bg-blue-500/20 transition-colors">
+                                +{{ app.versions.length - 1 }}
+                              </button>
+                              <template v-if="expandedVersions.has(app.id)">
+                                <span v-for="v in [...app.versions].slice(0, -1).reverse()" :key="v" class="px-1.5 py-0.5 text-[10px] text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-full font-mono font-bold">{{ v }}</span>
+                                <button @click.stop="toggleVersions(app.id)" class="px-1.5 py-0.5 text-[10px] text-blue-400 bg-blue-500/10 border border-blue-500/20 rounded-full font-mono font-bold hover:bg-blue-500/20 transition-colors">
+                                  Less
+                                </button>
+                              </template>
+                            </template>
+                            <span v-else class="px-1.5 py-0.5 text-[10px] text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-full font-mono font-bold">All</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div v-if="expandedOptions.has(patch.id)" class="mt-4 p-3 bg-gray-900 border border-gray-800 rounded-lg flex flex-col gap-3">
+                        <div v-for="opt in patch.options" :key="opt.key" class="text-sm">
+                          <strong class="text-gray-300 block mb-1">{{ opt.title || opt.key }}</strong>
+                          <p class="text-xs text-gray-500">{{ opt.description }}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <!-- Apps View -->
-      <template v-else-if="view === 'apps'">
-        <div v-if="!appsGroups.length" class="grid min-h-[220px] place-items-center">
-          <div class="text-center p-8 bg-gray-900 border border-gray-800 rounded-lg max-w-lg w-full">
-            <h2 class="text-lg font-bold mb-2">No apps found</h2>
-            <p class="text-gray-400">Try changing the search, source, app, or channel filter.</p>
-          </div>
-        </div>
-        <div v-else class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          <article v-for="appGroup in appsGroups" :key="appGroup.packageName" @click="openModal(appGroup.packageName)" @keydown.enter.space.prevent="openModal(appGroup.packageName)" class="p-4 bg-gray-900 border border-gray-800 rounded-lg cursor-pointer hover:bg-gray-800 hover:border-blue-500 transition-colors focus:outline-none focus:border-blue-500" tabindex="0" role="button">
-            <h2 class="font-bold text-base">{{ appGroup.name }}</h2>
-            <div class="mt-3">
-              <a :href="playUrl(appGroup.packageName)" target="_blank" rel="noreferrer" @click.stop class="inline-block font-mono text-xs text-blue-400 break-all hover:underline transition-all">{{ appGroup.packageName }}</a>
-            </div>
-          </article>
-        </div>
-      </template>
-
-      <!-- Sources View -->
-      <template v-else>
-        <div v-if="!sourcesGroups.length" class="grid min-h-[220px] place-items-center">
-          <div class="text-center p-8 bg-gray-900 border border-gray-800 rounded-lg max-w-lg w-full">
-            <h2 class="text-lg font-bold mb-2">No patch sources found</h2>
-            <p class="text-gray-400">Try changing the search, source, app, or channel filter.</p>
-          </div>
-        </div>
-        <div v-else class="grid gap-4">
-          <details v-for="group in sourcesGroups" :key="group.key" :open="sourcesGroups.length === 1" class="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden group/source">
-            <summary class="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 p-4 cursor-pointer hover:bg-gray-800 transition-colors">
-              <span class="flex flex-wrap items-center gap-2 text-gray-400 shrink-0">
-                <strong class="font-bold text-base flex items-center text-gray-100">{{ group.key }}</strong>
-                <a v-if="group.source.repo" :href="'https://github.com/' + group.source.repo" target="_blank" rel="noreferrer" @click.stop class="text-gray-100 hover:text-blue-500 transition-colors flex items-center justify-center w-8 h-8" aria-label="GitHub" title="GitHub">
-                  <i class="fa-brands fa-github text-2xl leading-none"></i>
-                </a>
-                <template v-if="group.source.version">
-                  <a v-if="releaseUrl(group.source)" :href="releaseUrl(group.source)" target="_blank" rel="noreferrer" @click.stop class="px-2 py-1 text-sm text-blue-400 bg-blue-500/10 border border-blue-500/20 rounded-full font-medium hover:bg-blue-500/20 hover:underline transition-colors">{{ group.source.version }}</a>
-                  <span v-else class="px-2 py-1 text-sm text-blue-400 bg-blue-500/10 border border-blue-500/20 rounded-full font-medium">{{ group.source.version }}</span>
-                </template>
-                <a v-if="group.source.repo" :href="morpheUrl(group.source.repo)" target="_blank" rel="noreferrer" @click.stop class="px-2 py-1 text-sm text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-full font-medium hover:bg-emerald-500/20 hover:text-emerald-300 hover:underline transition-colors">Add to Morphe</a>
-              </span>
-              <span class="flex flex-wrap gap-2 text-xs text-gray-400 shrink-0">
-                <span v-if="group.source.createdAt" class="px-2 py-1 bg-white/5 rounded-full border border-white/5">{{ formatDate(group.source.createdAt) }}</span>
-                <span class="px-2 py-1 bg-white/5 rounded-full border border-white/5">{{ countBy(group.rows, r => r.patchId) }} patches</span>
-                <span class="px-2 py-1 bg-white/5 rounded-full border border-white/5">{{ countBy(group.rows, r => r.packageName) }} apps</span>
-              </span>
-            </summary>
-            
-            <div class="overflow-x-auto border-t border-gray-800 bg-gray-950/50">
-              <table class="w-full min-w-[680px] text-left text-sm border-collapse">
-                <thead class="text-gray-100 text-[10px] uppercase tracking-wider bg-gray-950/50">
-                  <tr>
-                    <th class="p-3 font-semibold border-t border-gray-800 align-top">Patch Name</th>
-                    <th class="p-3 font-semibold border-t border-gray-800 align-top">App</th>
-                    <th class="p-3 font-semibold border-t border-gray-800 align-top">Versions</th>
-                    <th class="p-3 font-semibold border-t border-gray-800 align-top">Describe</th>
-                  </tr>
-                </thead>
-                <tbody class="divide-y divide-gray-800">
-                  <tr v-for="row in group.rows" :key="row.id" class="hover:bg-white/5 transition-colors">
-                    <td class="p-3 align-top text-xs">
-                      <strong class="font-semibold text-gray-300">{{ row.patchName }}</strong>
-                      <span v-if="!row.enabled" class="px-1.5 py-0.5 text-[10px] text-red-400 bg-red-500/10 rounded-full font-bold ml-1 inline-flex items-center">off</span>
-                      <span v-if="row.optionCount" class="px-1.5 py-0.5 text-[10px] text-amber-400 bg-amber-500/10 rounded-full font-bold ml-1 inline-flex items-center">{{ row.optionCount }} opt</span>
-                    </td>
-                    <td class="p-3 align-top min-w-[190px] text-xs">
-                      <span v-if="!row.packageName" class="font-bold">Universal</span>
-                      <template v-else>
-                        <span class="block mb-0.5 font-bold">{{ row.appName }}</span>
-                        <a :href="playUrl(row.packageName)" target="_blank" rel="noreferrer" class="text-[11px] font-mono text-blue-400 hover:underline">{{ row.packageName }}</a>
-                      </template>
-                    </td>
-                    <td class="p-3 align-top text-xs whitespace-nowrap">
-                      <div class="flex flex-wrap gap-1">
-                        <template v-if="row.versions && row.versions.length">
-                          <span v-for="v in row.versions" :key="v" class="px-1.5 py-0.5 text-[10px] text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-full font-mono font-bold">{{ v }}</span>
-                        </template>
-                        <span v-else class="px-1.5 py-0.5 text-[10px] text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-full font-mono font-bold">All</span>
-                      </div>
-                    </td>
-                    <td class="p-3 align-top text-gray-400 text-xs max-w-[430px]">{{ row.description }}</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </details>
-        </div>
-      </template>
-        </div>
-      </Transition>
     </main>
-
-    <!-- App Modal -->
-    <div v-if="isModalOpen" class="fixed inset-0 z-50 flex items-start justify-center pt-[74px] px-2 pb-6 bg-black/70 backdrop-blur-sm" @click.self="closeModal">
-      <section v-if="modalData" class="w-full max-w-[920px] max-h-[calc(100vh-100px)] overflow-hidden bg-gray-900 border border-gray-800 rounded-lg shadow-2xl flex flex-col" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-        <header class="sticky top-0 z-10 flex items-start justify-between gap-3 p-4 bg-gray-900 border-b border-gray-800">
-          <div class="min-w-0">
-            <div class="flex items-center flex-wrap gap-2">
-              <h2 id="modalTitle" class="m-0 text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">{{ modalData.appName }}</h2>
-              <span class="flex flex-wrap gap-2 text-xs text-gray-400 shrink-0">
-                <span class="px-2 py-1 bg-white/5 rounded-full border border-white/5">{{ modalData.stats.sources }} sources</span>
-                <span class="px-2 py-1 bg-white/5 rounded-full border border-white/5">{{ modalData.stats.patches }} patches</span>
-              </span>
-            </div>
-            <a :href="playUrl(modalData.packageName)" target="_blank" rel="noreferrer" class="text-blue-400 font-mono text-[11px] hover:underline mt-1 inline-block">{{ modalData.packageName }}</a>
-          </div>
-          <button @click="closeModal" class="shrink-0 w-8 h-8 flex items-center justify-center bg-gray-800 border border-gray-700 rounded-md hover:text-blue-500 hover:border-blue-500 transition-colors focus:outline-none" aria-label="Close">
-            <i class="fa-solid fa-xmark"></i>
-          </button>
-        </header>
-        
-        <div class="py-2 md:py-4 overflow-y-auto no-scrollbar bg-gray-950 flex-1">
-          <div class="flex flex-col gap-3">
-            <details v-for="group in modalData.groups" :key="group.key" :open="modalData.groups.length === 1" class="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden group/source">
-              <summary class="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 p-4 cursor-pointer hover:bg-gray-800 transition-colors">
-                <span class="flex flex-wrap items-center gap-2 text-gray-400 shrink-0">
-                  <strong class="font-bold text-base flex items-center text-gray-100">{{ group.key }}</strong>
-                  <a v-if="group.source.repo" :href="'https://github.com/' + group.source.repo" target="_blank" rel="noreferrer" @click.stop class="text-gray-100 hover:text-blue-500 transition-colors flex items-center justify-center w-8 h-8" aria-label="GitHub" title="GitHub">
-                    <i class="fa-brands fa-github text-2xl leading-none"></i>
-                  </a>
-                  <template v-if="group.source.version">
-                    <a v-if="releaseUrl(group.source)" :href="releaseUrl(group.source)" target="_blank" rel="noreferrer" @click.stop class="px-2 py-1 text-sm text-blue-400 bg-blue-500/10 border border-blue-500/20 rounded-full font-medium hover:bg-blue-500/20 hover:underline transition-colors">{{ group.source.version }}</a>
-                    <span v-else class="px-2 py-1 text-sm text-blue-400 bg-blue-500/10 border border-blue-500/20 rounded-full font-medium">{{ group.source.version }}</span>
-                  </template>
-                  <a v-if="group.source.repo" :href="morpheUrl(group.source.repo)" target="_blank" rel="noreferrer" @click.stop class="px-2 py-1 text-sm text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-full font-medium hover:bg-emerald-500/20 hover:text-emerald-300 hover:underline transition-colors">Add to Morphe</a>
-                </span>
-                <span class="flex flex-wrap gap-2 text-xs text-gray-400 shrink-0">
-                  <span v-if="group.source.createdAt" class="px-2 py-1 bg-white/5 rounded-full border border-white/5">{{ formatDate(group.source.createdAt) }}</span>
-                  <span class="px-2 py-1 bg-white/5 rounded-full border border-white/5">{{ countBy(group.rows, r => r.patchId) }} patches</span>
-                </span>
-              </summary>
-              
-              <div class="overflow-x-auto border-t border-gray-800 bg-gray-950/50">
-                <table class="w-full min-w-[500px] text-left text-sm border-collapse">
-                  <thead class="text-gray-100 text-[10px] uppercase tracking-wider bg-gray-950/50">
-                    <tr>
-                      <th class="p-3 font-semibold border-t border-gray-800 align-top">Patch Name</th>
-                      <th class="p-3 font-semibold border-t border-gray-800 align-top">Versions</th>
-                      <th class="p-3 font-semibold border-t border-gray-800 align-top">Describe</th>
-                    </tr>
-                  </thead>
-                  <tbody class="divide-y divide-gray-800">
-                    <tr v-for="row in group.rows" :key="row.id" class="hover:bg-white/5 transition-colors">
-                      <td class="p-3 align-top text-xs">
-                        <strong class="font-semibold text-gray-300">{{ row.patchName }}</strong>
-                        <span v-if="!row.enabled" class="px-1.5 py-0.5 text-[10px] text-red-400 bg-red-500/10 rounded-full font-bold ml-1 inline-flex items-center">off</span>
-                        <span v-if="row.optionCount" class="px-1.5 py-0.5 text-[10px] text-amber-400 bg-amber-500/10 rounded-full font-bold ml-1 inline-flex items-center">{{ row.optionCount }} opt</span>
-                      </td>
-                      <td class="p-3 align-top text-xs whitespace-nowrap">
-                        <div class="flex flex-wrap gap-1">
-                          <template v-if="row.versions && row.versions.length">
-                            <span v-for="v in row.versions" :key="v" class="px-1.5 py-0.5 text-[10px] text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-full font-mono font-bold">{{ v }}</span>
-                          </template>
-                          <span v-else class="px-1.5 py-0.5 text-[10px] text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-full font-mono font-bold">All</span>
-                        </div>
-                      </td>
-                      <td class="p-3 align-top text-gray-400 text-xs max-w-[430px]">{{ row.description }}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </details>
-          </div>
-        </div>
-      </section>
-    </div>
   </div>
   <script type="module" src="src/main.js"></script>
 </body>
