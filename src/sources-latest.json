@@ -259,10 +259,11 @@
   },
   "paresh-maheshwari": {
     "repo": "Paresh-Maheshwari/paresh-patches",
-    "tag": "v1.15.0",
-    "created_at": "2026-04-29T18:17:45",
+    "tag": "v1.4.0-dev.43",
+    "created_at": "2026-05-04T18:23:27",
     "apps": [
       "ch.protonvpn.android",
+      "com.arlosoft.macrodroid",
       "com.cv.docscanner",
       "com.eyecon.global",
       "com.frontrow.vlog",
@@ -272,6 +273,7 @@
       "com.ticktick.task",
       "com.truecaller",
       "in.cricketexchange.app.cricketexchange",
+      "in.startv.hotstar",
       "org.telegram.messenger.web"
     ]
   },
