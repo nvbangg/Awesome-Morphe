@@ -32,6 +32,14 @@
       "com.example.app"
     ]
   },
+  "ameenalasady": {
+    "repo": "ameenalasady/photogrid-morphe",
+    "tag": "v1.0.1",
+    "created_at": "2026-05-04T02:09:19",
+    "apps": [
+      "com.roidapp.photogrid"
+    ]
+  },
   "amplerevanced": {
     "repo": "AmpleReVanced/revanced-patches",
     "tag": "v1.0.0-dev.28",
@@ -121,6 +129,12 @@
       "fr.chargeprice.app",
       "fr.tramb.park4night"
     ]
+  },
+  "cryptomator": {
+    "repo": "joganubaid/cryptomator-morphe-patches",
+    "tag": "v1.0.3",
+    "created_at": "2026-05-04T18:12:18",
+    "apps": []
   },
   "docbt": {
     "repo": "docbt/patched-up",
@@ -236,6 +250,14 @@
     "created_at": "2026-04-30T21:44:02",
     "apps": [
       "com.google.android.apps.youtube.music",
+      "com.google.android.youtube"
+    ]
+  },
+  "lynx6319": {
+    "repo": "Lynx6319/patch-youtube-scroll-block",
+    "tag": "v1.0.5",
+    "created_at": "2026-05-04T11:16:24",
+    "apps": [
       "com.google.android.youtube"
     ]
   },
