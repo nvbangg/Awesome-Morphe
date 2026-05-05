@@ -225,8 +225,8 @@
   },
   "lynx6319": {
     "repo": "Lynx6319/patch-youtube-scroll-block",
-    "tag": "v1.0.6",
-    "created_at": "2026-05-05T05:37:03",
+    "tag": "v1.0.8",
+    "created_at": "2026-05-05T14:52:24",
     "apps": [
       "com.google.android.youtube"
     ]
