@@ -155,8 +155,8 @@
   },
   "hoo-dles": {
     "repo": "hoo-dles/morphe-patches",
-    "tag": "v1.29.1-dev.1",
-    "created_at": "2026-05-02T18:44:48",
+    "tag": "v1.29.1-dev.2",
+    "created_at": "2026-05-05T16:41:31",
     "apps": [
       "app.ttmikstories.android",
       "ch.protonvpn.android",
@@ -271,8 +271,8 @@
   },
   "morphe": {
     "repo": "MorpheApp/morphe-patches",
-    "tag": "v1.26.0-dev.4",
-    "created_at": "2026-05-05T12:42:45",
+    "tag": "v1.26.0",
+    "created_at": "2026-05-05T19:36:51",
     "apps": [
       "com.google.android.apps.youtube.music",
       "com.google.android.youtube",
@@ -281,11 +281,10 @@
   },
   "paresh-maheshwari": {
     "repo": "Paresh-Maheshwari/paresh-patches",
-    "tag": "v1.4.0-dev.43",
-    "created_at": "2026-05-04T18:23:27",
+    "tag": "v1.16.0",
+    "created_at": "2026-05-05T17:55:41",
     "apps": [
       "ch.protonvpn.android",
-      "com.arlosoft.macrodroid",
       "com.cv.docscanner",
       "com.eyecon.global",
       "com.frontrow.vlog",
@@ -326,8 +325,8 @@
   },
   "piko": {
     "repo": "crimera/piko",
-    "tag": "v3.3.0-dev.3",
-    "created_at": "2026-04-26T18:07:42",
+    "tag": "v3.3.0-dev.4",
+    "created_at": "2026-05-05T18:15:10",
     "apps": [
       "com.instagram.android",
       "com.twitter.android"

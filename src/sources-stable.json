@@ -241,8 +241,8 @@
   },
   "morphe": {
     "repo": "MorpheApp/morphe-patches",
-    "tag": "v1.25.0",
-    "created_at": "2026-05-02T09:06:35",
+    "tag": "v1.26.0",
+    "created_at": "2026-05-05T19:36:51",
     "apps": [
       "com.google.android.apps.youtube.music",
       "com.google.android.youtube",
@@ -251,8 +251,8 @@
   },
   "paresh-maheshwari": {
     "repo": "Paresh-Maheshwari/paresh-patches",
-    "tag": "v1.15.0",
-    "created_at": "2026-04-29T18:17:45",
+    "tag": "v1.16.0",
+    "created_at": "2026-05-05T17:55:41",
     "apps": [
       "ch.protonvpn.android",
       "com.cv.docscanner",
@@ -264,6 +264,7 @@
       "com.ticktick.task",
       "com.truecaller",
       "in.cricketexchange.app.cricketexchange",
+      "in.startv.hotstar",
       "org.telegram.messenger.web"
     ]
   },
