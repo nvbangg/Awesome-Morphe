@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "e117c13c861ed6446be7c259559747b3043fd21e",
+  "jman_tree_sha": "0118efb39411677d4a171dd6a0d1a0f55b3cf31b",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -74,7 +74,7 @@
       "key": "https://github.com/ameenalasady/photogrid-morphe"
     },
     "amplerevanced": {
-      "sha": "fff6821f3219f38dbf0c607805f803356b3585d1",
+      "sha": "ac4952434f9f30de27153797b897c08904924487",
       "key": "https://github.com/AmpleReVanced/revanced-patches"
     },
     "anddea": {
@@ -406,7 +406,7 @@
       "key": "https://github.com/humzakh/HK-Morphe-Patches"
     },
     "hoo-dles": {
-      "sha": "10838eca550f705b8c21e35f3e8cc4cd1cb469b7",
+      "sha": "a1299fbe13982d500d55f46ca13b316b93a60374",
       "key": "https://github.com/hoo-dles/morphe-patches"
     },
     "hoomans-morphe": {
@@ -418,7 +418,7 @@
       "key": "https://github.com/hu-liberator/patches"
     },
     "hushfeed": {
-      "sha": "cc654ff5885dc56032cee926839da5e5c4468842",
+      "sha": "4d813a8d79108ff0a558008b014756de587f005a",
       "key": "https://github.com/SysAdminDoc/hushfeed"
     },
     "hxreborn": {
@@ -666,7 +666,7 @@
       "key": "https://github.com/liongalahad/liongalahad-nuviotv-morphe-patches"
     },
     "okish-morphe": {
-      "sha": "3f8f388fba07ee35530f4ac7e3b3caf7cbc94bcb",
+      "sha": "e73fd4321ec094f2c12ce97f968abb1019dff314",
       "key": "https://github.com/byehi98/okish-morphe-patches"
     },
     "paresh-maheshwari": {
@@ -698,7 +698,7 @@
       "key": "https://github.com/alejandrobellver/pichiwa-patches"
     },
     "piko": {
-      "sha": "1c8e3247c02a93274d25b8f7f8800349ef152081",
+      "sha": "021cf14492123601b46d2e26ea6b51f2f4a2f1a7",
       "key": "https://github.com/crimera/piko"
     },
     "piko-shim": {
@@ -866,7 +866,7 @@
       "key": "https://github.com/HSlightsteel/slight-patches"
     },
     "smartlauncher": {
-      "sha": "5ac461a8d01a18df085751f8d72724cce54c38bb",
+      "sha": "c602a686712e5a83ef6efe640342d6e45da3d9cf",
       "key": "https://github.com/thejaustin/smartlauncher-morphe-patches"
     },
     "sofatime": {
