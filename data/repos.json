@@ -28,14 +28,14 @@
   "ajstrick81/morphe-androidtv-patches": {
     "name": "ajstrick81 Patches",
     "github": {
-      "main": "6f472bf23a18f0cb0cd461cea8111aa43987c79fdd16c6c3e58af15ed50cc880",
+      "main": "5ff3b51775f3cae24f87c7ede9c80db7db56dde38c3860eee71791023efdcfe8",
       "dev": "453c25fc9185a1b513ee1570d237bc3fb602c9f7a00c927e60e72e845ea39feb"
     }
   },
   "alalloush/xperia-1v-camera-patches": {
     "name": "alalloush Xperia 1 V camera patches",
     "github": {
-      "main": "3fcf238efd4c7c2ebb12ed66c459737afe357b1d10ff0b98e3d363525ed912ab",
+      "main": "8302ab503dc16e070978e4fe75ffeebfddda19e806afeb7940a66d964f328f9c",
       "dev": null
     }
   },
@@ -238,7 +238,7 @@
     "name": "BlazeFTL Patches",
     "github": {
       "main": "fd47c89bb324242f8062c1b02cc7c150514b57b82455df562cf7ff91c2102c4f",
-      "dev": "d2eb4f60ffe38f98639a8d1c3321e4096c2631c95a21c41eb4e4ae76b3bbb0bb"
+      "dev": "d268ebe45bc686806c0030ded283707be6c6d128368f217e80caf0cf2957c59a"
     }
   },
   "BlazeFTL/Morphe-Portal-Patches-New": {
@@ -667,7 +667,7 @@
   "hxreborn/morphe-patches": {
     "name": "hxreborn Patches",
     "github": {
-      "main": "12d965d9fd64ed2b6d9c4dde53aeb01ab55e7308d02abbeda663716a7b9aaa40",
+      "main": "235be7e50b2496c19e48a538f283120b07d7f0c0f991873bb3386d767ccbe871",
       "dev": "c06609257f477ea22d955886f776eace23bb3e14363e1df74f537d03e5415cd3"
     }
   },
@@ -913,7 +913,7 @@
   "legendsciber/morphe-patches": {
     "name": "legendsciber's Patches",
     "github": {
-      "main": "d157525eedf1729257cc78b528aabb7a1a7ae84ef70071c88c8ece4e78766d5a",
+      "main": "dbd78fe3b4dca961d8e99656d148ae01e76280de37b446a060d6154a0c9ed32f",
       "dev": null
     }
   },
@@ -985,7 +985,7 @@
   "MiguelNinja19/miguel-morphe-patches": {
     "github": {
       "main": "c308358c3a09bd1d908f3f3cecab58e7ef19a26c2adab3959284fc70373e12f7",
-      "dev": "c5020135cad1cdaa2154cbabbe5a4497ec3ef6ac9b0bf03619f413867fb728bf"
+      "dev": "566c45f447060db93222cdf6ac9940025a187764030d3b523c208bdd1970afe1"
     }
   },
   "MoonShadowKeeper/Telegram-patchesMorphe": {
@@ -1020,7 +1020,7 @@
   "Nai64/Nai64Patches": {
     "name": "Nai's Patches",
     "github": {
-      "main": "4e16b25852d16b81dda2305bda93fb88376c3f3c7ea2ad0ed2ebecbac964b0bb",
+      "main": "c5f7a2daa6c3e090f7bffbf415f0622211285604c69d5bb95d230a80acb8a6f4",
       "dev": null
     }
   },
@@ -1028,7 +1028,7 @@
     "name": "Gryphou's Morphe Patches",
     "github": {
       "main": "a561bc01c9998fc3e1447f51805f68a0568e40f1ee7b682087b11b46cfffe55a",
-      "dev": "a561bc01c9998fc3e1447f51805f68a0568e40f1ee7b682087b11b46cfffe55a"
+      "dev": "fa4b0add621aca399150ca7b6062a379e7077372b394a66e267ea8b940145af9"
     }
   },
   "nosini/disable-shorts-repeat": {
@@ -1465,10 +1465,10 @@
     }
   },
   "Zanuaimi/UniPatches": {
-    "name": "Zanuaimi's Morphe UniPatches",
+    "name": "Zanuaimi's UniPatches",
     "github": {
-      "main": "2de0287c78a2331bc9dd0d215ffcfefab9c8005a5963456d2436a35879d723e7",
-      "dev": "2de0287c78a2331bc9dd0d215ffcfefab9c8005a5963456d2436a35879d723e7",
+      "main": "e6a7c8021bd63d2931018c1e229d18bb13c8cdba7ca252ef0e7107df59aee03f",
+      "dev": "e6a7c8021bd63d2931018c1e229d18bb13c8cdba7ca252ef0e7107df59aee03f",
       "image": "d6033284f266e11ce96e3c2b4eb7a147f0a977ca25dca1d09bab05319dab5907"
     }
   }

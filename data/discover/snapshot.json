@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "dda1cc60256ec73f940416fce1c0fd219ccf0a16",
+  "jman_tree_sha": "a4b5cba04c304d32e90568ade619089ba831469f",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -86,7 +86,7 @@
       "key": "https://github.com/wchill/anddea-rvx-morphed"
     },
     "andrewliang25": {
-      "sha": "d68e0acf79cf4e9368df3e151b9a03f88d3d0d04",
+      "sha": "c484636c3ec574110bbf1b3b01b648821f75d41c",
       "key": "https://github.com/andrewliang25/morphe-patches"
     },
     "andronedev": {
@@ -290,7 +290,7 @@
       "key": null
     },
     "dual-vot": {
-      "sha": "d9286f67695cdf5461a83b3ae7e7c11a79e4c47e",
+      "sha": "aa3f6e716a75ec8aea0ef783a30da0bc39848dc3",
       "key": "https://github.com/sashade8-ship-it/dual-vot-patches"
     },
     "dumketo": {
@@ -562,7 +562,7 @@
       "key": null
     },
     "legendsciber": {
-      "sha": "701b7061e8ce232b3addded386ebaf9d0ba99ed8",
+      "sha": "637b4a60fe57ed94fc0cc3e1be7c170273fabac0",
       "key": "https://github.com/legendsciber/morphe-patches"
     },
     "lennyRBLX": {
@@ -606,7 +606,7 @@
       "key": "https://github.com/meridianfresco/morphe-meta-patches"
     },
     "miguel": {
-      "sha": "29aed54b3749500cccf3efc159551883ecb5d7b7",
+      "sha": "35db84c652483addd7d3671d5b362d353e292fe7",
       "key": "https://github.com/MiguelNinja19/miguel-morphe-patches"
     },
     "mojirs-rif": {
@@ -618,7 +618,7 @@
       "key": "https://github.com/Entree3k/Morning-Entree-Patches"
     },
     "morphe": {
-      "sha": "d2714beccd007b79c848050859a906a2a9beca89",
+      "sha": "fc2862f8088f1dd07cce17f1c68460bc88d09859",
       "key": "https://github.com/MorpheApp/morphe-patches"
     },
     "morphe-google": {
@@ -866,7 +866,7 @@
       "key": "https://github.com/HSlightsteel/slight-patches"
     },
     "smartlauncher": {
-      "sha": "191de6ee2d500b43daa8a4198f3be143f632e1d8",
+      "sha": "821ec099c67f5c85277104822bc7deaedcc6cc90",
       "key": "https://github.com/thejaustin/smartlauncher-morphe-patches"
     },
     "sofatime": {
@@ -878,7 +878,7 @@
       "key": "https://github.com/spookyexe/morphe-patches"
     },
     "steamlink": {
-      "sha": "4b05fcc65058162d32de5d14f44f08719fc507a8",
+      "sha": "0853d30bcb9d7201a7fd85fe9d9c5c91279f5908",
       "key": "https://github.com/AngelDark92/steamlink-patches"
     },
     "stremio-androidtv": {
@@ -922,7 +922,7 @@
       "key": null
     },
     "unipatches": {
-      "sha": "d2073dbed7d8659485f7aff26353d5521e15ba3c",
+      "sha": "0b8a99b7765fee28b9b4c7308686c1c60231a1d7",
       "key": "https://github.com/Zanuaimi/UniPatches"
     },
     "v4n1x": {

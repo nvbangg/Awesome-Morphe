@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.1.0",
+  "version": "1.2.0-dev.1",
   "patches": [
     {
       "name": "Disable login location requirement",
@@ -55,6 +55,32 @@
       "options": []
     },
     {
+      "name": "Disable review request dialog",
+      "description": "Prevents De'Longhi Comfort from asking to rate the app.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.ddsx_ayla_android",
+          "name": "De'Longhi Comfort",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#006B52",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "5.1.5",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
       "name": "Enable Picture-in-Picture",
       "description": "Enables automatic Android Picture-in-Picture when leaving Crunchyroll playback.",
       "default": true,
@@ -85,6 +111,32 @@
     {
       "name": "Hide shared-devices incident popup",
       "description": "Prevents the GetReceivedShares-003 incident popup from appearing.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.ddsx_ayla_android",
+          "name": "De'Longhi Comfort",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#006B52",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "5.1.5",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Restore AC controls on return",
+      "description": "Restores the selected air conditioner and reloads its controls when returning to De'Longhi Comfort.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [

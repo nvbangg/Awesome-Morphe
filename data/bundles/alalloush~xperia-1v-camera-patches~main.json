@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-05T11:24:24",
-  "description": "## 1.0.0 (2026-09-05)\n\n### ✨ New Features\n\n* Xperia 1 V camera patches ([824a9e3](https://github.com/alalloush/xperia-1v-camera-patches/commit/824a9e3acb02d345415be120a3fd65b04424f2d8))",
-  "download_url": "https://github.com/alalloush/xperia-1v-camera-patches/releases/download/v1.0.0/patches-1.0.0.mpp",
+  "created_at": "2026-09-07T20:28:24",
+  "description": "## [1.1.1](https://github.com/alalloush/xperia-1v-camera-patches/compare/v1.1.0...v1.1.1) (2026-09-07)\n\n### 🐛 Bug Fixes\n\n* Select the raw H.264 transport by stream key \"raw\" (Sony validates the URL scheme) ([b99f1eb](https://github.com/alalloush/xperia-1v-camera-patches/commit/b99f1eb9cd7634dfdca3b4f865739e773e22a3a9))",
+  "download_url": "https://github.com/alalloush/xperia-1v-camera-patches/releases/download/v1.1.1/patches-1.1.1.mpp",
   "signature_download_url": "",
-  "version": "1.0.0"
+  "version": "1.1.1"
 }

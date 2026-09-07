@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.14.1",
+  "version": "1.15.0",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -106,11 +106,30 @@
           "description": null,
           "apkFileType": "APK",
           "appIconColor": "#6D4AFF",
-          "signatures": null,
+          "signatures": [
+            "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+          ],
           "targets": [
             {
-              "version": null,
-              "versionCodes": null,
+              "version": "7.11.5",
+              "versionCodes": {
+                "ARM64_V8A": 18317,
+                "ARMEABI_V7A": 18317,
+                "X86_64": 18317,
+                "X86": 18317
+              },
+              "isExperimental": false,
+              "minSdk": 29,
+              "description": null
+            },
+            {
+              "version": "7.10.4",
+              "versionCodes": {
+                "ARM64_V8A": 17667,
+                "ARMEABI_V7A": 17667,
+                "X86_64": 17667,
+                "X86": 17667
+              },
               "isExperimental": false,
               "minSdk": 29,
               "description": null
@@ -139,6 +158,39 @@
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Bypass integrity check",
+      "description": "Loads the reciter catalogue on a patched install.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.mchutov.Quranify",
+          "name": "Quranify",
+          "description": null,
+          "apkFileType": "APKS",
+          "appIconColor": "#141414",
+          "signatures": [
+            "6832f51be89158c630aa9a166c10781f2f68fc3bf1ef1e776e4fa2c218f0010d"
+          ],
+          "targets": [
+            {
+              "version": "2.2.8",
+              "versionCodes": {
+                "ARM64_V8A": 77,
+                "ARMEABI_V7A": 77,
+                "X86_64": 77,
+                "X86": 77
+              },
+              "isExperimental": false,
+              "minSdk": 33,
               "description": null
             }
           ]
@@ -343,7 +395,9 @@
           "description": null,
           "apkFileType": "APKS_REQUIRED",
           "appIconColor": "#FA2A80",
-          "signatures": null,
+          "signatures": [
+            "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+          ],
           "targets": [
             {
               "version": "1.791.265",
@@ -424,6 +478,7 @@
       "description": "Hides the top-bar upgrade button and promotional sidebar rows.",
       "default": true,
       "dependencies": [
+        "ResourcePatch",
         "ResourcePatch"
       ],
       "compatiblePackages": [
@@ -433,11 +488,30 @@
           "description": null,
           "apkFileType": "APK",
           "appIconColor": "#6D4AFF",
-          "signatures": null,
+          "signatures": [
+            "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+          ],
           "targets": [
             {
-              "version": null,
-              "versionCodes": null,
+              "version": "7.11.5",
+              "versionCodes": {
+                "ARM64_V8A": 18317,
+                "ARMEABI_V7A": 18317,
+                "X86_64": 18317,
+                "X86": 18317
+              },
+              "isExperimental": false,
+              "minSdk": 29,
+              "description": null
+            },
+            {
+              "version": "7.10.4",
+              "versionCodes": {
+                "ARM64_V8A": 17667,
+                "ARMEABI_V7A": 17667,
+                "X86_64": 17667,
+                "X86": 17667
+              },
               "isExperimental": false,
               "minSdk": 29,
               "description": null
@@ -461,7 +535,9 @@
           "description": null,
           "apkFileType": "APKS_REQUIRED",
           "appIconColor": "#FA2A80",
-          "signatures": null,
+          "signatures": [
+            "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+          ],
           "targets": [
             {
               "version": "1.791.265",
@@ -518,11 +594,30 @@
           "description": null,
           "apkFileType": "APK",
           "appIconColor": "#6D4AFF",
-          "signatures": null,
+          "signatures": [
+            "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+          ],
           "targets": [
             {
-              "version": null,
-              "versionCodes": null,
+              "version": "7.11.5",
+              "versionCodes": {
+                "ARM64_V8A": 18317,
+                "ARMEABI_V7A": 18317,
+                "X86_64": 18317,
+                "X86": 18317
+              },
+              "isExperimental": false,
+              "minSdk": 29,
+              "description": null
+            },
+            {
+              "version": "7.10.4",
+              "versionCodes": {
+                "ARM64_V8A": 17667,
+                "ARMEABI_V7A": 17667,
+                "X86_64": 17667,
+                "X86": 17667
+              },
               "isExperimental": false,
               "minSdk": 29,
               "description": null
@@ -544,8 +639,22 @@
           "description": null,
           "apkFileType": "APK",
           "appIconColor": "#6D4AFF",
-          "signatures": null,
+          "signatures": [
+            "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+          ],
           "targets": [
+            {
+              "version": "7.11.5",
+              "versionCodes": {
+                "ARM64_V8A": 18317,
+                "ARMEABI_V7A": 18317,
+                "X86_64": 18317,
+                "X86": 18317
+              },
+              "isExperimental": false,
+              "minSdk": 29,
+              "description": null
+            },
             {
               "version": "7.10.4",
               "versionCodes": {
@@ -629,10 +738,34 @@
     },
     {
       "name": "Remove pairip protection",
-      "description": "Removes the Play Integrity license check.",
+      "description": "Removes the Play licensing check that sends a patched install to Google Play.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [
+        {
+          "packageName": "com.mchutov.Quranify",
+          "name": "Quranify",
+          "description": null,
+          "apkFileType": "APKS",
+          "appIconColor": "#141414",
+          "signatures": [
+            "6832f51be89158c630aa9a166c10781f2f68fc3bf1ef1e776e4fa2c218f0010d"
+          ],
+          "targets": [
+            {
+              "version": "2.2.8",
+              "versionCodes": {
+                "ARM64_V8A": 77,
+                "ARMEABI_V7A": 77,
+                "X86_64": 77,
+                "X86": 77
+              },
+              "isExperimental": false,
+              "minSdk": 33,
+              "description": null
+            }
+          ]
+        },
         {
           "packageName": "com.sry.rateglance",
           "name": "RateGlance",
@@ -667,7 +800,9 @@
           "description": null,
           "apkFileType": "APKS_REQUIRED",
           "appIconColor": "#FA2A80",
-          "signatures": null,
+          "signatures": [
+            "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+          ],
           "targets": [
             {
               "version": "1.791.265",
@@ -700,7 +835,9 @@
           "description": null,
           "apkFileType": "APKS_REQUIRED",
           "appIconColor": "#FA2A80",
-          "signatures": null,
+          "signatures": [
+            "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+          ],
           "targets": [
             {
               "version": "1.791.265",
@@ -733,7 +870,9 @@
           "description": null,
           "apkFileType": "APKS_REQUIRED",
           "appIconColor": "#FA2A80",
-          "signatures": null,
+          "signatures": [
+            "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+          ],
           "targets": [
             {
               "version": "1.791.265",
@@ -764,7 +903,9 @@
           "description": null,
           "apkFileType": "APKS_REQUIRED",
           "appIconColor": "#FA2A80",
-          "signatures": null,
+          "signatures": [
+            "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+          ],
           "targets": [
             {
               "version": "1.791.265",
@@ -795,11 +936,30 @@
           "description": null,
           "apkFileType": "APK",
           "appIconColor": "#6D4AFF",
-          "signatures": null,
+          "signatures": [
+            "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+          ],
           "targets": [
             {
-              "version": null,
-              "versionCodes": null,
+              "version": "7.11.5",
+              "versionCodes": {
+                "ARM64_V8A": 18317,
+                "ARMEABI_V7A": 18317,
+                "X86_64": 18317,
+                "X86": 18317
+              },
+              "isExperimental": false,
+              "minSdk": 29,
+              "description": null
+            },
+            {
+              "version": "7.10.4",
+              "versionCodes": {
+                "ARM64_V8A": 17667,
+                "ARMEABI_V7A": 17667,
+                "X86_64": 17667,
+                "X86": 17667
+              },
               "isExperimental": false,
               "minSdk": 29,
               "description": null
@@ -821,11 +981,30 @@
           "description": null,
           "apkFileType": "APK",
           "appIconColor": "#6D4AFF",
-          "signatures": null,
+          "signatures": [
+            "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
+          ],
           "targets": [
             {
-              "version": null,
-              "versionCodes": null,
+              "version": "7.11.5",
+              "versionCodes": {
+                "ARM64_V8A": 18317,
+                "ARMEABI_V7A": 18317,
+                "X86_64": 18317,
+                "X86": 18317
+              },
+              "isExperimental": false,
+              "minSdk": 29,
+              "description": null
+            },
+            {
+              "version": "7.10.4",
+              "versionCodes": {
+                "ARM64_V8A": 17667,
+                "ARMEABI_V7A": 17667,
+                "X86_64": 17667,
+                "X86": 17667
+              },
               "isExperimental": false,
               "minSdk": 29,
               "description": null
@@ -967,7 +1146,9 @@
           "description": null,
           "apkFileType": "APKS_REQUIRED",
           "appIconColor": "#FA2A80",
-          "signatures": null,
+          "signatures": [
+            "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
+          ],
           "targets": [
             {
               "version": "1.791.265",
@@ -1005,6 +1186,39 @@
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock premium",
+      "description": "Unlocks downloading every surah, lyrics and tafsir, Android Auto, background playback controls, and insights.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.mchutov.Quranify",
+          "name": "Quranify",
+          "description": null,
+          "apkFileType": "APKS",
+          "appIconColor": "#141414",
+          "signatures": [
+            "6832f51be89158c630aa9a166c10781f2f68fc3bf1ef1e776e4fa2c218f0010d"
+          ],
+          "targets": [
+            {
+              "version": "2.2.8",
+              "versionCodes": {
+                "ARM64_V8A": 77,
+                "ARMEABI_V7A": 77,
+                "X86_64": 77,
+                "X86": 77
+              },
+              "isExperimental": false,
+              "minSdk": 33,
               "description": null
             }
           ]

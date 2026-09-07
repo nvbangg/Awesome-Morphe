@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-07T14:28:13",
-  "description": "## [1.14.0-dev.10](https://github.com/MiguelNinja19/miguel-morphe-patches/compare/v1.14.0-dev.9...v1.14.0-dev.10) (2026-09-07)\n\n### ✨ New Features\n\n* **Lara Croft: Guardian of Light:** add unlock full game patch (TBYB + LVL bypass) ([4876fc3](https://github.com/MiguelNinja19/miguel-morphe-patches/commit/4876fc3aac96173c78b7ebc4831d1fa4848106d7))",
-  "download_url": "https://github.com/MiguelNinja19/miguel-morphe-patches/releases/download/v1.14.0-dev.10/patches-1.14.0-dev.10.mpp",
+  "created_at": "2026-09-07T16:30:47",
+  "description": "## [1.14.0-dev.11](https://github.com/MiguelNinja19/miguel-morphe-patches/compare/v1.14.0-dev.10...v1.14.0-dev.11) (2026-09-07)\n\n### ✨ New Features\n\n* **Duck Life 6: Space:** add unlock full game patch (billing entitlements) ([51c22ef](https://github.com/MiguelNinja19/miguel-morphe-patches/commit/51c22ef7ce33fa4f3292da8dbaa8d41f1bd8b4f2))",
+  "download_url": "https://github.com/MiguelNinja19/miguel-morphe-patches/releases/download/v1.14.0-dev.11/patches-1.14.0-dev.11.mpp",
   "signature_download_url": "",
-  "version": "1.14.0-dev.10"
+  "version": "1.14.0-dev.11"
 }

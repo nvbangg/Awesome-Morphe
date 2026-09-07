@@ -1,10 +1,50 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "patches": [
     {
       "name": "Camera common visibility",
       "description": "Lets the camera app see and use com.sonymobile.cameracommon (camera status provider, gyro calibration) when both are sideloaded: adds the <queries> entry and declares the CAMERA_STATUS_PROVIDER and CAMERA_ADDON permissions.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "jp.co.sony.mc.cameraapp",
+          "name": "Sony Camera",
+          "description": "Xperia 1 VI/VII camera app. Download the arm64-v8a nodpi APK from APKMirror: https://www.apkmirror.com/apk/sony-mobile-communications/sony-camera-3/",
+          "apkFileType": "APK",
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.0.2.A.0.8",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": 35,
+              "description": null
+            },
+            {
+              "version": "1.0.2.A.0.6",
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": 35,
+              "description": null
+            },
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Raw H.264 stream",
+      "description": "Adds a low-latency transport to Live streaming: use stream key \"raw\" and the encoded H.264 is sent straight to the host:port of the RTMP URL as a plain TCP stream instead of RTMP (wired: rtmp://127.0.0.1:6970 with adb reverse tcp:6970; wireless: rtmp://<pc-ip>:6970). Receive with gst-launch-1.0 tcpserversrc port=6970 ! h264parse ! avdec_h264 ! ... Video only.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [
