@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "0118efb39411677d4a171dd6a0d1a0f55b3cf31b",
+  "jman_tree_sha": "dda1cc60256ec73f940416fce1c0fd219ccf0a16",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -354,11 +354,11 @@
       "key": "https://github.com/franticg33k/morphe-patches"
     },
     "froggo": {
-      "sha": "6d23b86570cf355714f5af68be5be0c07ac640a4",
+      "sha": "aff754c821f2b65a3d8498669006de87460b8da9",
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "99d4aff6846beafbe8637002ec518a4ac8f74f34",
+      "sha": "fed39bdb7e06ac7ba2ed0047cf05b57d3021fe6d",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -418,7 +418,7 @@
       "key": "https://github.com/hu-liberator/patches"
     },
     "hushfeed": {
-      "sha": "4d813a8d79108ff0a558008b014756de587f005a",
+      "sha": "01dee3e7e00a88204b640dd5b7cff06676576720",
       "key": "https://github.com/SysAdminDoc/hushfeed"
     },
     "hxreborn": {
@@ -426,7 +426,7 @@
       "key": "https://github.com/hxreborn/morphe-patches"
     },
     "hxreborn-tiktok": {
-      "sha": "6776d7197192fa95f8420ae717f7e2309e439b61",
+      "sha": "2850709f66bdc285f448cea7ebd4d245b2d08a00",
       "key": "https://github.com/hxreborn/hxreborn-tiktok-patches"
     },
     "hzbutcoding": {
@@ -434,7 +434,7 @@
       "key": null
     },
     "icysymmetra-tiktok": {
-      "sha": "320ffa3e2011d837ff50c7dcee4f63edb7c3ec0b",
+      "sha": "4c603ce58c327f2da2498534a19421144ae6d3bc",
       "key": "https://github.com/icysymmetra/tiktok-patches-for-morphe"
     },
     "ihealth-morphe": {
@@ -570,7 +570,7 @@
       "key": null
     },
     "letterboxd": {
-      "sha": "4a990959135c8118b6a82f059b89e32ec29c264f",
+      "sha": "697b834c625383aac84336f5db741b36937cb7ef",
       "key": "https://github.com/mvaishak/letterboxd-morphe-patches"
     },
     "letterboxd-stremio": {
@@ -866,7 +866,7 @@
       "key": "https://github.com/HSlightsteel/slight-patches"
     },
     "smartlauncher": {
-      "sha": "c602a686712e5a83ef6efe640342d6e45da3d9cf",
+      "sha": "191de6ee2d500b43daa8a4198f3be143f632e1d8",
       "key": "https://github.com/thejaustin/smartlauncher-morphe-patches"
     },
     "sofatime": {
@@ -930,7 +930,7 @@
       "key": "https://github.com/V4n1X/morphe-patches"
     },
     "variablenine": {
-      "sha": "7990a3b2470d4d4a8d46928aef9373a291a34e61",
+      "sha": "63bc37b16251b54992acbaaf1a93f2199b2db907",
       "key": "https://github.com/variablenine/morphe-patches"
     },
     "vernoxvernax": {

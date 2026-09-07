@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.14.0-dev.9",
+  "version": "1.14.0-dev.10",
   "patches": [
     {
       "name": "Auto reward ads",
@@ -613,6 +613,46 @@
           "targets": [
             {
               "version": "0.111",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock full game (TBYB bypass + license)",
+      "description": "Unlocks the full game (all levels + DLC) of the try-before-you-buy version and bypasses the Google Play Licensing (LVL) startup check that blocks re-signed APKs. Injects 'Demo.FullGame' and 'Demo.FullGamePlusDLC' as already purchased into the Feral billing bridge, so the native game marks the full game as owned without contacting Google Play. Also patches every LVL Policy.allowAccess() to return true and the LicenseCheckerCallback failure callbacks to behave as licensed. Note: this game does NOT use PairIP (verified against the manifest and all split APKs).",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.feralinteractive.laracroftgol_android",
+          "name": "Lara Croft: Guardian of Light",
+          "description": null,
+          "apkFileType": "APKS",
+          "appIconColor": "#8B0000",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.2.6RC1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "1.2.7RC2",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,

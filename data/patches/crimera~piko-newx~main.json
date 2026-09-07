@@ -1,5 +1,5 @@
 {
-    "version": "3.10.6",
+    "version": "3.10.7",
     "patches": [
         {
             "name": "NewX: Remove ads",
@@ -834,6 +834,69 @@
         {
             "name": "NewX: Customize navigation bar items",
             "description": "Lets you hide selected items from the NewX bottom navigation bar.",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.twitter.android",
+                    "name": "NewX",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "version": "12.20.5-prod.01",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "12.21.1-prod.05",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "12.22.0-beta.01",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "12.22.0-prod.01",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "12.23.0-prod.01",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "12.23.1-prod.01",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "NewX: Hide post reply bar",
+            "description": "Hides the persistent post-detail reply bar while keeping the compose button available.",
             "default": true,
             "dependencies": [
                 "BytecodePatch"
@@ -1974,6 +2037,70 @@
             "description": "Persists the timeline index and offset, then restores them after the app process restarts.",
             "default": true,
             "dependencies": [
+                "BytecodePatch"
+            ],
+            "compatiblePackages": [
+                {
+                    "packageName": "com.twitter.android",
+                    "name": "NewX",
+                    "description": null,
+                    "apkFileType": "APKM",
+                    "appIconColor": "#000000",
+                    "signatures": [],
+                    "targets": [
+                        {
+                            "version": "12.20.5-prod.01",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "12.21.1-prod.05",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "12.22.0-beta.01",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "12.22.0-prod.01",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "12.23.0-prod.01",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        },
+                        {
+                            "version": "12.23.1-prod.01",
+                            "versionCodes": null,
+                            "isExperimental": false,
+                            "minSdk": null,
+                            "description": null
+                        }
+                    ]
+                }
+            ],
+            "options": []
+        },
+        {
+            "name": "NewX: Show poll results",
+            "description": "Adds an option to show NewX poll results without voting.",
+            "default": true,
+            "dependencies": [
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "compatiblePackages": [

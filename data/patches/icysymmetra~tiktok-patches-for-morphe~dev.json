@@ -1,5 +1,5 @@
 {
-  "version": "0.8.0-dev.5",
+  "version": "0.8.0-dev.6",
   "appNames": {
     "com.zhiliaoapp.musically": "TikTok"
   },
@@ -7,6 +7,34 @@
     {
       "name": "Always show publish date",
       "description": "Always shows the publish date in video author information. Thanks to lyyako for the original implementation.",
+      "use": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": {
+        "com.zhiliaoapp.musically": [
+          "46.2.3"
+        ]
+      },
+      "compatibility": [
+        {
+          "name": "TikTok",
+          "packageName": "com.zhiliaoapp.musically",
+          "description": null,
+          "appIconColor": 16657493,
+          "targets": [
+            {
+              "version": "46.2.3",
+              "experimental": false
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Comment sort controls",
+      "description": "Exposes TikTok's native full comment-sort sheet, including its hot, time, media, and creator modes, instead of relying on rollout gates.",
       "use": true,
       "dependencies": [
         "BytecodePatch"

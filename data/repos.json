@@ -112,8 +112,8 @@
   "andrewliang25/morphe-patches": {
     "name": "Andrew's Patches",
     "github": {
-      "main": "1b6a988c2f5a63d32ef3c80ab5ae77732112f6c97321471c3178f62e805ca4fa",
-      "dev": "1b6a988c2f5a63d32ef3c80ab5ae77732112f6c97321471c3178f62e805ca4fa"
+      "main": "7d5927718db1a111d2b1816082d01d93c3ee5a77821484dece6327f1def239e9",
+      "dev": "7d5927718db1a111d2b1816082d01d93c3ee5a77821484dece6327f1def239e9"
     }
   },
   "andronedev/morphe-patches": {
@@ -140,7 +140,7 @@
     "name": "Steam Link GalaxyXR Patches",
     "github": {
       "main": "84e6c3cc1b7a9f2775fae8639b955aceb33a5b8d64f0036e14d87f0f01fbdece",
-      "dev": "84e6c3cc1b7a9f2775fae8639b955aceb33a5b8d64f0036e14d87f0f01fbdece"
+      "dev": "263cbcb43221f313e657d40ac668a94ea850a5586c715b8ee773154d795b1f49"
     }
   },
   "anxyis/anxy-patches": {
@@ -364,7 +364,7 @@
   "crimera/piko-newx": {
     "name": "Piko",
     "github": {
-      "main": "1dd3e769911bbeb9a5825f1de825145fee220a59c733b4cdd9be27e289ab175b",
+      "main": "fc8609d1d6c356c9294bf90bad3ccb8e25d9b981a849c306009ed541d7582e21",
       "dev": null
     }
   },
@@ -675,7 +675,7 @@
     "name": "Metra TikTok Patches",
     "github": {
       "main": "4c73b76db0ffa0685e64df957999dd672e582350807bc87e1a5c29f42c76e382",
-      "dev": "86b7a92598a558a9e7586b244ead8c19be2e2f4d600e4a43bab8b0c89ad1fd33",
+      "dev": "c5d50dbce9a3f95c37b34ddb389c0331d39204a8d094d29dcef270efd8a42c4c",
       "image": "36eedf355790b1b243f2c4977b2ba14c9e640d48c48240d4ff436045a57922c6"
     }
   },
@@ -913,7 +913,7 @@
   "legendsciber/morphe-patches": {
     "name": "legendsciber's Patches",
     "github": {
-      "main": "795a4f7fac2b518d3f6623b1de75ddf09331dd16db9f03f18a728cfc5f79f604",
+      "main": "d157525eedf1729257cc78b528aabb7a1a7ae84ef70071c88c8ece4e78766d5a",
       "dev": null
     }
   },
@@ -985,7 +985,7 @@
   "MiguelNinja19/miguel-morphe-patches": {
     "github": {
       "main": "c308358c3a09bd1d908f3f3cecab58e7ef19a26c2adab3959284fc70373e12f7",
-      "dev": "181962fb153104640360bad0bfbf82868af2019c066b71b59b13c484a897bcc9"
+      "dev": "c5020135cad1cdaa2154cbabbe5a4497ec3ef6ac9b0bf03619f413867fb728bf"
     }
   },
   "MoonShadowKeeper/Telegram-patchesMorphe": {
@@ -999,7 +999,7 @@
     "name": "Morphe Patches",
     "github": {
       "main": "0eb1b27be608cb65127db3420212a794e49d809d6f3795a6b961572b917d48aa",
-      "dev": "877e9b755fa444e3c288953ae756ecf526497049d2240e6d7859edb2386bd5ec",
+      "dev": "1f0fbaea9863f4175ea7aaf4e595a5a8ac9e187f74f6431d89209bc2367be953",
       "image": "70105daca724c7354163f031c24067b34a8b630dd43839d65d3c5e858773cc02"
     }
   },
@@ -1007,7 +1007,7 @@
     "name": "mvaishak Letterboxd Patches",
     "github": {
       "main": "48af4e97c357615408c4ca4211aa01f7245b2423472676c7ea032763d344bc68",
-      "dev": "48af4e97c357615408c4ca4211aa01f7245b2423472676c7ea032763d344bc68"
+      "dev": "52ed834b6f59ffbcf2532264d0c87fe473ede5810448a434f3f185360aa247bb"
     }
   },
   "mxkrgt/dbtcoach-morphe-patches": {
@@ -1262,7 +1262,7 @@
     "name": "Dual VoT Patches",
     "github": {
       "main": "103d90c2a0f1702d11ec26f3d12b9280f74a1be7ea481d90d907c89e676800ba",
-      "dev": "d34d8198283b60272913eb4a2bb67ba1eddcf2278abc14d191e765bdf8346835"
+      "dev": "fc123d824a71d88ec89b1bac31e412e4fd68b60b27f612048c6e957b51615357"
     }
   },
   "Seobject/Seobject-patches": {
@@ -1467,8 +1467,8 @@
   "Zanuaimi/UniPatches": {
     "name": "Zanuaimi's Morphe UniPatches",
     "github": {
-      "main": "57beff760d236b806e00f691994fe952f2a3b324c3f82bedde7e6b65d5069368",
-      "dev": "57beff760d236b806e00f691994fe952f2a3b324c3f82bedde7e6b65d5069368",
+      "main": "2de0287c78a2331bc9dd0d215ffcfefab9c8005a5963456d2436a35879d723e7",
+      "dev": "2de0287c78a2331bc9dd0d215ffcfefab9c8005a5963456d2436a35879d723e7",
       "image": "d6033284f266e11ce96e3c2b4eb7a147f0a977ca25dca1d09bab05319dab5907"
     }
   }
