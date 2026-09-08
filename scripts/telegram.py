@@ -6,7 +6,7 @@ import re
 import sys
 import urllib.parse
 import urllib.request
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 from utils import WHATS_NEW_PATH
@@ -47,7 +47,7 @@ def convert_to_html(text: str) -> str:
 
 
 def main() -> None:
-    current_time = datetime.now(UTC)
+    current_time = datetime.now(UTC) + timedelta(hours=1)
     formatted_date = f"{current_time.strftime('%B')} {current_time.day}"
     title = sys.argv[1] if len(sys.argv) >= 2 else f"🔔 What's New ({formatted_date})"
     filepath = Path(sys.argv[2]) if len(sys.argv) >= 3 else WHATS_NEW_PATH

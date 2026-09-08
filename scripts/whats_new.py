@@ -3,7 +3,7 @@
 import re
 import unicodedata
 import urllib.parse
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 
 from utils import (
     BUNDLES_JSON_PATH,
@@ -15,9 +15,10 @@ from utils import (
     append_step_summary,
     load_json,
     save_json,
+    set_step_output,
 )
 
-WHATS_NEW_MAX_ENTRIES = 21
+WHATS_NEW_MAX_ENTRIES = 14
 DISPLAY_ITEM_THRESHOLD = 4
 DISPLAY_ITEM_LIMIT = 3
 DEFAULT_BUNDLE_RANK = 9999
@@ -438,7 +439,7 @@ def main() -> None:
         bundles_json.get("bundles", [])
     )
 
-    current_time = datetime.now(UTC)
+    current_time = datetime.now(UTC) + timedelta(hours=1)
     today_str = current_time.strftime(f"%B {current_time.day}, %Y")
 
     new_bundles = build_new_bundles(bundles_json)
@@ -450,6 +451,7 @@ def main() -> None:
         )
         print(f"[-] {info_message}")
         append_step_summary(f"### ⚠️ What's new\n- {info_message}")
+        set_step_output("success", "true")
         return
 
     latest_entry = (
@@ -491,6 +493,7 @@ def main() -> None:
 
     save_json(HISTORY_PATH, new_bundles)
     print(f"Saved baseline to {HISTORY_PATH.name}")
+    set_step_output("success", "true")
 
 
 if __name__ == "__main__":

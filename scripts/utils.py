@@ -113,6 +113,16 @@ def append_step_summary(markdown_content: str) -> None:
             file.write(markdown_content.strip() + "\n\n")
 
 
+def set_step_output(name: str, value: str) -> None:
+    output_path = os.environ.get("GITHUB_OUTPUT")
+    if output_path and name:
+        with (
+            contextlib.suppress(Exception),
+            Path(output_path).open("a", encoding="utf-8") as file,
+        ):
+            file.write(f"{name}={value}\n")
+
+
 def load_json(path: str | Path, default: Any = None) -> Any:
     path = Path(path)
     if path.exists():
