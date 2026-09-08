@@ -194,6 +194,7 @@ export default function App() {
         activeData={activeData}
         searchQuery={popupSearchQuery}
         onSearchChange={handleSearchChange}
+        isWhatsNew={activeTab === "whats-new"}
       />
 
       <BundleModal
@@ -203,6 +204,7 @@ export default function App() {
         activeData={activeData}
         searchQuery={popupSearchQuery}
         onSearchChange={handleSearchChange}
+        isWhatsNew={activeTab === "whats-new"}
       />
     </div>
   );

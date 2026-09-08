@@ -17,6 +17,7 @@ interface AppModalProps {
   activeData: ActiveData | null;
   searchQuery: string;
   onSearchChange: (searchValue: string) => void;
+  isWhatsNew?: boolean;
 }
 
 export function AppModal({
@@ -26,6 +27,7 @@ export function AppModal({
   activeData,
   searchQuery,
   onSearchChange,
+  isWhatsNew,
 }: AppModalProps) {
   const { copiedText, copyToClipboard } = useCopy();
 
@@ -36,8 +38,8 @@ export function AppModal({
 
   const bundleGroups = useMemo(() => {
     if (!packageName || !activeData) return [];
-    return getAppBundleGroups(activeData, packageName, searchQuery);
-  }, [packageName, activeData, searchQuery]);
+    return getAppBundleGroups(activeData, packageName, searchQuery, isWhatsNew);
+  }, [packageName, activeData, searchQuery, isWhatsNew]);
 
   const bundleKeys = useMemo(
     () => bundleGroups.map((group) => group.bundleKey),

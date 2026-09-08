@@ -255,6 +255,7 @@ export function getAppBundleGroups(
   activeData: ActiveData,
   packageName: string,
   searchQuery: string,
+  sortByUpdated: boolean = false,
 ): BundleGroupData[] {
   const rawPatches = activeData.appPatchesMap[packageName] || [];
   if (rawPatches.length === 0) return [];
@@ -309,9 +310,14 @@ export function getAppBundleGroups(
     }
   }
 
-  return result.sort((groupA, groupB) =>
-    compareDefaultBundle(groupA.bundleMeta, groupB.bundleMeta),
-  );
+  return result.sort((groupA, groupB) => {
+    if (sortByUpdated) {
+      const diffUpdated =
+        groupB.bundleMeta.updatedAt - groupA.bundleMeta.updatedAt;
+      if (diffUpdated !== 0) return diffUpdated;
+    }
+    return compareDefaultBundle(groupA.bundleMeta, groupB.bundleMeta);
+  });
 }
 
 export interface AppGroupData {
@@ -325,6 +331,7 @@ export function groupPatchesByApp(
   patches: RowItem[],
   activeData: ActiveData,
   searchQuery: string = "",
+  parentBundle?: Bundle,
 ): AppGroupData[] {
   if (!patches || patches.length === 0) return [];
 
@@ -379,20 +386,40 @@ export function groupPatchesByApp(
     }
   }
 
-  return result.sort((groupA, groupB) =>
-    compareDefaultApp(
+  return result.sort((groupA, groupB) => {
+    if (parentBundle) {
+      const firstSeenA =
+        parentBundle.appFirstSeen?.[groupA.packageName] ??
+        groupA.appMeta.firstSeen;
+      const firstSeenB =
+        parentBundle.appFirstSeen?.[groupB.packageName] ??
+        groupB.appMeta.firstSeen;
+      if (firstSeenA !== firstSeenB) {
+        return firstSeenB - firstSeenA;
+      }
+    }
+    return compareDefaultApp(
       { ...groupA.appMeta, patchCount: groupA.totalPatchCount },
       { ...groupB.appMeta, patchCount: groupB.totalPatchCount },
-    ),
-  );
+    );
+  });
 }
 
 export function getBundleAppGroups(
   activeData: ActiveData,
   bundleKey: string,
   searchQuery: string,
+  sortByNewest: boolean = false,
 ): AppGroupData[] {
   const bundleKeyLower = bundleKey.toLowerCase();
   const filteredPatches = activeData.bundlePatchesMap[bundleKeyLower] || [];
-  return groupPatchesByApp(filteredPatches, activeData, searchQuery);
+  const parentBundle = sortByNewest
+    ? activeData.bundleMap[bundleKeyLower]
+    : undefined;
+  return groupPatchesByApp(
+    filteredPatches,
+    activeData,
+    searchQuery,
+    parentBundle,
+  );
 }
