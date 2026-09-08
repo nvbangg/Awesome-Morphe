@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "09f2eeae5df0365c36113d491ca55228a7218cb6",
+  "jman_tree_sha": "aade27bfb9e4cc850b8a1af0150d505c97fea20b",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -210,7 +210,7 @@
       "key": "https://github.com/chicco-carone/morphe-patches-chicco"
     },
     "chiggi": {
-      "sha": "f5040b45c2d0029d2c3b02b92819fefb1a36d3ae",
+      "sha": "003fa2f4b10dd3292e05faa77690b6c14bd2bf7f",
       "key": "https://github.com/durgesh0505/chiggi_morphe_patches"
     },
     "chmate-revanced": {
@@ -358,7 +358,7 @@
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "5294295e82dc9c1f75ff35f1db976be15f77d6c2",
+      "sha": "b31fcdea343988390f023fe9af4a4df95c890aac",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -562,7 +562,7 @@
       "key": null
     },
     "legendsciber": {
-      "sha": "b4148949e6c978253d81f18def0fbc2b77f972e8",
+      "sha": "a244d30c781fb7c0787300ec8ab93135c15472de",
       "key": "https://github.com/legendsciber/morphe-patches"
     },
     "lennyRBLX": {
@@ -922,7 +922,7 @@
       "key": null
     },
     "unipatches": {
-      "sha": "38bba331b69322d26da9cb0e1db1be57200e8df6",
+      "sha": "317c3c315a7218003053948af13a67728cf0762e",
       "key": "https://github.com/Zanuaimi/UniPatches"
     },
     "v4n1x": {

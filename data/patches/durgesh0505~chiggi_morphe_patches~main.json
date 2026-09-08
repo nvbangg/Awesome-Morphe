@@ -1,5 +1,5 @@
 {
-  "version": "1.20.0",
+  "version": "1.21.2",
   "patches": [
     {
       "name": "Add food search bar",
@@ -926,56 +926,6 @@
               "version": "26.06.22.3",
               "isExperimental": false,
               "minSdk": 21,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Enable call recording",
-      "description": "Forces CanRecord.canRecordCall() true so the call-recording UI is offered on any device (it is normally gated to a country/OEM allowlist + the G__enable_call_recording flag). GOTCHA: the recorder captures via AudioRecord(VOICE_CALL) + AudioPolicy, which need the signature|privileged CAPTURE_AUDIO_OUTPUT permission (only granted to /system/priv-app). On a re-signed sideload this is a normal app, so recordings are empty/silent and may error — the toggle appears but does not functionally record. Use your Samsung dialer's native recording for real recordings.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.google.android.dialer",
-          "name": "Phone by Google",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#1A73E8",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "235.0.965622757-downloadable",
-              "isExperimental": false,
-              "minSdk": 30,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Enable call screen (call assist)",
-      "description": "Forces DobbyEnabledFn.isEnabled() true so the Call Screen / call-assist entry is offered on any device (normally gated to the revelio/dobby Phenotype flags, off on non-Pixel). GOTCHA: Call Screen transcription runs on an on-device SODA speech model hosted by Speech Services by Google / the Google app, which ships in Pixel firmware. Without that model + a downloaded offline language pack the feature takes the SODA_UNAVAILABLE path and dead-ends. The toggle appears but Call Screen will not answer/transcribe on a non-Pixel unless the on-device recognizer is already provisioned.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.google.android.dialer",
-          "name": "Phone by Google",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#1A73E8",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "235.0.965622757-downloadable",
-              "isExperimental": false,
-              "minSdk": 30,
               "description": null
             }
           ]
