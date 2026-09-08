@@ -1,5 +1,5 @@
 {
-  "version": "1.33.0",
+  "version": "1.35.0",
   "appNames": {
     "com.fox.foxone": "Fox One Android TV",
     "com.netflix.ninja": "Netflix Android TV",
@@ -61,6 +61,32 @@
           "targets": [
             {
               "version": "6.23.23+v15.5.0.70-armv7a",
+              "experimental": false
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Clone ESPN",
+      "description": "Installs the patched ESPN as a separate app alongside the stock one, instead of replacing it. Enable this when ESPN is a preinstalled system app that can't be uninstalled — most commonly on Amazon Fire TV, and on some Android TV boxes and Onn devices. The clone gets its own package (suffix .mod), so it shows up as a second ESPN icon and keeps its own settings. Leave OFF if you were able to uninstall the original ESPN first (a normal in-place install is cleaner). Opt-in.",
+      "use": false,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.espn.score_center": [
+          "6.11.1"
+        ]
+      },
+      "compatibility": [
+        {
+          "name": "ESPN Android TV",
+          "packageName": "com.espn.score_center",
+          "description": null,
+          "appIconColor": 13369344,
+          "targets": [
+            {
+              "version": "6.11.1",
               "experimental": false
             }
           ]
@@ -297,6 +323,32 @@
       "options": []
     },
     {
+      "name": "Disable auto-updates",
+      "description": "Stops the Google Play Store from silently updating ESPN back to the official version and wiping out the patch (which would bring the ads back). Works by setting the patched build's version number far ahead of anything on the Store, so it's treated as already up to date. You can still update deliberately by re-patching a newer APK in Morphe. Recommended to leave ON. Does not apply to mount-installed apps.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.espn.score_center": [
+          "6.11.1"
+        ]
+      },
+      "compatibility": [
+        {
+          "name": "ESPN Android TV",
+          "packageName": "com.espn.score_center",
+          "description": null,
+          "appIconColor": 13369344,
+          "targets": [
+            {
+              "version": "6.11.1",
+              "experimental": false
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
       "name": "Disney+ Android TV",
       "description": "Removes mid-roll / pre-roll ads and pause ads.",
       "use": true,
@@ -339,9 +391,37 @@
     },
     {
       "name": "ESPN Android TV",
-      "description": "Suppresses ESPN Android TV VOD/scheduled ads (DMP SGAI isAdDisabled) and masks LIVE passthrough-SSAI commercial breaks with a full-screen \"Commercial Break\" slate + mute (the live ad can't be removed, only covered). Optional slate media is user-supplied local files; disable the live slate with a `slate_off` marker file. No DNS dependency.",
+      "description": "Suppresses ESPN Android TV VOD/scheduled ads by forcing DMP SGAI isAdDisabled = true (that one boolean gates all six ad-scheduling sites). Live passthrough-SSAI commercial breaks can't be removed — to MASK them with a slate + mute, also select the \"ESPN live commercial-break slate\" patch. No DNS dependency.",
       "use": true,
       "dependencies": [],
+      "compatiblePackages": {
+        "com.espn.score_center": [
+          "6.11.1"
+        ]
+      },
+      "compatibility": [
+        {
+          "name": "ESPN Android TV",
+          "packageName": "com.espn.score_center",
+          "description": null,
+          "appIconColor": 13369344,
+          "targets": [
+            {
+              "version": "6.11.1",
+              "experimental": false
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "ESPN live commercial-break slate",
+      "description": "Masks LIVE ESPN commercial breaks (which are passthrough SSAI and can't be removed) with a full-screen slate + mute: your own video/image clips, or the animated \"Be Right Back\" overlay with a live countdown. Includes an on-screen D-pad picker to switch styles. Leave OFF if you only want the VOD ad suppression and no on-screen slate during live breaks. Runtime opt-out: a `slate_off` marker file.",
+      "use": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
       "compatiblePackages": {
         "com.espn.score_center": [
           "6.11.1"
@@ -534,6 +614,32 @@
           "targets": [
             {
               "version": "26.8.1.1",
+              "experimental": false
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Mask live ad breaks (black screen + mute)",
+      "description": "Masks Pluto TV LIVE/linear commercial breaks, which are real broadcast time stitched into the live feed and cannot be removed (unlike VOD ads, which \"Skip ads\" deletes outright). During a live break it covers the player with a black screen and mutes the audio, then restores both the instant the show returns — so gambling, drinking, or any other live ad is blanked and silenced. Detection is driven by Pluto's own ID3 ad-state flow (ID3AdsBeaconTracker), which fires only while an ad plays, so it needs no polling and keeps working alongside \"Skip ads\". Opt-out: leave it OFF to watch live ads normally; runtime controls are marker files in the app's external files dir — `slate_off` disables it, and `pluto_slate_mode` set to `black` or `mute` picks cover-only or mute-only instead of both. Validated on-device, 5.66.0-leanback.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "tv.pluto.android": [
+          "5.66.0-leanback"
+        ]
+      },
+      "compatibility": [
+        {
+          "name": "Pluto TV Android TV",
+          "packageName": "tv.pluto.android",
+          "description": null,
+          "appIconColor": 12103684,
+          "targets": [
+            {
+              "version": "5.66.0-leanback",
               "experimental": false
             }
           ]
@@ -837,7 +943,7 @@
     },
     {
       "name": "Skip ads",
-      "description": "Removes Pluto TV's on-demand (VOD) ads entirely — ad video, markers, overlays, and beacons. Two layers: (1) drops the ad <Period>s from the stitched DASH manifest at media3's parser and re-bases the content periods contiguous, so the ad VIDEO is never played (verified on-device: 2:49:58 -> 2:18:41, mid-rolls gone); (2) empties the client-side ad-break timeline (StitcherSession.adBreaks — the same data AdGuard strips via jsonprune) and no-ops pause ads and clickable-ad overlays, removing the markers/UI/beacons. Fail-open: a manifest it can't rewrite is passed through unchanged (ads remain, playback never breaks). LIVE TV ads are real broadcast time in the linear feed and are not removable. Validated on-device, 5.66.0-leanback.",
+      "description": "Removes Pluto TV's on-demand (VOD) ads entirely — ad video, markers, overlays, and beacons. Two layers: (1) drops the ad <Period>s from the stitched DASH manifest at media3's parser and re-bases the content periods contiguous, so the ad VIDEO is never played (verified on-device: 2:49:58 -> 2:18:41, mid-rolls gone); (2) empties the client-side ad-break timeline (StitcherSession.adBreaks — the same data AdGuard strips via jsonprune) and no-ops pause ads and clickable-ad overlays, removing the markers/UI/beacons. Fail-open: a manifest it can't rewrite is passed through unchanged (ads remain, playback never breaks). A resume bookmark saved in the original (ad-inclusive) timeline is re-mapped into the shortened timeline so resuming a partially-watched episode no longer overshoots the end and autoplay-skips (issue #147). LIVE TV ads are real broadcast time in the linear feed and are not removable. Validated on-device, 5.66.0-leanback.",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {

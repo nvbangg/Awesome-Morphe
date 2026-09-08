@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "a4b5cba04c304d32e90568ade619089ba831469f",
+  "jman_tree_sha": "118fd3c93c382a01566b3c7c124634fdfd13894e",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -38,7 +38,7 @@
       "key": "https://github.com/hashtagbasit/aimal-patches"
     },
     "ajstrick81-androidtv": {
-      "sha": "cf1440124e68fa056b2a15c94992354395a14432",
+      "sha": "b9bd709edd76afaf5e346a35614a5ac0da5dbc79",
       "key": "https://github.com/ajstrick81/morphe-androidtv-patches"
     },
     "alastor-kaneki": {
@@ -358,7 +358,7 @@
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "fed39bdb7e06ac7ba2ed0047cf05b57d3021fe6d",
+      "sha": "0cc8de9939a49fd69f05d1fe9559ea7676afc7d2",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -382,7 +382,7 @@
       "key": "https://github.com/GoldRift/morphe-patches"
     },
     "gryphous-morphe": {
-      "sha": "15066cc1056080b71277472f27439567f6c146ae",
+      "sha": "36b6900b88834f2a88bee5e88181584ae8a408d2",
       "key": "https://github.com/NekoGryphou/gryphous-morphe-patches"
     },
     "hepolise": {
@@ -422,7 +422,7 @@
       "key": "https://github.com/SysAdminDoc/hushfeed"
     },
     "hxreborn": {
-      "sha": "b32d0b13bff19a82f16cfd53a4ea0314d30fca32",
+      "sha": "0137fa5bd0cf11113d1064b42a99695bd1e188cd",
       "key": "https://github.com/hxreborn/morphe-patches"
     },
     "hxreborn-tiktok": {
@@ -434,7 +434,7 @@
       "key": null
     },
     "icysymmetra-tiktok": {
-      "sha": "4c603ce58c327f2da2498534a19421144ae6d3bc",
+      "sha": "c5a0936c1d97fd07d962e05dbb9d84319ae9ebed",
       "key": "https://github.com/icysymmetra/tiktok-patches-for-morphe"
     },
     "ihealth-morphe": {
@@ -562,7 +562,7 @@
       "key": null
     },
     "legendsciber": {
-      "sha": "637b4a60fe57ed94fc0cc3e1be7c170273fabac0",
+      "sha": "68c21f872e34674902450702d172f9080d1213b0",
       "key": "https://github.com/legendsciber/morphe-patches"
     },
     "lennyRBLX": {
@@ -642,7 +642,7 @@
       "key": null
     },
     "nai64": {
-      "sha": "9372866d0deab97de78e685974108efe9d272414",
+      "sha": "ed61ca5a3e2a175a62b047072217641e4a8b830f",
       "key": "https://github.com/Nai64/Nai64Patches"
     },
     "nicomanga-revanced": {
@@ -866,7 +866,7 @@
       "key": "https://github.com/HSlightsteel/slight-patches"
     },
     "smartlauncher": {
-      "sha": "821ec099c67f5c85277104822bc7deaedcc6cc90",
+      "sha": "4b47706cb6918e35b9fe071e183b697faa9859b8",
       "key": "https://github.com/thejaustin/smartlauncher-morphe-patches"
     },
     "sofatime": {
@@ -922,7 +922,7 @@
       "key": null
     },
     "unipatches": {
-      "sha": "0b8a99b7765fee28b9b4c7308686c1c60231a1d7",
+      "sha": "8db6084637d413001ff941e0cac56ad18a2e1ba3",
       "key": "https://github.com/Zanuaimi/UniPatches"
     },
     "v4n1x": {
@@ -970,7 +970,7 @@
       "key": "https://github.com/xob0t/morphe-patches"
     },
     "xperia-1v-camera": {
-      "sha": "655e42e412a7d17ad6098f20ac468bb471cb8f17",
+      "sha": "03791a1211ecc8a8a0567e74b859d1211a12ed18",
       "key": "https://github.com/alalloush/xperia-1v-camera-patches"
     },
     "xrogers": {

@@ -36,7 +36,10 @@
       "Suppress Household Prompt"
     ],
     "com.espn.score_center": [
-      "ESPN Android TV"
+      "Clone ESPN",
+      "Disable auto-updates",
+      "ESPN Android TV",
+      "ESPN live commercial-break slate"
     ],
     "com.fox.foxone": [
       "Skip ads"
@@ -69,6 +72,7 @@
     "tv.pluto.android": [
       "Clone Pluto TV",
       "Disable auto-updates",
+      "Mask live ad breaks (black screen + mute)",
       "Override certificate pinning",
       "Skip ads"
     ],
@@ -82,7 +86,10 @@
     ],
     "jp.co.sony.mc.cameraapp": [
       "Camera common visibility",
+      "Raw H.264 stream",
+      "Raw stream connect modes",
       "Storage fallback",
+      "Streaming presets",
       "Xperia 1 V camera HAL compatibility"
     ]
   },
@@ -449,6 +456,7 @@
       "Disable LINE Premium",
       "Disable VOOM",
       "Fix chat backup sign-in via GmsCore",
+      "Fix location maps via GmsCore",
       "Fix push notifications",
       "Hide Events button",
       "Hide Home content feed",
@@ -863,7 +871,13 @@
     "com.mxtech.videoplayer.ad": [
       "Add Network Stream To Me Tab",
       "Clean Me Tab",
-      "Disable Bottom Bar And Add Me Tab To Top"
+      "Clean sidebar More menu",
+      "Configure Smart Enhance toast",
+      "Configure SpeedUp overlay",
+      "Default Shortcuts",
+      "Disable Bottom Bar And Add Me Tab To Top",
+      "Disable Smart Enhance popup",
+      "Open subtitle settings by default"
     ],
     "com.mxtech.videoplayer.pro": [
       "Hide File Transfer, Video Playlist, Private Folder tiles",
@@ -1642,6 +1656,7 @@
       "NewX: Customize navigation bar items",
       "NewX: Customize timeline tabs",
       "NewX: Disable automatic timeline refresh",
+      "NewX: Disable blur effects",
       "NewX: Disable video player scrolling",
       "NewX: Dynamic color",
       "NewX: Feature switch overrides",
@@ -1653,6 +1668,7 @@
       "NewX: Hide Spaces bar",
       "NewX: Hide compose button",
       "NewX: Hide new posts pill",
+      "NewX: Hide post reply bar",
       "NewX: Hide posts by verified account type",
       "NewX: Hide premium upsell",
       "NewX: Hide timeline tabs bar",
@@ -1664,6 +1680,7 @@
       "NewX: Restore timeline position",
       "NewX: Server error logging",
       "NewX: Share post as image",
+      "NewX: Show poll results",
       "NewX: Show sensitive media",
       "NewX: Unlock color customization",
       "NewX: Unlock downloads"
@@ -3649,6 +3666,11 @@
     "com.kick.mobile": [
       "AMOLED dark theme"
     ],
+    "com.mchutov.Quranify": [
+      "Bypass integrity check",
+      "Remove pairip protection",
+      "Unlock premium"
+    ],
     "com.michaldrabik.showly2": [
       "AMOLED dark theme",
       "Unlock premium"
@@ -3690,6 +3712,7 @@
   "icysymmetra/tiktok-patches-for-morphe": {
     "com.zhiliaoapp.musically": [
       "Always show publish date",
+      "Comment sort controls",
       "Copy comments without username",
       "Custom offline videos limit",
       "Diagnostic tools",
@@ -3707,6 +3730,7 @@
       "Feed tab navigation",
       "Fix Google login",
       "Foldable split comment view",
+      "Force show Auto scroll",
       "Hide CAPTCHA popups",
       "Hide feed LIVE button",
       "Hide feed follow button",
@@ -4524,6 +4548,12 @@
       "Free reward ads",
       "Remove ads"
     ],
+    "com.feralinteractive.laracroftgol_android": [
+      "Unlock full game (TBYB bypass + license)"
+    ],
+    "com.mad.DuckLifeSpace": [
+      "Unlock full game (IAP entitlements)"
+    ],
     "com.mobge.Oddmar": [
       "Free in-app purchases",
       "Unlock full game"
@@ -4714,6 +4744,7 @@
       "Appearance",
       "Brighter Watched-by stars",
       "Denser poster grid",
+      "Hide ads",
       "Material You theme",
       "Mod settings"
     ]
@@ -4726,7 +4757,6 @@
   "Nai64/Nai64Patches": {
     "__universal__": [
       "AMOLED Theme",
-      "Ads Free Rewards (Experimental)",
       "Allow Background Activity",
       "Allow Clearing App Data",
       "Allow Cleartext Traffic",
@@ -4792,7 +4822,6 @@
       "Disable Crash Reporters",
       "Disable Edge-To-Edge Enforcement",
       "Disable Facebook SDK Auto-Init",
-      "Disable Firebase Auto-Init",
       "Disable Fixed Volume",
       "Disable Forced Online Checks (Experimental)",
       "Disable Google Update Check",
@@ -4925,7 +4954,6 @@
       "Force WiFi Scan Always Available",
       "Force World Phone",
       "Frame Rate Preference (Experimental)",
-      "Free In-app Purchases (Experimental)",
       "GmsCore support (MicroG)",
       "Grant All-Files Access",
       "Grant WebView Geolocation",
@@ -4969,9 +4997,7 @@
       "Limit Ad Tracking",
       "Make App Debuggable",
       "Nai64Patches Universal Overlay Patch v1.0 (Experimental)",
-      "No Ads (Experimental)",
       "Optimize as Game",
-      "Pairip Bypass (Experimental)",
       "Prefer ANGLE Graphics Driver",
       "Preserve App Data",
       "Relax Hardware Features",
@@ -5060,13 +5086,17 @@
       "Treat Screen as On",
       "Trust User CAs (Config)",
       "Trust User Certificates",
-      "Unlimited Currencies",
       "Unlock Max Aspect Ratio",
       "Unlock Notification Channels",
-      "Unlock Premium",
       "Unlock Rotation",
       "Unmark Test Only",
-      "VM Safe Mode"
+      "VM Safe Mode",
+      "★ Ads Free Rewards",
+      "★ Free In-app Purchases",
+      "★ No Ads",
+      "★ Pairip Bypass",
+      "★ Unlimited Currencies",
+      "★ Unlock Premium"
     ],
     "com.bandcamp.android": [
       "Allow Mobile Downloads",
@@ -5086,7 +5116,9 @@
     "com.ddsx_ayla_android": [
       "Disable login location requirement",
       "Disable notification permission prompt",
-      "Hide shared-devices incident popup"
+      "Disable review request dialog",
+      "Hide shared-devices incident popup",
+      "Restore AC controls on return"
     ]
   },
   "nosini/disable-shorts-repeat": {
@@ -7343,12 +7375,10 @@
       "Custom App Resolution (Experimental)",
       "Disable Forced Online Checks (Experimental)",
       "Frame Rate Preference (Experimental)",
-      "Free In-app Purchases (Experimental)",
       "Graphics API Override (Experimental)",
       "No Ads (Experimental)",
       "PairIP Bypass Enhanced (Experimental)",
-      "Skip Splash Screen (Experimental)",
-      "UniPatches Universal Overlay Patch v1.2 (Experimental)"
+      "UniPatches Universal Overlay Patch v1.3.3 (Experimental)"
     ]
   }
 }

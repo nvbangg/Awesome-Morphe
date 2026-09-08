@@ -28,14 +28,14 @@
   "ajstrick81/morphe-androidtv-patches": {
     "name": "ajstrick81 Patches",
     "github": {
-      "main": "5ff3b51775f3cae24f87c7ede9c80db7db56dde38c3860eee71791023efdcfe8",
+      "main": "a0a71606d321aa8fd9e6852cd78836c52de5de7747ce3d0ae5f43226854bdec5",
       "dev": "453c25fc9185a1b513ee1570d237bc3fb602c9f7a00c927e60e72e845ea39feb"
     }
   },
   "alalloush/xperia-1v-camera-patches": {
     "name": "alalloush Xperia 1 V camera patches",
     "github": {
-      "main": "8302ab503dc16e070978e4fe75ffeebfddda19e806afeb7940a66d964f328f9c",
+      "main": "d86d0fa69c71cc56107dcf655ce76cc97d1cd02ac752f9368babe5ae7b0e9afb",
       "dev": null
     }
   },
@@ -364,7 +364,7 @@
   "crimera/piko-newx": {
     "name": "Piko",
     "github": {
-      "main": "fc8609d1d6c356c9294bf90bad3ccb8e25d9b981a849c306009ed541d7582e21",
+      "main": "55aeacbc7067f28dcfcfc391f643cc359b78f302d2abed18e9d10ed86aeaeebf",
       "dev": null
     }
   },
@@ -675,7 +675,7 @@
     "name": "Metra TikTok Patches",
     "github": {
       "main": "4c73b76db0ffa0685e64df957999dd672e582350807bc87e1a5c29f42c76e382",
-      "dev": "c5d50dbce9a3f95c37b34ddb389c0331d39204a8d094d29dcef270efd8a42c4c",
+      "dev": "94e70fb8f491daa91d70888a13885cae7efbd8d63010db6f73995ac9a1a9b875",
       "image": "36eedf355790b1b243f2c4977b2ba14c9e640d48c48240d4ff436045a57922c6"
     }
   },
@@ -821,8 +821,8 @@
   "JZ6/Flexboard": {
     "name": "Flexboard",
     "github": {
-      "main": "61ca07533b9baa976e77002656e7d443671d68de9e4171dcbc42860381ca01ec",
-      "dev": "e4de100a6316cf18f93d4b7b0f007c44f3f5e93d6084c594637cb14690d51277"
+      "main": "6e1c38cb4636b58bdee63ac64c3d723d196ea0b38a4c1d10fbdf0c97666c266d",
+      "dev": "6e1c38cb4636b58bdee63ac64c3d723d196ea0b38a4c1d10fbdf0c97666c266d"
     }
   },
   "kareemlukitomo/morphe-patches": {
@@ -913,7 +913,7 @@
   "legendsciber/morphe-patches": {
     "name": "legendsciber's Patches",
     "github": {
-      "main": "dbd78fe3b4dca961d8e99656d148ae01e76280de37b446a060d6154a0c9ed32f",
+      "main": "4e93d5f86f7132eb85028c32700ce1689c23c5b96189435abd906520d187ff46",
       "dev": null
     }
   },
@@ -1331,7 +1331,7 @@
   "SysAdminDoc/hushfeed": {
     "name": "Hushfeed",
     "github": {
-      "main": "56d3aa067e9495f8f4d25271ad6c52049f4477567f66ce1387794b301cfec039",
+      "main": "e629b55a9ee8ad4c4faa42092c91c69d3ed90700ff14c5b491d7e068ccc39440",
       "dev": null,
       "image": "4d092c078217f40dceb3b85b29d4c3f23e2a1cf3e46e32942b094d1e80453e31"
     }

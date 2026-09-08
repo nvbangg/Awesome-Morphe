@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-07T19:49:11",
-  "description": "# [1.33.0](https://github.com/ajstrick81/morphe-androidtv-patches/compare/v1.32.0...v1.33.0) (2026-09-07)\n\n\n### Features\n\n* **espn:** animated Be Right Back overlay slate, live-score strip fixes & slate picker ([#156](https://github.com/ajstrick81/morphe-androidtv-patches/issues/156)) ([d085d7b](https://github.com/ajstrick81/morphe-androidtv-patches/commit/d085d7b08c04cf3b2decbee6391bef53795496cf)), closes [hi#performance](https://github.com/hi/issues/performance)",
-  "download_url": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/download/v1.33.0/patches-1.33.0.mpp",
+  "created_at": "2026-09-08T01:21:13",
+  "description": "# [1.35.0](https://github.com/ajstrick81/morphe-androidtv-patches/compare/v1.34.1...v1.35.0) (2026-09-08)\n\n\n### Features\n\n* **pluto:** mask live commercial breaks with black screen + mute ([#152](https://github.com/ajstrick81/morphe-androidtv-patches/issues/152)) ([d4c122c](https://github.com/ajstrick81/morphe-androidtv-patches/commit/d4c122cd8c2946cdf749415961b97da41262f40c))",
+  "download_url": "https://github.com/ajstrick81/morphe-androidtv-patches/releases/download/v1.35.0/patches-1.35.0.mpp",
   "signature_download_url": "",
-  "version": "1.33.0"
+  "version": "1.35.0"
 }
