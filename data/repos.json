@@ -92,7 +92,7 @@
     "name": "Ample Patches",
     "github": {
       "main": "84714c191c13bc6f57f57b71a66867ffa65334d3b81657cdb38ca33afe34602c",
-      "dev": "a0696c60bca899557509be54ad10de2936c201c9f2d4bf819fa58aa82df36d56"
+      "dev": "5cb2489957cd21f9510978e87e9e811a88bd0c330091599188c127186f5d68ee"
     }
   },
   "anddea/revanced-patches": {
@@ -238,7 +238,7 @@
     "name": "BlazeFTL Patches",
     "github": {
       "main": "fd47c89bb324242f8062c1b02cc7c150514b57b82455df562cf7ff91c2102c4f",
-      "dev": "d268ebe45bc686806c0030ded283707be6c6d128368f217e80caf0cf2957c59a"
+      "dev": "2eb49788e084dde5ea54a96951a43d230d393600efb9d8aae0f94f89847c59cc"
     }
   },
   "BlazeFTL/Morphe-Portal-Patches-New": {
@@ -388,6 +388,13 @@
       "main": "43ccee8468e80313d2a045a30eb196b56241eabc17f2653ac35f84f5dee24873",
       "dev": "09100d6680051543cdb6d6d6adc7bdc93f05befb160001f42243e3bcf048e527",
       "image": "95163e453ab8e991a169d7092e358b7b3eb656996373e8248db31f8f0dea6259"
+    }
+  },
+  "DarioDKM/ringconn-patches": {
+    "name": "RingConn Patches",
+    "github": {
+      "main": "84c121294305b86c0a8c60680a5135daddf44d77b19b89e6be1836a6d5f5ee48",
+      "dev": null
     }
   },
   "david419kr/niconico-yt-morphe-patches": {
@@ -939,6 +946,13 @@
       "image": "fa4e479b38915420affd9f6f95cb1cec05a75c99b1aa77d288c136f2fcbcc5b7"
     }
   },
+  "lootdev78/psylos-morphe-patches": {
+    "name": "Psylos Morphe Patches",
+    "github": {
+      "main": "804fbc32bd2c4f6216d6414d11e1a88e4ba49d63ddb5b3be0f4cf633bcb86d51",
+      "dev": "804fbc32bd2c4f6216d6414d11e1a88e4ba49d63ddb5b3be0f4cf633bcb86d51"
+    }
+  },
   "loskutov/youtube-domain-fronting-patch": {
     "name": "SNI Patch",
     "github": {
@@ -986,6 +1000,13 @@
     "github": {
       "main": "c308358c3a09bd1d908f3f3cecab58e7ef19a26c2adab3959284fc70373e12f7",
       "dev": "566c45f447060db93222cdf6ac9940025a187764030d3b523c208bdd1970afe1"
+    }
+  },
+  "miketweaver/friendsturner-patches": {
+    "name": "FriendsTurner Patches",
+    "github": {
+      "main": "6792effe1d1d542833ef6798b93707ccde3dc8f4b9d0b2ece2f8eaa762eda532",
+      "dev": null
     }
   },
   "MoonShadowKeeper/Telegram-patchesMorphe": {
@@ -1085,6 +1106,13 @@
     "name": "Pepper Patches",
     "github": {
       "main": "f16156a4f0db11d61855f6720f569cb76558f6fc7961cd1b778b00f865ccf12e",
+      "dev": null
+    }
+  },
+  "picarica/My-moprhe-patches": {
+    "name": "AFFiNE No-GMS Patches",
+    "github": {
+      "main": "0b724fb1a2b72ec063e84b70d5bde08fdde182aa4fa5a228a2a86853b566a48e",
       "dev": null
     }
   },
@@ -1331,7 +1359,7 @@
   "SysAdminDoc/hushfeed": {
     "name": "Hushfeed",
     "github": {
-      "main": "e629b55a9ee8ad4c4faa42092c91c69d3ed90700ff14c5b491d7e068ccc39440",
+      "main": "1e5cb40547a1649c46d0552546e6a0083b063c8314c809664c767145bab97dcc",
       "dev": null,
       "image": "4d092c078217f40dceb3b85b29d4c3f23e2a1cf3e46e32942b094d1e80453e31"
     }
@@ -1346,7 +1374,7 @@
   "thejaustin/smartlauncher-morphe-patches": {
     "name": "Smart Launcher 6 Morphe Patches",
     "github": {
-      "main": "65de2e733da6af34f9ea2484aa0d54800fb19fd8ef5aadcd3daad96af30190f5",
+      "main": null,
       "dev": null
     }
   },
@@ -1406,6 +1434,13 @@
       "dev": "c27dc069a5747dca5c7a9bec754a8c510cce8982dc7c4e18adf9d787143f3fa2"
     }
   },
+  "vomw/morphe-patches": {
+    "name": "Doom's Morphe Patches",
+    "github": {
+      "main": "e42d5824c23e9bcaa77dda7cb354c2cb345a809ee5ef285808cbe2a5322ca9ff",
+      "dev": "48193207460f0182d6e0f7d52635be9456b6e21fdc71e2802a8d6a4ab62c7b10"
+    }
+  },
   "wchill/patcheddit": {
     "name": "Patcheddit",
     "github": {
@@ -1450,6 +1485,13 @@
       "image": "a49d0aaa9b6299e2dcfa24ca9ee8ca064cd3b475f8af01379d551920e28db84a"
     }
   },
+  "yann-soliman/morphe-patches": {
+    "name": "Yann's patches",
+    "github": {
+      "main": "8ff2c2c3f5405b7b244e2f1b9964cb84a509479f7a980cb7e35927c9fc4f7b12",
+      "dev": "8ff2c2c3f5405b7b244e2f1b9964cb84a509479f7a980cb7e35927c9fc4f7b12"
+    }
+  },
   "ynotzort/morphe-patches": {
     "name": "ynotzort's morphe patches",
     "github": {
@@ -1470,6 +1512,13 @@
       "main": "e6a7c8021bd63d2931018c1e229d18bb13c8cdba7ca252ef0e7107df59aee03f",
       "dev": "e6a7c8021bd63d2931018c1e229d18bb13c8cdba7ca252ef0e7107df59aee03f",
       "image": "d6033284f266e11ce96e3c2b4eb7a147f0a977ca25dca1d09bab05319dab5907"
+    }
+  },
+  "zeldrisho/morphe-patches": {
+    "name": "Zeldris Patches",
+    "github": {
+      "main": "ef12d32a0e570b46e53c114ae9980bab25aa46b81e5068cb3c4da32867321de8",
+      "dev": "f9bebf4ca5396ba1f9931a6c41ae2cbe565ccf6386b92c0f2c97312805b1f3ab"
     }
   }
 }

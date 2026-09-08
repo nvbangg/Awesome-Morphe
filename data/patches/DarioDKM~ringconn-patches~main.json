@@ -1,0 +1,59 @@
+{
+  "version": "1.2.4",
+  "patches": [
+    {
+      "name": "RingConn Health Data Provider (v1.2.4)",
+      "description": "v1.2.4: Aktiviert lokalen SQLite-Zugriff für CyclingCoach und Companion-Apps.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.gdjztech.ringconn",
+          "name": "RingConn",
+          "description": "Smart Ring companion app",
+          "apkFileType": "APK",
+          "appIconColor": "#1E88E5",
+          "signatures": null,
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": "Supports any version of RingConn"
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Intervals.icu Quick-Sync Kachel (v1.2.4)",
+      "description": "v1.2.4: Ultra-schlanke RingConn-Kachel im Discover-Tab für 1-Klick-Sync zu Intervals.icu (ohne Radsport-Metriken).",
+      "default": true,
+      "dependencies": [
+        "RingConn Health Data Provider (v1.2.4)"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.gdjztech.ringconn",
+          "name": "RingConn",
+          "description": "Smart Ring companion app",
+          "apkFileType": "APK",
+          "appIconColor": "#1E88E5",
+          "signatures": null,
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": "Supports any version of RingConn"
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
+}
