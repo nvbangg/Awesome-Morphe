@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.24.0",
+  "version": "1.25.0",
   "patches": [
     {
       "name": "Adda247 Ad Removal",
@@ -910,33 +910,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.2983",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Only One License Bypass",
-      "description": "Bypasses the PairIP Play Store license check so the app launches normally.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.rebelbinary.onlyone",
-          "name": "Only One",
-          "description": null,
-          "apkFileType": "XAPK",
-          "appIconColor": "#E2E2E2",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "1.2983",
+              "version": "1.3031",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1439,6 +1413,32 @@
     {
       "name": "Vector Ad Spoof",
       "description": "Spoofs rewarded ad callbacks to grant coins/rewards without showing ads.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.nekki.vector",
+          "name": "Vector",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#00E676",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "2.10.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Vector Money Mod",
+      "description": "Spending money increases your balance instead of decreasing it (native libil2cpp.so patch).",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [

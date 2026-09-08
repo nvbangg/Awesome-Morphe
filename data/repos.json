@@ -293,8 +293,8 @@
   "byehi98/okish-morphe-patches": {
     "name": "byehi98 Patches",
     "github": {
-      "main": "2e21011efdb22c1d5cb875cd2bf4e9aa119bf80c77c476dd125af0b17de473bc",
-      "dev": "8cd8a68ac0cdef92395f586bd0aaf825f2b43c482e5d90929e2076a9e660d572"
+      "main": "f7ba8827b9ec42109def978d0aba98efb249b5c97f8f7f0f629240bd714d50a2",
+      "dev": "f7ba8827b9ec42109def978d0aba98efb249b5c97f8f7f0f629240bd714d50a2"
     }
   },
   "canh0chua/Morphe-patches": {
@@ -465,7 +465,7 @@
   "durgesh0505/chiggi_morphe_patches": {
     "name": "Chiggi Patches",
     "github": {
-      "main": "9925cb17991beebdaa656e6212576e19121607ab997c7fd15300b496c9b61458",
+      "main": "92cb007cda127d181711bf495266107be7a887674efbea1ffcd28c9510477238",
       "dev": null
     }
   },
@@ -499,7 +499,7 @@
   "Entree3k/Morning-Entree-Patches": {
     "name": "Morning Entree Patches",
     "github": {
-      "main": "4e1ea1c768bd8485a627ba24d5b5c8086f8737c103c38096e4e159b08d1c5415",
+      "main": "81e678c6381bc449715054abb9bfe19b100c3bee5bbbd369fa0cd245d0b1a19e",
       "dev": "6020c1a69378ec39f68bf37e72ec72f7e72852c23dd00683381a1891a59f8adb"
     }
   },
@@ -1006,7 +1006,7 @@
   "MiguelNinja19/miguel-morphe-patches": {
     "github": {
       "main": "c308358c3a09bd1d908f3f3cecab58e7ef19a26c2adab3959284fc70373e12f7",
-      "dev": "566c45f447060db93222cdf6ac9940025a187764030d3b523c208bdd1970afe1"
+      "dev": "c76956382a0671198f5a354a64a0c6d5cbd771e54bf217d4cdf55388fc00f25e"
     }
   },
   "miketweaver/friendsturner-patches": {
@@ -1035,7 +1035,7 @@
     "name": "mvaishak Letterboxd Patches",
     "github": {
       "main": "48af4e97c357615408c4ca4211aa01f7245b2423472676c7ea032763d344bc68",
-      "dev": "52ed834b6f59ffbcf2532264d0c87fe473ede5810448a434f3f185360aa247bb"
+      "dev": "bb176e5fff374027b5a49bc2e312ec8270a9c798394c852998362630d8f7cd55"
     }
   },
   "mxkrgt/dbtcoach-morphe-patches": {
@@ -1297,7 +1297,7 @@
     "name": "Dual VoT Patches",
     "github": {
       "main": "103d90c2a0f1702d11ec26f3d12b9280f74a1be7ea481d90d907c89e676800ba",
-      "dev": "fc123d824a71d88ec89b1bac31e412e4fd68b60b27f612048c6e957b51615357"
+      "dev": "2f502871ce96f1bed46cc2737f7288a536da0bed5b9f99a1c328419af5574848"
     }
   },
   "Seobject/Seobject-patches": {
@@ -1366,7 +1366,7 @@
   "SysAdminDoc/hushfeed": {
     "name": "Hushfeed",
     "github": {
-      "main": "b061ff63a69f9d64a1ca65ebd97a9ac0103081b3e764a4fcf40d52b6ec85374e",
+      "main": "36d912ca9e25cb05f1c5bb732f1fbf41c30abbcc4ecd688582273f335f1f3af1",
       "dev": null,
       "image": "4d092c078217f40dceb3b85b29d4c3f23e2a1cf3e46e32942b094d1e80453e31"
     }
@@ -1495,8 +1495,8 @@
   "yann-soliman/morphe-patches": {
     "name": "Yann's patches",
     "github": {
-      "main": "9b8a4c74147f70ebde6aa236fa6ec2efdd3ac58be98ee774d8916a11dbaf0c70",
-      "dev": "9b8a4c74147f70ebde6aa236fa6ec2efdd3ac58be98ee774d8916a11dbaf0c70"
+      "main": "91c55ab5f38dbff23c4486a2cf7df71369cd1d8dc5f0eb6b06e1745b1087b343",
+      "dev": "91c55ab5f38dbff23c4486a2cf7df71369cd1d8dc5f0eb6b06e1745b1087b343"
     }
   },
   "ynotzort/morphe-patches": {

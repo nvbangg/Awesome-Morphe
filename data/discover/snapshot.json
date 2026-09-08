@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "c8c86f38d0a231c895219558e72244f1b10d849a",
+  "jman_tree_sha": "09f2eeae5df0365c36113d491ca55228a7218cb6",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -290,7 +290,7 @@
       "key": null
     },
     "dual-vot": {
-      "sha": "aa3f6e716a75ec8aea0ef783a30da0bc39848dc3",
+      "sha": "ca03ccc635a30916b8111fa41de93b97040eb0a1",
       "key": "https://github.com/sashade8-ship-it/dual-vot-patches"
     },
     "dumketo": {
@@ -342,7 +342,7 @@
       "key": "https://github.com/isuruhg/fin-tweaks"
     },
     "flexboard": {
-      "sha": "93d7339b5864add7f110b3fcfd9aebf8a151f503",
+      "sha": "50e2e5a6e5c6fd535a9c2556fd800adc99f39594",
       "key": "https://github.com/JZ6/Flexboard"
     },
     "forsyth47": {
@@ -358,7 +358,7 @@
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "40fd1d0a9a6e114599154b10ececdb7852b7c5a5",
+      "sha": "5294295e82dc9c1f75ff35f1db976be15f77d6c2",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -418,11 +418,11 @@
       "key": "https://github.com/hu-liberator/patches"
     },
     "hushfeed": {
-      "sha": "1d7facd8703d64cad65f523d8e086581086ff8e2",
+      "sha": "5163f9a8afddcb371e9e35e3d3806aeee812ef01",
       "key": "https://github.com/SysAdminDoc/hushfeed"
     },
     "hxreborn": {
-      "sha": "0137fa5bd0cf11113d1064b42a99695bd1e188cd",
+      "sha": "9aec98437094358da31a485318efd904bab228fb",
       "key": "https://github.com/hxreborn/morphe-patches"
     },
     "hxreborn-tiktok": {
@@ -562,7 +562,7 @@
       "key": null
     },
     "legendsciber": {
-      "sha": "fab1e54b0badeb7330add317eab094bc5cbb6879",
+      "sha": "b4148949e6c978253d81f18def0fbc2b77f972e8",
       "key": "https://github.com/legendsciber/morphe-patches"
     },
     "lennyRBLX": {
@@ -570,7 +570,7 @@
       "key": null
     },
     "letterboxd": {
-      "sha": "697b834c625383aac84336f5db741b36937cb7ef",
+      "sha": "f4278301a013ffdb4218b80ab1e470b296ee18de",
       "key": "https://github.com/mvaishak/letterboxd-morphe-patches"
     },
     "letterboxd-stremio": {
@@ -606,7 +606,7 @@
       "key": "https://github.com/meridianfresco/morphe-meta-patches"
     },
     "miguel": {
-      "sha": "35db84c652483addd7d3671d5b362d353e292fe7",
+      "sha": "43c69a73f8dc94de7df76383a89c0db5dfb3509e",
       "key": "https://github.com/MiguelNinja19/miguel-morphe-patches"
     },
     "mojirs-rif": {
@@ -614,11 +614,11 @@
       "key": null
     },
     "morning-entree": {
-      "sha": "3fe611e59202aa57d0414b230a2fe6c5d0b588d6",
+      "sha": "7349149e38a94c2995e5f0eca0426b092391145c",
       "key": "https://github.com/Entree3k/Morning-Entree-Patches"
     },
     "morphe": {
-      "sha": "fc2862f8088f1dd07cce17f1c68460bc88d09859",
+      "sha": "743d615014cecc4be475ac22d4bbfa1f210e8be9",
       "key": "https://github.com/MorpheApp/morphe-patches"
     },
     "morphe-google": {
@@ -666,7 +666,7 @@
       "key": "https://github.com/liongalahad/liongalahad-nuviotv-morphe-patches"
     },
     "okish-morphe": {
-      "sha": "e73fd4321ec094f2c12ce97f968abb1019dff314",
+      "sha": "8d447d12089f7fd95397af66887ae1d2adceb7f2",
       "key": "https://github.com/byehi98/okish-morphe-patches"
     },
     "paresh-maheshwari": {
@@ -794,7 +794,7 @@
       "key": "https://github.com/rhubarbshoelaces/morphe-patches"
     },
     "riky": {
-      "sha": "809fdded526a9e558ff698e62bda2e42220918b1",
+      "sha": "4d71508268d8de023b86b4b9454a24271d3521ee",
       "key": "https://github.com/riky-dev/morphe-patches"
     },
     "rivanced-universal": {
@@ -966,7 +966,7 @@
       "key": "https://github.com/Xhehab/Xhehab-Patches"
     },
     "xob0t": {
-      "sha": "9610142131849dff2080f93113d71ef5d683e4c1",
+      "sha": "8c6ba1a5fccb1dc423e29b7e77044655f5d657fa",
       "key": "https://github.com/xob0t/morphe-patches"
     },
     "xperia-1v-camera": {

@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.21.0",
+  "version": "1.22.0",
   "patches": [
     {
       "name": "Always incognito mode",
@@ -679,6 +679,32 @@
     },
     {
       "name": "Enable Premium",
+      "description": "Unlocks Gym Workout premium",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "gymworkout.gym.gymlog.gymtrainer",
+          "name": "Gym Workout",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#FF6D00",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.6.3",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Enable Premium",
       "description": "Unlocks Home Workout Premium. Use with Spoof Signature Verification",
       "default": true,
       "dependencies": [],
@@ -1024,7 +1050,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.25.1.1",
+              "version": "1.26.1.1",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
