@@ -294,7 +294,7 @@
     "name": "byehi98 Patches",
     "github": {
       "main": "2e21011efdb22c1d5cb875cd2bf4e9aa119bf80c77c476dd125af0b17de473bc",
-      "dev": "2e21011efdb22c1d5cb875cd2bf4e9aa119bf80c77c476dd125af0b17de473bc"
+      "dev": "8cd8a68ac0cdef92395f586bd0aaf825f2b43c482e5d90929e2076a9e660d572"
     }
   },
   "canh0chua/Morphe-patches": {
@@ -364,7 +364,7 @@
   "crimera/piko-newx": {
     "name": "Piko",
     "github": {
-      "main": "55aeacbc7067f28dcfcfc391f643cc359b78f302d2abed18e9d10ed86aeaeebf",
+      "main": "0d8c500f700451e5472ab91deeff8cd541deb7f8d89b707ab55d4fd73dbb7ea9",
       "dev": null
     }
   },
@@ -508,6 +508,13 @@
     "github": {
       "main": "18055fbc4934fa654a6b002ca9b89eaf51a4622b7fed71a489deb83968e86413",
       "dev": "18055fbc4934fa654a6b002ca9b89eaf51a4622b7fed71a489deb83968e86413"
+    }
+  },
+  "ethan-manny/spotify-tv-crossfade": {
+    "name": "Spotify TV Crossfade",
+    "github": {
+      "main": "ec6a70376e0763f63adc8da131e6a56fa1a265fdec379f248326a25cb6c8c3e9",
+      "dev": "ec6a70376e0763f63adc8da131e6a56fa1a265fdec379f248326a25cb6c8c3e9"
     }
   },
   "ethanm6/letterboxd-stremio-morphe-patch": {
@@ -674,7 +681,7 @@
   "hxreborn/morphe-patches": {
     "name": "hxreborn Patches",
     "github": {
-      "main": "235be7e50b2496c19e48a538f283120b07d7f0c0f991873bb3386d767ccbe871",
+      "main": "243fa6c6e148ac3b3f2c588c05a5b44021833ca2667eea88e6897830e1a087b3",
       "dev": null
     }
   },
@@ -920,7 +927,7 @@
   "legendsciber/morphe-patches": {
     "name": "legendsciber's Patches",
     "github": {
-      "main": "9deb4cd23b1a30a10c0c4f09ff9e4789a4c9d964ab69513a6eda13e74c03f7fa",
+      "main": "8869a45b2e79c9af00692a4007435b65186ce5a3b3f072a98d5fc29c94abf173",
       "dev": null
     }
   },
@@ -1466,8 +1473,8 @@
   "xob0t/morphe-patches": {
     "name": "xob0t Morphe Patches",
     "github": {
-      "main": "9d7066621460267b41590248ed39af1106e05ab8e5a7f6936aa4dd5a3b79c200",
-      "dev": "9d7066621460267b41590248ed39af1106e05ab8e5a7f6936aa4dd5a3b79c200"
+      "main": "c417e87687d3942a74f4750dc20889f091812bc06e8da6193bfda9dfe0a8b005",
+      "dev": "c417e87687d3942a74f4750dc20889f091812bc06e8da6193bfda9dfe0a8b005"
     }
   },
   "XTapped/morphe-patches": {
@@ -1488,8 +1495,8 @@
   "yann-soliman/morphe-patches": {
     "name": "Yann's patches",
     "github": {
-      "main": "8ff2c2c3f5405b7b244e2f1b9964cb84a509479f7a980cb7e35927c9fc4f7b12",
-      "dev": "8ff2c2c3f5405b7b244e2f1b9964cb84a509479f7a980cb7e35927c9fc4f7b12"
+      "main": "9b8a4c74147f70ebde6aa236fa6ec2efdd3ac58be98ee774d8916a11dbaf0c70",
+      "dev": "9b8a4c74147f70ebde6aa236fa6ec2efdd3ac58be98ee774d8916a11dbaf0c70"
     }
   },
   "ynotzort/morphe-patches": {

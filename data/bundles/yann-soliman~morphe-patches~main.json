@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-07T21:44:17",
-  "description": "## [1.1.0](https://github.com/yann-soliman/morphe-patches/compare/v1.0.0...v1.1.0) (2026-09-07)\n\n### 🐛 Bug Fixes\n\n* preserve calendar patch branch targets ([b0cc2c7](https://github.com/yann-soliman/morphe-patches/commit/b0cc2c736ba7d5cff368fd17679d820239c9c922))\n\n### ✨ New Features\n\n* add 30-day Keepcool booking calendar ([e05ef16](https://github.com/yann-soliman/morphe-patches/commit/e05ef163523661ba4af0d90c69650b778501eb56))",
-  "download_url": "https://github.com/yann-soliman/morphe-patches/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "created_at": "2026-09-08T11:57:46",
+  "description": "## [1.1.1](https://github.com/yann-soliman/morphe-patches/compare/v1.1.0...v1.1.1) (2026-09-08)\n\n### 🐛 Bug Fixes\n\n* preserve calendar register types to prevent Small Groups crash ([996104c](https://github.com/yann-soliman/morphe-patches/commit/996104c319a90b95ff347ea4f7adad1cb099e6f7))",
+  "download_url": "https://github.com/yann-soliman/morphe-patches/releases/download/v1.1.1/patches-1.1.1.mpp",
   "signature_download_url": "",
-  "version": "1.1.0"
+  "version": "1.1.1"
 }

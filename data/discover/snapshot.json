@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "30985e3817d174539f763e5a0131fc33a924966a",
+  "jman_tree_sha": "c8c86f38d0a231c895219558e72244f1b10d849a",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -74,7 +74,7 @@
       "key": "https://github.com/ameenalasady/photogrid-morphe"
     },
     "amplerevanced": {
-      "sha": "2f0afdfc339c2dc4691038b5be0d65b97fdc605d",
+      "sha": "63a60cba9a0add25b95648680d824d1f500fc28f",
       "key": "https://github.com/AmpleReVanced/revanced-patches"
     },
     "anddea": {
@@ -358,7 +358,7 @@
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "1cdfc639bc8734e77a768f35359d226d06073e52",
+      "sha": "40fd1d0a9a6e114599154b10ececdb7852b7c5a5",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -462,7 +462,7 @@
       "key": "https://github.com/ImNoammm/morphe-spotify-patches"
     },
     "imxeren": {
-      "sha": "064a791f833b8a2513eb2e3525715be87dad9a2b",
+      "sha": "4389cca3cdb3b990272ad5acacc3365d4e72eeed",
       "key": "https://gitlab.com/IMXEren/mix-patches"
     },
     "inotia00": {
@@ -562,7 +562,7 @@
       "key": null
     },
     "legendsciber": {
-      "sha": "68c21f872e34674902450702d172f9080d1213b0",
+      "sha": "fab1e54b0badeb7330add317eab094bc5cbb6879",
       "key": "https://github.com/legendsciber/morphe-patches"
     },
     "lennyRBLX": {
@@ -818,7 +818,7 @@
       "key": null
     },
     "rushiranpise": {
-      "sha": "c889bf2fb0d9b81dc4b868e29d03a74f163e0055",
+      "sha": "bff6b8cbffe80091b53a7c9dc6ed07a62a673118",
       "key": "https://github.com/rushiranpise/morphe-patches"
     },
     "rustore-privacy": {
@@ -922,7 +922,7 @@
       "key": null
     },
     "unipatches": {
-      "sha": "8db6084637d413001ff941e0cac56ad18a2e1ba3",
+      "sha": "38bba331b69322d26da9cb0e1db1be57200e8df6",
       "key": "https://github.com/Zanuaimi/UniPatches"
     },
     "v4n1x": {

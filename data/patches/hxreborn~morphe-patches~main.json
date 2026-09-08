@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.15.0",
+  "version": "1.16.0",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -97,6 +97,7 @@
       "description": "Replaces the dark theme background with pure black.",
       "default": true,
       "dependencies": [
+        "BytecodePatch",
         "ResourcePatch"
       ],
       "compatiblePackages": [
@@ -151,65 +152,6 @@
           "description": null,
           "apkFileType": "APK",
           "appIconColor": "#F44336",
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Bypass integrity check",
-      "description": "Loads the reciter catalogue on a patched install.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.mchutov.Quranify",
-          "name": "Quranify",
-          "description": null,
-          "apkFileType": "APKS",
-          "appIconColor": "#141414",
-          "signatures": [
-            "6832f51be89158c630aa9a166c10781f2f68fc3bf1ef1e776e4fa2c218f0010d"
-          ],
-          "targets": [
-            {
-              "version": "2.2.8",
-              "versionCodes": {
-                "ARM64_V8A": 77,
-                "ARMEABI_V7A": 77,
-                "X86_64": 77,
-                "X86": 77
-              },
-              "isExperimental": false,
-              "minSdk": 33,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Bypass signature check",
-      "description": "Removes the modified-version warning and restores address search and auto-routing.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "psyberia.alpinequest.free",
-          "name": "AlpineQuest",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#0057BD",
           "signatures": null,
           "targets": [
             {
@@ -478,6 +420,7 @@
       "description": "Hides the top-bar upgrade button and promotional sidebar rows.",
       "default": true,
       "dependencies": [
+        "BytecodePatch",
         "ResourcePatch",
         "ResourcePatch"
       ],
@@ -526,6 +469,7 @@
       "description": "Shows the network calls an AI tool makes, such as HTTP requests and Firebase uploads, and keeps a log, so you can watch your photo fly to China or the US.",
       "default": true,
       "dependencies": [
+        "BytecodePatch",
         "BytecodePatch"
       ],
       "compatiblePackages": [
@@ -586,7 +530,9 @@
       "name": "Remove 'Sent from' signature",
       "description": "Removes the 'Sent from Proton Mail' signature from emails.",
       "default": true,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "ch.protonmail.android",
@@ -631,7 +577,9 @@
       "name": "Remove free accounts limit",
       "description": "Removes the limit for maximum free accounts logged in.",
       "default": true,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "ch.protonmail.android",
@@ -704,93 +652,11 @@
       "options": []
     },
     {
-      "name": "Remove pairip protection",
-      "description": "Removes the Play Integrity protection that crashes a patched install on startup and sends it to Google Play. Background receivers the protection virtualized stop running.",
-      "default": true,
-      "dependencies": [
-        "RawResourcePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "all.in.one.calculator",
-          "name": "All-In-One Calculator",
-          "description": null,
-          "apkFileType": "APKS",
-          "appIconColor": "#455A64",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "3.4.0",
-              "versionCodes": {
-                "ARM64_V8A": 340,
-                "ARMEABI_V7A": 340,
-                "X86_64": 340,
-                "X86": 340
-              },
-              "isExperimental": false,
-              "minSdk": 24,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Remove pairip protection",
-      "description": "Removes the Play licensing check that sends a patched install to Google Play.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.mchutov.Quranify",
-          "name": "Quranify",
-          "description": null,
-          "apkFileType": "APKS",
-          "appIconColor": "#141414",
-          "signatures": [
-            "6832f51be89158c630aa9a166c10781f2f68fc3bf1ef1e776e4fa2c218f0010d"
-          ],
-          "targets": [
-            {
-              "version": "2.2.8",
-              "versionCodes": {
-                "ARM64_V8A": 77,
-                "ARMEABI_V7A": 77,
-                "X86_64": 77,
-                "X86": 77
-              },
-              "isExperimental": false,
-              "minSdk": 33,
-              "description": null
-            }
-          ]
-        },
-        {
-          "packageName": "com.sry.rateglance",
-          "name": "RateGlance",
-          "description": null,
-          "apkFileType": "APKS",
-          "appIconColor": "#0D192C",
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
       "name": "Show AI progress",
       "description": "Reads the current stage off the real network activity instead of the fake progress bar InShot ships.",
       "default": true,
       "dependencies": [
+        "BytecodePatch",
         "BytecodePatch"
       ],
       "compatiblePackages": [
@@ -826,6 +692,7 @@
       "description": "Shortens the AI tool wait by polling for the result more often and uploading the photo in larger chunks.",
       "default": true,
       "dependencies": [
+        "BytecodePatch",
         "BytecodePatch"
       ],
       "compatiblePackages": [
@@ -849,119 +716,6 @@
               },
               "isExperimental": false,
               "minSdk": 28,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Spoof iOS platform",
-      "description": "Reports the AI requests as coming from the iOS app, so the server does not ask for a Play Integrity token. Required for the AI tools on any device that passes Play Integrity.",
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "photo.editor.photoeditor.photoeditorpro",
-          "name": "Photo Editor Pro",
-          "description": null,
-          "apkFileType": "APKS_REQUIRED",
-          "appIconColor": "#FA2A80",
-          "signatures": [
-            "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
-          ],
-          "targets": [
-            {
-              "version": "1.791.265",
-              "versionCodes": {
-                "ARM64_V8A": 265100,
-                "ARMEABI_V7A": 265100,
-                "X86_64": 265100,
-                "X86": 265100
-              },
-              "isExperimental": false,
-              "minSdk": 28,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Spoof signature",
-      "description": "Spoofs the original app signature and disables the pairip client-side license check. Required: the app does not start without it.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "photo.editor.photoeditor.photoeditorpro",
-          "name": "Photo Editor Pro",
-          "description": null,
-          "apkFileType": "APKS_REQUIRED",
-          "appIconColor": "#FA2A80",
-          "signatures": [
-            "868aa1a8470b4214e88a5c9e65a1dbe475a32e1da7a23079ba6e0be0bd50b621"
-          ],
-          "targets": [
-            {
-              "version": "1.791.265",
-              "versionCodes": {
-                "ARM64_V8A": 265100,
-                "ARMEABI_V7A": 265100,
-                "X86_64": 265100,
-                "X86": 265100
-              },
-              "isExperimental": false,
-              "minSdk": 28,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Spoof signature",
-      "description": "Restores push notifications by spoofing the original app signature.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "ch.protonmail.android",
-          "name": "Proton Mail",
-          "description": null,
-          "apkFileType": "APK",
-          "appIconColor": "#6D4AFF",
-          "signatures": [
-            "dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853"
-          ],
-          "targets": [
-            {
-              "version": "7.11.5",
-              "versionCodes": {
-                "ARM64_V8A": 18317,
-                "ARMEABI_V7A": 18317,
-                "X86_64": 18317,
-                "X86": 18317
-              },
-              "isExperimental": false,
-              "minSdk": 29,
-              "description": null
-            },
-            {
-              "version": "7.10.4",
-              "versionCodes": {
-                "ARM64_V8A": 17667,
-                "ARMEABI_V7A": 17667,
-                "X86_64": 17667,
-                "X86": 17667
-              },
-              "isExperimental": false,
-              "minSdk": 29,
               "description": null
             }
           ]
@@ -973,7 +727,9 @@
       "name": "Unlock custom time picker",
       "description": "Enables picking a custom date and time when snoozing conversations and scheduling messages.",
       "default": true,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "ch.protonmail.android",
@@ -1077,6 +833,40 @@
     },
     {
       "name": "Unlock premium",
+      "description": "Unlocks all premium content and skips the free trial screen.",
+      "default": true,
+      "dependencies": [
+        "BytecodePatch",
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "ipnossoft.rma.free",
+          "name": "BetterSleep",
+          "description": null,
+          "apkFileType": "APKS_REQUIRED",
+          "appIconColor": "#1D204B",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "26.15",
+              "versionCodes": {
+                "ARM64_V8A": 26799,
+                "ARMEABI_V7A": 26799,
+                "X86_64": 26799,
+                "X86": 26799
+              },
+              "isExperimental": false,
+              "minSdk": 26,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock premium",
       "description": "Unlocks premium and removes ads.",
       "default": true,
       "dependencies": [],
@@ -1137,6 +927,7 @@
       "description": "Adds an option to unlock the pro tools, remove the export watermark and hide the upgrade prompts.",
       "default": true,
       "dependencies": [
+        "BytecodePatch",
         "BytecodePatch"
       ],
       "compatiblePackages": [
@@ -1197,7 +988,10 @@
       "name": "Unlock premium",
       "description": "Unlocks downloading every surah, lyrics and tafsir, Android Auto, background playback controls, and insights.",
       "default": true,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch",
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "com.mchutov.Quranify",
@@ -1230,7 +1024,9 @@
       "name": "Unlock premium",
       "description": "Unlocks all premium features.",
       "default": true,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "com.sry.rateglance",
@@ -1245,6 +1041,39 @@
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock premium",
+      "description": "Unlocks the energy schedule, habit tools, smart alarm and progress insights. Requires a RISE account.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.risesci.nyx",
+          "name": "RISE Sleep Tracker",
+          "description": null,
+          "apkFileType": "APKS",
+          "appIconColor": "#8E58FF",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "Android V1.78.49",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": 26,
+              "description": null
+            },
+            {
+              "version": "Android V1.78.47",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": 26,
               "description": null
             }
           ]

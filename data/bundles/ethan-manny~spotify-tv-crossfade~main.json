@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-09-08T07:57:15",
+  "description": "## 1.0.0 (2026-09-08)\n\n### ✨ New Features\n\n* crossfade between songs for the Spotify TV app ([863dffd](https://github.com/ethan-manny/spotify-tv-crossfade/commit/863dffd6f8e584881ed0a7571358342f405ee8c0))",
+  "download_url": "https://github.com/ethan-manny/spotify-tv-crossfade/releases/download/v1.0.0/patches-1.0.0.mpp",
+  "signature_download_url": "",
+  "version": "1.0.0"
+}

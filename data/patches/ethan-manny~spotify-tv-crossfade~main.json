@@ -1,0 +1,86 @@
+{
+  "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
+  "version": "1.0.0",
+  "patches": [
+    {
+      "name": "Crossfade",
+      "description": "Crossfade between songs (0-12 s). Long-press Menu in the app to set the length.",
+      "default": true,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.spotify.tv.android",
+          "name": "Spotify (TV)",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#1DB954",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.134.2",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Debuggable build",
+      "description": "Marks the app debuggable: enables run-as access to app files and WebView remote inspection.",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.spotify.tv.android",
+          "name": "Spotify (TV)",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#1DB954",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.134.2",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Disable Amazon Appstore DRM",
+      "description": "Turns the Amazon Appstore (Kiwi) DRM lifecycle checks into no-ops so a re-signed APK runs.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.spotify.tv.android",
+          "name": "Spotify (TV)",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#1DB954",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.134.2",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
+}
