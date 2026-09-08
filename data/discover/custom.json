@@ -5,6 +5,9 @@
   "https://github.com/hxreborn/hxreborn-tiktok-patches": {
     "note": "https://github.com/nvbangg/awesome-morphe/issues/6"
   },
+  "https://github.com/ethan-manny/spotify-tv-crossfade": {
+    "note": "https://github.com/nvbangg/awesome-morphe/issues/9"
+  },
   "https://github.com/AmpleReVanced/revanced-patches": {
     "revancedStars": 17,
     "note": "ReVanced era stars offset (before Morphe migration)"
