@@ -7,7 +7,7 @@
       "repoDescription": "Morphe Patches",
       "avatarUrl": "https://raw.githubusercontent.com/MorpheApp/morphe-patches/main/patches-bundle.png",
       "stars": 3544,
-      "updatedAt": 1788784834000,
+      "updatedAt": 1788871462000,
       "firstSeen": 1767200400000,
       "appFirstSeen": {
         "com.reddit.frontpage": 1767200400000,
@@ -4384,7 +4384,7 @@
           "compatiblePackagesKey": 114
         }
       ],
-      "hotRank": 21
+      "hotRank": 20
     },
     {
       "source": "github",
@@ -5219,7 +5219,7 @@
           "compatiblePackagesKey": 148
         }
       ],
-      "hotRank": 35
+      "hotRank": 33
     },
     {
       "source": "gitlab",
@@ -8492,7 +8492,7 @@
           "compatiblePackagesKey": 462
         }
       ],
-      "hotRank": 33
+      "hotRank": 34
     },
     {
       "source": "github",
@@ -9005,7 +9005,7 @@
           "compatiblePackagesKey": 475
         }
       ],
-      "hotRank": 29
+      "hotRank": 28
     },
     {
       "source": "github",
@@ -10747,7 +10747,7 @@
           "compatiblePackagesKey": 537
         }
       ],
-      "hotRank": 41
+      "hotRank": 40
     },
     {
       "source": "github",
@@ -10925,7 +10925,7 @@
           "compatiblePackagesKey": 545
         }
       ],
-      "hotRank": 136
+      "hotRank": 135
     },
     {
       "source": "github",
@@ -11282,7 +11282,7 @@
           "compatiblePackagesKey": 549
         }
       ],
-      "hotRank": 135
+      "hotRank": 136
     },
     {
       "source": "github",
@@ -15450,7 +15450,7 @@
           "compatiblePackagesKey": 613
         }
       ],
-      "hotRank": 34
+      "hotRank": 35
     },
     {
       "source": "github",
@@ -18312,7 +18312,7 @@
           "compatiblePackagesKey": 680
         }
       ],
-      "hotRank": 45
+      "hotRank": 44
     },
     {
       "source": "github",
@@ -21405,7 +21405,7 @@
           "compatiblePackagesKey": 791
         }
       ],
-      "hotRank": 49
+      "hotRank": 50
     },
     {
       "source": "github",
@@ -21414,7 +21414,7 @@
       "repoDescription": "Morphe patches to remove ads, analytics, apk junk, debug info, duplicate graphics, unused languages, and use custom dpi☠️",
       "avatarUrl": "https://avatars.githubusercontent.com/u/139938337?v=4&s=128",
       "stars": 26,
-      "updatedAt": 1788860133000,
+      "updatedAt": 1788872797000,
       "firstSeen": 1786240845995,
       "appFirstSeen": {
         "com.snaptube.premium": 1786360281622,
@@ -21563,7 +21563,7 @@
         },
         {
           "name": "Clean sidebar shortcuts",
-          "description": "Independently hide Bookmark, Favourite, Add to Playlist, Tutorial, and/or Playing Queue from the player's shortcut sidebar.",
+          "description": "Independently hide Video Display, Bookmark, Favourite, Add to Playlist, Tutorial, and/or Playing Queue from the player's shortcut sidebar.",
           "isPreRelease": true,
           "options": [
             {
@@ -21696,6 +21696,12 @@
           "compatiblePackagesKey": 217
         },
         {
+          "name": "Fix SpeedUp tip string",
+          "description": "Shortens the SpeedUp long-press tip from \"%1$s Speed Playing\" to \"%1$s\".",
+          "isPreRelease": true,
+          "compatiblePackagesKey": 798
+        },
+        {
           "name": "Hide File Transfer, Video Playlist, Private Folder tiles",
           "description": "Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.",
           "default": false,
@@ -21706,6 +21712,17 @@
           "description": "Collapses the WhatsApp, Legal, and Help entries on the Me tab.",
           "default": false,
           "compatiblePackagesKey": 805
+        },
+        {
+          "name": "Hide Video Display",
+          "isPreRelease": true,
+          "options": [
+            {
+              "key": "hideVideoDisplay",
+              "title": "Hide Video Display"
+            }
+          ],
+          "compatiblePackagesKey": 798
         },
         {
           "name": "Hide more actions",
@@ -23524,7 +23541,7 @@
           "compatiblePackagesKey": 124
         }
       ],
-      "hotRank": 20
+      "hotRank": 21
     },
     {
       "source": "github",
@@ -24669,7 +24686,7 @@
       "repoDescription": "legendsciber's Patches - Morphe patches",
       "avatarUrl": "https://avatars.githubusercontent.com/u/106559486?v=4&s=128",
       "stars": 8,
-      "updatedAt": 1788865932000,
+      "updatedAt": 1788875380000,
       "firstSeen": 1787620439710,
       "appFirstSeen": {
         "com.fingersoft.hillclimb": 1787620432732,
@@ -24741,7 +24758,7 @@
           "compatiblePackagesKey": 596
         }
       ],
-      "hotRank": 50
+      "hotRank": 49
     },
     {
       "source": "github",
@@ -28099,7 +28116,7 @@
           "compatiblePackagesKey": 921
         }
       ],
-      "hotRank": 44
+      "hotRank": 45
     },
     {
       "source": "github",
@@ -30088,7 +30105,7 @@
           "compatiblePackagesKey": 926
         }
       ],
-      "hotRank": 40
+      "hotRank": 41
     },
     {
       "source": "github",
@@ -30566,7 +30583,7 @@
           "compatiblePackagesKey": 20
         }
       ],
-      "hotRank": 28
+      "hotRank": 29
     },
     {
       "source": "github",
@@ -30592,7 +30609,7 @@
           "compatiblePackagesKey": 929
         }
       ],
-      "hotRank": 25
+      "hotRank": 26
     },
     {
       "source": "github",
@@ -30613,7 +30630,7 @@
           "compatiblePackagesKey": 930
         }
       ],
-      "hotRank": 23
+      "hotRank": 24
     },
     {
       "source": "github",
@@ -32897,7 +32914,7 @@
           "compatiblePackagesKey": 1031
         }
       ],
-      "hotRank": 26
+      "hotRank": 25
     },
     {
       "source": "github",
@@ -32979,7 +32996,7 @@
           "compatiblePackagesKey": 1032
         }
       ],
-      "hotRank": 24
+      "hotRank": 23
     }
   ],
   "compatibilities": [

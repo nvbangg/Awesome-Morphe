@@ -238,7 +238,7 @@
     "name": "BlazeFTL Patches",
     "github": {
       "main": "fd47c89bb324242f8062c1b02cc7c150514b57b82455df562cf7ff91c2102c4f",
-      "dev": "fe7544fce002190bd2bea78478c212f06056a982c7311c81d1159e44e97bd5de"
+      "dev": "2f628952890762e58a0fcce5cd3c18527169e9ebc977ac689999e7e0ce680f5b"
     }
   },
   "BlazeFTL/Morphe-Portal-Patches-New": {
@@ -927,7 +927,7 @@
   "legendsciber/morphe-patches": {
     "name": "legendsciber's Patches",
     "github": {
-      "main": "8869a45b2e79c9af00692a4007435b65186ce5a3b3f072a98d5fc29c94abf173",
+      "main": "bd8c452e4be0a37cb2e4a05ebfee4d440ce98f0e334fb1670a56ba71a9142b5d",
       "dev": null
     }
   },
@@ -1027,7 +1027,7 @@
     "name": "Morphe Patches",
     "github": {
       "main": "0eb1b27be608cb65127db3420212a794e49d809d6f3795a6b961572b917d48aa",
-      "dev": "1f0fbaea9863f4175ea7aaf4e595a5a8ac9e187f74f6431d89209bc2367be953",
+      "dev": "502a0ddec03954986eec279aac7ce0b0e57d5e659374c29031d17e68927d3e9b",
       "image": "70105daca724c7354163f031c24067b34a8b630dd43839d65d3c5e858773cc02"
     }
   },
@@ -1524,8 +1524,8 @@
   "zeldrisho/morphe-patches": {
     "name": "Zeldris Patches",
     "github": {
-      "main": "ef12d32a0e570b46e53c114ae9980bab25aa46b81e5068cb3c4da32867321de8",
-      "dev": "4999cb3a51a27bc484de26cf191812809c48c5e573f84e40924dc59a75b9eb7b"
+      "main": "4999cb3a51a27bc484de26cf191812809c48c5e573f84e40924dc59a75b9eb7b",
+      "dev": null
     }
   }
 }
