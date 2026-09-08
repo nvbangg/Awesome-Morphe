@@ -92,7 +92,7 @@
     "name": "Ample Patches",
     "github": {
       "main": "84714c191c13bc6f57f57b71a66867ffa65334d3b81657cdb38ca33afe34602c",
-      "dev": "5cb2489957cd21f9510978e87e9e811a88bd0c330091599188c127186f5d68ee"
+      "dev": "6786e24a460e09a54192981e0e9392343df3255f4f075cde2c02fa8ef59bc3e3"
     }
   },
   "anddea/revanced-patches": {
@@ -238,7 +238,7 @@
     "name": "BlazeFTL Patches",
     "github": {
       "main": "fd47c89bb324242f8062c1b02cc7c150514b57b82455df562cf7ff91c2102c4f",
-      "dev": "2eb49788e084dde5ea54a96951a43d230d393600efb9d8aae0f94f89847c59cc"
+      "dev": "fe7544fce002190bd2bea78478c212f06056a982c7311c81d1159e44e97bd5de"
     }
   },
   "BlazeFTL/Morphe-Portal-Patches-New": {
@@ -675,7 +675,7 @@
     "name": "hxreborn Patches",
     "github": {
       "main": "235be7e50b2496c19e48a538f283120b07d7f0c0f991873bb3386d767ccbe871",
-      "dev": "c06609257f477ea22d955886f776eace23bb3e14363e1df74f537d03e5415cd3"
+      "dev": null
     }
   },
   "icysymmetra/tiktok-patches-for-morphe": {
@@ -718,7 +718,7 @@
     "name": "Mix Patches",
     "gitlab": {
       "main": "c66be5546e5947b7f1b305c4a2bc0774eba2f5ece2276820e99ef2292136ba48",
-      "dev": "e697a40c57ea8e783fa2876b8f51ff93cc9efa7446f2f19846de2476fa1c4369"
+      "dev": "3b61fde9e374fcbc0f9f3d9170faacf517bfb2eb9040f9b437b088040e53a858"
     }
   },
   "inotia00/proguard-patches": {
@@ -920,7 +920,7 @@
   "legendsciber/morphe-patches": {
     "name": "legendsciber's Patches",
     "github": {
-      "main": "4e93d5f86f7132eb85028c32700ce1689c23c5b96189435abd906520d187ff46",
+      "main": "9deb4cd23b1a30a10c0c4f09ff9e4789a4c9d964ab69513a6eda13e74c03f7fa",
       "dev": null
     }
   },
@@ -1112,7 +1112,7 @@
   "picarica/My-moprhe-patches": {
     "name": "AFFiNE No-GMS Patches",
     "github": {
-      "main": "0b724fb1a2b72ec063e84b70d5bde08fdde182aa4fa5a228a2a86853b566a48e",
+      "main": "15721ec941174836e6c37022e35afba6c3957ac965fde59f6eedc0da22e216bb",
       "dev": null
     }
   },
@@ -1225,7 +1225,7 @@
     "name": "riky's patches",
     "github": {
       "main": "42b62b3926e02788d5462b10c294112e7b600fa2819cdfe6785bb13117f6256d",
-      "dev": "42b62b3926e02788d5462b10c294112e7b600fa2819cdfe6785bb13117f6256d"
+      "dev": "23c3f7f546cf895663645dd2b30849e7d55bd71dd85c7b3edb9067b0ccbb561d"
     }
   },
   "Ripthulhu/morphe-google-patches": {
@@ -1252,8 +1252,8 @@
   "rushiranpise/morphe-patches": {
     "name": "Doom's Morphe Patches",
     "github": {
-      "main": "72eb63e2028c1524f4165c57f512808485468e61abb7a5d576d7e6523dd4682a",
-      "dev": "72eb63e2028c1524f4165c57f512808485468e61abb7a5d576d7e6523dd4682a",
+      "main": "c40a6fb2537de1670efe64bb3efb49091facaf4cc429a682bbb12734cede40bc",
+      "dev": "c40a6fb2537de1670efe64bb3efb49091facaf4cc429a682bbb12734cede40bc",
       "image": "b6a3c0d3e2e7764bc1e0a2a0741fe7e4098ce5b0b78be9e3a695bae84f1c3af1"
     }
   },
@@ -1359,7 +1359,7 @@
   "SysAdminDoc/hushfeed": {
     "name": "Hushfeed",
     "github": {
-      "main": "1e5cb40547a1649c46d0552546e6a0083b063c8314c809664c767145bab97dcc",
+      "main": "b061ff63a69f9d64a1ca65ebd97a9ac0103081b3e764a4fcf40d52b6ec85374e",
       "dev": null,
       "image": "4d092c078217f40dceb3b85b29d4c3f23e2a1cf3e46e32942b094d1e80453e31"
     }
@@ -1509,8 +1509,8 @@
   "Zanuaimi/UniPatches": {
     "name": "Zanuaimi's UniPatches",
     "github": {
-      "main": "e6a7c8021bd63d2931018c1e229d18bb13c8cdba7ca252ef0e7107df59aee03f",
-      "dev": "e6a7c8021bd63d2931018c1e229d18bb13c8cdba7ca252ef0e7107df59aee03f",
+      "main": "0122a6b3b7cfa7de942434bc6cc761503491318f74b119ba86eba6c1ab748ae0",
+      "dev": "0122a6b3b7cfa7de942434bc6cc761503491318f74b119ba86eba6c1ab748ae0",
       "image": "d6033284f266e11ce96e3c2b4eb7a147f0a977ca25dca1d09bab05319dab5907"
     }
   },
@@ -1518,7 +1518,7 @@
     "name": "Zeldris Patches",
     "github": {
       "main": "ef12d32a0e570b46e53c114ae9980bab25aa46b81e5068cb3c4da32867321de8",
-      "dev": "f9bebf4ca5396ba1f9931a6c41ae2cbe565ccf6386b92c0f2c97312805b1f3ab"
+      "dev": "4999cb3a51a27bc484de26cf191812809c48c5e573f84e40924dc59a75b9eb7b"
     }
   }
 }

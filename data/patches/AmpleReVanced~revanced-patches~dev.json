@@ -1,5 +1,5 @@
 {
-  "version": "1.5.0-dev.6",
+  "version": "1.5.0-dev.8",
   "patches": [
     {
       "name": "Add Packet Handler",
@@ -1871,7 +1871,7 @@
     },
     {
       "name": "Enable navigation live updates",
-      "description": "Shows navigation progress with Android Live Updates.",
+      "description": "Shows navigation progress and stop-by-stop transit guidance with Android Live Updates.",
       "default": true,
       "dependencies": [
         "BytecodePatch",
@@ -1887,7 +1887,40 @@
           "signatures": null,
           "targets": [
             {
+              "version": "6.28.2",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
               "version": "6.28.1",
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Enable navigation live updates",
+      "description": "Converts Now Bar navigation notifications to Android Live Updates on Android 16 or newer.",
+      "default": true,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.nhn.android.nmap",
+          "name": "NAVER Map",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#03C75A",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "6.9.1.3",
               "isExperimental": true,
               "minSdk": null,
               "description": null

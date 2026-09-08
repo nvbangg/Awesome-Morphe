@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "118fd3c93c382a01566b3c7c124634fdfd13894e",
+  "jman_tree_sha": "30985e3817d174539f763e5a0131fc33a924966a",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -38,7 +38,7 @@
       "key": "https://github.com/hashtagbasit/aimal-patches"
     },
     "ajstrick81-androidtv": {
-      "sha": "b9bd709edd76afaf5e346a35614a5ac0da5dbc79",
+      "sha": "91f94d2a2f22ac2f341256f3cc8806da73390266",
       "key": "https://github.com/ajstrick81/morphe-androidtv-patches"
     },
     "alastor-kaneki": {
@@ -74,7 +74,7 @@
       "key": "https://github.com/ameenalasady/photogrid-morphe"
     },
     "amplerevanced": {
-      "sha": "ac4952434f9f30de27153797b897c08904924487",
+      "sha": "2f0afdfc339c2dc4691038b5be0d65b97fdc605d",
       "key": "https://github.com/AmpleReVanced/revanced-patches"
     },
     "anddea": {
@@ -178,7 +178,7 @@
       "key": "https://github.com/braiNtropy/braintropy-patches"
     },
     "braydog2010": {
-      "sha": "212aaf7ee858a803b5033c31874e5ca297937bfe",
+      "sha": "b92dfb88111f8b294dbfdb95cdfa10983b8d8c92",
       "key": "https://github.com/BrayDog2010/morphe-patches"
     },
     "brosssh": {
@@ -342,7 +342,7 @@
       "key": "https://github.com/isuruhg/fin-tweaks"
     },
     "flexboard": {
-      "sha": "6bd15011d6586dbcd657922fee8484b526f4e631",
+      "sha": "93d7339b5864add7f110b3fcfd9aebf8a151f503",
       "key": "https://github.com/JZ6/Flexboard"
     },
     "forsyth47": {
@@ -358,7 +358,7 @@
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "0cc8de9939a49fd69f05d1fe9559ea7676afc7d2",
+      "sha": "1cdfc639bc8734e77a768f35359d226d06073e52",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -418,7 +418,7 @@
       "key": "https://github.com/hu-liberator/patches"
     },
     "hushfeed": {
-      "sha": "01dee3e7e00a88204b640dd5b7cff06676576720",
+      "sha": "1d7facd8703d64cad65f523d8e086581086ff8e2",
       "key": "https://github.com/SysAdminDoc/hushfeed"
     },
     "hxreborn": {

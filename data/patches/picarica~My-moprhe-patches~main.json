@@ -1,33 +1,39 @@
 {
-    "version": "1.0.0",
-    "patches": [
+  "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
+  "version": "1.0.1",
+  "patches": [
+    {
+      "name": "Remove Google requirements",
+      "description": "Removes Google Play PairIP licensing, Firebase/Google startup components, analytics permissions, and AFFiNE's explicit Crashlytics startup call.",
+      "default": true,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "compatiblePackages": [
         {
-            "name": "Remove Google requirements",
-            "description": "Removes Google Play PairIP licensing, Firebase/Google startup components, analytics permissions, and AFFiNE's explicit Crashlytics startup call.",
-            "default": true,
-            "dependencies": [
-                "ResourcePatch"
-            ],
-            "compatiblePackages": [
-                {
-                    "packageName": "app.affine.pro",
-                    "name": "AFFiNE",
-                    "description": "The official Google Play XAPK for AFFiNE 0.27.4 (arm64-v8a).",
-                    "apkFileType": "XAPK_REQUIRED",
-                    "appIconColor": "#1E96EB",
-                    "signatures": [],
-                    "targets": [
-                        {
-                            "version": "0.27.4",
-                            "versionCodes": "{ARM64_V8A=439}",
-                            "isExperimental": false,
-                            "minSdk": null,
-                            "description": "Google Play release 439; requires its arm64-v8a split."
-                        }
-                    ]
-                }
-            ],
-            "options": []
+          "packageName": "app.affine.pro",
+          "name": "AFFiNE",
+          "description": "The official Google Play XAPK for AFFiNE 0.27.4 (arm64-v8a).",
+          "apkFileType": "XAPK_REQUIRED",
+          "appIconColor": "#1E96EB",
+          "signatures": [
+            "f4a6109f03eeb43484aee931e5eb9382260c67b77d86d8a69c7b641e5b631c18",
+            "6ce5fa30a23b1b0392cea753541b971fdb8ebbffa5b23a1fda590b5400a30ed4"
+          ],
+          "targets": [
+            {
+              "version": "0.27.4",
+              "versionCodes": {
+                "ARM64_V8A": 439
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": "Google Play release 439; requires its arm64-v8a split."
+            }
+          ]
         }
-    ]
+      ],
+      "options": []
+    }
+  ]
 }
