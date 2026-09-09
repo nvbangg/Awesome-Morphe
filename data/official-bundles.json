@@ -431,7 +431,7 @@
         "com.fox.foxone": 1780293505455,
         "com.tubitv": 1780009881312
       },
-      "hotRank": 14
+      "hotRank": 15
     },
     {
       "source": "github",
@@ -761,7 +761,7 @@
       "appFirstSeen": {
         "com.application.pokecardex": 1767225600000
       },
-      "hotRank": 130
+      "hotRank": 129
     },
     {
       "source": "github",
@@ -1817,7 +1817,7 @@
       "appFirstSeen": {
         "com.huawei.maps.app": 1786030630476
       },
-      "hotRank": 117
+      "hotRank": 118
     },
     {
       "source": "github",
@@ -2389,7 +2389,7 @@
       "appFirstSeen": {
         "com.valvesoftware.steamlinkvr": 1786091478160
       },
-      "hotRank": 49
+      "hotRank": 48
     },
     {
       "source": "github",
@@ -3036,7 +3036,7 @@
       "appFirstSeen": {
         "com.stremio.one": 1787731056985
       },
-      "hotRank": 90
+      "hotRank": 91
     },
     {
       "source": "github",
@@ -3141,7 +3141,7 @@
       "appFirstSeen": {
         "com.transsion.oraimohealth": 1788248708781
       },
-      "hotRank": 79
+      "hotRank": 80
     },
     {
       "source": "github",
@@ -3350,7 +3350,7 @@
       "appFirstSeen": {
         "com.sec.android.app.shealth": 1782236339824
       },
-      "hotRank": 84
+      "hotRank": 85
     },
     {
       "source": "github",
@@ -3447,7 +3447,7 @@
         "com.truecaller": 1775952000000,
         "com.quickcursor": 1775952000000
       },
-      "stars": 148,
+      "stars": 147,
       "updatedAt": 1777248000000,
       "firstSeen": 1776003728000,
       "appFirstSeen": {
@@ -3459,7 +3459,7 @@
         "app.symfonik.music.player": 1776003728000,
         "org.withouthat.acalendar": 1776003728000
       },
-      "hotRank": 67
+      "hotRank": 72
     },
     {
       "source": "github",
@@ -3949,6 +3949,13 @@
           "compatiblePackagesKey": 134
         },
         {
+          "name": "Boost Splash Screen Time",
+          "description": "Disables MX Player's welcome/splash ad so playback starts immediately.",
+          "default": true,
+          "preRelease": true,
+          "compatiblePackagesKey": 139
+        },
+        {
           "name": "Configure Smart Enhance",
           "description": "Configures the Smart Enhance intro popup and enable/disable toast.",
           "default": true,
@@ -4097,7 +4104,7 @@
       "repoDescription": "Morphe patches to remove ads, analytics, apk junk, debug info, duplicate graphics, unused languages, and use custom dpi☠️",
       "avatarUrl": "https://avatars.githubusercontent.com/u/139938337?v=4&size=168",
       "deepLink": "https://morphe.software/add-source?github=BlazeFTL/FTL-Patches",
-      "patchCount": 59,
+      "patchCount": 60,
       "targetApps": [
         "com.mxtech.videoplayer.ad",
         "videoplayer.videodownloader.downloader",
@@ -4137,7 +4144,7 @@
         "com.tester.wpswpatester": 1788107891385,
         "abdelrahman.wifianalyzerpro": 1788086505110
       },
-      "hotRank": 20
+      "hotRank": 22
     },
     {
       "source": "github",
@@ -4166,7 +4173,7 @@
       "appFirstSeen": {
         "org.wakingup.android": 1786267928589
       },
-      "hotRank": 101
+      "hotRank": 100
     },
     {
       "source": "github",
@@ -4665,7 +4672,7 @@
         "com.pinterest": 1782206425615,
         "easy.sudoku.puzzle.solver.free": 1785577233427
       },
-      "hotRank": 23
+      "hotRank": 24
     },
     {
       "source": "github",
@@ -4710,7 +4717,7 @@
         "com.dynamixsoftware.printershare": 1788377566976,
         "com.veewalabs.unitconverter": 1788405750997
       },
-      "hotRank": 76
+      "hotRank": 77
     },
     {
       "source": "github",
@@ -4827,7 +4834,7 @@
         "com.Splitwise.SplitwiseMobile": 1783348412813,
         "com.overdevs.at4k": 1783348412813
       },
-      "hotRank": 25
+      "hotRank": 26
     },
     {
       "source": "github",
@@ -5284,7 +5291,7 @@
       "appFirstSeen": {
         "com.viber.voip": 1787811967882
       },
-      "hotRank": 93
+      "hotRank": 94
     },
     {
       "source": "github",
@@ -5637,7 +5644,7 @@
       "appFirstSeen": {
         "com.halliharp.proxmobo": 1787300285807
       },
-      "hotRank": 94
+      "hotRank": 95
     },
     {
       "source": "github",
@@ -6516,7 +6523,7 @@
         "com.instagram.android": 1788480000000,
         "com.twitter.android": 1788739200000
       },
-      "stars": 5171,
+      "stars": 5177,
       "updatedAt": 1788739200000,
       "firstSeen": 1773154796000,
       "appFirstSeen": {
@@ -6816,7 +6823,7 @@
       "appFirstSeen": {
         "com.gdjztech.ringconn": 1788861307176
       },
-      "hotRank": 34
+      "hotRank": 36
     },
     {
       "source": "github",
@@ -6909,7 +6916,7 @@
         "com.brave.browser_nightly": 1786104963166,
         "io.github.jqssun.helium": 1786104963166
       },
-      "hotRank": 19
+      "hotRank": 20
     },
     {
       "source": "github",
@@ -7874,7 +7881,7 @@
         "com.mediocre.commute": 1784733902553,
         "jp.firstascent.cryanalyzer": 1784733902553
       },
-      "hotRank": 15
+      "hotRank": 14
     },
     {
       "source": "gitlab",
@@ -9209,7 +9216,7 @@
         "eu.darken.bluemusic": 1786413608053,
         "com.javiersantos.mlmanager": 1787689227794
       },
-      "hotRank": 24
+      "hotRank": 25
     },
     {
       "source": "github",
@@ -9254,7 +9261,7 @@
         "dmytro.palamarchuk.dailyreminder": 1788562708557,
         "com.notch.touch": 1788562708557
       },
-      "hotRank": 83
+      "hotRank": 84
     },
     {
       "source": "github",
@@ -9294,7 +9301,7 @@
       "appFirstSeen": {
         "com.spotify.tv.android": 1788861816351
       },
-      "hotRank": 26
+      "hotRank": 30
     },
     {
       "source": "github",
@@ -9334,7 +9341,7 @@
       "appFirstSeen": {
         "com.letterboxd.letterboxd": 1784100903208
       },
-      "hotRank": 91
+      "hotRank": 92
     },
     {
       "source": "github",
@@ -9553,7 +9560,7 @@
         "com.rawcam.app": 1785468401751,
         "com.bolpatranepal.axios": 1786889351093
       },
-      "hotRank": 35
+      "hotRank": 34
     },
     {
       "source": "github",
@@ -9652,7 +9659,7 @@
       "appFirstSeen": {
         "ru.vk.store": 1787957737967
       },
-      "hotRank": 82
+      "hotRank": 83
     },
     {
       "source": "github",
@@ -9681,7 +9688,7 @@
       "appFirstSeen": {
         "io.strongapp.strong": 1785869599168
       },
-      "hotRank": 92
+      "hotRank": 93
     },
     {
       "source": "github",
@@ -9737,7 +9744,7 @@
         "com.disney.disneyplus",
         "com.viki.android"
       ],
-      "stars": 4,
+      "stars": 5,
       "updatedAt": 1788652800000,
       "firstSeen": 1787555983088,
       "appFirstSeen": {
@@ -9746,7 +9753,7 @@
         "com.disney.disneyplus": 1787555983088,
         "com.viki.android": 1787689227794
       },
-      "hotRank": 51
+      "hotRank": 45
     },
     {
       "source": "github",
@@ -9775,7 +9782,7 @@
       "appFirstSeen": {
         "com.sankakucomplex.channel.black": 1782472442332
       },
-      "hotRank": 72
+      "hotRank": 71
     },
     {
       "source": "github",
@@ -10003,7 +10010,7 @@
       "appFirstSeen": {
         "com.markatlarge.scrub": 1787386528816
       },
-      "hotRank": 129
+      "hotRank": 130
     },
     {
       "source": "github",
@@ -10115,7 +10122,7 @@
         "com.techkitlabs.movieparadise": 1785616305457,
         "com.astrapaging.vff": 1786984311736
       },
-      "hotRank": 77
+      "hotRank": 78
     },
     {
       "source": "github",
@@ -10972,7 +10979,7 @@
         "hu.mav.emmapp": 1785919717167,
         "hu.idokep.idokep": 1785919717167
       },
-      "hotRank": 108
+      "hotRank": 107
     },
     {
       "source": "github",
@@ -11005,7 +11012,7 @@
       "appFirstSeen": {
         "com.eksiteknoloji.eksisozluk": 1777893988000
       },
-      "hotRank": 118
+      "hotRank": 117
     },
     {
       "source": "github",
@@ -11682,7 +11689,7 @@
       "appFirstSeen": {
         "jp.nicovideo.nicobox": 1784887231838
       },
-      "hotRank": 75
+      "hotRank": 76
     },
     {
       "source": "gitlab",
@@ -11845,7 +11852,7 @@
         "com.laurencedawson.reddit_sync": 1781583945043,
         "tv.trakt.trakt": 1779377400000
       },
-      "hotRank": 85
+      "hotRank": 87
     },
     {
       "source": "github",
@@ -11964,7 +11971,7 @@
         "com.toleio.us": 1787956507545,
         "com.lumenate.lumenateaa": 1787811882522
       },
-      "hotRank": 89
+      "hotRank": 90
     },
     {
       "source": "github",
@@ -13096,7 +13103,7 @@
       "appFirstSeen": {
         "com.discord": 1788648118660
       },
-      "hotRank": 50
+      "hotRank": 49
     },
     {
       "source": "github",
@@ -13186,7 +13193,7 @@
       "appFirstSeen": {
         "com.google.android.inputmethod.latin": 1786958060481
       },
-      "hotRank": 22
+      "hotRank": 23
     },
     {
       "source": "github",
@@ -13237,7 +13244,7 @@
         "de.cyberdream.dreamepg.player": 1787675733529,
         "com.labs.merlinbirdid.app": 1787845534294
       },
-      "hotRank": 95
+      "hotRank": 96
     },
     {
       "source": "github",
@@ -13692,7 +13699,7 @@
         "jp.pxv.android": 1787212251235,
         "io.github.sds100.keymapper": 1784342313600
       },
-      "hotRank": 31
+      "hotRank": 29
     },
     {
       "source": "github",
@@ -13983,7 +13990,7 @@
       "appFirstSeen": {
         "mam.reader.ipusnas": 1786949281955
       },
-      "hotRank": 48
+      "hotRank": 47
     },
     {
       "source": "github",
@@ -14454,7 +14461,7 @@
         },
         {
           "name": "Shadow Fight 2 IAP Bypass (Smali)",
-          "description": "Bypasses in-app purchases via smali patching. Intercepts zzbm callbacks to inject fake purchase data into C++ layer.",
+          "description": "Bypasses in-app purchases via smali patching. Intercepts launchBillingFlow only.",
           "default": true,
           "compatiblePackagesKey": 490
         },
@@ -14495,7 +14502,7 @@
         "com.nekki.shadowfight": 1788319107459,
         "com.mediocre.smashhit": 1787845534294
       },
-      "hotRank": 43
+      "hotRank": 51
     },
     {
       "source": "github",
@@ -14554,7 +14561,7 @@
       "appFirstSeen": {
         "com.nuvio.tv": 1785919858436
       },
-      "hotRank": 45
+      "hotRank": 44
     },
     {
       "source": "github",
@@ -14595,7 +14602,7 @@
       "appFirstSeen": {
         "com.stremio.one": 1787647391952
       },
-      "hotRank": 81
+      "hotRank": 82
     },
     {
       "source": "github",
@@ -14645,7 +14652,7 @@
         "com.calistree.calistree": 1785926248177,
         "com.jeffprod.cubesolver": 1786153262639
       },
-      "hotRank": 87
+      "hotRank": 88
     },
     {
       "source": "github",
@@ -14928,7 +14935,7 @@
         "com.feralinteractive.laracroftgol_android": 1788793543722,
         "com.mad.DuckLifeSpace": 1788799329551
       },
-      "hotRank": 36
+      "hotRank": 32
     },
     {
       "source": "github",
@@ -19368,7 +19375,7 @@
       "appFirstSeen": {
         "app.affine.pro": 1788861442068
       },
-      "hotRank": 32
+      "hotRank": 33
     },
     {
       "source": "github",
@@ -19549,7 +19556,7 @@
       "appFirstSeen": {
         "com.netbiscuits.kicker": 1788338197155
       },
-      "hotRank": 78
+      "hotRank": 79
     },
     {
       "source": "github",
@@ -19697,7 +19704,7 @@
         "ru.bpc.mobilebank.bpc": 1786703409649,
         "com.algeria.selfcare.app.android": 1786703409649
       },
-      "hotRank": 69
+      "hotRank": 68
     },
     {
       "source": "github",
@@ -19744,7 +19751,7 @@
         "io.funswitch.blocker": 1787331231206,
         "droom.sleepIfUCan": 1769904000000
       },
-      "hotRank": 44
+      "hotRank": 43
     },
     {
       "source": "github",
@@ -19766,12 +19773,12 @@
         "com.sony.songpal.mdr"
       ],
       "stars": 2,
-      "updatedAt": 1787788800000,
+      "updatedAt": 1788912000000,
       "firstSeen": 1787845534294,
       "appFirstSeen": {
         "com.sony.songpal.mdr": 1787845534294
       },
-      "hotRank": 96
+      "hotRank": 74
     },
     {
       "source": "github",
@@ -19868,7 +19875,7 @@
         "com.rubenmayayo.reddit": 1787469691074,
         "com.fivemobile.thescore": 1787469691074
       },
-      "hotRank": 80
+      "hotRank": 81
     },
     {
       "source": "github",
@@ -19960,7 +19967,7 @@
         "com.Meteosolutions.Meteo3b": 1786949256911,
         "de.komoot.android": 1787505654989
       },
-      "hotRank": 29
+      "hotRank": 28
     },
     {
       "source": "github",
@@ -23064,7 +23071,7 @@
         "com.google.android.verifier": 1787097600000,
         "com.facebook.orca": 1786924800000
       },
-      "stars": 611,
+      "stars": 614,
       "updatedAt": 1788825600000,
       "firstSeen": 1780395687718,
       "appFirstSeen": {
@@ -24428,7 +24435,7 @@
       "stars": 37,
       "updatedAt": 1784246400000,
       "firstSeen": 1784191866679,
-      "hotRank": 28
+      "hotRank": 27
     },
     {
       "source": "github",
@@ -24527,7 +24534,7 @@
         "com.google.android.googlequicksearchbox": 1788729322625,
         "com.google.android.apps.bard": 1788729322625
       },
-      "hotRank": 47
+      "hotRank": 50
     },
     {
       "source": "github",
@@ -24826,7 +24833,7 @@
         "com.marsvard.stickermakerforwhatsapp": 1787614808700,
         "com.vpnbottle.melon.free.unblock.fast.vpn": 1787648170434
       },
-      "hotRank": 68
+      "hotRank": 67
     },
     {
       "source": "github",
@@ -25015,7 +25022,7 @@
       "appFirstSeen": {
         "com.honda.ms.dm.sab": 1787957215907
       },
-      "hotRank": 100
+      "hotRank": 101
     },
     {
       "source": "github",
@@ -25084,7 +25091,7 @@
         "harmonium.music.gameg.real.harmoniumfree": 1787118198367,
         "com.psslabs.rhythm": 1787118198367
       },
-      "hotRank": 107
+      "hotRank": 108
     },
     {
       "source": "github",
@@ -25135,7 +25142,7 @@
         "com.roasterygames.devicestycoon": 1784887231838,
         "com.candywriter.bitlife": 1786886780404
       },
-      "hotRank": 71
+      "hotRank": 70
     },
     {
       "source": "github",
@@ -25840,7 +25847,7 @@
         "org.cygnusx1.continuum": 1767402720000,
         "me.edgan.redditslide": 1767402720000
       },
-      "hotRank": 33
+      "hotRank": 31
     },
     {
       "source": "github",
@@ -26074,7 +26081,7 @@
         "com.sysops.thenx": 1783598694226,
         "video.player.videoplayer": 1783542931373
       },
-      "hotRank": 88
+      "hotRank": 89
     },
     {
       "source": "github",
@@ -26239,13 +26246,13 @@
         "com.wildberries.ru"
       ],
       "appUpdates": {
+        "com.wildberries.ru": 1788912000000,
         "ru.ozon.app.android": 1788825600000,
         "com.idamob.tinkoff.android": 1788393600000,
-        "com.wildberries.ru": 1788307200000,
         "com.avito.android": 1788307200000
       },
       "stars": 40,
-      "updatedAt": 1788825600000,
+      "updatedAt": 1788912000000,
       "firstSeen": 1778236605000,
       "appFirstSeen": {
         "com.avito.android": 1778236605000,
@@ -26253,7 +26260,7 @@
         "ru.ozon.app.android": 1778236605000,
         "com.wildberries.ru": 1778236605000
       },
-      "hotRank": 27
+      "hotRank": 19
     },
     {
       "source": "github",
@@ -26299,7 +26306,7 @@
         "com.robskie.tether": 1787469911694,
         "com.google.android.inputmethod.latin": 1788015971071
       },
-      "hotRank": 74
+      "hotRank": 75
     },
     {
       "source": "github",
@@ -26334,7 +26341,7 @@
       "appFirstSeen": {
         "br.com.zetabit.ios_standby": 1786476836015
       },
-      "hotRank": 70
+      "hotRank": 69
     },
     {
       "source": "github",
@@ -26342,12 +26349,6 @@
       "name": "Yann’s patches",
       "author": "yann-soliman",
       "patches": [
-        {
-          "name": "Keepcool: 30-day booking calendar",
-          "description": "Show and allow booking from today through J+30. Keepcool 1.8.21 only.",
-          "default": true,
-          "compatiblePackagesKey": 856
-        },
         {
           "name": "Keepcool: allow plus in email",
           "description": "Allow + in the local email part without changing the input or login request. Keepcool 1.8.21 only.",
@@ -26365,17 +26366,17 @@
       "repoDescription": "Yann's patches: correctifs Android compatibles avec Morphe, dont le support des adresses email avec + dans Keepcool.",
       "avatarUrl": "https://avatars.githubusercontent.com/u/22856901?v=4&size=168",
       "deepLink": "https://morphe.software/add-source?github=yann-soliman/morphe-patches",
-      "patchCount": 3,
+      "patchCount": 2,
       "targetApps": [
         "fr.keepcool.memberapp"
       ],
       "stars": 1,
-      "updatedAt": 1788825600000,
+      "updatedAt": 1788912000000,
       "firstSeen": 1788861273649,
       "appFirstSeen": {
         "fr.keepcool.memberapp": 1788861273649
       },
-      "hotRank": 30
+      "hotRank": 35
     }
   ],
   "store": {
@@ -38572,6 +38573,15 @@
               "X86_64": 130215029,
               "X86": 130215029
             }
+          },
+          {
+            "version": "13.2.2",
+            "versionCodes": {
+              "ARM64_V8A": 130225039,
+              "ARMEABI_V7A": 130225039,
+              "X86_64": 130225039,
+              "X86": 130225039
+            }
           }
         ]
       }
@@ -43484,6 +43494,14 @@
         "packageName": "com.wildberries.ru",
         "name": "Wildberries",
         "targets": [
+          {
+            "version": "7.7.9003-rustore",
+            "versionCode": 61073
+          },
+          {
+            "version": "7.7.9003",
+            "versionCode": 10061073
+          },
           {
             "version": "7.7.8001-rustore",
             "versionCode": 61069

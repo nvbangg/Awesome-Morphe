@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-29T17:09:22",
-  "description": "## [1.1.0](https://github.com/d0nj/morphe-patches/compare/v1.0.0...v1.1.0) (2026-07-29)\n\n### ✨ New Features\n\n* add unlock premium patch for AI Audio Novel Reader ([57f8214](https://github.com/d0nj/morphe-patches/commit/57f8214f2cdc0137eaf83f987fb073e7fef92506))",
-  "download_url": "https://github.com/d0nj/morphe-patches/releases/download/v1.1.0/patches-1.1.0.mpp",
+  "created_at": "2026-09-09T12:39:06",
+  "description": "## [1.2.0](https://github.com/d0nj/morphe-patches/compare/v1.1.0...v1.2.0) (2026-09-09)\n\n### 🐛 Bug Fixes\n\n* use 0xRRGGBB app icon color format required by patch list generator ([f0b844a](https://github.com/d0nj/morphe-patches/commit/f0b844a63e9e0320b5327f91433a00528088dccf))\n* use Int literal for appIconColor so public Compatibility constructor resolves ([35f2944](https://github.com/d0nj/morphe-patches/commit/35f294420d03bb9b9c4f9a53d1360a952221c07b))\n\n### ✨ New Features\n\n* add Niagara Launcher Pro unlock and analytics removal patches ([da4a6fd](https://github.com/d0nj/morphe-patches/commit/da4a6fd9a99886d06ff98a71df5bb46113919ce8))",
+  "download_url": "https://github.com/d0nj/morphe-patches/releases/download/v1.2.0/patches-1.2.0.mpp",
   "signature_download_url": "",
-  "version": "1.1.0"
+  "version": "1.2.0"
 }

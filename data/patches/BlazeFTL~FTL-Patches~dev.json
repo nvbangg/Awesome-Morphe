@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.44.0-dev.24",
+  "version": "1.44.0-dev.25",
   "patches": [
     {
       "name": "APK Junk Cleanup",
@@ -1099,33 +1099,31 @@
           }
         },
         {
-          "key": "stripUiModes",
-          "title": "Remove device-specific resources",
-          "description": "Entirely removes resources qualified for the selected device categories -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+          "key": "stripSmartwatch",
+          "title": "Remove smartwatch (Wear OS) resources",
+          "description": "Entirely removes resources qualified for smartwatches -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
           "required": false,
-          "type": "kotlin.collections.List<kotlin.String>",
-          "default": [],
-          "values": {
-            "None (keep everything)": [],
-            "Smartwatch only": [
-              "watch"
-            ],
-            "Android TV only": [
-              "television"
-            ],
-            "Smartwatch + Android TV": [
-              "watch",
-              "television"
-            ],
-            "All non-phone form factors (watch, TV, car, appliance, VR)": [
-              "car",
-              "desk",
-              "television",
-              "appliance",
-              "watch",
-              "vrheadset"
-            ]
-          }
+          "type": "kotlin.Boolean",
+          "default": false,
+          "values": null
+        },
+        {
+          "key": "stripAndroidTv",
+          "title": "Remove Android TV resources",
+          "description": "Entirely removes resources qualified for Android TV -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": false,
+          "values": null
+        },
+        {
+          "key": "stripOtherFormFactors",
+          "title": "Remove other device-specific resources (car, desk dock, VR headset)",
+          "description": "Entirely removes resources qualified for car head units, desk docks, or VR headsets -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": false,
+          "values": null
         }
       ]
     },

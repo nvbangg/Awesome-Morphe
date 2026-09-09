@@ -238,7 +238,7 @@
     "name": "BlazeFTL Patches",
     "github": {
       "main": "fd47c89bb324242f8062c1b02cc7c150514b57b82455df562cf7ff91c2102c4f",
-      "dev": "b94df7f8bfbfa588c366ff2d83318d146d3c88074d1164e692ad301a15a1f664"
+      "dev": "2d8dfcc967cd726c2ed6ddc78ad429b0ab35c903097e6bf7845daa4756aed5c4"
     }
   },
   "BlazeFTL/Morphe-Portal-Patches-New": {
@@ -293,8 +293,8 @@
   "byehi98/okish-morphe-patches": {
     "name": "byehi98 Patches",
     "github": {
-      "main": "f7ba8827b9ec42109def978d0aba98efb249b5c97f8f7f0f629240bd714d50a2",
-      "dev": "f7ba8827b9ec42109def978d0aba98efb249b5c97f8f7f0f629240bd714d50a2"
+      "main": "585b75ee99b3b4beb699de7dff51e2553ffabd4cc66ecfe1f507d992dee574bb",
+      "dev": "585b75ee99b3b4beb699de7dff51e2553ffabd4cc66ecfe1f507d992dee574bb"
     }
   },
   "canh0chua/Morphe-patches": {
@@ -364,7 +364,7 @@
   "crimera/piko-newx": {
     "name": "Piko",
     "github": {
-      "main": "3596611299f8a89891e0873d093b44f68c2da538876e7bdeb59f6191fbf8525a",
+      "main": "eb6e09314d0a2833142e32167981d4677ffe3efbafe826daf55e1dac993046bf",
       "dev": null
     }
   },
@@ -378,7 +378,7 @@
   "d0nj/morphe-patches": {
     "name": "d0nj Patches",
     "github": {
-      "main": "02b6298a323581586dcdca5622615aa7c7b1302eb92ed1217d1d78f712855bbb",
+      "main": "d0de49adf0eb9a5f70e59195b86ae97a6ce067c4ecaa012ed4133ac18921b981",
       "dev": "8d69c8db26ae80b69841c56ed01b1b4c5556e38636b42b837b3edb3945541817"
     }
   },
@@ -913,7 +913,7 @@
   "kveld9/kveld-morphe-patches": {
     "name": "kveld9 Patches",
     "github": {
-      "main": "f2ee91a7df771a6c156ceefd02aff24e6880f01064d1d886360d1db4a727ce7e",
+      "main": "e5c9967d7a5b2c59e86dc6a88e86e1037a543ddccd391bb64e14f74c44afb61d",
       "dev": null
     }
   },
@@ -934,7 +934,7 @@
   "legendsciber/morphe-patches": {
     "name": "legendsciber's Patches",
     "github": {
-      "main": "5c198ac5e16e0ac52d5a2d66832fb9d2477207681a8a18835331a7e167efc48a",
+      "main": "3ff13836d67b50fbf1cfb4c2f3f5fee08919e8eee3e7904391aa622564971f4b",
       "dev": null
     }
   },
@@ -1027,7 +1027,7 @@
     "name": "Morphe Patches",
     "github": {
       "main": "0eb1b27be608cb65127db3420212a794e49d809d6f3795a6b961572b917d48aa",
-      "dev": "5a7820d7348d162c766b7444c41125a563f253aa65df1dda0486100281bd517c",
+      "dev": "e6ca0da337887e855375c73d35e8cdc48da02acf1883a0cbb07c6cb061d25fea",
       "image": "70105daca724c7354163f031c24067b34a8b630dd43839d65d3c5e858773cc02"
     }
   },
@@ -1303,7 +1303,7 @@
     "name": "Dual VoT Patches",
     "github": {
       "main": "103d90c2a0f1702d11ec26f3d12b9280f74a1be7ea481d90d907c89e676800ba",
-      "dev": "2f502871ce96f1bed46cc2737f7288a536da0bed5b9f99a1c328419af5574848"
+      "dev": "346f424c1700fc104b6b2ec27266cbe88c4df70bf2324028e2b83d5e2ac6c417"
     }
   },
   "Seobject/Seobject-patches": {
@@ -1472,8 +1472,8 @@
   "xob0t/morphe-patches": {
     "name": "xob0t Morphe Patches",
     "github": {
-      "main": "c417e87687d3942a74f4750dc20889f091812bc06e8da6193bfda9dfe0a8b005",
-      "dev": "c417e87687d3942a74f4750dc20889f091812bc06e8da6193bfda9dfe0a8b005"
+      "main": "740312f5b1ffb91ac0ffc3710675db92d0a6f597ada7a2c1e5925d3b1642e376",
+      "dev": "740312f5b1ffb91ac0ffc3710675db92d0a6f597ada7a2c1e5925d3b1642e376"
     }
   },
   "XTapped/morphe-patches": {

@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "eec885845ce1eb77ef096aea6227897afd309f53",
+  "jman_tree_sha": "7f80b62902f6b94d4c4ba835a7cf8b924d4173a6",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -294,7 +294,7 @@
       "key": null
     },
     "dual-vot": {
-      "sha": "ca03ccc635a30916b8111fa41de93b97040eb0a1",
+      "sha": "7a5bb8f4d40d20c4b832446d70d90c743589c528",
       "key": "https://github.com/sashade8-ship-it/dual-vot-patches"
     },
     "dumketo": {
@@ -362,7 +362,7 @@
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "30c1c1f4f116ab5684696e8af656fdb837523528",
+      "sha": "dec3308a96af87d5ae3640525e7f09c666718df0",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -566,7 +566,7 @@
       "key": null
     },
     "legendsciber": {
-      "sha": "2a3b98dea5d079c83713d49982cefe81d269cc08",
+      "sha": "ea3eb9e309a0bf5917471b6a5abc8ecc1732041b",
       "key": "https://github.com/legendsciber/morphe-patches"
     },
     "lennyRBLX": {
@@ -622,7 +622,7 @@
       "key": "https://github.com/Entree3k/Morning-Entree-Patches"
     },
     "morphe": {
-      "sha": "743d615014cecc4be475ac22d4bbfa1f210e8be9",
+      "sha": "0191c1bbb6a94083f3bae3d4c6094f5d5655f9ea",
       "key": "https://github.com/MorpheApp/morphe-patches"
     },
     "morphe-google": {
@@ -770,7 +770,7 @@
       "key": "https://github.com/rabilrbl/fluffy-patches"
     },
     "rafag00": {
-      "sha": "10da6f21898e9c15dc8d1ed62e890008e8d1fed1",
+      "sha": "9fa686bcf615e130809c2c7576c1c0dfd58c313b",
       "key": "https://github.com/rafag00/morphe-patches"
     },
     "rahul9999xda-telegram": {
@@ -938,7 +938,7 @@
       "key": null
     },
     "unipatches": {
-      "sha": "5bf60a9c705288fa7652242c277f4d2e9e09c13b",
+      "sha": "00adce1def8c2d56c7a810ef1eb9fbbaea7b30af",
       "key": "https://github.com/Zanuaimi/UniPatches"
     },
     "v4n1x": {
@@ -986,7 +986,7 @@
       "key": "https://github.com/Xhehab/Xhehab-Patches"
     },
     "xob0t": {
-      "sha": "8c6ba1a5fccb1dc423e29b7e77044655f5d657fa",
+      "sha": "bff66888bf08d4843ae5c8291681b8b776733388",
       "key": "https://github.com/xob0t/morphe-patches"
     },
     "xperia-1v-camera": {
@@ -1006,7 +1006,7 @@
       "key": "https://github.com/MarcaDian/morphe-patches-yavot"
     },
     "yann-soliman": {
-      "sha": "26ff09f5adace66e4e28032f7dfa85a8247432d4",
+      "sha": "b7770d11ae5b0cdde27b6012cb20ccbfb65f5abc",
       "key": "https://github.com/yann-soliman/morphe-patches"
     },
     "ynotzort": {

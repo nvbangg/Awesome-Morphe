@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-09T09:14:53",
-  "description": "## [1.44.0-dev.24](https://github.com/BlazeFTL/FTL-Patches/compare/v1.44.0-dev.23...v1.44.0-dev.24) (2026-09-09)\n\n### 🐛 Bug Fixes\n\n* Make Drawable Clean Patch More Aggressive ([6cc2621](https://github.com/BlazeFTL/FTL-Patches/commit/6cc2621c0a365269524483468f478f037db35bb2))",
-  "download_url": "https://github.com/BlazeFTL/FTL-Patches/releases/download/v1.44.0-dev.24/patches-1.44.0-dev.24.mpp",
+  "created_at": "2026-09-09T09:49:40",
+  "description": "## [1.44.0-dev.25](https://github.com/BlazeFTL/FTL-Patches/compare/v1.44.0-dev.24...v1.44.0-dev.25) (2026-09-09)\n\n### 🐛 Bug Fixes\n\n* Up ([feb4e9d](https://github.com/BlazeFTL/FTL-Patches/commit/feb4e9d8bd190151d5292ac609f16c75b990e1ba))",
+  "download_url": "https://github.com/BlazeFTL/FTL-Patches/releases/download/v1.44.0-dev.25/patches-1.44.0-dev.25.mpp",
   "signature_download_url": "",
-  "version": "1.44.0-dev.24"
+  "version": "1.44.0-dev.25"
 }

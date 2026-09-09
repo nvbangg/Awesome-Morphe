@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.25.0",
+  "version": "1.26.0",
   "patches": [
     {
       "name": "Adda247 Ad Removal",
@@ -898,6 +898,32 @@
     {
       "name": "Only One Free Store",
       "description": "Makes 'Restore Purchases' grant every store item for free (Ultimate Power, all classes, bundles and powers) — also removes ads.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.rebelbinary.onlyone",
+          "name": "Only One",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#E2E2E2",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.3031",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Only One IAP billing bypass",
+      "description": "Buy any item in the shop for free. When you tap Buy, the item is added to your game right away — no Google Play payment window ever opens.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [
