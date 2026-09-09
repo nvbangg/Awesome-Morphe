@@ -75,5 +75,9 @@
   },
   "https://github.com/liongalahad/liongalahad-stremio-morphe-patches": {
     "note": "Automatically added by GitHub Actions (Redirected/Renamed from liongalahad/stremio-androidTV-morphe-patches)"
+  },
+  "https://github.com/vomw/morphe-patches": {
+    "enabled": false,
+    "note": "Unavailable"
   }
 }
