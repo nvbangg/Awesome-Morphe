@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "21f1665fc53f84d5fd8e879b47db864cd6f07125",
+  "jman_tree_sha": "5321b44c47181b3a691b475a2a8671f25ae118e4",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -230,7 +230,7 @@
       "key": "https://github.com/isuruhg/cricinfo-tweaks"
     },
     "crimeradar": {
-      "sha": "3e9805c5e433dbcce364b396523ab316c38d305b",
+      "sha": "ce98e54c8a4e77a7b3534f02e449d85456cd8c54",
       "key": "https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches"
     },
     "csagataj2": {
@@ -294,7 +294,7 @@
       "key": null
     },
     "dual-vot": {
-      "sha": "7a5bb8f4d40d20c4b832446d70d90c743589c528",
+      "sha": "eddd7f5287d95e34160f37f7fcd34a48ee59a848",
       "key": "https://github.com/sashade8-ship-it/dual-vot-patches"
     },
     "dumketo": {
@@ -362,7 +362,7 @@
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "dec3308a96af87d5ae3640525e7f09c666718df0",
+      "sha": "1cd445c14eeb21a8f6de72024c7caa15ee5a5aa3",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -422,7 +422,7 @@
       "key": "https://github.com/hu-liberator/patches"
     },
     "hushfeed": {
-      "sha": "0444d11507ddd02cc7a721d503b54e37982443c9",
+      "sha": "aacdfaea85112434f6e4b825e605fb81fc52cf37",
       "key": "https://github.com/SysAdminDoc/hushfeed"
     },
     "hxreborn": {
@@ -862,7 +862,7 @@
       "key": "https://github.com/shaun-the-sheep-patches/morphe-patches"
     },
     "shuhaibnc": {
-      "sha": "199dd407ad27d044307932b9f9c2f77a1072a747",
+      "sha": "14de6bc234f808f5c34c0b0f34b059a0a2d982e3",
       "key": "https://github.com/ShuhaibNC/morphe-patches"
     },
     "simnple": {
@@ -894,7 +894,7 @@
       "key": "https://github.com/spookyexe/morphe-patches"
     },
     "steamlink": {
-      "sha": "28fdf0a60e12cb5d7fc5723db5751d5c03d1518b",
+      "sha": "01128d05dbf2302632ca7da0cab5d410bc8af558",
       "key": "https://github.com/AngelDark92/steamlink-patches"
     },
     "stremio-androidtv": {

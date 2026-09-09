@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.20.0",
+  "version": "1.22.0",
   "patches": [
     {
       "name": "Change version code",
@@ -24,63 +24,11 @@
       ]
     },
     {
-      "name": "Disable Mine redesign",
-      "description": "Reverts the Mine screen to the classic layout, disabling the redesigned V2/V3 interface.",
-      "default": false,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "ru.vk.store",
-          "name": "RuStore",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#0077FF",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "1.108.0.2",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
       "name": "Disable Pairip license check",
       "description": "Disables the Pairip license verification check.",
       "default": false,
       "dependencies": [],
       "compatiblePackages": null,
-      "options": []
-    },
-    {
-      "name": "Disable ads",
-      "description": "Removes all advertisements from the app.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "ru.vk.store",
-          "name": "RuStore",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#0077FF",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "1.108.0.2",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
       "options": []
     },
     {
@@ -121,34 +69,6 @@
     },
     {
       "name": "Disable analytics",
-      "description": "Disables VK-specific analytics.",
-      "default": true,
-      "dependencies": [
-        "ResourcePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "ru.vk.store",
-          "name": "RuStore",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#0077FF",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "1.108.0.2",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable analytics",
       "description": "Disables SoundCloud's analytics.",
       "default": true,
       "dependencies": [],
@@ -163,32 +83,6 @@
           "targets": [
             {
               "version": "2026.08.26-release",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable background scan",
-      "description": "Disables the periodic Kaspersky background device scan.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "ru.vk.store",
-          "name": "RuStore",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#0077FF",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "1.108.0.2",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -280,32 +174,6 @@
       "options": []
     },
     {
-      "name": "Disable gaming profile",
-      "description": "Removes the Game Profile section from the Mine screen, including the button and the usage statistics screen.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "ru.vk.store",
-          "name": "RuStore",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#0077FF",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "1.108.0.2",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
       "name": "Enable SoundCloud Go",
       "description": "Enables SoundCloud Go premium features.",
       "default": true,
@@ -321,32 +189,6 @@
           "targets": [
             {
               "version": "2026.08.26-release",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Skip update auth",
-      "description": "Removes the login requirement when updating apps.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "ru.vk.store",
-          "name": "RuStore",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#0077FF",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "1.108.0.2",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -400,7 +242,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "20.6.1",
+              "version": "20.8.0",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -428,7 +270,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.585",
+              "version": "1.591",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -493,7 +335,7 @@
     },
     {
       "name": "Unlock Premium",
-      "description": "Unlocks part of Ornament Pro features.",
+      "description": "Unlocks Ornament subscription features.",
       "default": true,
       "dependencies": [
         "RawResourcePatch"
@@ -508,7 +350,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "4.15.1",
+              "version": "4.18.1",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -575,34 +417,6 @@
     },
     {
       "name": "Unlock Premium",
-      "description": "ROOT ONLY. Unlocks all premium features.",
-      "default": true,
-      "dependencies": [
-        "BytecodePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "com.quvideo.wisemeal",
-          "name": "WiseMeal",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#00C853",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "1.3.0",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Unlock Premium",
       "description": "Unlocks all Yazio Pro features.",
       "default": true,
       "dependencies": [],
@@ -616,7 +430,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "12.87.0",
+              "version": "26.36.1",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
