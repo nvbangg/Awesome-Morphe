@@ -238,7 +238,7 @@
     "name": "BlazeFTL Patches",
     "github": {
       "main": "fd47c89bb324242f8062c1b02cc7c150514b57b82455df562cf7ff91c2102c4f",
-      "dev": "2f628952890762e58a0fcce5cd3c18527169e9ebc977ac689999e7e0ce680f5b"
+      "dev": "60485095dc2160f4ea22c250c74b436adf2ee24f14a64b9fd276619033634165"
     }
   },
   "BlazeFTL/Morphe-Portal-Patches-New": {
@@ -258,8 +258,8 @@
   "brealorg/breal-morphe-patches": {
     "name": "Breal Morphe Patches",
     "github": {
-      "main": "967b872416b9c4c030336ad396cdd933980cf57a00bffaa249b049fa662ca6a7",
-      "dev": "967b872416b9c4c030336ad396cdd933980cf57a00bffaa249b049fa662ca6a7"
+      "main": "03ff2d3e7da3673b93edc55baff42b57e85496c2b7b96dbc60e0418a815cb49f",
+      "dev": "03ff2d3e7da3673b93edc55baff42b57e85496c2b7b96dbc60e0418a815cb49f"
     }
   },
   "brosssh/morphe-patches": {
@@ -364,7 +364,7 @@
   "crimera/piko-newx": {
     "name": "Piko",
     "github": {
-      "main": "0d8c500f700451e5472ab91deeff8cd541deb7f8d89b707ab55d4fd73dbb7ea9",
+      "main": "930ec5e8063b53965150821a79ee81c577755357c6ffe79661eaa17fc78ba806",
       "dev": null
     }
   },
@@ -465,7 +465,7 @@
   "durgesh0505/chiggi_morphe_patches": {
     "name": "Chiggi Patches",
     "github": {
-      "main": "92cb007cda127d181711bf495266107be7a887674efbea1ffcd28c9510477238",
+      "main": "3062c5192ef044c5660dd457cc7e1b41992ede2e6a87f1faf20ae5333b4a5137",
       "dev": null
     }
   },
@@ -724,8 +724,8 @@
   "IMXEren/mix-patches": {
     "name": "Mix Patches",
     "gitlab": {
-      "main": "c66be5546e5947b7f1b305c4a2bc0774eba2f5ece2276820e99ef2292136ba48",
-      "dev": "3b61fde9e374fcbc0f9f3d9170faacf517bfb2eb9040f9b437b088040e53a858"
+      "main": "d6b21131a3f5f4f0db0731fa9dfe9d5554240f4107c14d84f358d1a357505f11",
+      "dev": "d6b21131a3f5f4f0db0731fa9dfe9d5554240f4107c14d84f358d1a357505f11"
     }
   },
   "inotia00/proguard-patches": {
@@ -927,7 +927,7 @@
   "legendsciber/morphe-patches": {
     "name": "legendsciber's Patches",
     "github": {
-      "main": "bd8c452e4be0a37cb2e4a05ebfee4d440ce98f0e334fb1670a56ba71a9142b5d",
+      "main": "4f29fe5a2ba6b5f15e41cbf4c99eb97cc24fc6790f6614842d67747ecd8dfbcd",
       "dev": null
     }
   },
@@ -1006,13 +1006,13 @@
   "MiguelNinja19/miguel-morphe-patches": {
     "github": {
       "main": "c308358c3a09bd1d908f3f3cecab58e7ef19a26c2adab3959284fc70373e12f7",
-      "dev": "c76956382a0671198f5a354a64a0c6d5cbd771e54bf217d4cdf55388fc00f25e"
+      "dev": "5629c4d25b657eca1a25d4374ea804099f74c5b6516cd2bbf91d087099152457"
     }
   },
   "miketweaver/friendsturner-patches": {
     "name": "FriendsTurner Patches",
     "github": {
-      "main": "6792effe1d1d542833ef6798b93707ccde3dc8f4b9d0b2ece2f8eaa762eda532",
+      "main": null,
       "dev": null
     }
   },
@@ -1366,7 +1366,7 @@
   "SysAdminDoc/hushfeed": {
     "name": "Hushfeed",
     "github": {
-      "main": "36d912ca9e25cb05f1c5bb732f1fbf41c30abbcc4ecd688582273f335f1f3af1",
+      "main": "70168efcc3adec80d9808584abc143125c0bf89c6d89df8219bd49756a0568c6",
       "dev": null,
       "image": "4d092c078217f40dceb3b85b29d4c3f23e2a1cf3e46e32942b094d1e80453e31"
     }
@@ -1441,13 +1441,6 @@
       "dev": "c27dc069a5747dca5c7a9bec754a8c510cce8982dc7c4e18adf9d787143f3fa2"
     }
   },
-  "vomw/morphe-patches": {
-    "name": "Doom's Morphe Patches",
-    "github": {
-      "main": "e42d5824c23e9bcaa77dda7cb354c2cb345a809ee5ef285808cbe2a5322ca9ff",
-      "dev": "48193207460f0182d6e0f7d52635be9456b6e21fdc71e2802a8d6a4ab62c7b10"
-    }
-  },
   "wchill/patcheddit": {
     "name": "Patcheddit",
     "github": {
@@ -1516,8 +1509,8 @@
   "Zanuaimi/UniPatches": {
     "name": "Zanuaimi's UniPatches",
     "github": {
-      "main": "0122a6b3b7cfa7de942434bc6cc761503491318f74b119ba86eba6c1ab748ae0",
-      "dev": "0122a6b3b7cfa7de942434bc6cc761503491318f74b119ba86eba6c1ab748ae0",
+      "main": "789d71e4717c5107fae0bb10c70e203194003cc68848cdf573cfd6af467034c4",
+      "dev": "789d71e4717c5107fae0bb10c70e203194003cc68848cdf573cfd6af467034c4",
       "image": "d6033284f266e11ce96e3c2b4eb7a147f0a977ca25dca1d09bab05319dab5907"
     }
   },

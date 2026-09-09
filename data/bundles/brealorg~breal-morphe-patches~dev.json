@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-20T22:55:54",
-  "description": "Fix Redgifs URL cache corruption that caused HTTP 403 responses and repeated playback stalls.\n",
-  "download_url": "https://github.com/brealorg/breal-morphe-patches/releases/download/morphe-patches-111/patches-1.4.111.mpp",
-  "signature_download_url": "https://github.com/brealorg/breal-morphe-patches/releases/download/morphe-patches-111/patches-1.4.111.mpp.asc",
-  "version": "1.4.111"
+  "created_at": "2026-09-08T22:25:53",
+  "description": "Fix Boost bottom navigation Activity retention discovered while investigating progressive memory growth and OutOfMemoryError crashes.\n",
+  "download_url": "https://github.com/brealorg/breal-morphe-patches/releases/download/morphe-patches-112/patches-1.4.112.mpp",
+  "signature_download_url": "https://github.com/brealorg/breal-morphe-patches/releases/download/morphe-patches-112/patches-1.4.112.mpp.asc",
+  "version": "1.4.112"
 }

@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.7.0-dev.4",
+  "version": "1.7.0",
   "patches": [
     {
       "name": "Bypass developer options",
@@ -203,7 +203,7 @@
     },
     {
       "name": "Merge profile feeds",
-      "description": "Merges profile submissions from Arctic Shift and Reddit.",
+      "description": "Merges profile submissions and comments from Arctic Shift and Reddit.",
       "default": true,
       "dependencies": [
         "BytecodePatch"

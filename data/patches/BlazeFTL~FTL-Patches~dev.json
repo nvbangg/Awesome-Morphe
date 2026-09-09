@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.44.0-dev.14",
+  "version": "1.44.0-dev.18",
   "patches": [
     {
       "name": "APK Junk Cleanup",
@@ -8,39 +8,6 @@
       "default": false,
       "dependencies": [],
       "compatiblePackages": null,
-      "options": []
-    },
-    {
-      "name": "Add Network Stream To Me Tab",
-      "description": "WARNING MX PLAYER HAS INTEGRITY CHECK. Mod By Youarefinished Also Has Their Own Integrity Check. So Download From Play Store, Use URV Manager With Signing Turned Off, Patch And Then Kill Signature Verification With MT Manager Enhanced (VIP Only) Or Modded Build.",
-      "default": false,
-      "dependencies": [
-        "ResourcePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "com.mxtech.videoplayer.ad",
-          "name": "MX Player",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": "3.1.4",
-              "versionCodes": {
-                "ARM64_V8A": 2001003524,
-                "ARMEABI_V7A": 2001003524,
-                "X86_64": 2001003524,
-                "X86": 2001003524
-              },
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
       "options": []
     },
     {
@@ -232,10 +199,11 @@
     },
     {
       "name": "Clean Me Tab",
-      "description": "Removes promo rows and unused tiles from the Me tab: WhatsApp Status Saver, Legal/Help, the local-tiles pager, Local Network, Music Player, Cloud Drive, MX Share, and Private Folder.",
+      "description": "Removes promo rows and unused tiles from the Me tab. Optionally adds a Network Stream tile.",
       "default": false,
       "dependencies": [
         "ResourcePatch",
+        "BytecodePatch",
         "BytecodePatch"
       ],
       "compatiblePackages": [
@@ -353,120 +321,12 @@
       "options": []
     },
     {
-      "name": "Clean sidebar More menu",
-      "description": "Hides the \"Help\" section (What's New, Features, FAQ, Check for Update, Bug Report, About) from the sidebar's More menu.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.mxtech.videoplayer.ad",
-          "name": "MX Player",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": "3.1.4",
-              "versionCodes": {
-                "ARM64_V8A": 2001003524,
-                "ARMEABI_V7A": 2001003524,
-                "X86_64": 2001003524,
-                "X86": 2001003524
-              },
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Clean sidebar shortcuts",
-      "description": "Independently hide Video Display, Bookmark, Favourite, Add to Playlist, Tutorial, and/or Playing Queue from the player's shortcut sidebar.",
+      "name": "Configure Smart Enhance",
+      "description": "Configures the Smart Enhance intro popup and enable/disable toast.",
       "default": true,
       "dependencies": [
-        "ResourcePatch"
+        "BytecodePatch"
       ],
-      "compatiblePackages": [
-        {
-          "packageName": "com.mxtech.videoplayer.ad",
-          "name": "MX Player",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": "3.1.4",
-              "versionCodes": {
-                "ARM64_V8A": 2001003524,
-                "ARMEABI_V7A": 2001003524,
-                "X86_64": 2001003524,
-                "X86": 2001003524
-              },
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": [
-        {
-          "key": "hideBookmark",
-          "title": "Hide Bookmark",
-          "description": null,
-          "required": false,
-          "type": "kotlin.Boolean",
-          "default": true,
-          "values": null
-        },
-        {
-          "key": "hideFavourite",
-          "title": "Hide Favourite",
-          "description": null,
-          "required": false,
-          "type": "kotlin.Boolean",
-          "default": true,
-          "values": null
-        },
-        {
-          "key": "hideAddToPlaylist",
-          "title": "Hide Add to Playlist",
-          "description": null,
-          "required": false,
-          "type": "kotlin.Boolean",
-          "default": true,
-          "values": null
-        },
-        {
-          "key": "hideTutorial",
-          "title": "Hide Tutorial",
-          "description": null,
-          "required": false,
-          "type": "kotlin.Boolean",
-          "default": true,
-          "values": null
-        },
-        {
-          "key": "hidePlayingQueue",
-          "title": "Hide Playing Queue",
-          "description": null,
-          "required": false,
-          "type": "kotlin.Boolean",
-          "default": true,
-          "values": null
-        }
-      ]
-    },
-    {
-      "name": "Configure Smart Enhance toast",
-      "description": "Always skips the Smart Enhance popup animation and always drops the disable-side toast. \"Show toast\" on: fires a toast when Smart Enhance is enabled. Off: enabling is silent too.",
-      "default": true,
-      "dependencies": [],
       "compatiblePackages": [
         {
           "packageName": "com.mxtech.videoplayer.ad",
@@ -542,47 +402,6 @@
           "required": false,
           "type": "kotlin.Boolean",
           "default": false,
-          "values": null
-        }
-      ]
-    },
-    {
-      "name": "Default Shortcuts",
-      "description": "Changes which player long-press/gesture shortcuts are enabled out of the box, for installs that have never customized them (Settings > Player > Customize Shortcuts still works normally and always wins once touched). Default keeps screen rotation, playback speed, background play, loop, customize items, screenshot, mirror mode and vertical flip; drops mute, shuffle, equalizer, sleep timer, repeat A-B, night mode and audio effect.",
-      "default": false,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.mxtech.videoplayer.ad",
-          "name": "MX Player",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": "3.1.4",
-              "versionCodes": {
-                "ARM64_V8A": 2001003524,
-                "ARMEABI_V7A": 2001003524,
-                "X86_64": 2001003524,
-                "X86": 2001003524
-              },
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": [
-        {
-          "key": "defaultShortcutsMask",
-          "title": "Default shortcuts bitmask (hex)",
-          "description": "Bit sum of enabled shortcuts, decimal or 0x-prefixed hex. Bits: 0x1 rotation, 0x2 speed, 0x4 background play, 0x8 loop, 0x10 mute, 0x20 shuffle, 0x40 equalizer, 0x100 sleep timer, 0x200 repeat A-B, 0x400 night mode, 0x800 customise items, 0x1000 screenshot, 0x2000 mirror mode, 0x4000 vertical flip, 0x8000 audio effect. Default 0x780F.",
-          "required": false,
-          "type": "kotlin.Int",
-          "default": 30735,
           "values": null
         }
       ]
@@ -698,37 +517,6 @@
                 "ARMEABI_V7A": 1557000,
                 "X86_64": 1557000,
                 "X86": 1557000
-              },
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable Smart Enhance popup",
-      "description": "Skips the \"Smart Enhance\" intro dialog on the player menu - tapping the menu item toggles Smart Enhance directly instead of showing the popup first.",
-      "default": false,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.mxtech.videoplayer.ad",
-          "name": "MX Player",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": "3.1.4",
-              "versionCodes": {
-                "ARM64_V8A": 2001003524,
-                "ARMEABI_V7A": 2001003524,
-                "X86_64": 2001003524,
-                "X86": 2001003524
               },
               "isExperimental": false,
               "minSdk": null,
@@ -921,37 +709,6 @@
       "options": []
     },
     {
-      "name": "Fix SpeedUp tip string",
-      "description": "Shortens the SpeedUp long-press tip from \"%1$s Speed Playing\" to \"%1$s\".",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.mxtech.videoplayer.ad",
-          "name": "MX Player",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": "3.1.4",
-              "versionCodes": {
-                "ARM64_V8A": 2001003524,
-                "ARMEABI_V7A": 2001003524,
-                "X86_64": 2001003524,
-                "X86": 2001003524
-              },
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
       "name": "Hide File Transfer, Video Playlist, Private Folder tiles",
       "description": "Removes the File Transfer, Video Playlist, and Private Folder tiles from settings Page.",
       "default": false,
@@ -1002,47 +759,6 @@
         }
       ],
       "options": []
-    },
-    {
-      "name": "Hide Video Display",
-      "description": null,
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.mxtech.videoplayer.ad",
-          "name": "MX Player",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": "3.1.4",
-              "versionCodes": {
-                "ARM64_V8A": 2001003524,
-                "ARMEABI_V7A": 2001003524,
-                "X86_64": 2001003524,
-                "X86": 2001003524
-              },
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": [
-        {
-          "key": "hideVideoDisplay",
-          "title": "Hide Video Display",
-          "description": null,
-          "required": false,
-          "type": "kotlin.Boolean",
-          "default": true,
-          "values": null
-        }
-      ]
     },
     {
       "name": "Hide more actions",
@@ -1149,37 +865,6 @@
             {
               "version": null,
               "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Open subtitle settings by default",
-      "description": "Expands the Sync/Speed/Panel/Customization settings block in the subtitle menu by default instead of it being collapsed.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.mxtech.videoplayer.ad",
-          "name": "MX Player",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": null,
-          "signatures": null,
-          "targets": [
-            {
-              "version": "3.1.4",
-              "versionCodes": {
-                "ARM64_V8A": 2001003524,
-                "ARMEABI_V7A": 2001003524,
-                "X86_64": 2001003524,
-                "X86": 2001003524
-              },
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -1476,6 +1161,88 @@
         }
       ],
       "options": []
+    },
+    {
+      "name": "Sidebar & Player Defaults",
+      "description": "Cleans the player sidebar and More menu; sets default shortcuts and subtitle view.",
+      "default": true,
+      "dependencies": [
+        "ResourcePatch",
+        "ResourcePatch",
+        "BytecodePatch",
+        "ResourcePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.mxtech.videoplayer.ad",
+          "name": "MX Player",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "3.1.4",
+              "versionCodes": {
+                "ARM64_V8A": 2001003524,
+                "ARMEABI_V7A": 2001003524,
+                "X86_64": 2001003524,
+                "X86": 2001003524
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "hideBookmark",
+          "title": "Hide Bookmark",
+          "description": null,
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "hideFavourite",
+          "title": "Hide Favourite",
+          "description": null,
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "hideAddToPlaylist",
+          "title": "Hide Add to Playlist",
+          "description": null,
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "hideTutorial",
+          "title": "Hide Tutorial",
+          "description": null,
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "hidePlayingQueue",
+          "title": "Hide Playing Queue",
+          "description": null,
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        }
+      ]
     },
     {
       "name": "Skip Splash Screen",
