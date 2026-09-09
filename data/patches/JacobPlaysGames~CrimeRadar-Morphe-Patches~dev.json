@@ -1,0 +1,394 @@
+{
+  "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
+  "version": "1.5.0-dev.1",
+  "patches": [
+    {
+      "name": "Branding",
+      "description": "Changes app name to 'CrimeRadar+' and tints the icon for easy identification.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.newsbreak.crimeradar",
+          "name": "CrimeRadar",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#B71C1C",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "26.33.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "26.34.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Branding",
+      "description": "Changes app name to 'Scanner Radio+' and tints the icon for easy identification.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.scannerradio",
+          "name": "Scanner Radio",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#2196F3",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "8.21.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Change package name",
+      "description": "Changes the app package name to allow installing alongside the original.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.newsbreak.crimeradar",
+          "name": "CrimeRadar",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#B71C1C",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "26.33.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "26.34.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "packageName",
+          "title": "New package name",
+          "description": null,
+          "required": true,
+          "type": "kotlin.String",
+          "default": "com.newsbreak.crimeradar.patched",
+          "values": null
+        }
+      ]
+    },
+    {
+      "name": "Change package name",
+      "description": "Changes the app package name to allow installing alongside the original.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.scannerradio",
+          "name": "Scanner Radio",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#2196F3",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "8.21.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "key": "packageName",
+          "title": "New package name",
+          "description": null,
+          "required": true,
+          "type": "kotlin.String",
+          "default": "com.scannerradio.patched",
+          "values": null
+        }
+      ]
+    },
+    {
+      "name": "Debug Settings",
+      "description": "Adds a CrimeRadar+ debug info entry to the settings screen.",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.newsbreak.crimeradar",
+          "name": "CrimeRadar",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#B71C1C",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "26.33.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "26.34.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Notification Limits Raised",
+      "description": "Raises per-category daily push caps and heads-up push limits.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.newsbreak.crimeradar",
+          "name": "CrimeRadar",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#B71C1C",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "26.33.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "26.34.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Premium Bypass",
+      "description": "Bypasses premium subscription checks to unlock all premium features.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.newsbreak.crimeradar",
+          "name": "CrimeRadar",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#B71C1C",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "26.33.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "26.34.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Premium Bypass",
+      "description": "Bypasses premium subscription checks to unlock all premium features.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.scannerradio",
+          "name": "Scanner Radio",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#2196F3",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "8.21.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Remove History Cap",
+      "description": "Removes the 200-item local reading history limit.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.newsbreak.crimeradar",
+          "name": "CrimeRadar",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#B71C1C",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "26.33.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "26.34.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Replay Minutes Override",
+      "description": "Overrides daily replay listening time limits to unlimited.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.newsbreak.crimeradar",
+          "name": "CrimeRadar",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#B71C1C",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "26.33.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "26.34.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Telemetry Kill",
+      "description": "Disables Instabug and Adjust telemetry SDKs for privacy.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.newsbreak.crimeradar",
+          "name": "CrimeRadar",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#B71C1C",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "26.33.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "26.34.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Telemetry Kill",
+      "description": "Disables InMobi, FairBid telemetry/ad SDKs and ad display for privacy.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.scannerradio",
+          "name": "Scanner Radio",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#2196F3",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "8.21.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "f5596eb40255f3f52d4123a2ac83ce4884b35ae8",
+  "jman_tree_sha": "3d647e2d4d6c037453b6e4c5b4dcdbc94809b515",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -228,6 +228,10 @@
     "cricinfo-tweaks": {
       "sha": "889c681bf7a0d666f7cf6bda3780d12ab0a9847b",
       "key": "https://github.com/isuruhg/cricinfo-tweaks"
+    },
+    "crimeradar": {
+      "sha": "b5e6e0e3433c940f093a65c472c6b4e4fa222088",
+      "key": "https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches"
     },
     "csagataj2": {
       "sha": "9aeed5f3808981c2accf7b77dee0776ea4a3ce1b",
@@ -562,7 +566,7 @@
       "key": null
     },
     "legendsciber": {
-      "sha": "f8984f81c2d07a4eb0c2ee6461ab5cd800aa572a",
+      "sha": "314196f9aaa5f080957a5b8cc9847d8241fa6825",
       "key": "https://github.com/legendsciber/morphe-patches"
     },
     "lennyRBLX": {
@@ -693,6 +697,10 @@
       "sha": "f3d6d3c011e343cca47150e9d5511fc974a30a26",
       "key": "https://github.com/andersonlucasg3/PetalMaps-NonHuawei"
     },
+    "picarica": {
+      "sha": "1872f59c3bad873d9029157839d0881838bc5172",
+      "key": "https://github.com/picarica/My-moprhe-patches"
+    },
     "pichiwa": {
       "sha": "b6862e96205a82e5539db17eaf6a9fdf4111e7a0",
       "key": "https://github.com/alejandrobellver/pichiwa-patches"
@@ -740,6 +748,10 @@
     "psychonaut-wiki-journal": {
       "sha": "623e0240761d984e80e52c4e6f12c69c2bf19fa7",
       "key": "https://github.com/adderalladmiral/psychonaut-wiki-journal-patches"
+    },
+    "psylos": {
+      "sha": "d021f134521c1d342708c150c351b2bdcde32b96",
+      "key": "https://github.com/lootdev78/psylos-morphe-patches"
     },
     "pyflat-jr": {
       "sha": "28db3db68937f417625c071c3df490cfde419acf",
@@ -796,6 +808,10 @@
     "riky": {
       "sha": "4d71508268d8de023b86b4b9454a24271d3521ee",
       "key": "https://github.com/riky-dev/morphe-patches"
+    },
+    "ringconn": {
+      "sha": "2ffc828f7a339f3774f11b617452883dae877baf",
+      "key": "https://github.com/DarioDKM/ringconn-patches"
     },
     "rivanced-universal": {
       "sha": "2b857195a507403552ff35e07c89b4d4006cbc5f",
@@ -929,6 +945,10 @@
       "sha": "810849689a7c92971c8518acc62ca613ce3246d2",
       "key": "https://github.com/V4n1X/morphe-patches"
     },
+    "vantage": {
+      "sha": "7611aae9abfda1ada114324a853dc37c241ac4d9",
+      "key": "https://github.com/pmaxhogan/vantage-patches"
+    },
     "variablenine": {
       "sha": "63bc37b16251b54992acbaaf1a93f2199b2db907",
       "key": "https://github.com/variablenine/morphe-patches"
@@ -985,6 +1005,10 @@
       "sha": "2f9fafc33318e29786e326a9ed7a24003c54fdb5",
       "key": "https://github.com/MarcaDian/morphe-patches-yavot"
     },
+    "yann-soliman": {
+      "sha": "df2a9fdb1f18b54e0998f0c4f2d73659cfc867b9",
+      "key": "https://github.com/yann-soliman/morphe-patches"
+    },
     "ynotzort": {
       "sha": "bd7271c800c94c9a164a079044a7cc12787a2574",
       "key": "https://github.com/ynotzort/morphe-patches"
@@ -1004,6 +1028,10 @@
     "zarko": {
       "sha": "ee23a1e51a4885e6264ca438e9624378a00410e5",
       "key": "https://github.com/eZ4RK0/morphe-patches"
+    },
+    "zeldrisho": {
+      "sha": "b6cd6ab5ff75d4b1025206e892e9eadd6f88b742",
+      "key": "https://github.com/zeldrisho/morphe-patches"
     },
     "zpatches": {
       "sha": "de92bc283a09bbba9fd2398671c144ccf63eda26",

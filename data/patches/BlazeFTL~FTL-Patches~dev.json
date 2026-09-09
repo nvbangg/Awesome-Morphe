@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.44.0-dev.18",
+  "version": "1.44.0-dev.21",
   "patches": [
     {
       "name": "APK Junk Cleanup",
@@ -199,7 +199,7 @@
     },
     {
       "name": "Clean Me Tab",
-      "description": "Removes promo rows and unused tiles from the Me tab. Optionally adds a Network Stream tile.",
+      "description": "WARNING: MX Player has an integrity check, and some mods add their own on top. Use a Play Store build, patch with signing off, then strip signature verification (MT Manager Enhanced or a modded build) - or the app may refuse to start.Removes promo rows and unused tiles from the Me tab. Optional Add Network Stream tile.",
       "default": false,
       "dependencies": [
         "ResourcePatch",
@@ -226,11 +226,33 @@
               "isExperimental": false,
               "minSdk": null,
               "description": null
+            },
+            {
+              "version": "3.2.1",
+              "versionCodes": {
+                "ARM64_V8A": 2001003531,
+                "ARMEABI_V7A": 2001003531,
+                "X86_64": 2001003531,
+                "X86": 2001003531
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
             }
           ]
         }
       ],
-      "options": []
+      "options": [
+        {
+          "key": "addNetworkStream",
+          "title": "Add Network Stream tile",
+          "description": "Add back network stream to me tab",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        }
+      ]
     },
     {
       "name": "Clean SnapTube Settings Page",
@@ -347,11 +369,32 @@
               "isExperimental": false,
               "minSdk": null,
               "description": null
+            },
+            {
+              "version": "3.2.1",
+              "versionCodes": {
+                "ARM64_V8A": 2001003531,
+                "ARMEABI_V7A": 2001003531,
+                "X86_64": 2001003531,
+                "X86": 2001003531
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
             }
           ]
         }
       ],
       "options": [
+        {
+          "key": "skipPopup",
+          "title": "Skip intro popup and animation",
+          "description": "Tapping the menu item toggles Smart Enhance directly instead of showing the popup first and animation.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
         {
           "key": "showToast",
           "title": "Show toast on enable",
@@ -386,6 +429,18 @@
                 "ARMEABI_V7A": 2001003524,
                 "X86_64": 2001003524,
                 "X86": 2001003524
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "3.2.1",
+              "versionCodes": {
+                "ARM64_V8A": 2001003531,
+                "ARMEABI_V7A": 2001003531,
+                "X86_64": 2001003531,
+                "X86": 2001003531
               },
               "isExperimental": false,
               "minSdk": null,
@@ -460,6 +515,18 @@
                 "ARMEABI_V7A": 2001003524,
                 "X86_64": 2001003524,
                 "X86": 2001003524
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "3.2.1",
+              "versionCodes": {
+                "ARM64_V8A": 2001003531,
+                "ARMEABI_V7A": 2001003531,
+                "X86_64": 2001003531,
+                "X86": 2001003531
               },
               "isExperimental": false,
               "minSdk": null,
@@ -1192,11 +1259,68 @@
               "isExperimental": false,
               "minSdk": null,
               "description": null
+            },
+            {
+              "version": "3.2.1",
+              "versionCodes": {
+                "ARM64_V8A": 2001003531,
+                "ARMEABI_V7A": 2001003531,
+                "X86_64": 2001003531,
+                "X86": 2001003531
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
             }
           ]
         }
       ],
       "options": [
+        {
+          "key": "hideVideoDisplay",
+          "title": "Hide Video Display",
+          "description": null,
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "hideMoreMenuHelp",
+          "title": "Hide More menu Help section",
+          "description": "Hides What's New, Features, FAQ, Check for Update, Bug Report, and About.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "enableDefaultShortcuts",
+          "title": "Change default shortcuts",
+          "description": "Settings > Player > Customize Shortcuts still works and always wins once touched.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
+        {
+          "key": "defaultShortcutsMask",
+          "title": "Default shortcuts bitmask (hex)",
+          "description": "Bit sum of enabled shortcuts, decimal or 0x-prefixed hex. Bits: 0x1 rotation, 0x2 speed, 0x4 background play, 0x8 loop, 0x10 mute, 0x20 shuffle, 0x40 equalizer, 0x100 sleep timer, 0x200 repeat A-B, 0x400 night mode, 0x800 customise items, 0x1000 screenshot, 0x2000 mirror mode, 0x4000 vertical flip, 0x8000 audio effect. Default 0x780F.",
+          "required": false,
+          "type": "kotlin.Int",
+          "default": 30735,
+          "values": null
+        },
+        {
+          "key": "openSubtitleSettings",
+          "title": "Open subtitle settings by default",
+          "description": "Expands Sync/Speed/Panel/Customization in the subtitle menu instead of collapsed.",
+          "required": false,
+          "type": "kotlin.Boolean",
+          "default": true,
+          "values": null
+        },
         {
           "key": "hideBookmark",
           "title": "Hide Bookmark",

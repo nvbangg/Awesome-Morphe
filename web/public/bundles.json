@@ -1220,7 +1220,7 @@
           "compatiblePackagesKey": 14
         }
       ],
-      "hotRank": 36
+      "hotRank": 34
     },
     {
       "source": "github",
@@ -2885,7 +2885,7 @@
           "compatiblePackagesKey": 107
         }
       ],
-      "hotRank": 15
+      "hotRank": 16
     },
     {
       "source": "github",
@@ -4728,7 +4728,7 @@
           "compatiblePackagesKey": 131
         }
       ],
-      "hotRank": 69
+      "hotRank": 67
     },
     {
       "source": "github",
@@ -4926,7 +4926,7 @@
           "compatiblePackagesKey": 138
         }
       ],
-      "hotRank": 128
+      "hotRank": 127
     },
     {
       "source": "github",
@@ -5038,7 +5038,7 @@
           "compatiblePackagesKey": 146
         }
       ],
-      "hotRank": 135
+      "hotRank": 134
     },
     {
       "source": "github",
@@ -5219,7 +5219,7 @@
           "compatiblePackagesKey": 148
         }
       ],
-      "hotRank": 30
+      "hotRank": 27
     },
     {
       "source": "gitlab",
@@ -5731,7 +5731,7 @@
           "compatiblePackagesKey": 190
         }
       ],
-      "hotRank": 136
+      "hotRank": 135
     },
     {
       "source": "github",
@@ -5740,7 +5740,7 @@
       "repoDescription": "Patches for Android TV apks",
       "avatarUrl": "https://avatars.githubusercontent.com/u/229211337?v=4&s=128",
       "stars": 179,
-      "updatedAt": 1788830473000,
+      "updatedAt": 1788917829000,
       "firstSeen": 1779671144000,
       "appFirstSeen": {
         "tv.pluto.android": 1783087807450,
@@ -8491,7 +8491,7 @@
           "compatiblePackagesKey": 462
         }
       ],
-      "hotRank": 34
+      "hotRank": 32
     },
     {
       "source": "github",
@@ -9004,7 +9004,7 @@
           "compatiblePackagesKey": 475
         }
       ],
-      "hotRank": 21
+      "hotRank": 15
     },
     {
       "source": "github",
@@ -11281,7 +11281,7 @@
           "compatiblePackagesKey": 549
         }
       ],
-      "hotRank": 134
+      "hotRank": 136
     },
     {
       "source": "github",
@@ -15304,7 +15304,7 @@
           "compatiblePackagesKey": 606
         }
       ],
-      "hotRank": 28
+      "hotRank": 26
     },
     {
       "source": "github",
@@ -15448,7 +15448,7 @@
           "compatiblePackagesKey": 613
         }
       ],
-      "hotRank": 35
+      "hotRank": 36
     },
     {
       "source": "github",
@@ -15497,7 +15497,7 @@
           "compatiblePackagesKey": 621
         }
       ],
-      "hotRank": 60
+      "hotRank": 59
     },
     {
       "source": "github",
@@ -16709,7 +16709,7 @@
           "compatiblePackagesKey": 92
         }
       ],
-      "hotRank": 94
+      "hotRank": 91
     },
     {
       "source": "github",
@@ -17032,7 +17032,7 @@
           "compatiblePackagesKey": 678
         }
       ],
-      "hotRank": 73
+      "hotRank": 72
     },
     {
       "source": "github",
@@ -18265,7 +18265,7 @@
           "default": false
         }
       ],
-      "hotRank": 32
+      "hotRank": 30
     },
     {
       "source": "github",
@@ -18330,7 +18330,7 @@
           "compatiblePackagesKey": 681
         }
       ],
-      "hotRank": 43
+      "hotRank": 42
     },
     {
       "source": "github",
@@ -18677,7 +18677,7 @@
           "compatiblePackagesKey": 708
         }
       ],
-      "hotRank": 72
+      "hotRank": 71
     },
     {
       "source": "github",
@@ -18750,7 +18750,7 @@
           "compatiblePackagesKey": 712
         }
       ],
-      "hotRank": 45
+      "hotRank": 44
     },
     {
       "source": "github",
@@ -19564,7 +19564,7 @@
           "compatiblePackagesKey": 725
         }
       ],
-      "hotRank": 16
+      "hotRank": 20
     },
     {
       "source": "github",
@@ -20396,7 +20396,7 @@
           "compatiblePackagesKey": 769
         }
       ],
-      "hotRank": 29
+      "hotRank": 24
     },
     {
       "source": "github",
@@ -20716,7 +20716,7 @@
           "compatiblePackagesKey": 775
         }
       ],
-      "hotRank": 123
+      "hotRank": 122
     },
     {
       "source": "github",
@@ -20829,7 +20829,7 @@
           "compatiblePackagesKey": 778
         }
       ],
-      "hotRank": 111
+      "hotRank": 110
     },
     {
       "source": "github",
@@ -20850,7 +20850,7 @@
           "compatiblePackagesKey": 779
         }
       ],
-      "hotRank": 96
+      "hotRank": 92
     },
     {
       "source": "github",
@@ -21429,7 +21429,7 @@
           "compatiblePackagesKey": 793
         }
       ],
-      "hotRank": 48
+      "hotRank": 49
     },
     {
       "source": "github",
@@ -21438,7 +21438,7 @@
       "repoDescription": "Morphe patches to remove ads, analytics, apk junk, debug info, duplicate graphics, unused languages, and use custom dpi☠️",
       "avatarUrl": "https://avatars.githubusercontent.com/u/139938337?v=4&s=128",
       "stars": 26,
-      "updatedAt": 1788896787000,
+      "updatedAt": 1788928207000,
       "firstSeen": 1786240845995,
       "appFirstSeen": {
         "com.snaptube.premium": 1786360281622,
@@ -21551,8 +21551,15 @@
         },
         {
           "name": "Clean Me Tab",
-          "description": "Removes promo rows and unused tiles from the Me tab. Optionally adds a Network Stream tile.",
+          "description": "WARNING: MX Player has an integrity check, and some mods add their own on top. Use a Play Store build, patch with signing off, then strip signature verification (MT Manager Enhanced or a modded build) - or the app may refuse to start.Removes promo rows and unused tiles from the Me tab. Optional Add Network Stream tile.",
           "default": false,
+          "options": [
+            {
+              "key": "addNetworkStream",
+              "title": "Add Network Stream tile",
+              "description": "Add back network stream to me tab"
+            }
+          ],
           "compatiblePackagesKey": 802
         },
         {
@@ -21578,6 +21585,11 @@
           "description": "Configures the Smart Enhance intro popup and enable/disable toast.",
           "isPreRelease": true,
           "options": [
+            {
+              "key": "skipPopup",
+              "title": "Skip intro popup and animation",
+              "description": "Tapping the menu item toggles Smart Enhance directly instead of showing the popup first and animation."
+            },
             {
               "key": "showToast",
               "title": "Show toast on enable",
@@ -21800,6 +21812,30 @@
           "isPreRelease": true,
           "options": [
             {
+              "key": "hideVideoDisplay",
+              "title": "Hide Video Display"
+            },
+            {
+              "key": "hideMoreMenuHelp",
+              "title": "Hide More menu Help section",
+              "description": "Hides What's New, Features, FAQ, Check for Update, Bug Report, and About."
+            },
+            {
+              "key": "enableDefaultShortcuts",
+              "title": "Change default shortcuts",
+              "description": "Settings > Player > Customize Shortcuts still works and always wins once touched."
+            },
+            {
+              "key": "defaultShortcutsMask",
+              "title": "Default shortcuts bitmask (hex)",
+              "description": "Bit sum of enabled shortcuts, decimal or 0x-prefixed hex. Bits: 0x1 rotation, 0x2 speed, 0x4 background play, 0x8 loop, 0x10 mute, 0x20 shuffle, 0x40 equalizer, 0x100 sleep timer, 0x200 repeat A-B, 0x400 night mode, 0x800 customise items, 0x1000 screenshot, 0x2000 mirror mode, 0x4000 vertical flip, 0x8000 audio effect. Default 0x780F."
+            },
+            {
+              "key": "openSubtitleSettings",
+              "title": "Open subtitle settings by default",
+              "description": "Expands Sync/Speed/Panel/Customization in the subtitle menu instead of collapsed."
+            },
+            {
               "key": "hideBookmark",
               "title": "Hide Bookmark"
             },
@@ -21934,7 +21970,7 @@
           "compatiblePackagesKey": 810
         }
       ],
-      "hotRank": 20
+      "hotRank": 19
     },
     {
       "source": "github",
@@ -22076,7 +22112,7 @@
           "compatiblePackagesKey": 820
         }
       ],
-      "hotRank": 71
+      "hotRank": 70
     },
     {
       "source": "github",
@@ -22990,7 +23026,7 @@
           "compatiblePackagesKey": 821
         }
       ],
-      "hotRank": 70
+      "hotRank": 69
     },
     {
       "source": "github",
@@ -23079,7 +23115,7 @@
           "compatiblePackagesKey": 192
         }
       ],
-      "hotRank": 47
+      "hotRank": 46
     },
     {
       "source": "github",
@@ -23322,7 +23358,7 @@
           "compatiblePackagesKey": 828
         }
       ],
-      "hotRank": 110
+      "hotRank": 111
     },
     {
       "source": "github",
@@ -23368,7 +23404,7 @@
           "compatiblePackagesKey": 829
         }
       ],
-      "hotRank": 49
+      "hotRank": 48
     },
     {
       "source": "github",
@@ -23437,7 +23473,7 @@
           "compatiblePackagesKey": 310
         }
       ],
-      "hotRank": 33
+      "hotRank": 31
     },
     {
       "source": "github",
@@ -23540,7 +23576,7 @@
           "compatiblePackagesKey": 832
         }
       ],
-      "hotRank": 122
+      "hotRank": 123
     },
     {
       "source": "github",
@@ -24069,7 +24105,7 @@
           "compatiblePackagesKey": 852
         }
       ],
-      "hotRank": 58
+      "hotRank": 57
     },
     {
       "source": "github",
@@ -24134,7 +24170,7 @@
       "repoDescription": "Custom Morphe patches for Brave Browser and GBoard Lite on Android.",
       "avatarUrl": "https://avatars.githubusercontent.com/u/179108235?v=4&s=128",
       "stars": 42,
-      "updatedAt": 1788741830000,
+      "updatedAt": 1788918471000,
       "firstSeen": 1787251436744,
       "appFirstSeen": {
         "com.brave.browser": 1787251436098,
@@ -24424,7 +24460,7 @@
           "compatiblePackagesKey": 861
         }
       ],
-      "hotRank": 74
+      "hotRank": 73
     },
     {
       "source": "github",
@@ -24450,7 +24486,7 @@
           "compatiblePackagesKey": 862
         }
       ],
-      "hotRank": 91
+      "hotRank": 94
     },
     {
       "source": "github",
@@ -24592,7 +24628,7 @@
           "compatiblePackagesKey": 869
         }
       ],
-      "hotRank": 67
+      "hotRank": 74
     },
     {
       "source": "github",
@@ -24717,7 +24753,7 @@
           "compatiblePackagesKey": 596
         }
       ],
-      "hotRank": 44
+      "hotRank": 47
     },
     {
       "source": "github",
@@ -24811,7 +24847,7 @@
           "compatiblePackagesKey": 883
         }
       ],
-      "hotRank": 93
+      "hotRank": 95
     },
     {
       "source": "github",
@@ -25137,7 +25173,7 @@
           "compatiblePackagesKey": 889
         }
       ],
-      "hotRank": 46
+      "hotRank": 45
     },
     {
       "source": "github",
@@ -25273,7 +25309,7 @@
           "compatiblePackagesKey": 895
         }
       ],
-      "hotRank": 92
+      "hotRank": 93
     },
     {
       "source": "github",
@@ -25403,7 +25439,7 @@
           "compatiblePackagesKey": 897
         }
       ],
-      "hotRank": 59
+      "hotRank": 58
     },
     {
       "source": "github",
@@ -25505,7 +25541,7 @@
           "compatiblePackagesKey": 904
         }
       ],
-      "hotRank": 95
+      "hotRank": 96
     },
     {
       "source": "github",
@@ -25776,7 +25812,7 @@
           "compatiblePackagesKey": 906
         }
       ],
-      "hotRank": 61
+      "hotRank": 60
     },
     {
       "source": "github",
@@ -26918,7 +26954,7 @@
       "repoDescription": " Morphe patches that re-theme Letterboxd for Android — Material You, OLED black, custom accent colour, and layout tweaks",
       "avatarUrl": "https://avatars.githubusercontent.com/u/27264154?v=4&s=128",
       "stars": 18,
-      "updatedAt": 1788887751000,
+      "updatedAt": 1788922961000,
       "firstSeen": 1788491531808,
       "appFirstSeen": {
         "com.letterboxd.letterboxd": 1788491523001
@@ -26971,7 +27007,7 @@
           "compatiblePackagesKey": 92
         }
       ],
-      "hotRank": 19
+      "hotRank": 21
     },
     {
       "source": "github",
@@ -27025,7 +27061,7 @@
           "compatiblePackagesKey": 920
         }
       ],
-      "hotRank": 127
+      "hotRank": 128
     },
     {
       "source": "github",
@@ -28225,7 +28261,7 @@
           "compatiblePackagesKey": 921
         }
       ],
-      "hotRank": 57
+      "hotRank": 61
     },
     {
       "source": "github",
@@ -30245,7 +30281,7 @@
           "compatiblePackagesKey": 928
         }
       ],
-      "hotRank": 42
+      "hotRank": 43
     },
     {
       "source": "github",
@@ -30679,7 +30715,7 @@
           "compatiblePackagesKey": 930
         }
       ],
-      "hotRank": 27
+      "hotRank": 33
     },
     {
       "source": "github",
@@ -30723,7 +30759,7 @@
           "compatiblePackagesKey": 20
         }
       ],
-      "hotRank": 31
+      "hotRank": 35
     },
     {
       "source": "github",
@@ -30744,7 +30780,7 @@
           "compatiblePackagesKey": 931
         }
       ],
-      "hotRank": 25
+      "hotRank": 29
     },
     {
       "source": "github",
@@ -30775,7 +30811,7 @@
           "compatiblePackagesKey": 932
         }
       ],
-      "hotRank": 26
+      "hotRank": 28
     },
     {
       "source": "github",
@@ -30857,7 +30893,96 @@
           "compatiblePackagesKey": 933
         }
       ],
-      "hotRank": 24
+      "hotRank": 25
+    },
+    {
+      "source": "github",
+      "repo": "JacobPlaysGames/CrimeRadar-Morphe-Patches",
+      "name": "CrimeRadar",
+      "repoDescription": "Morphe patches for CrimeRadar - premium bypass and modifications",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80339878?v=4&s=128",
+      "stars": 1,
+      "updatedAt": 1788913060000,
+      "firstSeen": 1788929545695,
+      "appFirstSeen": {
+        "com.newsbreak.crimeradar": 1788929545008,
+        "com.scannerradio": 1788929545008
+      },
+      "patches": [
+        {
+          "name": "Branding",
+          "description": "Changes app name to 'CrimeRadar+' and tints the icon for easy identification.",
+          "compatiblePackagesKey": 934
+        },
+        {
+          "name": "Branding",
+          "description": "Changes app name to 'Scanner Radio+' and tints the icon for easy identification.",
+          "compatiblePackagesKey": 935
+        },
+        {
+          "name": "Change package name",
+          "description": "Changes the app package name to allow installing alongside the original.",
+          "options": [
+            {
+              "key": "packageName",
+              "title": "New package name"
+            }
+          ],
+          "compatiblePackagesKey": 934
+        },
+        {
+          "name": "Change package name",
+          "description": "Changes the app package name to allow installing alongside the original.",
+          "options": [
+            {
+              "key": "packageName",
+              "title": "New package name"
+            }
+          ],
+          "compatiblePackagesKey": 935
+        },
+        {
+          "name": "Debug Settings",
+          "description": "Adds a CrimeRadar+ debug info entry to the settings screen.",
+          "default": false,
+          "compatiblePackagesKey": 934
+        },
+        {
+          "name": "Notification Limits Raised",
+          "description": "Raises per-category daily push caps and heads-up push limits.",
+          "compatiblePackagesKey": 934
+        },
+        {
+          "name": "Premium Bypass",
+          "description": "Bypasses premium subscription checks to unlock all premium features.",
+          "compatiblePackagesKey": 934
+        },
+        {
+          "name": "Premium Bypass",
+          "description": "Bypasses premium subscription checks to unlock all premium features.",
+          "compatiblePackagesKey": 935
+        },
+        {
+          "name": "Remove History Cap",
+          "description": "Removes the 200-item local reading history limit.",
+          "compatiblePackagesKey": 934
+        },
+        {
+          "name": "Replay Minutes Override",
+          "description": "Overrides daily replay listening time limits to unlimited.",
+          "compatiblePackagesKey": 934
+        },
+        {
+          "name": "Telemetry Kill",
+          "description": "Disables Instabug and Adjust telemetry SDKs for privacy.",
+          "compatiblePackagesKey": 934
+        },
+        {
+          "name": "Telemetry Kill",
+          "description": "Disables InMobi, FairBid telemetry/ad SDKs and ad display for privacy.",
+          "compatiblePackagesKey": 935
+        }
+      ]
     }
   ],
   "compatibilities": [
@@ -40507,6 +40632,9 @@
         "targets": [
           {
             "version": "3.1.4"
+          },
+          {
+            "version": "3.2.1"
           }
         ]
       }
@@ -41094,7 +41222,7 @@
         "packageName": "com.vivaldi.browser.snapshot",
         "targets": [
           {
-            "version": "8.2.4147.28"
+            "version": "8.2.4147.50"
           }
         ]
       }
@@ -41112,7 +41240,7 @@
         "packageName": "com.vivaldi.browser.snapshot",
         "targets": [
           {
-            "version": "8.2.4147.28"
+            "version": "8.2.4147.50"
           }
         ]
       }
@@ -41138,7 +41266,7 @@
         "packageName": "com.vivaldi.browser.snapshot",
         "targets": [
           {
-            "version": "8.2.4147.28"
+            "version": "8.2.4147.50"
           }
         ]
       }
@@ -42069,6 +42197,29 @@
         "targets": [
           {
             "version": "1.134.2"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "packageName": "com.newsbreak.crimeradar",
+        "targets": [
+          {
+            "version": "26.33.1"
+          },
+          {
+            "version": "26.34.0"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "packageName": "com.scannerradio",
+        "targets": [
+          {
+            "version": null
           }
         ]
       }
@@ -47424,7 +47575,7 @@
       "firstSeen": 1786941974043
     },
     "com.google.android.dialer": {
-      "name": "Phone by Google",
+      "name": "Google Phone",
       "iconUrl": "https://play-lh.googleusercontent.com/b0ipxfvtgDE5kT8PscD8hggLVWrP5Zodu2EwIPN0ub-3UBJ7CosIHCP0V9pSjV-hPdXQjd7u7JP2gGMrfSMZmA=s128-rw",
       "description": "Reliable phone calls with spam protection, caller ID and more helpful features",
       "minInstalls": 5000000000,
@@ -48706,6 +48857,14 @@
       "category": "Sports",
       "firstSeen": 1788892960758,
       "isPreRelease": true
+    },
+    "com.scannerradio": {
+      "name": "Scanner Radio - Police Scanner",
+      "iconUrl": "https://play-lh.googleusercontent.com/uE5GFwyn7MxUMRTXYJYWq0ZlaBUioc38OXNyp_WknSbXqE-k9yTO2EyUW8w7tMpS7jrUYT8nkQBwfmNHyhyEX1A=s128-rw",
+      "description": "Live Breaking News & Alerts. Police, Fire, Weather Radios, Air Traffic, & more.",
+      "minInstalls": 10000000,
+      "category": "News & Magazines",
+      "firstSeen": 1788929545695
     }
   }
 }
