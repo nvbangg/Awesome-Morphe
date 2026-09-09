@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.44.0-dev.25",
+  "version": "1.44.0-dev.26",
   "patches": [
     {
       "name": "APK Junk Cleanup",
@@ -1170,6 +1170,49 @@
                 "ARMEABI_V7A": 118,
                 "X86_64": 118,
                 "X86": 118
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Remove Recycle Bin",
+      "description": "Disables the Recycle Bin and removes it from the Me tab; deleted files are removed permanently.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.mxtech.videoplayer.ad",
+          "name": "MX Player",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": "3.1.4",
+              "versionCodes": {
+                "ARM64_V8A": 2001003524,
+                "ARMEABI_V7A": 2001003524,
+                "X86_64": 2001003524,
+                "X86": 2001003524
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "3.2.1",
+              "versionCodes": {
+                "ARM64_V8A": 2001003531,
+                "ARMEABI_V7A": 2001003531,
+                "X86_64": 2001003531,
+                "X86": 2001003531
               },
               "isExperimental": false,
               "minSdk": null,

@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "patches": [
     {
       "name": "APK Signer Unlock Pro",
@@ -98,6 +98,35 @@
             {
               "version": "4.0.2",
               "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock Footej Camera Premium",
+      "description": "All Premium features are unlocked.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.footej.camera",
+          "name": "Footej Camera",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#008D85",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "2.4.1 build 202",
+              "versionCodes": {
+                "ARM64_V8A": 20202,
+                "ARMEABI_V7A": 20202
+              },
               "isExperimental": false,
               "minSdk": null,
               "description": null

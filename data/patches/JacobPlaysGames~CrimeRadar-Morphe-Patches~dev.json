@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.5.0-dev.1",
+  "version": "1.8.2",
   "patches": [
     {
       "name": "Branding",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Branding",
-      "description": "Changes app name to 'Scanner Radio+' and tints the icon for easy identification.",
+      "description": "Changes app name to 'Scanner Radio+' for easy identification.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [
@@ -50,7 +50,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "8.21.1",
+              "version": "8.29",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -119,7 +119,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "8.21.1",
+              "version": "8.29",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -207,6 +207,32 @@
       "options": []
     },
     {
+      "name": "Pairip DRM Bypass",
+      "description": "Disables Pairip DRM/integrity checks that crash patched APKs on startup.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.scannerradio",
+          "name": "Scanner Radio",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#2196F3",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "8.29",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
       "name": "Premium Bypass",
       "description": "Bypasses premium subscription checks to unlock all premium features.",
       "default": true,
@@ -254,7 +280,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "8.21.1",
+              "version": "8.29",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -379,7 +405,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "8.21.1",
+              "version": "8.29",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,

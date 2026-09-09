@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "7f80b62902f6b94d4c4ba835a7cf8b924d4173a6",
+  "jman_tree_sha": "21f1665fc53f84d5fd8e879b47db864cd6f07125",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -230,7 +230,7 @@
       "key": "https://github.com/isuruhg/cricinfo-tweaks"
     },
     "crimeradar": {
-      "sha": "924b54dfefff72d5b73056d7589e2011ac51c155",
+      "sha": "3e9805c5e433dbcce364b396523ab316c38d305b",
       "key": "https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches"
     },
     "csagataj2": {
@@ -238,7 +238,7 @@
       "key": "https://github.com/csagataj2/morphe-patches"
     },
     "d0nj": {
-      "sha": "a5cf7f8225ceaeb0d2c8d513eca0f5359b835f54",
+      "sha": "51d47639b6af14b850ce661596d7e5c9b24417e4",
       "key": "https://github.com/d0nj/morphe-patches"
     },
     "d4n3436": {
@@ -546,7 +546,7 @@
       "key": null
     },
     "kveld": {
-      "sha": "983fdd8b986a49f5026d0179df5e00e985fefd68",
+      "sha": "d74c696ed9ff3991a82ddafe010a9d8d1d33884c",
       "key": "https://github.com/kveld9/kveld-morphe-patches"
     },
     "lablazer": {
@@ -566,7 +566,7 @@
       "key": null
     },
     "legendsciber": {
-      "sha": "ea3eb9e309a0bf5917471b6a5abc8ecc1732041b",
+      "sha": "6045b15c2d531f883588ebd11ca1b45aae4ae473",
       "key": "https://github.com/legendsciber/morphe-patches"
     },
     "lennyRBLX": {
@@ -622,7 +622,7 @@
       "key": "https://github.com/Entree3k/Morning-Entree-Patches"
     },
     "morphe": {
-      "sha": "0191c1bbb6a94083f3bae3d4c6094f5d5655f9ea",
+      "sha": "865f2f62de221322f668ebeee626680ac83c2adb",
       "key": "https://github.com/MorpheApp/morphe-patches"
     },
     "morphe-google": {
@@ -670,7 +670,7 @@
       "key": "https://github.com/liongalahad/liongalahad-nuviotv-morphe-patches"
     },
     "okish-morphe": {
-      "sha": "8d447d12089f7fd95397af66887ae1d2adceb7f2",
+      "sha": "37c65afb1aeba0cfab540b40220957db124c4b23",
       "key": "https://github.com/byehi98/okish-morphe-patches"
     },
     "paresh-maheshwari": {
@@ -894,7 +894,7 @@
       "key": "https://github.com/spookyexe/morphe-patches"
     },
     "steamlink": {
-      "sha": "0853d30bcb9d7201a7fd85fe9d9c5c91279f5908",
+      "sha": "28fdf0a60e12cb5d7fc5723db5751d5c03d1518b",
       "key": "https://github.com/AngelDark92/steamlink-patches"
     },
     "stremio-androidtv": {
@@ -1030,7 +1030,7 @@
       "key": "https://github.com/eZ4RK0/morphe-patches"
     },
     "zeldrisho": {
-      "sha": "9d0a2f5cf8f9a4131b3ccc06d87c3cef773216b4",
+      "sha": "f01bac545fe672688d6d45d0f3e98a7dab52258c",
       "key": "https://github.com/zeldrisho/morphe-patches"
     },
     "zpatches": {

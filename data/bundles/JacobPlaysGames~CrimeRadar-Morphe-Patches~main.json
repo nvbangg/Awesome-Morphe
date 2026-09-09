@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-09T00:17:40",
-  "description": "## [1.7.0](https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches/compare/v1.6.0...v1.7.0) (2026-09-09)\n\n### ✨ New Features\n\n* **scannerradio:** add minSdk=29 to Scanner Radio target ([f5fa369](https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches/commit/f5fa36949b2bc6da0b1877ce9903dd9863476ecf))",
-  "download_url": "https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches/releases/download/v1.7.0/patches-1.7.0.mpp",
+  "created_at": "2026-09-09T18:13:05",
+  "description": "## [1.8.2](https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches/compare/v1.8.1...v1.8.2) (2026-09-09)\n\n### 🐛 Bug Fixes\n\n* **scannerradio:** call parent onCreate() instead of no-op to preserve Hilt DI ([c2bfad6](https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches/commit/c2bfad63b5009ec1257c7ac3bf1e101e45d535ce))",
+  "download_url": "https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches/releases/download/v1.8.2/patches-1.8.2.mpp",
   "signature_download_url": "",
-  "version": "1.7.0"
+  "version": "1.8.2"
 }

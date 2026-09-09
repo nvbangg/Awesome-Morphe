@@ -139,8 +139,8 @@
   "AngelDark92/steamlink-patches": {
     "name": "Steam Link GalaxyXR Patches",
     "github": {
-      "main": "84e6c3cc1b7a9f2775fae8639b955aceb33a5b8d64f0036e14d87f0f01fbdece",
-      "dev": "263cbcb43221f313e657d40ac668a94ea850a5586c715b8ee773154d795b1f49"
+      "main": "611eaa3130db1136b4bc183cea1e9e75a4eacd88384b5f6d24058fb384e690b5",
+      "dev": "611eaa3130db1136b4bc183cea1e9e75a4eacd88384b5f6d24058fb384e690b5"
     }
   },
   "anxyis/anxy-patches": {
@@ -238,7 +238,7 @@
     "name": "BlazeFTL Patches",
     "github": {
       "main": "fd47c89bb324242f8062c1b02cc7c150514b57b82455df562cf7ff91c2102c4f",
-      "dev": "2d8dfcc967cd726c2ed6ddc78ad429b0ab35c903097e6bf7845daa4756aed5c4"
+      "dev": "597ada02b90fd9f1d376405b9d452b3b0ec6414b84db30d9220afaa6a95e4272"
     }
   },
   "BlazeFTL/Morphe-Portal-Patches-New": {
@@ -258,8 +258,8 @@
   "brealorg/breal-morphe-patches": {
     "name": "Breal Morphe Patches",
     "github": {
-      "main": "03ff2d3e7da3673b93edc55baff42b57e85496c2b7b96dbc60e0418a815cb49f",
-      "dev": "03ff2d3e7da3673b93edc55baff42b57e85496c2b7b96dbc60e0418a815cb49f"
+      "main": "dab5581679e7da18adc10c4412ac766898f2c4b6903096b27a3fc16efe9de37f",
+      "dev": "dab5581679e7da18adc10c4412ac766898f2c4b6903096b27a3fc16efe9de37f"
     }
   },
   "brosssh/morphe-patches": {
@@ -378,8 +378,8 @@
   "d0nj/morphe-patches": {
     "name": "d0nj Patches",
     "github": {
-      "main": "d0de49adf0eb9a5f70e59195b86ae97a6ce067c4ecaa012ed4133ac18921b981",
-      "dev": "8d69c8db26ae80b69841c56ed01b1b4c5556e38636b42b837b3edb3945541817"
+      "main": "5dd88258525ecccb4022000922da3e2fa702c4c47971087fe764dab02a05f59e",
+      "dev": null
     }
   },
   "Dan1elTheMan1el/Morphe-Patches": {
@@ -771,8 +771,8 @@
   "JacobPlaysGames/CrimeRadar-Morphe-Patches": {
     "name": "CrimeRadar Patches",
     "github": {
-      "main": "49279236da881a671ef7e9030216fb18884bcec986e8e1f04ec8ff0e58704edf",
-      "dev": "15c9cee8af7874ed4793d4e9c29921b30c50870dd4eeba5feabce06ea8be8103"
+      "main": "db7f632964752890049403847695364a115effdb853693936af4f1a0ce65a51d",
+      "dev": "db7f632964752890049403847695364a115effdb853693936af4f1a0ce65a51d"
     }
   },
   "jancerny2001/morphe-patches": {
@@ -1303,7 +1303,7 @@
     "name": "Dual VoT Patches",
     "github": {
       "main": "103d90c2a0f1702d11ec26f3d12b9280f74a1be7ea481d90d907c89e676800ba",
-      "dev": "346f424c1700fc104b6b2ec27266cbe88c4df70bf2324028e2b83d5e2ac6c417"
+      "dev": "6bd0bc2ca9a418798db88b16c03b26154f4ad4198bc61429fbe9e14b0a7dc664"
     }
   },
   "Seobject/Seobject-patches": {
@@ -1323,8 +1323,8 @@
   "shuhaibnc/morphe-patches": {
     "name": "Shuhaib's Patches",
     "github": {
-      "main": "1eebbb9cefff3b4f2feeaa915a71cd404368f76bc2c42f154cb3ab5cd2c4db54",
-      "dev": "1eebbb9cefff3b4f2feeaa915a71cd404368f76bc2c42f154cb3ab5cd2c4db54"
+      "main": "b0b7e3af9e085902d0d5b9b68288d5e06e5630c63b1af2f78a324757b820a3e0",
+      "dev": "b0b7e3af9e085902d0d5b9b68288d5e06e5630c63b1af2f78a324757b820a3e0"
     }
   },
   "sjshb57/Pairip-Patches": {
@@ -1372,7 +1372,7 @@
   "SysAdminDoc/hushfeed": {
     "name": "Hushfeed",
     "github": {
-      "main": "70168efcc3adec80d9808584abc143125c0bf89c6d89df8219bd49756a0568c6",
+      "main": "06afd97b414c604f1d1bc9412af443abb0245b63b96b3d4ca86bb79c8d13d610",
       "dev": null,
       "image": "4d092c078217f40dceb3b85b29d4c3f23e2a1cf3e46e32942b094d1e80453e31"
     }
@@ -1523,7 +1523,7 @@
   "zeldrisho/morphe-patches": {
     "name": "Zeldris Patches",
     "github": {
-      "main": "4999cb3a51a27bc484de26cf191812809c48c5e573f84e40924dc59a75b9eb7b",
+      "main": "aaa21b3286308298409a58f9abfd565ed133adb90f7ed57332caf003751f2f2c",
       "dev": null
     }
   }
