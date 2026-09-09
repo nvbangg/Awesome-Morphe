@@ -238,7 +238,7 @@
     "name": "BlazeFTL Patches",
     "github": {
       "main": "fd47c89bb324242f8062c1b02cc7c150514b57b82455df562cf7ff91c2102c4f",
-      "dev": "d97894f243c8bec0d95f8ffcece033162cde248f8839400de7b1832312867661"
+      "dev": "b94df7f8bfbfa588c366ff2d83318d146d3c88074d1164e692ad301a15a1f664"
     }
   },
   "BlazeFTL/Morphe-Portal-Patches-New": {
@@ -364,7 +364,7 @@
   "crimera/piko-newx": {
     "name": "Piko",
     "github": {
-      "main": "930ec5e8063b53965150821a79ee81c577755357c6ffe79661eaa17fc78ba806",
+      "main": "3596611299f8a89891e0873d093b44f68c2da538876e7bdeb59f6191fbf8525a",
       "dev": null
     }
   },
@@ -934,7 +934,7 @@
   "legendsciber/morphe-patches": {
     "name": "legendsciber's Patches",
     "github": {
-      "main": "4f29fe5a2ba6b5f15e41cbf4c99eb97cc24fc6790f6614842d67747ecd8dfbcd",
+      "main": "5c198ac5e16e0ac52d5a2d66832fb9d2477207681a8a18835331a7e167efc48a",
       "dev": null
     }
   },
@@ -1027,7 +1027,7 @@
     "name": "Morphe Patches",
     "github": {
       "main": "0eb1b27be608cb65127db3420212a794e49d809d6f3795a6b961572b917d48aa",
-      "dev": "502a0ddec03954986eec279aac7ce0b0e57d5e659374c29031d17e68927d3e9b",
+      "dev": "5a7820d7348d162c766b7444c41125a563f253aa65df1dda0486100281bd517c",
       "image": "70105daca724c7354163f031c24067b34a8b630dd43839d65d3c5e858773cc02"
     }
   },
@@ -1203,8 +1203,8 @@
   "rafag00/morphe-patches": {
     "name": "Rafag00 Patches",
     "github": {
-      "main": "d2f0f006332a1dcfc6b3c144c62737be33d047c30ebd7d243e6b59472b1b3d4c",
-      "dev": "d2f0f006332a1dcfc6b3c144c62737be33d047c30ebd7d243e6b59472b1b3d4c"
+      "main": "7639a52e6bdd60a6fd02fa51c010033ceb3ef2f467dd8e36cc1b819dddce7d60",
+      "dev": "7639a52e6bdd60a6fd02fa51c010033ceb3ef2f467dd8e36cc1b819dddce7d60"
     }
   },
   "rahul9999xda/telegram-morphe-patches": {
@@ -1494,8 +1494,8 @@
   "yann-soliman/morphe-patches": {
     "name": "Yann's patches",
     "github": {
-      "main": "91c55ab5f38dbff23c4486a2cf7df71369cd1d8dc5f0eb6b06e1745b1087b343",
-      "dev": "91c55ab5f38dbff23c4486a2cf7df71369cd1d8dc5f0eb6b06e1745b1087b343"
+      "main": "2e7632b5e53233d66d6d9e5df3e2583770b9e33a461b7c7877afc0d27cfe4195",
+      "dev": "2e7632b5e53233d66d6d9e5df3e2583770b9e33a461b7c7877afc0d27cfe4195"
     }
   },
   "ynotzort/morphe-patches": {
@@ -1515,8 +1515,8 @@
   "Zanuaimi/UniPatches": {
     "name": "Zanuaimi's UniPatches",
     "github": {
-      "main": "789d71e4717c5107fae0bb10c70e203194003cc68848cdf573cfd6af467034c4",
-      "dev": "789d71e4717c5107fae0bb10c70e203194003cc68848cdf573cfd6af467034c4",
+      "main": "0f33e6ffb4d0e39294ed8d75a1012082f3665f139fcd07f642136040e3e04ae4",
+      "dev": "0f33e6ffb4d0e39294ed8d75a1012082f3665f139fcd07f642136040e3e04ae4",
       "image": "d6033284f266e11ce96e3c2b4eb7a147f0a977ca25dca1d09bab05319dab5907"
     }
   },

@@ -7,7 +7,7 @@
       "repoDescription": "Morphe Patches",
       "avatarUrl": "https://raw.githubusercontent.com/MorpheApp/morphe-patches/main/patches-bundle.png",
       "stars": 3554,
-      "updatedAt": 1788871462000,
+      "updatedAt": 1788939947000,
       "firstSeen": 1767200400000,
       "appFirstSeen": {
         "com.reddit.frontpage": 1767200400000,
@@ -1220,7 +1220,7 @@
           "compatiblePackagesKey": 14
         }
       ],
-      "hotRank": 34
+      "hotRank": 33
     },
     {
       "source": "github",
@@ -4405,7 +4405,7 @@
           "compatiblePackagesKey": 123
         }
       ],
-      "hotRank": 137
+      "hotRank": 136
     },
     {
       "source": "github",
@@ -8491,7 +8491,7 @@
           "compatiblePackagesKey": 462
         }
       ],
-      "hotRank": 32
+      "hotRank": 31
     },
     {
       "source": "github",
@@ -11281,7 +11281,7 @@
           "compatiblePackagesKey": 549
         }
       ],
-      "hotRank": 136
+      "hotRank": 137
     },
     {
       "source": "github",
@@ -15304,7 +15304,7 @@
           "compatiblePackagesKey": 606
         }
       ],
-      "hotRank": 26
+      "hotRank": 25
     },
     {
       "source": "github",
@@ -15448,7 +15448,7 @@
           "compatiblePackagesKey": 613
         }
       ],
-      "hotRank": 36
+      "hotRank": 35
     },
     {
       "source": "github",
@@ -16924,7 +16924,7 @@
           "compatiblePackagesKey": 676
         }
       ],
-      "hotRank": 37
+      "hotRank": 36
     },
     {
       "source": "github",
@@ -18265,7 +18265,7 @@
           "default": false
         }
       ],
-      "hotRank": 30
+      "hotRank": 28
     },
     {
       "source": "github",
@@ -18637,7 +18637,7 @@
           "compatiblePackagesKey": 706
         }
       ],
-      "hotRank": 76
+      "hotRank": 75
     },
     {
       "source": "github",
@@ -18698,7 +18698,7 @@
           "compatiblePackagesKey": 709
         }
       ],
-      "hotRank": 124
+      "hotRank": 123
     },
     {
       "source": "github",
@@ -19564,7 +19564,7 @@
           "compatiblePackagesKey": 725
         }
       ],
-      "hotRank": 20
+      "hotRank": 19
     },
     {
       "source": "github",
@@ -21438,7 +21438,7 @@
       "repoDescription": "Morphe patches to remove ads, analytics, apk junk, debug info, duplicate graphics, unused languages, and use custom dpi☠️",
       "avatarUrl": "https://avatars.githubusercontent.com/u/139938337?v=4&s=128",
       "stars": 26,
-      "updatedAt": 1788928207000,
+      "updatedAt": 1788945293000,
       "firstSeen": 1786240845995,
       "appFirstSeen": {
         "com.snaptube.premium": 1786360281622,
@@ -21533,9 +21533,15 @@
           "compatiblePackagesKey": 800
         },
         {
+          "name": "Boost Splash Screen Time",
+          "description": "Disables MX Player's welcome/splash ad so playback starts immediately.",
+          "isPreRelease": true,
+          "compatiblePackagesKey": 801
+        },
+        {
           "name": "Change Cleaner & Media Tab Defaults",
           "description": "Changes first-run defaults: hides the Image, Video, Audio and Cleaner tabs, and shows hidden files by default. Only affects users who have never changed the setting themselves - the preference override still takes priority.",
-          "compatiblePackagesKey": 801
+          "compatiblePackagesKey": 802
         },
         {
           "name": "Change Display Size",
@@ -21551,7 +21557,7 @@
         },
         {
           "name": "Clean Me Tab",
-          "description": "WARNING: MX Player has an integrity check, and some mods add their own on top. Use a Play Store build, patch with signing off, then strip signature verification (MT Manager Enhanced or a modded build) - or the app may refuse to start.Removes promo rows and unused tiles from the Me tab. Optional Add Network Stream tile.",
+          "description": "WARNING: MX Player has an integrity check, and some mods add their own on top. Use a Play Store build, Use URV Manager, patch with signing off, then use MT Manager Enhanced Signature Kill or the app may refuse to start.Removes promo rows and unused tiles from the Me tab. Optional Add Network Stream tile.",
           "default": false,
           "options": [
             {
@@ -21560,7 +21566,7 @@
               "description": "Add back network stream to me tab"
             }
           ],
-          "compatiblePackagesKey": 802
+          "compatiblePackagesKey": 801
         },
         {
           "name": "Clean SnapTube Settings Page",
@@ -21596,7 +21602,7 @@
               "description": "On: toast when Smart Enhance turns on. Off: fully silent toggle."
             }
           ],
-          "compatiblePackagesKey": 802
+          "compatiblePackagesKey": 801
         },
         {
           "name": "Configure SpeedUp overlay",
@@ -21609,7 +21615,7 @@
               "description": "On: the SpeedUp overlay never shows. Off: 2x UI, with the leftover-view bug fixed."
             }
           ],
-          "compatiblePackagesKey": 802
+          "compatiblePackagesKey": 801
         },
         {
           "name": "Disable Annoying Snaptube Notifications",
@@ -21621,7 +21627,7 @@
           "name": "Disable Bottom Bar And Add Me Tab To Top",
           "description": "Hides the bottom navigation bar and adds a Me tab button to the toolbar.",
           "default": false,
-          "compatiblePackagesKey": 802
+          "compatiblePackagesKey": 801
         },
         {
           "name": "Disable From Download Menu Of Browsers",
@@ -21632,7 +21638,7 @@
         {
           "name": "Disable Rate Us Dialog",
           "description": "Prevents the in-app rate-us dialog from ever being shown.",
-          "compatiblePackagesKey": 801
+          "compatiblePackagesKey": 802
         },
         {
           "name": "Disable ad dialog when reopening app",
@@ -21755,13 +21761,18 @@
         },
         {
           "name": "Remove Duplicate Graphics",
-          "description": "Keeps images for only one screen density (like xhdpi) and removes copies for all other densities. Android will automatically scale the kept images, making the app significantly smaller.",
+          "description": "Keeps only one screen-density copy of every duplicated resource (drawables, layouts, and any other resource type shipped at multiple densities) and removes the rest, letting Android scale the kept copy. Mipmaps (the launcher icon) always keep their highest-quality copy instead of following the target density, since that's the one resource users actually see blown up on their home screen. Optionally strips device-specific resources (smartwatch, Android TV, etc.) entirely.",
           "default": false,
           "options": [
             {
               "key": "targetDensity",
               "title": "Target density",
-              "description": "Density bucket to keep; duplicates are stripped from every other bucket."
+              "description": "Density bucket to prefer for drawables and other non-mipmap resources; duplicates are stripped from every other bucket. If a particular resource was never shipped at this density, the next higher density available for it is kept instead, falling back to a lower one only if nothing higher exists either. Mipmaps ignore this and always keep their highest-quality copy."
+            },
+            {
+              "key": "stripUiModes",
+              "title": "Remove device-specific resources",
+              "description": "Entirely removes resources qualified for the selected device categories -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports."
             }
           ]
         },
@@ -21812,6 +21823,26 @@
           "isPreRelease": true,
           "options": [
             {
+              "key": "hideBookmark",
+              "title": "Hide Bookmark"
+            },
+            {
+              "key": "hideFavourite",
+              "title": "Hide Favourite"
+            },
+            {
+              "key": "hideAddToPlaylist",
+              "title": "Hide Add to Playlist"
+            },
+            {
+              "key": "hideTutorial",
+              "title": "Hide Tutorial"
+            },
+            {
+              "key": "hidePlayingQueue",
+              "title": "Hide Playing Queue"
+            },
+            {
               "key": "hideVideoDisplay",
               "title": "Hide Video Display"
             },
@@ -21834,29 +21865,9 @@
               "key": "openSubtitleSettings",
               "title": "Open subtitle settings by default",
               "description": "Expands Sync/Speed/Panel/Customization in the subtitle menu instead of collapsed."
-            },
-            {
-              "key": "hideBookmark",
-              "title": "Hide Bookmark"
-            },
-            {
-              "key": "hideFavourite",
-              "title": "Hide Favourite"
-            },
-            {
-              "key": "hideAddToPlaylist",
-              "title": "Hide Add to Playlist"
-            },
-            {
-              "key": "hideTutorial",
-              "title": "Hide Tutorial"
-            },
-            {
-              "key": "hidePlayingQueue",
-              "title": "Hide Playing Queue"
             }
           ],
-          "compatiblePackagesKey": 802
+          "compatiblePackagesKey": 801
         },
         {
           "name": "Skip Splash Screen",
@@ -21962,7 +21973,7 @@
         {
           "name": "Unlock Pro & Skip Splash Screen",
           "description": "Forces the ad-removed/Pro check to always return true, and renames the launcher activity from SplashActivity to MainActivity so the splash screen is skipped.",
-          "compatiblePackagesKey": 801
+          "compatiblePackagesKey": 802
         },
         {
           "name": "Unlock premium",
@@ -21970,7 +21981,7 @@
           "compatiblePackagesKey": 810
         }
       ],
-      "hotRank": 19
+      "hotRank": 20
     },
     {
       "source": "github",
@@ -21991,7 +22002,7 @@
           "compatiblePackagesKey": 815
         }
       ],
-      "hotRank": 103
+      "hotRank": 101
     },
     {
       "source": "github",
@@ -23473,7 +23484,7 @@
           "compatiblePackagesKey": 310
         }
       ],
-      "hotRank": 31
+      "hotRank": 29
     },
     {
       "source": "github",
@@ -23576,7 +23587,7 @@
           "compatiblePackagesKey": 832
         }
       ],
-      "hotRank": 123
+      "hotRank": 124
     },
     {
       "source": "github",
@@ -24027,7 +24038,7 @@
           "compatiblePackagesKey": 851
         }
       ],
-      "hotRank": 62,
+      "hotRank": 61,
       "isPreRelease": true
     },
     {
@@ -24517,7 +24528,7 @@
           "compatiblePackagesKey": 863
         }
       ],
-      "hotRank": 101
+      "hotRank": 102
     },
     {
       "source": "github",
@@ -24686,7 +24697,7 @@
       "repoDescription": "legendsciber's Patches - Morphe patches",
       "avatarUrl": "https://avatars.githubusercontent.com/u/106559486?v=4&s=128",
       "stars": 8,
-      "updatedAt": 1788915903000,
+      "updatedAt": 1788945051000,
       "firstSeen": 1787620439710,
       "appFirstSeen": {
         "com.fingersoft.hillclimb": 1787620432732,
@@ -24744,7 +24755,7 @@
         },
         {
           "name": "Shadow Fight 2 IAP Bypass (Smali)",
-          "description": "Bypasses in-app purchases via smali patching. Intercepts launchBillingFlow and triggers fake purchase callback.",
+          "description": "Bypasses in-app purchases via smali patching. Minimal: isReady + startConnection + launchBillingFlow.",
           "compatiblePackagesKey": 876
         },
         {
@@ -24753,7 +24764,7 @@
           "compatiblePackagesKey": 596
         }
       ],
-      "hotRank": 47
+      "hotRank": 43
     },
     {
       "source": "github",
@@ -25519,7 +25530,7 @@
           "compatiblePackagesKey": 903
         }
       ],
-      "hotRank": 102
+      "hotRank": 103
     },
     {
       "source": "github",
@@ -25528,7 +25539,7 @@
       "repoDescription": "",
       "avatarUrl": "https://avatars.githubusercontent.com/u/57418462?v=4&s=128",
       "stars": 2,
-      "updatedAt": 1787840779000,
+      "updatedAt": 1788946998000,
       "firstSeen": 1787857675543,
       "appFirstSeen": {
         "com.sony.songpal.mdr": 1787857674723
@@ -25577,7 +25588,7 @@
       "repoDescription": "New X on Android compatible piko builds",
       "avatarUrl": "https://avatars.githubusercontent.com/u/44558091?v=4&s=128",
       "stars": 269,
-      "updatedAt": 1788915422000,
+      "updatedAt": 1788931570000,
       "firstSeen": 1787987199523,
       "appFirstSeen": {
         "com.twitter.android": 1787987192449
@@ -25945,7 +25956,7 @@
           "compatiblePackagesKey": 913
         }
       ],
-      "hotRank": 75
+      "hotRank": 76
     },
     {
       "source": "github",
@@ -25992,17 +26003,17 @@
         {
           "name": "Add to queue",
           "description": "Overrides the feed flyout 'Play next in queue' with the Morphe video queue.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Alternative thumbnails",
           "description": "Adds options to replace video thumbnails using the DeArrow API or image captures from the video.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Ambient mode",
           "description": "Adds options to bypass power saving restrictions for Ambient mode and disable it entirely or in fullscreen.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "App refresh rate",
@@ -26012,7 +26023,7 @@
         {
           "name": "App refresh rate",
           "description": "Adds an option to change the app refresh rate.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Bypass certificate checks",
@@ -26022,22 +26033,22 @@
         {
           "name": "Bypass image region restrictions",
           "description": "Adds an option to use a different host for user avatar and channel images and can fix missing images that are blocked in some countries.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Bypass link redirects",
           "description": "Adds an option to bypass redirects and open the original link directly.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Captions",
           "description": "Adds an option to disable captions from being automatically enabled or to set caption cookies.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Change form factor",
           "description": "Adds an option to change the UI appearance to a phone, tablet, or automotive device.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Change header",
@@ -26061,7 +26072,7 @@
               "description": "\n            Folder with images to use as a custom header logo.\n\n            The folder must contain one or more of the following folders, depending on the DPI of the device:\n            - drawable-hdpi\n- drawable-xhdpi\n- drawable-xxhdpi\n- drawable-xxxhdpi\n\n            Each of the folders must contain the following file(s):\n            - morphe_header_custom_light.png\n- morphe_header_custom_dark.png\n\n            Required dimensions:\n            - drawable-hdpi: 194x72 px\n- drawable-xhdpi: 258x96 px\n- drawable-xxhdpi: 387x144 px\n- drawable-xxxhdpi: 512x192 px\n        "
             }
           ],
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Change installer source",
@@ -26087,7 +26098,7 @@
         {
           "name": "Change start page",
           "description": "Adds an option to set which page the app opens in instead of the homepage.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Check watch history domain name resolution",
@@ -26097,7 +26108,7 @@
         {
           "name": "Check watch history domain name resolution",
           "description": "Checks if the device DNS server is preventing user watch history from being saved.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Clone app",
@@ -26124,7 +26135,7 @@
         {
           "name": "Copy video link",
           "description": "Adds options to display buttons in the video player to copy video links.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Crossfade",
@@ -26163,7 +26174,7 @@
               "description": "\n            Folder with images to use as a custom icon.\n            \n            The folder must contain one or more of the following folders, depending on the DPI of the device:\n            - mipmap-mdpi\n- mipmap-hdpi\n- mipmap-xhdpi\n- mipmap-xxhdpi\n- mipmap-xxxhdpi\n            \n            Each of the folders must contain all of the following files:\n            morphe_adaptive_background_custom.png\nmorphe_adaptive_foreground_custom.png\n            \n            The image dimensions must be as follows:\n            - mipmap-mdpi: 108x108 px\n- mipmap-hdpi: 162x162 px\n- mipmap-xhdpi: 216x216 px\n- mipmap-xxhdpi: 324x324 px\n- mipmap-xxxhdpi: 432x432 px\n\n            Optionally, the path contains a 'drawable' folder with a monochrome icon file:\n            morphe_adaptive_monochrome_custom.xml\n\n            Optionally, the path contains a notification icon in one of the following formats:\n            - XML vector drawable placed in 'drawable':\n              morphe_notification_icon_custom.xml\n            - PNG raster images placed in the matching 'drawable-<dpi>' folders:\n              - drawable-mdpi/morphe_notification_icon_custom.png (24x24 px)\n- drawable-hdpi/morphe_notification_icon_custom.png (36x36 px)\n- drawable-xhdpi/morphe_notification_icon_custom.png (48x48 px)\n- drawable-xxhdpi/morphe_notification_icon_custom.png (72x72 px)\n- drawable-xxxhdpi/morphe_notification_icon_custom.png (96x96 px)\n        "
             }
           ],
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Custom branding name for Reddit",
@@ -26186,7 +26197,7 @@
         {
           "name": "Custom player overlay opacity",
           "description": "Adds an option to change the opacity of the video player background when player controls are visible.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Disable DRC audio",
@@ -26196,7 +26207,7 @@
         {
           "name": "Disable DRC audio",
           "description": "Adds an option to disable DRC (Dynamic Range Compression) audio.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Disable Play Store updates",
@@ -26211,12 +26222,12 @@
         {
           "name": "Disable QUIC protocol",
           "description": "Adds an option to disable QUIC (Quick UDP Internet Connections) network protocol.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Disable Shorts resuming on startup",
           "description": "Adds an option to disable Shorts from resuming on app startup when Shorts were last being watched.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Disable dislike redirection",
@@ -26226,22 +26237,22 @@
         {
           "name": "Disable double tap actions",
           "description": "Adds an option to disable player double tap gestures.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Disable fullscreen gestures",
           "description": "Adds options to selectively disable gestures for entering and exiting fullscreen mode, and to disable pinch-to-zoom.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Disable haptic feedback",
           "description": "Adds an option to disable haptic feedback in the player for various actions.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Disable layout updates",
           "description": "Adds an option to disable server side layout updates and use an older UI.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Disable modern home",
@@ -26251,17 +26262,17 @@
         {
           "name": "Disable player popup panels",
           "description": "Adds an option to disable panels (such as live chat) from opening automatically.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Disable playlist autoplay",
           "description": "Adds an option to stop a playlist from automatically advancing to the next video.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Disable rolling number animations",
           "description": "Adds an option to disable rolling number animations of video view count, user likes, and upload time.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Disable screenshot popup",
@@ -26271,22 +26282,22 @@
         {
           "name": "Disable scrolling speed limit",
           "description": "Adds an option to remove limits of how fast the home and subscription feed can be scrolled.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Disable sign in to TV popup",
           "description": "Adds options to disable the popups asking to sign into or connect to a TV on the same local network.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Disable video codecs",
           "description": "Adds options to disable or force HDR, and to disable VP9 codecs.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Double tap to seek",
           "description": "Adds additional double-tap to seek values to the YouTube settings menu.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Downloads",
@@ -26296,7 +26307,7 @@
         {
           "name": "Downloads",
           "description": "Adds support to download videos with an external downloader app using the in-app download button or a video player action button.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Enable debugging",
@@ -26306,7 +26317,7 @@
         {
           "name": "Enable debugging",
           "description": "Adds options for debugging and exporting Morphe logs to the clipboard.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Enable exclusive audio playback",
@@ -26326,7 +26337,7 @@
         {
           "name": "Exit fullscreen mode",
           "description": "Adds options to automatically exit fullscreen mode when a video reaches the end.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Force original audio",
@@ -26336,7 +26347,7 @@
         {
           "name": "Force original audio",
           "description": "Adds an option to always use the original audio track.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Force system font",
@@ -26346,7 +26357,7 @@
         {
           "name": "Fullscreen video scale",
           "description": "Adds options to stretch or zoom videos to fill the screen in fullscreen mode.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "GmsCore support",
@@ -26356,7 +26367,7 @@
         {
           "name": "GmsCore support",
           "description": "Allows the app to work without root by using a different package name when patched using a GmsCore instead of Google Play Services.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Hide Ask button",
@@ -26384,7 +26395,7 @@
               "description": "Permanently hides the launcher widget Shorts button."
             }
           ],
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Hide Trending shelves",
@@ -26404,12 +26415,12 @@
         {
           "name": "Hide ads",
           "description": "Adds options to hide general ads, Premium promotions and video ads.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Hide autoplay preview",
           "description": "Adds an option to hide the autoplay preview at the end of videos.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Hide buttons",
@@ -26424,12 +26435,12 @@
         {
           "name": "Hide end screen cards",
           "description": "Adds an option to hide suggested video cards at the end of videos.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Hide end screen suggested video",
           "description": "Adds an option to hide the suggested video at the end of videos.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Hide filter bar",
@@ -26444,7 +26455,7 @@
         {
           "name": "Hide info cards",
           "description": "Adds an option to hide info cards that creators add in the video player.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Hide layout components",
@@ -26454,7 +26465,7 @@
         {
           "name": "Hide layout components",
           "description": "Adds options to hide general layout components.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Hide music action buttons",
@@ -26469,22 +26480,22 @@
         {
           "name": "Hide player flyout menu components",
           "description": "Adds options to hide menu components that appear when pressing the gear icon in the video player.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Hide player overlay buttons",
           "description": "Adds options to hide the player Cast, Autoplay, Captions, Previous & Next buttons, and to hide or change the opacity of the player control buttons background.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Hide related video overlay",
           "description": "Adds an option to hide the related video overlay shown when swiping up in fullscreen.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Hide related videos",
           "description": "Adds options to hide related videos.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Hide sidebar components",
@@ -26494,27 +26505,27 @@
         {
           "name": "Hide timestamp",
           "description": "Adds an option to hide the timestamp in the bottom left of the video player.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Hide video action buttons",
           "description": "Adds options to hide video action buttons in fullscreen and portrait modes.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Loop video",
           "description": "Adds an option to loop videos and display loop video button in the video player.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Media notification controls",
           "description": "Adds options to disable the seekbar and previous/next buttons in the media notification and headphone controls.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Miniplayer",
           "description": "Adds options to change the in-app minimized player. Patching 21.28.206 and lower has more miniplayer types to choose from.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Miniplayer previous and next buttons",
@@ -26524,7 +26535,7 @@
         {
           "name": "Mute button",
           "description": "Adds an option to show a player button that mutes the video audio.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Navigation bar",
@@ -26534,7 +26545,7 @@
         {
           "name": "Navigation bar",
           "description": "Adds options to hide and change the bottom navigation bar (such as the Shorts button)  and the upper navigation toolbar.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Network proxy",
@@ -26546,17 +26557,17 @@
           "name": "Network proxy",
           "description": "Adds settings to route supported network requests through an HTTP or HTTPS proxy.",
           "default": false,
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Open Shorts in regular player",
           "description": "Adds options to open Shorts in the regular video player.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Open channel of live avatar",
           "description": "Adds an option to prevent a channel's current live video from opening when tapping its avatar.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Open links directly",
@@ -26571,22 +26582,22 @@
         {
           "name": "Open links externally",
           "description": "Adds an option to always open links in your browser instead of with the in-app browser.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Open system share sheet",
           "description": "Adds an option to always open the system share sheet instead of the in-app share sheet.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Open videos fullscreen",
           "description": "Adds options to automatically open videos in fullscreen portrait or landscape mode.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Override YouTube Music buttons",
           "description": "Overrides YouTube Music buttons to open Morphe Music or any compatible third-party client.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Override certificate pinning",
@@ -26601,17 +26612,17 @@
         {
           "name": "Play all",
           "description": "Adds an option to play all the videos from a channel and to display play all button in the video player.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Playback in feeds",
           "description": "Adds the 'Playback in feeds' setting of YouTube to the Morphe settings, where it is always available even if YouTube hides it.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Playback speed",
           "description": "Adds options to customize available playback speeds, set a default playback speed, and show a speed dialog button in the video player.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "PoToken provider",
@@ -26621,18 +26632,18 @@
         {
           "name": "PoToken provider",
           "description": "Adds option to get PoToken using an external PoToken minter app.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Reload video",
           "description": "Adds an option to display reload video button in the video player.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Remember livestream playback position",
           "description": "Adds an option to remember the playback position of ongoing livestreams and resume from there when reopening a livestream.",
           "isPreRelease": true,
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Remember repeat state",
@@ -26652,7 +26663,7 @@
         {
           "name": "Remove background playback restrictions",
           "description": "Removes restrictions on background playback, including playing kids videos in the background.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Remove subreddit dialog",
@@ -26667,7 +26678,7 @@
         {
           "name": "Remove viewer discretion dialog",
           "description": "Adds an option to remove the dialog that appears when opening a video that has been age-restricted by accepting it automatically. This does not bypass the age restriction.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Return YouTube Dislike",
@@ -26677,7 +26688,7 @@
         {
           "name": "Return YouTube Dislike",
           "description": "Adds an option to show the dislike count of videos with Return YouTube Dislike.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Sanitize sharing links",
@@ -26692,12 +26703,12 @@
         {
           "name": "Sanitize sharing links",
           "description": "Removes the tracking query parameters from shared links.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Save to Watch later",
           "description": "Adds an option to display save to Watch later button in the video player.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Scrobbling",
@@ -26707,7 +26718,7 @@
         {
           "name": "Seekbar",
           "description": "Adds options to show old seekbar thumbnails, disable precise seeking when swiping up on the seekbar, slide to seek instead of playing at 2x speed when pressing and holding, tapping the player seekbar to seek, hiding the video player seekbar, enabling seeking in livestreams, and expanding the livestream DVR duration.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Settings menu filter",
@@ -26717,12 +26728,12 @@
         {
           "name": "Settings menu filter",
           "description": "Adds an option to hide items on the standard YouTube settings screen by their visible name.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Shorts autoplay",
           "description": "Adds options to automatically play the next Short.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Show view count",
@@ -26737,7 +26748,7 @@
         {
           "name": "SponsorBlock",
           "description": "Adds options to enable and configure SponsorBlock, which can skip undesired video segments such as sponsored content.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Spoof app version",
@@ -26747,12 +26758,12 @@
         {
           "name": "Spoof app version",
           "description": "Adds an option to trick the app into thinking you are running an older version.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Spoof device dimensions",
           "description": "Adds an option to spoof the device dimensions which can unlock higher video qualities.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Spoof signature",
@@ -26767,12 +26778,12 @@
         {
           "name": "Spoof video streams",
           "description": "Adds options to spoof the client video streams to fix playback.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Swipe controls",
           "description": "Adds options to enable and configure volume and brightness swipe controls.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Theme",
@@ -26801,7 +26812,7 @@
               "description": "Can be a hex color (#RRGGBB) or a color resource reference. Setting a color of either theme applies both while patching and removes the in-app theme color settings."
             }
           ],
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Third-party lyrics",
@@ -26811,22 +26822,22 @@
         {
           "name": "Video quality",
           "description": "Adds options to set default video qualities and always use the advanced video quality menu.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Voice over translation",
           "description": "Adds additional voice over languages using text-to-speech synchronized to the video playback.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Wide search bar",
           "description": "Adds a wide search bar to the top of the home and subscription feed.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         },
         {
           "name": "Yandex voice-over translation",
           "description": "Adds a separate Yandex translation button alongside Morphe voice-over translation.",
-          "compatiblePackagesKey": 0
+          "compatiblePackagesKey": 915
         }
       ]
     },
@@ -26859,7 +26870,7 @@
               "description": "A new app name (label). Entering \"Journal\" skips changing the label."
             }
           ],
-          "compatiblePackagesKey": 915
+          "compatiblePackagesKey": 916
         },
         {
           "name": "Custom substances database",
@@ -26872,7 +26883,7 @@
               "description": "Absolute path on your machine to the replacement Substances.json file."
             }
           ],
-          "compatiblePackagesKey": 915
+          "compatiblePackagesKey": 916
         },
         {
           "name": "Hide bottom tabs",
@@ -26894,18 +26905,18 @@
               "description": "Removes the Safer tab from the bottom navigation bar."
             }
           ],
-          "compatiblePackagesKey": 915
+          "compatiblePackagesKey": 916
         },
         {
           "name": "Hide feedback section",
           "description": "Removes the \"Feedback\" section (FAQ, bug report, copy support info) from Settings.",
-          "compatiblePackagesKey": 915
+          "compatiblePackagesKey": 916
         },
         {
           "name": "Purge RevenueCat",
           "description": "Stops the app from ever talking to RevenueCat's servers: skips SDK initialization on startup and neuters the app's periodic \"refresh entitlement\" network calls. Requires Unlock premium to also be enabled - without it, premium status has no way to ever resolve as active.",
           "default": false,
-          "compatiblePackagesKey": 915
+          "compatiblePackagesKey": 916
         },
         {
           "name": "Remove internet permission",
@@ -26917,12 +26928,12 @@
               "description": "Also removes the INTERNET permission. Requires \"Purge RevenueCat\" to also be enabled - without it, RevenueCat's SDK crashes on startup when it can't find INTERNET declared in the manifest."
             }
           ],
-          "compatiblePackagesKey": 915
+          "compatiblePackagesKey": 916
         },
         {
           "name": "Unlock premium",
           "description": "Forces the RevenueCat \"premium\" entitlement check to always resolve as active, including before the app has ever reached RevenueCat's servers.",
-          "compatiblePackagesKey": 915
+          "compatiblePackagesKey": 916
         }
       ],
       "hotRank": 63
@@ -26943,7 +26954,7 @@
         {
           "name": "GmsCore support",
           "description": "Adds MicroG support metadata for YouTube Studio.",
-          "compatiblePackagesKey": 916
+          "compatiblePackagesKey": 917
         }
       ]
     },
@@ -27027,17 +27038,17 @@
         {
           "name": "Enable Premium",
           "description": "Enables the premium features of the app.",
-          "compatiblePackagesKey": 917
-        },
-        {
-          "name": "Enable Premium",
-          "description": "Enables the premium features of the app.",
           "compatiblePackagesKey": 918
         },
         {
           "name": "Enable Premium",
           "description": "Enables the premium features of the app.",
           "compatiblePackagesKey": 919
+        },
+        {
+          "name": "Enable Premium",
+          "description": "Enables the premium features of the app.",
+          "compatiblePackagesKey": 920
         }
       ],
       "hotRank": 83
@@ -27058,7 +27069,7 @@
         {
           "name": "Unlock premium",
           "description": "Unlock Reclub Supporter via backend entitlements API and RevenueCat bridge.",
-          "compatiblePackagesKey": 920
+          "compatiblePackagesKey": 921
         }
       ],
       "hotRank": 128
@@ -27070,10 +27081,11 @@
       "repoDescription": "Curated list of universal patches for Morphe, including community-driven patches with enhancements and original patches, focusing on quality over quantity",
       "avatarUrl": "https://raw.githubusercontent.com/Zanuaimi/UniPatches/main/patches-bundle.png",
       "stars": 7,
-      "updatedAt": 1788899593000,
+      "updatedAt": 1788945041000,
       "firstSeen": 1788582465944,
       "appFirstSeen": {
-        "__universal__": 1788582458169
+        "__universal__": 1788582458169,
+        "com.fingersoft.hillclimb": 1788947365134
       },
       "patches": [
         {
@@ -27117,7 +27129,7 @@
         },
         {
           "name": "Control App Ads Patch (Experimental, Enhanced)",
-          "description": "A merged ad-control patch based on Nai64's No Ads and Ads Free Rewards patches, plus\nliteral-host blocking inspired by Entree and Adobo. Block common ad formats, choose the\nSDKs to target, optionally grant ad rewards without an ad, and redirect matching literal\nad/tracker hosts embedded in the APK.\n\nHost filters are built-in domain sets, not downloaded subscriptions. They only affect\nhosts stored as literal strings by the app; they cannot block dynamically generated hosts,\nencrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
+          "description": "A merged ad-control patch based on Nai64's No Ads and Ads Free Rewards patches, plus\nliteral-host blocking inspired by Entree and Adobo. Block common ad formats, choose the\nSDKs to target, optionally grant ad rewards without an ad, and redirect matching literal\nad/tracker hosts embedded in the APK.\n\nHost filters are small embedded subsets inspired by uBlock Origin, EasyList, AdGuard,\nOISD, HaGeZi Pro mini, Privacy Essentials, EasyPrivacy, and Peter Lowe's list; they are\nnot downloaded full subscriptions. Each filter is independently toggleable. They only\naffect hosts stored as literal strings by the app; they cannot block dynamically generated\nhosts, encrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nOptional overlay integration is opt-in. To use it, patch Control App Ads together with\nUniversal Overlay or an app-specific overlay, enable “Overlay integration > Runtime policy”,\nand enable one or more modules below it. The selected modules then appear under “Ad control\nhook modules” in the overlay; their initial values copy this patch's settings. If no overlay\npatch is selected, the normal static ad controls still work but there is no runtime menu.\nRuntime changes last for the current app process and affect only methods and literal hosts\nsuccessfully instrumented by this patch. Native, dynamically generated, unsupported, or\nunrecognized SDK paths remain unchanged.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
           "default": false,
           "options": [
             {
@@ -27231,9 +27243,34 @@
               "description": "Patch StartApp, MoPub, Chartboost, InMobi, and Mintegral when detected."
             },
             {
+              "key": "adsRuntimeHookModules",
+              "title": "Overlay integration > Runtime policy",
+              "description": "Master switch for the optional overlay controls. Enable this, enable at least one module below, and patch this together with Universal Overlay or an app-specific overlay. The controls are otherwise not shown. Runtime changes are session-only and unsupported/native SDK paths are unchanged."
+            },
+            {
+              "key": "adsRuntimeBlockAdsModule",
+              "title": "Overlay integration > Modules > Block Ads",
+              "description": "Add a Block Ads settings popup to the overlay. It starts with the effective Interstitial, Banner, App-open, MREC, Rewarded, and Native choices from this patch, and can change only instrumented SDK methods while the app is running. Requires Runtime policy."
+            },
+            {
+              "key": "adsRuntimeRewardsModule",
+              "title": "Overlay integration > Modules > Ads Free Rewards",
+              "description": "Add an Ads Free Rewards settings popup to the overlay. It controls supported availability and rewarded-policy guards. Reward callbacks remain SDK-specific; enabling this cannot create support for an unrecognized or native reward path. Requires Runtime policy."
+            },
+            {
+              "key": "adsRuntimeHostsModule",
+              "title": "Overlay integration > Modules > Block Ads / Tracking Hosts",
+              "description": "Add a host-blocking checkbox to the overlay. Its initial state follows this patch, and it controls only literal host strings instrumented by this patch; it does not inspect encrypted or dynamically generated requests. Requires Runtime policy."
+            },
+            {
+              "key": "adsFilterUblock",
+              "title": "Host filters > uBlock Origin ads",
+              "description": "Enable a small embedded subset of uBlock Origin-style ad-network hosts. This is not the complete uBlock subscription and does not target sign-in or billing domains."
+            },
+            {
               "key": "adsFilterEasyList",
-              "title": "Host filters > EasyList / uBlock ads",
-              "description": "Redirect common advertising and ad-serving host literals. Recommended."
+              "title": "Host filters > EasyList ads",
+              "description": "Enable a small embedded subset of EasyList-style advertising hosts. This is separate from the uBlock subset and only affects literal hosts found in the APK."
             },
             {
               "key": "adsFilterAdGuard",
@@ -27244,6 +27281,26 @@
               "key": "adsFilterOisd",
               "title": "Host filters > OISD privacy",
               "description": "Redirect a conservative set of analytics and tracking host literals. Recommended; disable if sign-in, telemetry-dependent features, or diagnostics fail."
+            },
+            {
+              "key": "adsFilterHageziProMini",
+              "title": "Host filters > HaGeZi Pro mini",
+              "description": "Enable a conservative embedded subset inspired by HaGeZi Pro mini. It targets common ad and telemetry hosts, not account, billing, or social-login endpoints."
+            },
+            {
+              "key": "adsFilterPrivacyEssentials",
+              "title": "Host filters > Privacy Essentials",
+              "description": "Enable a conservative embedded privacy subset. Disable it if an app depends on analytics or installation attribution for sign-in or account linking."
+            },
+            {
+              "key": "adsFilterEasyPrivacy",
+              "title": "Host filters > EasyPrivacy",
+              "description": "More invasive tracker blocking inspired by EasyPrivacy. Disabled by default because it can interfere with login, attribution, consent, or telemetry-dependent features."
+            },
+            {
+              "key": "adsFilterPeterLowe",
+              "title": "Host filters > Peter Lowe's ad and tracking list",
+              "description": "Enable a small embedded subset of Peter Lowe's ad and tracking list. Disable it if a site or account flow behaves unexpectedly."
             },
             {
               "key": "adsFilterWildcardHosts",
@@ -27427,6 +27484,44 @@
               "description": "Skip known advertising SDK and common HTTP-client classes when changing connectivity checks. Keep enabled to avoid making blocked ads retry as if the device were online."
             }
           ]
+        },
+        {
+          "name": "Hill Climb Racing Overlay Example (Experimental)",
+          "description": "Contributor example for a safe app-specific overlay on Hill Climb Racing (package: com.fingersoft.hillclimb). Morphe shows this patch only for that app. Select one or more demo modules below, patch the matching app, then open the overlay and use each module's Settings or Preview control. The settings and values reset when the app process restarts. This example only demonstrates shared UI, explicit launcher injection, settings popups, checkbox lists, and one-shot actions using mock session state; it never alters currencies, unlocks, purchases, saves, or game bytecode. Do not combine with Universal Overlay Patch.",
+          "default": false,
+          "options": [
+            {
+              "key": "hcrDemoAddCoins",
+              "title": "Modules > App-specific demo > Add Coins preview",
+              "description": "After patching, show a mock signed 32-bit value editor and Preview button in the overlay. Set a value, then preview it; the value is session-only and never reads or changes Hill Climb Racing coins."
+            },
+            {
+              "key": "hcrDemoAddGems",
+              "title": "Modules > App-specific demo > Add Gems preview",
+              "description": "After patching, show a mock signed 32-bit value editor and Preview button in the overlay. Set a value, then preview it; the value is session-only and never reads or changes Hill Climb Racing gems."
+            },
+            {
+              "key": "hcrDemoAddPaints",
+              "title": "Modules > App-specific demo > Add Paints preview",
+              "description": "After patching, show a mock signed 32-bit value editor and Preview button in the overlay. Set a value, then preview it; the value is session-only and never reads or changes Hill Climb Racing paints."
+            },
+            {
+              "key": "hcrDemoVehicles",
+              "title": "Modules > App-specific demo > Vehicle selection preview",
+              "description": "After patching, show a mock scrollable vehicle checkbox list and Preview action. It demonstrates the shared settings popup but never unlocks, locks, or inspects vehicles."
+            },
+            {
+              "key": "hcrDemoStages",
+              "title": "Modules > App-specific demo > Stage selection preview",
+              "description": "After patching, show a mock scrollable stage checkbox list and Preview action. It demonstrates the shared settings popup but never unlocks, locks, or inspects stages."
+            },
+            {
+              "key": "hcrDemoGarage",
+              "title": "Modules > App-specific demo > Garage selection preview",
+              "description": "After patching, show a mock Lock/Unlock checkbox and Preview action. It demonstrates the shared settings popup but never changes or inspects the garage."
+            }
+          ],
+          "compatiblePackagesKey": 922
         },
         {
           "name": "PairIP Bypass Patch (Experimental, Enhanced)",
@@ -27686,8 +27781,8 @@
           ]
         },
         {
-          "name": "UniPatches Universal Overlay Patch v1.4.1 (Experimental)",
-          "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. The legacy icon can be text, an original\ngeometric shape, or a multi-part shape with configurable colors, gradients, highlights, shadows,\nand outlines. A selected local image automatically replaces the legacy icon; empty or invalid\nimage input falls back to the configured legacy icon. This is experimental\nand may not work on all apps. UI presets can save and reuse supported UI and Advanced\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Modules and Settings to Modules are excluded\nbecause hook and module combinations can be app-specific.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
+          "name": "UniPatches Universal Overlay Patch v2.0 (Experimental)",
+          "description": "Universal in-app overlay for Android apps and games. Optional modules include System Time, FPS,\nfullscreen, app brightness, and haptic controls. Modules are excluded and disabled by default;\nselect them in Morphe settings before patching. Statistic modules show information, Activity modules\ncontrol the current Activity, and Hook modules control internal app behavior, such as disabling\nanimations, through best-effort runtime changes. The legacy icon can be text, an original\ngeometric shape, or a multi-part shape with configurable colors, gradients, highlights, shadows,\nand outlines. A selected local image automatically replaces the legacy icon; empty or invalid\nimage input falls back to the configured legacy icon. This is experimental\nand may not work on all apps. UI presets can save and reuse supported UI and Advanced\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Modules and Settings to Modules are excluded\nbecause hook and module combinations can be app-specific. If Control App Ads is patched\nwith its optional runtime policy enabled, its selected ad-control modules appear here\nautomatically; Universal Overlay does not patch ad SDKs by itself.\n\nThe idea and initial works of this Universal Overlay Patch are from Zanuaimi / Noobite.",
           "default": false,
           "options": [
             {
@@ -27757,8 +27852,8 @@
             },
             {
               "key": "runtimeOverlayMenuTextColor1",
-              "title": "UI > Menu > Text color 1 (title and lines)",
-              "description": "Title and title/separator line color."
+              "title": "UI > Menu > Text color 1 (title, lines, and scrollbar)",
+              "description": "Color for the menu title, title/separator lines, and the module list scrollbar thumb. This keeps the scrollbar visible without forcing a black thumb on dark presets."
             },
             {
               "key": "runtimeOverlayMenuTextColor2",
@@ -27923,12 +28018,12 @@
             {
               "key": "runtimeOverlayIconStyle",
               "title": "UI > Icon > Icon part type",
-              "description": "Choose how the legacy icon is built. Text icon is one text part, for example U or RV. Shape icon is one geometric part, for example a Triangle. Multi-part icon uses a built-in combination of parts, currently the Smile example made from two eyes and a mouth; choose Shape = Smile, then adjust size, stroke, highlight, and shadow. Arbitrary custom part lists are not hidden in this setting and are not supported yet."
+              "description": "Choose how the legacy icon is built. Text icon is one text part, for example U or RV. Single shape is one geometric part. Multi-part uses a built-in combination such as Smile. Custom part list uses the Parts list below, where every row controls one shape's position, size, rotation, colors, stroke, opacity, and layer."
             },
             {
               "key": "runtimeOverlayIconShape",
               "title": "UI > Icon > Shape",
-              "description": "Shape used by Shape and Multi-part icon styles. For a single-part icon, choose Triangle, Chevron, Circle, or Z mark. For the built-in multi-part example, choose Smile: it draws two eyes and a curved mouth as one icon. Colors, size, stroke, highlight, and shadow apply to the selected parts."
+              "description": "Shape used by Shape and Multi-part icon styles. For a single-part icon, choose Triangle, Chevron, Circle, or Z mark. ReVanced-inspired combines a gradient downward triangle with a white V. For the built-in multi-part example, choose Smile: it draws two eyes and a curved mouth as one icon. Colors, size, stroke, highlight, and shadow apply to the selected parts."
             },
             {
               "key": "runtimeOverlayIconShapeColor1",
@@ -27959,6 +28054,11 @@
               "key": "runtimeOverlayIconShapeScalePercent",
               "title": "UI > Icon > Shape size (%)",
               "description": "Size of the drawn symbol inside the button, from 20% to 100%. Leave room for the outline and background to stay visible."
+            },
+            {
+              "key": "runtimeOverlayIconParts",
+              "title": "UI > Icon > Parts > Custom part list",
+              "description": "Optional composable icon parts, one per row. Format: shape|x|y|width|height|rotation|fill|color1|color2|stroke|opacity|layer. Positions and sizes are percentages of the icon. Example single part: triangle|50|50|55|55|0|solid|#4E97F0|#4E97F0|0|100|0. Example multi-part: v|50|52|64|72|0|solid|#FFFFFF|#FFFFFF|6|100|0 plus invertedTriangle|50|37|36|30|0|gradient|#E651A0|#6564D3|0|100|1. Supported shapes include triangle, invertedTriangle, circle, ring, square, roundedRect, chevron, v, z, line, arc, diamond, star, and heart. Leave empty to use the legacy Shape settings. Maximum 12 parts."
             },
             {
               "key": "runtimeOverlayIconHighlight",
@@ -28076,6 +28176,11 @@
               "description": "Optional fallback Activity class used only when Application startup cannot be found. Leave blank for universal automatic discovery. Example: com.example.MainActivity or Lcom/example/MainActivity;."
             },
             {
+              "key": "runtimeOverlayActivityInjectionMode",
+              "title": "Advanced > Activity > Injection strategy",
+              "description": "Universal automatic discovery uses the Application entry point first and a universal Activity fallback. Explicit target Activity first is intended for app-specific overlay patches; it uses the configured Activity name, then falls back to the universal strategy if that target is unavailable. This setting does not select app-specific modules or enable Control App Ads runtime modules."
+            },
+            {
               "key": "runtimeOverlayActivityInstallBanlist",
               "title": "Advanced > Activity > Overlay install banlist",
               "description": "List of Activity class or package prefixes that must not receive the overlay. Add one entry per row; entries ending in * match a prefix. The default list protects common store, billing, and sign-in popups. Replace the list with a single entry none to disable it."
@@ -28088,7 +28193,7 @@
             {
               "key": "runtimeOverlayShowNoModulesWarning",
               "title": "Modules > Settings > Show no runtime modules warning",
-              "description": "Show a message in the overlay when no Statistic, Activity, or Hook modules are selected."
+              "description": "Show a message in the overlay when no Statistic, Activity, Hook, app-specific, or integrated module is selected. Control App Ads modules count only when that patch was also configured and patched successfully."
             },
             {
               "key": "runtimeOverlayEnableMonitorsOnLaunch",
@@ -28221,22 +28326,22 @@
         {
           "name": "Camera common visibility",
           "description": "Lets the camera app see and use com.sonymobile.cameracommon (camera status provider, gyro calibration) when both are sideloaded: adds the <queries> entry and declares the CAMERA_STATUS_PROVIDER and CAMERA_ADDON permissions.",
-          "compatiblePackagesKey": 921
+          "compatiblePackagesKey": 923
         },
         {
           "name": "Raw H.264 stream",
           "description": "Low-latency transport for Live streaming: the encoded H.264 is sent to the PC as a plain TCP stream instead of RTMP (~0.2 s glass-to-glass with Standard stabilization). Receive with gst-launch-1.0 tcpserversrc port=6970 ! h264parse ! avdec_h264 ! ... Video only.",
-          "compatiblePackagesKey": 921
+          "compatiblePackagesKey": 923
         },
         {
           "name": "Raw stream connect modes",
           "description": "Adds \"PC via USB\" and \"PC via Wi-Fi\" entries to Live streaming's Connect to list for the raw H.264 transport. USB needs no settings (adb reverse tcp:6970 tcp:6970 on the PC); Wi-Fi takes the PC from the RTMP stream URL field (rtmp://pc-ip).",
-          "compatiblePackagesKey": 921
+          "compatiblePackagesKey": 923
         },
         {
           "name": "Storage fallback",
           "description": "Fixes \"Memory unavailable\" on ROMs that cannot create Android/data/<pkg>/files (LineageOS on the Xperia 1 V): the storage probe falls back to the app's internal storage. Photos still go to DCIM through MediaStore.",
-          "compatiblePackagesKey": 922
+          "compatiblePackagesKey": 924
         },
         {
           "name": "Streaming presets",
@@ -28253,15 +28358,15 @@
               "description": "Seconds between keyframes. 1 keeps recovery from a lost packet short; Sony uses 2."
             }
           ],
-          "compatiblePackagesKey": 921
+          "compatiblePackagesKey": 923
         },
         {
           "name": "Xperia 1 V camera HAL compatibility",
           "description": "Makes the Xperia 1 VI camera app work on the Xperia 1 V camera HAL: truncates objectSelectTriggerArea to the 4 ints the 1 V HAL defines and sends conditionDetectMode alongside sceneDetectMode, which the 1 V HAL validates together.",
-          "compatiblePackagesKey": 921
+          "compatiblePackagesKey": 923
         }
       ],
-      "hotRank": 61
+      "hotRank": 62
     },
     {
       "source": "github",
@@ -28279,17 +28384,17 @@
         {
           "name": "Hide gift button",
           "description": "Hides the gift button in the chat message composer.",
-          "compatiblePackagesKey": 923
+          "compatiblePackagesKey": 925
         },
         {
           "name": "Hide quest promo banner",
           "description": "Hides the quest promo banner at the top of the server channel list.",
-          "compatiblePackagesKey": 923
+          "compatiblePackagesKey": 925
         },
         {
           "name": "Pin app to built-in bundle",
           "description": "Forces Discord to always run the bundle inside the APK and ignore downloaded (OTA) updates, which would otherwise silently undo the other patches. Turn this off (or update the APK) to receive official updates.",
-          "compatiblePackagesKey": 923
+          "compatiblePackagesKey": 925
         }
       ],
       "hotRank": 50
@@ -28552,12 +28657,12 @@
         {
           "name": "All-In-One",
           "description": "Unlocks VIP premium, removes ads and upsells, bypasses region lock and force update, unlocks HD and downloads, enables 5 parallel downloads.",
-          "compatiblePackagesKey": 924
+          "compatiblePackagesKey": 926
         },
         {
           "name": "All-In-One",
           "description": "Unlocks TV premium, removes ads and upsells, bypasses region lock and force update.",
-          "compatiblePackagesKey": 925
+          "compatiblePackagesKey": 927
         },
         {
           "name": "Allow screen capture",
@@ -29077,7 +29182,7 @@
           "name": "Sort by number of ratings",
           "description": "Adds a 'Sort: Most rated' button on Flipkart listing pages (WebView-rendered surfaces) that re-orders loaded results by ratings count.",
           "default": false,
-          "compatiblePackagesKey": 926
+          "compatiblePackagesKey": 928
         },
         {
           "name": "Spoof WARP+ Unlimited UI",
@@ -29794,7 +29899,7 @@
         {
           "name": "Unlock Premium",
           "description": "Unlocks all premium wallpapers and removes interstitial ads.",
-          "compatiblePackagesKey": 927
+          "compatiblePackagesKey": 929
         },
         {
           "name": "Unlock Premium",
@@ -30216,72 +30321,72 @@
           "name": "Account Switch Lock Bypass",
           "description": "アカウント切り替えロックのタイムアウトをスキップし、スプラッシュ画面からの即時初期化を可能にします。",
           "default": false,
-          "compatiblePackagesKey": 928
+          "compatiblePackagesKey": 930
         },
         {
           "name": "Account Sync Binder Loop Fix",
           "description": "AccountSyncService へのバインド失敗による無限リトライと Binder リミットクラッシュを防止します。",
           "default": false,
-          "compatiblePackagesKey": 928
+          "compatiblePackagesKey": 930
         },
         {
           "name": "Account ID Fallback for Clone",
           "description": "AGSA アカウント名から Account ID への変換失敗例外（flgu）を防止し、デフォルト AccountId でフォールバックします。",
           "default": false,
-          "compatiblePackagesKey": 928
+          "compatiblePackagesKey": 930
         },
         {
           "name": "Gemini Standalone Support",
           "description": "Gemini アプリの AndroidManifest.xml から Split APK 制約（requiredSplitTypes等）を除去し単体インストール可能にします。",
-          "compatiblePackagesKey": 929
+          "compatiblePackagesKey": 931
         },
         {
           "name": "Gemini Redirect to Cloned Google App",
           "description": "Gemini アプリからの連携先 Google アプリをクローン版（com.google.android.googlequicksearchbox.morphe）へリダイレクトします。",
-          "compatiblePackagesKey": 929
+          "compatiblePackagesKey": 931
         },
         {
           "name": "Google App Manifest Tweaks",
           "description": "アプリ表示名を 'Google (Morphe)' に変更し、MicroG可視性を付与し、Split制約解除とクラッシュレシーバー無効化を行います。",
-          "compatiblePackagesKey": 928
+          "compatiblePackagesKey": 930
         },
         {
           "name": "GmsCore Bytecode Redirect (MicroG RE 7.0.0)",
           "description": "Google アプリ内部の GMS パッケージ名・権限・Provider authority を MicroG RE へリダイレクトします。",
-          "compatiblePackagesKey": 928
+          "compatiblePackagesKey": 930
         },
         {
           "name": "GmsCore Signature and Availability Bypass",
           "description": "Google Play Services の署名不一致 (SERVICE_INVALID) や可用性チェックを常時成功 (SUCCESS / true) にバイパスします。",
-          "compatiblePackagesKey": 928
+          "compatiblePackagesKey": 930
         },
         {
           "name": "MicroG Account Permissions",
           "description": "Requests account access and microG extended access on Gemini startup.",
-          "compatiblePackagesKey": 928
+          "compatiblePackagesKey": 930
         },
         {
           "name": "Google App Package Clone Support",
           "description": "クローン版 Google アプリ内の完全一致パッケージ名を .morphe へリダイレクトします。",
-          "compatiblePackagesKey": 928
+          "compatiblePackagesKey": 930
         },
         {
           "name": "Process Name Spoofing for Clone Support",
           "description": "クローン環境下でプロセス名から .morphe を自動除去し、Dagger DI コンポーネントの初期化クラッシュを防止します。",
-          "compatiblePackagesKey": 928
+          "compatiblePackagesKey": 930
         },
         {
           "name": "Bypass Work Profile Gemini Restriction",
           "description": "セキュアフォルダ（Work Profile）環境下でGeminiネイティブUIの起動を拒否しWeb版へリダイレクトする制限をバイパスします。",
-          "compatiblePackagesKey": 928
+          "compatiblePackagesKey": 930
         },
         {
           "name": "Allow Work Profile Gemini Eligibility",
           "description": "Secure FolderでのWORK_PROFILE_NOT_SUPPORTED (19)を、既存のプロファイル許可分岐で回避します。",
-          "compatiblePackagesKey": 928
+          "compatiblePackagesKey": 930
         }
       ],
-      "hotRank": 43
+      "hotRank": 47
     },
     {
       "source": "github",
@@ -30707,15 +30812,15 @@
         {
           "name": "RingConn Health Data Provider (v1.2.4)",
           "description": "v1.2.4: Aktiviert lokalen SQLite-Zugriff für CyclingCoach und Companion-Apps.",
-          "compatiblePackagesKey": 930
+          "compatiblePackagesKey": 932
         },
         {
           "name": "Intervals.icu Quick-Sync Kachel (v1.2.4)",
           "description": "v1.2.4: Ultra-schlanke RingConn-Kachel im Discover-Tab für 1-Klick-Sync zu Intervals.icu (ohne Radsport-Metriken).",
-          "compatiblePackagesKey": 930
+          "compatiblePackagesKey": 932
         }
       ],
-      "hotRank": 33
+      "hotRank": 34
     },
     {
       "source": "github",
@@ -30759,7 +30864,7 @@
           "compatiblePackagesKey": 20
         }
       ],
-      "hotRank": 35
+      "hotRank": 37
     },
     {
       "source": "github",
@@ -30777,10 +30882,10 @@
         {
           "name": "Remove Google requirements",
           "description": "Removes Google Play PairIP licensing, Firebase/Google startup components, analytics permissions, and AFFiNE's explicit Crashlytics startup call.",
-          "compatiblePackagesKey": 931
+          "compatiblePackagesKey": 933
         }
       ],
-      "hotRank": 29
+      "hotRank": 32
     },
     {
       "source": "github",
@@ -30789,29 +30894,24 @@
       "repoDescription": "Yann's patches: correctifs Android compatibles avec Morphe, dont le support des adresses email avec + dans Keepcool.",
       "avatarUrl": "https://avatars.githubusercontent.com/u/22856901?v=4&s=128",
       "stars": 1,
-      "updatedAt": 1788892795000,
+      "updatedAt": 1788943159000,
       "firstSeen": 1788842442448,
       "appFirstSeen": {
         "fr.keepcool.memberapp": 1788842441176
       },
       "patches": [
         {
-          "name": "Keepcool: 30-day booking calendar",
-          "description": "Show and allow booking from today through J+30. Keepcool 1.8.21 only.",
-          "compatiblePackagesKey": 932
-        },
-        {
           "name": "Keepcool: allow plus in email",
           "description": "Allow + in the local email part without changing the input or login request. Keepcool 1.8.21 only.",
-          "compatiblePackagesKey": 932
+          "compatiblePackagesKey": 934
         },
         {
           "name": "Keepcool: booking availability dots",
           "description": "Show a green dot on calendar dates having at least one booking slot with a free place. Keepcool 1.8.21 only.",
-          "compatiblePackagesKey": 932
+          "compatiblePackagesKey": 934
         }
       ],
-      "hotRank": 28
+      "hotRank": 30
     },
     {
       "source": "github",
@@ -30879,21 +30979,21 @@
         {
           "name": "Crossfade",
           "description": "Crossfade between songs (0-12 s). Long-press Menu in the app to set the length.",
-          "compatiblePackagesKey": 933
+          "compatiblePackagesKey": 935
         },
         {
           "name": "Debuggable build",
           "description": "Marks the app debuggable: enables run-as access to app files and WebView remote inspection.",
           "default": false,
-          "compatiblePackagesKey": 933
+          "compatiblePackagesKey": 935
         },
         {
           "name": "Disable Amazon Appstore DRM",
           "description": "Turns the Amazon Appstore (Kiwi) DRM lifecycle checks into no-ops so a re-signed APK runs.",
-          "compatiblePackagesKey": 933
+          "compatiblePackagesKey": 935
         }
       ],
-      "hotRank": 25
+      "hotRank": 26
     },
     {
       "source": "github",
@@ -30912,12 +31012,12 @@
         {
           "name": "Branding",
           "description": "Changes app name to 'CrimeRadar+' and tints the icon for easy identification.",
-          "compatiblePackagesKey": 934
+          "compatiblePackagesKey": 936
         },
         {
           "name": "Branding",
           "description": "Changes app name to 'Scanner Radio+' and tints the icon for easy identification.",
-          "compatiblePackagesKey": 935
+          "compatiblePackagesKey": 937
         },
         {
           "name": "Change package name",
@@ -30928,7 +31028,7 @@
               "title": "New package name"
             }
           ],
-          "compatiblePackagesKey": 934
+          "compatiblePackagesKey": 936
         },
         {
           "name": "Change package name",
@@ -30939,48 +31039,48 @@
               "title": "New package name"
             }
           ],
-          "compatiblePackagesKey": 935
+          "compatiblePackagesKey": 937
         },
         {
           "name": "Debug Settings",
           "description": "Adds a CrimeRadar+ debug info entry to the settings screen.",
           "default": false,
-          "compatiblePackagesKey": 934
+          "compatiblePackagesKey": 936
         },
         {
           "name": "Notification Limits Raised",
           "description": "Raises per-category daily push caps and heads-up push limits.",
-          "compatiblePackagesKey": 934
+          "compatiblePackagesKey": 936
         },
         {
           "name": "Premium Bypass",
           "description": "Bypasses premium subscription checks to unlock all premium features.",
-          "compatiblePackagesKey": 934
+          "compatiblePackagesKey": 936
         },
         {
           "name": "Premium Bypass",
           "description": "Bypasses premium subscription checks to unlock all premium features.",
-          "compatiblePackagesKey": 935
+          "compatiblePackagesKey": 937
         },
         {
           "name": "Remove History Cap",
           "description": "Removes the 200-item local reading history limit.",
-          "compatiblePackagesKey": 934
+          "compatiblePackagesKey": 936
         },
         {
           "name": "Replay Minutes Override",
           "description": "Overrides daily replay listening time limits to unlimited.",
-          "compatiblePackagesKey": 934
+          "compatiblePackagesKey": 936
         },
         {
           "name": "Telemetry Kill",
           "description": "Disables Instabug and Adjust telemetry SDKs for privacy.",
-          "compatiblePackagesKey": 934
+          "compatiblePackagesKey": 936
         },
         {
           "name": "Telemetry Kill",
           "description": "Disables InMobi, FairBid telemetry/ad SDKs and ad display for privacy.",
-          "compatiblePackagesKey": 935
+          "compatiblePackagesKey": 937
         }
       ]
     }
@@ -31001,6 +31101,9 @@
           {
             "version": "21.28.208",
             "isExperimental": true
+          },
+          {
+            "version": "21.13.164"
           },
           {
             "version": "21.07.247"
@@ -40618,16 +40721,6 @@
     ],
     [
       {
-        "packageName": "files.fileexplorer.filemanager",
-        "targets": [
-          {
-            "version": "1.5.5.7"
-          }
-        ]
-      }
-    ],
-    [
-      {
         "packageName": "com.mxtech.videoplayer.ad",
         "targets": [
           {
@@ -40635,6 +40728,16 @@
           },
           {
             "version": "3.2.1"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "packageName": "files.fileexplorer.filemanager",
+        "targets": [
+          {
+            "version": "1.5.5.7"
           }
         ]
       }
@@ -41835,6 +41938,9 @@
         "targets": [
           {
             "version": "13.2.1"
+          },
+          {
+            "version": "13.2.2"
           }
         ]
       }
@@ -41971,6 +42077,34 @@
     ],
     [
       {
+        "packageName": "com.google.android.youtube",
+        "targets": [
+          {
+            "version": "21.36.45",
+            "isExperimental": true
+          },
+          {
+            "version": "21.35.442",
+            "isExperimental": true
+          },
+          {
+            "version": "21.28.208",
+            "isExperimental": true
+          },
+          {
+            "version": "21.07.247"
+          },
+          {
+            "version": "20.31.42"
+          },
+          {
+            "version": "20.21.37"
+          }
+        ]
+      }
+    ],
+    [
+      {
         "packageName": "com.isaakhanimann.journal",
         "targets": [
           {
@@ -42025,6 +42159,16 @@
         "targets": [
           {
             "version": "2.45.11"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "packageName": "com.fingersoft.hillclimb",
+        "targets": [
+          {
+            "version": null
           }
         ]
       }

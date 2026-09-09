@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "3d647e2d4d6c037453b6e4c5b4dcdbc94809b515",
+  "jman_tree_sha": "eec885845ce1eb77ef096aea6227897afd309f53",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -38,7 +38,7 @@
       "key": "https://github.com/hashtagbasit/aimal-patches"
     },
     "ajstrick81-androidtv": {
-      "sha": "91f94d2a2f22ac2f341256f3cc8806da73390266",
+      "sha": "a54cb8a4e695cc35e185681335f12403abd029c3",
       "key": "https://github.com/ajstrick81/morphe-androidtv-patches"
     },
     "alastor-kaneki": {
@@ -230,7 +230,7 @@
       "key": "https://github.com/isuruhg/cricinfo-tweaks"
     },
     "crimeradar": {
-      "sha": "b5e6e0e3433c940f093a65c472c6b4e4fa222088",
+      "sha": "924b54dfefff72d5b73056d7589e2011ac51c155",
       "key": "https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches"
     },
     "csagataj2": {
@@ -362,7 +362,7 @@
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "b31fcdea343988390f023fe9af4a4df95c890aac",
+      "sha": "30c1c1f4f116ab5684696e8af656fdb837523528",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -546,7 +546,7 @@
       "key": null
     },
     "kveld": {
-      "sha": "6ac859f32174370899861a0efd5a163a7562267d",
+      "sha": "983fdd8b986a49f5026d0179df5e00e985fefd68",
       "key": "https://github.com/kveld9/kveld-morphe-patches"
     },
     "lablazer": {
@@ -566,7 +566,7 @@
       "key": null
     },
     "legendsciber": {
-      "sha": "314196f9aaa5f080957a5b8cc9847d8241fa6825",
+      "sha": "2a3b98dea5d079c83713d49982cefe81d269cc08",
       "key": "https://github.com/legendsciber/morphe-patches"
     },
     "lennyRBLX": {
@@ -574,7 +574,7 @@
       "key": null
     },
     "letterboxd": {
-      "sha": "f4278301a013ffdb4218b80ab1e470b296ee18de",
+      "sha": "f62121c872698145c79b03f91b2fd1f09df30832",
       "key": "https://github.com/mvaishak/letterboxd-morphe-patches"
     },
     "letterboxd-stremio": {
@@ -698,7 +698,7 @@
       "key": "https://github.com/andersonlucasg3/PetalMaps-NonHuawei"
     },
     "picarica": {
-      "sha": "1872f59c3bad873d9029157839d0881838bc5172",
+      "sha": "a4fee2a566899db05b079e3a3afb9e5f94612c05",
       "key": "https://github.com/picarica/My-moprhe-patches"
     },
     "pichiwa": {
@@ -750,7 +750,7 @@
       "key": "https://github.com/adderalladmiral/psychonaut-wiki-journal-patches"
     },
     "psylos": {
-      "sha": "d021f134521c1d342708c150c351b2bdcde32b96",
+      "sha": "24c53c835a48c10f4161efd93fc1096f52a50b82",
       "key": "https://github.com/lootdev78/psylos-morphe-patches"
     },
     "pyflat-jr": {
@@ -810,7 +810,7 @@
       "key": "https://github.com/riky-dev/morphe-patches"
     },
     "ringconn": {
-      "sha": "2ffc828f7a339f3774f11b617452883dae877baf",
+      "sha": "9d51912579e73a72a3e2a468bdd5b97e5fe65945",
       "key": "https://github.com/DarioDKM/ringconn-patches"
     },
     "rivanced-universal": {
@@ -938,7 +938,7 @@
       "key": null
     },
     "unipatches": {
-      "sha": "317c3c315a7218003053948af13a67728cf0762e",
+      "sha": "5bf60a9c705288fa7652242c277f4d2e9e09c13b",
       "key": "https://github.com/Zanuaimi/UniPatches"
     },
     "v4n1x": {
@@ -946,7 +946,7 @@
       "key": "https://github.com/V4n1X/morphe-patches"
     },
     "vantage": {
-      "sha": "7611aae9abfda1ada114324a853dc37c241ac4d9",
+      "sha": "cc67548880a3cafe73dcf43a1cbdb57603f54e7a",
       "key": "https://github.com/pmaxhogan/vantage-patches"
     },
     "variablenine": {
@@ -1006,7 +1006,7 @@
       "key": "https://github.com/MarcaDian/morphe-patches-yavot"
     },
     "yann-soliman": {
-      "sha": "df2a9fdb1f18b54e0998f0c4f2d73659cfc867b9",
+      "sha": "26ff09f5adace66e4e28032f7dfa85a8247432d4",
       "key": "https://github.com/yann-soliman/morphe-patches"
     },
     "ynotzort": {
@@ -1030,7 +1030,7 @@
       "key": "https://github.com/eZ4RK0/morphe-patches"
     },
     "zeldrisho": {
-      "sha": "b6cd6ab5ff75d4b1025206e892e9eadd6f88b742",
+      "sha": "9d0a2f5cf8f9a4131b3ccc06d87c3cef773216b4",
       "key": "https://github.com/zeldrisho/morphe-patches"
     },
     "zpatches": {
