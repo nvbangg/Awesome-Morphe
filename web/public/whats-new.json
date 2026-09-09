@@ -1,5 +1,210 @@
 [
   {
+    "date": "September 9, 2026",
+    "bundles": {
+      "rushiranpise/morphe-patches": {
+        "apps": {
+          "sksa.aa.customapps": {
+            "patches": [
+              "AAAD Premium",
+              "AAAD Security Bypass"
+            ]
+          }
+        }
+      },
+      "hxreborn/morphe-patches": {
+        "apps": {
+          "ipnossoft.rma.free": {
+            "patches": [
+              "Unlock premium"
+            ],
+            "isNew": true
+          },
+          "com.risesci.nyx": {
+            "patches": [
+              "Unlock premium"
+            ],
+            "isNew": true
+          }
+        }
+      },
+      "byehi98/okish-morphe-patches": {
+        "apps": {
+          "com.nekki.vector": {
+            "patches": [
+              "Vector Money Mod"
+            ]
+          }
+        }
+      },
+      "AmpleReVanced/revanced-patches": {
+        "apps": {
+          "com.nhn.android.nmap": {
+            "patches": [
+              "Enable navigation live updates"
+            ],
+            "isNew": true
+          }
+        }
+      },
+      "BlazeFTL/FTL-Patches": {
+        "apps": {
+          "com.mxtech.videoplayer.ad": {
+            "patches": [
+              "Configure Smart Enhance",
+              "Sidebar & Player Defaults"
+            ]
+          }
+        }
+      },
+      "ethan-manny/spotify-tv-crossfade": {
+        "apps": {
+          "com.spotify.tv.android": {
+            "patches": [
+              "Crossfade",
+              "Debuggable build",
+              "Disable Amazon Appstore DRM"
+            ],
+            "isNew": true
+          }
+        },
+        "isNew": true
+      },
+      "picarica/My-moprhe-patches": {
+        "apps": {
+          "app.affine.pro": {
+            "patches": [
+              "Remove Google requirements"
+            ],
+            "isNew": true
+          }
+        },
+        "isNew": true
+      },
+      "yann-soliman/morphe-patches": {
+        "apps": {
+          "fr.keepcool.memberapp": {
+            "patches": [
+              "Keepcool: 30-day booking calendar",
+              "Keepcool: allow plus in email",
+              "Keepcool: booking availability dots"
+            ],
+            "isNew": true
+          }
+        },
+        "isNew": true
+      },
+      "DarioDKM/ringconn-patches": {
+        "apps": {
+          "com.gdjztech.ringconn": {
+            "patches": [
+              "Intervals.icu Quick-Sync Kachel (v1.2.4)",
+              "RingConn Health Data Provider (v1.2.4)"
+            ],
+            "isNew": true
+          }
+        },
+        "isNew": true
+      },
+      "Entree3k/Morning-Entree-Patches": {
+        "apps": {
+          "gymworkout.gym.gymlog.gymtrainer": {
+            "patches": [
+              "Enable Premium"
+            ],
+            "isNew": true
+          }
+        }
+      },
+      "lootdev78/psylos-morphe-patches": {
+        "apps": {
+          "com.soundcloud.android": {
+            "patches": [
+              "AMOLED dark theme",
+              "Disable telemetry",
+              "Download button hook",
+              "Enable SoundCloud Go",
+              "Hide Cast icon"
+            ],
+            "isNew": true
+          }
+        },
+        "isNew": true
+      },
+      "MiguelNinja19/miguel-morphe-patches": {
+        "apps": {
+          "com.mad.ducklife": {
+            "patches": [
+              "Bypass PairIP license check",
+              "Unlock full game (IAP entitlements)"
+            ],
+            "isNew": true
+          },
+          "com.feralinteractive.laracroftgol_android": {
+            "patches": [
+              "Force FDR data download (bypass Play asset delivery)"
+            ]
+          }
+        }
+      },
+      "legendsciber/morphe-patches": {
+        "apps": {
+          "com.nekki.shadowfight": {
+            "patches": [
+              "Shadow Fight 2 IAP Bypass (Smali)"
+            ]
+          }
+        }
+      },
+      "IMXEren/mix-patches": {
+        "apps": {
+          "com.laurencedawson.reddit_sync": {
+            "patches": [
+              "Merge profile feeds"
+            ]
+          }
+        }
+      },
+      "Zanuaimi/UniPatches": {
+        "apps": {
+          "__universal__": {
+            "patches": [
+              "Control App Ads Patch (Experimental, Enhanced)",
+              "Custom App Display Patch (Experimental, Enhanced)",
+              "Custom App Output Patch (Experimental, Enhanced)",
+              "PairIP Bypass Patch (Experimental, Enhanced)",
+              "UniPatches Universal Overlay Patch v1.4.1 (Experimental)"
+            ]
+          }
+        }
+      },
+      "SysAdminDoc/hushfeed": {
+        "apps": {
+          "com.zhiliaoapp.musically": {
+            "patches": [
+              "Comment sort controls",
+              "Enable voice comments"
+            ]
+          }
+        }
+      },
+      "zeldrisho/morphe-patches": {
+        "apps": {
+          "com.instagram.barcelona": {
+            "patches": [
+              "Change app name",
+              "Change package name",
+              "Hide ads",
+              "Remove AD_ID permission"
+            ],
+            "isNew": true
+          }
+        },
+        "isNew": true
+      }
+    }
+  },
+  {
     "date": "September 8, 2026",
     "bundles": {
       "icysymmetra/tiktok-patches-for-morphe": {
@@ -4109,178 +4314,6 @@
           "com.honda.ms.dm.sab": {
             "patches": [
               "Offline pairing"
-            ]
-          }
-        }
-      }
-    }
-  },
-  {
-    "date": "August 26, 2026",
-    "bundles": {
-      "Kecerim24/morphe-patches": {
-        "apps": {
-          "de.cyberdream.dreamepg.player": {
-            "patches": [
-              "Unlock premium"
-            ],
-            "isNew": true
-          }
-        },
-        "isNew": true
-      },
-      "SapitoSucio/FroggoMorphePatches": {
-        "apps": {
-          "com.facebook.katana": {
-            "patches": [
-              "Block Facebook ads (573)",
-              "Block Facebook automatic refresh (573)"
-            ],
-            "isNew": true
-          }
-        },
-        "isNew": true
-      },
-      "subenoeva/roadsync-patches": {
-        "apps": {
-          "com.honda.ms.dm.sab": {
-            "patches": [
-              "Add music sources",
-              "Bypass Google login"
-            ],
-            "isNew": true
-          }
-        },
-        "isNew": true
-      },
-      "V4n1X/morphe-patches": {
-        "apps": {
-          "com.soundcloud.android": {
-            "patches": [
-              "AMOLED dark theme",
-              "Disable analytics",
-              "Disable consent popup",
-              "Enable SoundCloud Go"
-            ],
-            "isNew": true
-          }
-        },
-        "isNew": true
-      },
-      "jasonwu1994/Gboard-patches": {
-        "apps": {
-          "com.google.android.inputmethod.latin": {
-            "patches": [
-              "Rounded Keyboard Panel"
-            ]
-          }
-        }
-      },
-      "arandomhooman/hoomans-morphe-patches": {
-        "apps": {
-          "com.todoist": {
-            "patches": [
-              "No date first"
-            ]
-          }
-        }
-      },
-      "byehi98/okish-morphe-patches": {
-        "apps": {
-          "com.adda247.app": {
-            "patches": [
-              "Adda247 Ad Removal",
-              "Adda247 MoEngage In-App Blocker"
-            ],
-            "isNew": true
-          }
-        }
-      },
-      "shuhaibnc/morphe-patches": {
-        "apps": {
-          "com.vpnbottle.melon.free.unblock.fast.vpn": {
-            "patches": [
-              "Unlock Pro"
-            ],
-            "isNew": true
-          }
-        }
-      },
-      "Entree3k/Morning-Entree-Patches": {
-        "apps": {
-          "com.socialnmobile.dictapps.notepad.color.note": {
-            "patches": [
-              "Unlock Premium"
-            ],
-            "isNew": true
-          },
-          "com.yablio.sendfilestotv": {
-            "patches": [
-              "Remove Ads"
-            ],
-            "isNew": true
-          },
-          "ai.metaverselabs.obdandroid": {
-            "patches": [
-              "Unlock Premium"
-            ],
-            "isNew": true
-          },
-          "com.javiersantos.mlmanager": {
-            "patches": [
-              "Unlock Pro"
-            ],
-            "isNew": true
-          },
-          "com.kin.athena": {
-            "patches": [
-              "Unlock Premium"
-            ],
-            "isNew": true
-          },
-          "com.google.android.inputmethod.latin": {
-            "patches": [
-              "Disable telemetry & federated learning",
-              "Network privacy",
-              "Remove promotional banners",
-              "Toggle feature flags"
-            ]
-          }
-        }
-      },
-      "legendsciber/morphe-patches": {
-        "apps": {
-          "io.mrarm.mctoolbox": {
-            "patches": [
-              "Bypass Google Play Install Check",
-              "Watch Ad Instant Reward"
-            ]
-          }
-        }
-      },
-      "hashtagbasit/aimal-patches": {
-        "apps": {
-          "com.viki.android": {
-            "patches": [
-              "Playback speed and aspect ratio",
-              "Remove ads",
-              "Use the whole screen for video"
-            ],
-            "isNew": true
-          },
-          "com.crunchyroll.crunchyroid": {
-            "patches": [
-              "Subtitle styling"
-            ]
-          }
-        }
-      },
-      "Hiosdra/morphe-patches": {
-        "apps": {
-          "com.formulaone.production": {
-            "patches": [
-              "F1 TV - Change package name",
-              "F1 TV - Disable Play Store updates"
             ]
           }
         }

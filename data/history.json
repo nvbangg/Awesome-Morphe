@@ -283,6 +283,9 @@
       "Hide home banners",
       "Unlock cheat key"
     ],
+    "com.nhn.android.nmap": [
+      "Enable navigation live updates"
+    ],
     "com.onyx.galaxy.global.note": [
       "Bypass login",
       "Enable local handwriting search",
@@ -869,15 +872,11 @@
       "Disable From Download Menu Of Browsers"
     ],
     "com.mxtech.videoplayer.ad": [
-      "Add Network Stream To Me Tab",
       "Clean Me Tab",
-      "Clean sidebar More menu",
-      "Configure Smart Enhance toast",
+      "Configure Smart Enhance",
       "Configure SpeedUp overlay",
-      "Default Shortcuts",
       "Disable Bottom Bar And Add Me Tab To Top",
-      "Disable Smart Enhance popup",
-      "Open subtitle settings by default"
+      "Sidebar & Player Defaults"
     ],
     "com.mxtech.videoplayer.pro": [
       "Hide File Transfer, Video Playlist, Private Folder tiles",
@@ -1259,7 +1258,8 @@
       "Plague Inc. Unlock Fast-Forward"
     ],
     "com.nekki.vector": [
-      "Vector Ad Spoof"
+      "Vector Ad Spoof",
+      "Vector Money Mod"
     ],
     "com.noodlecake.altosadventure": [
       "IAP Unlock"
@@ -1276,8 +1276,7 @@
       "Fancy Pants Unlock Premium"
     ],
     "com.rebelbinary.onlyone": [
-      "Only One Free Store",
-      "Only One License Bypass"
+      "Only One Free Store"
     ],
     "com.sidheinteractive.sif.DR": [
       "Into the Dead 2 Ad Removal & Instant Boost Rewards",
@@ -1725,6 +1724,12 @@
       "Hide News Banners",
       "Material You Theme",
       "Quick Join Button"
+    ]
+  },
+  "DarioDKM/ringconn-patches": {
+    "com.gdjztech.ringconn": [
+      "Intervals.icu Quick-Sync Kachel (v1.2.4)",
+      "RingConn Health Data Provider (v1.2.4)"
     ]
   },
   "debakarr/morphe-patches": {
@@ -3052,6 +3057,9 @@
     "ginlemon.flowerfree": [
       "Enable Pro"
     ],
+    "gymworkout.gym.gymlog.gymtrainer": [
+      "Enable Premium"
+    ],
     "homeworkout.homeworkouts.noequipment": [
       "Enable Premium"
     ],
@@ -3089,6 +3097,13 @@
     ],
     "dmytro.palamarchuk.dailyreminder": [
       "Enable Premium"
+    ]
+  },
+  "ethan-manny/spotify-tv-crossfade": {
+    "com.spotify.tv.android": [
+      "Crossfade",
+      "Debuggable build",
+      "Disable Amazon Appstore DRM"
     ]
   },
   "ethanm6/letterboxd-stremio-morphe-patch": {
@@ -3631,7 +3646,6 @@
     ],
     "all.in.one.calculator": [
       "GmsCore support",
-      "Remove pairip protection",
       "Unlock premium"
     ],
     "app.rubberbands.fit": [
@@ -3645,7 +3659,6 @@
       "Hide upgrade upselling",
       "Remove 'Sent from' signature",
       "Remove free accounts limit",
-      "Spoof signature",
       "Unlock custom time picker"
     ],
     "com.audible.application": [
@@ -3667,8 +3680,6 @@
       "AMOLED dark theme"
     ],
     "com.mchutov.Quranify": [
-      "Bypass integrity check",
-      "Remove pairip protection",
       "Unlock premium"
     ],
     "com.michaldrabik.showly2": [
@@ -3678,12 +3689,14 @@
     "com.myvitale.forus": [
       "Unlock premium"
     ],
+    "com.risesci.nyx": [
+      "Unlock premium"
+    ],
     "com.spocky.projengmenu": [
       "Disable tracking",
       "Unlock premium"
     ],
     "com.sry.rateglance": [
-      "Remove pairip protection",
       "Unlock premium"
     ],
     "com.streetwriters.notesnook": [
@@ -3691,6 +3704,9 @@
     ],
     "com.thetrainline": [
       "Hide ads"
+    ],
+    "ipnossoft.rma.free": [
+      "Unlock premium"
     ],
     "org.readera": [
       "Remove nags"
@@ -3700,12 +3716,9 @@
       "Inspect AI requests",
       "Show AI progress",
       "Speed up AI tools",
-      "Spoof iOS platform",
-      "Spoof signature",
       "Unlock premium"
     ],
     "psyberia.alpinequest.free": [
-      "Bypass signature check",
       "Unlock full version"
     ]
   },
@@ -3801,6 +3814,7 @@
     "com.laurencedawson.reddit_sync": [
       "Fix Other discussions",
       "Fix Redgifs API",
+      "Merge profile feeds",
       "Open Redgifs links in WebView on failure"
     ],
     "org.cris.aikyam": [
@@ -4457,8 +4471,7 @@
       "Smash Hit Premium Unlock"
     ],
     "com.nekki.shadowfight": [
-      "Shadow Fight 2 IAP Bypass",
-      "Shadow Fight 2 IAP Bypass Trigger"
+      "Shadow Fight 2 IAP Bypass (Smali)"
     ],
     "io.mrarm.mctoolbox": [
       "Bypass Google Play Install Check",
@@ -4491,6 +4504,15 @@
     "com.jeffprod.cubesolver": [
       "Puzzles Unlock",
       "Remove Ads"
+    ]
+  },
+  "lootdev78/psylos-morphe-patches": {
+    "com.soundcloud.android": [
+      "AMOLED dark theme",
+      "Disable telemetry",
+      "Download button hook",
+      "Enable SoundCloud Go",
+      "Hide Cast icon"
     ]
   },
   "loskutov/youtube-domain-fronting-patch": {
@@ -4549,9 +4571,14 @@
       "Remove ads"
     ],
     "com.feralinteractive.laracroftgol_android": [
+      "Force FDR data download (bypass Play asset delivery)",
       "Unlock full game (TBYB bypass + license)"
     ],
     "com.mad.DuckLifeSpace": [
+      "Unlock full game (IAP entitlements)"
+    ],
+    "com.mad.ducklife": [
+      "Bypass PairIP license check",
       "Unlock full game (IAP entitlements)"
     ],
     "com.mobge.Oddmar": [
@@ -5411,6 +5438,11 @@
       "Restore push notifications"
     ]
   },
+  "picarica/My-moprhe-patches": {
+    "app.affine.pro": [
+      "Remove Google requirements"
+    ]
+  },
   "PixelPusher247/morphe-patches": {
     "tv.trakt.trakt": [
       "Hide VIP banner"
@@ -5840,15 +5872,6 @@
     ],
     "com.codium.hydrocoach": [
       "Unlock Pro"
-    ],
-    "com.community.mbox.in": [
-      "All-In-One"
-    ],
-    "com.community.mbox.tv": [
-      "All-In-One"
-    ],
-    "com.community.oneroom": [
-      "All-In-One"
     ],
     "com.consumedbycode.slopes": [
       "Unlock Premium"
@@ -6454,8 +6477,8 @@
       "Unlock Premium"
     ],
     "sksa.aa.customapps": [
-      "Security Bypass",
-      "Unlock Pro"
+      "AAAD Premium",
+      "AAAD Security Bypass"
     ],
     "sp0n.citizen": [
       "Unlock Pro"
@@ -6819,6 +6842,7 @@
       "Always show publish date",
       "Automatic video advance",
       "Block author button",
+      "Comment sort controls",
       "Comment tools",
       "Confirm feed interactions",
       "Copy comments without username",
@@ -6833,6 +6857,7 @@
       "Downloads",
       "Enable Live search",
       "Enable non-personalized search",
+      "Enable voice comments",
       "Expand activity list",
       "Feature Gate Lab",
       "Feature Gate Recorder",
@@ -6888,16 +6913,6 @@
     ],
     "harmonium.music.gameg.real.harmoniumfree": [
       "Remove Ads"
-    ]
-  },
-  "thejaustin/smartlauncher-morphe-patches": {
-    "ginlemon.flowerfree": [
-      "Bypass signature check",
-      "Contextual app menu actions",
-      "Hide archived apps",
-      "Morphe settings UI integration",
-      "Native app archiving",
-      "Shizuku app archiving"
     ]
   },
   "TheRealCrazyfuy/abeja-morphe-patches": {
@@ -7356,6 +7371,13 @@
       "Unlock Premium"
     ]
   },
+  "yann-soliman/morphe-patches": {
+    "fr.keepcool.memberapp": [
+      "Keepcool: 30-day booking calendar",
+      "Keepcool: allow plus in email",
+      "Keepcool: booking availability dots"
+    ]
+  },
   "ynotzort/morphe-patches": {
     "com.targo_prod.bad": [
       "Disable TargoBank root check"
@@ -7369,16 +7391,22 @@
   },
   "Zanuaimi/UniPatches": {
     "__universal__": [
-      "Ads Free Rewards (Experimental)",
       "Bypass Emulator Detection",
       "Bypass Forced Updates (Experimental)",
-      "Custom App Resolution (Experimental)",
+      "Control App Ads Patch (Experimental, Enhanced)",
+      "Custom App Display Patch (Experimental, Enhanced)",
+      "Custom App Output Patch (Experimental, Enhanced)",
       "Disable Forced Online Checks (Experimental)",
-      "Frame Rate Preference (Experimental)",
-      "Graphics API Override (Experimental)",
-      "No Ads (Experimental)",
-      "PairIP Bypass Enhanced (Experimental)",
-      "UniPatches Universal Overlay Patch v1.3.3 (Experimental)"
+      "PairIP Bypass Patch (Experimental, Enhanced)",
+      "UniPatches Universal Overlay Patch v1.4.1 (Experimental)"
+    ]
+  },
+  "zeldrisho/morphe-patches": {
+    "com.instagram.barcelona": [
+      "Change app name",
+      "Change package name",
+      "Hide ads",
+      "Remove AD_ID permission"
     ]
   }
 }

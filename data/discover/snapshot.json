@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "aade27bfb9e4cc850b8a1af0150d505c97fea20b",
+  "jman_tree_sha": "f5596eb40255f3f52d4123a2ac83ce4884b35ae8",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -210,7 +210,7 @@
       "key": "https://github.com/chicco-carone/morphe-patches-chicco"
     },
     "chiggi": {
-      "sha": "003fa2f4b10dd3292e05faa77690b6c14bd2bf7f",
+      "sha": "9875d557e0a7567077fd6808723ebfe04fe0a7ce",
       "key": "https://github.com/durgesh0505/chiggi_morphe_patches"
     },
     "chmate-revanced": {
@@ -418,7 +418,7 @@
       "key": "https://github.com/hu-liberator/patches"
     },
     "hushfeed": {
-      "sha": "5163f9a8afddcb371e9e35e3d3806aeee812ef01",
+      "sha": "0444d11507ddd02cc7a721d503b54e37982443c9",
       "key": "https://github.com/SysAdminDoc/hushfeed"
     },
     "hxreborn": {
@@ -462,7 +462,7 @@
       "key": "https://github.com/ImNoammm/morphe-spotify-patches"
     },
     "imxeren": {
-      "sha": "4389cca3cdb3b990272ad5acacc3365d4e72eeed",
+      "sha": "7422d5715491a407aca2271cafbe1a98101ce9ce",
       "key": "https://gitlab.com/IMXEren/mix-patches"
     },
     "inotia00": {
@@ -562,7 +562,7 @@
       "key": null
     },
     "legendsciber": {
-      "sha": "a244d30c781fb7c0787300ec8ab93135c15472de",
+      "sha": "f8984f81c2d07a4eb0c2ee6461ab5cd800aa572a",
       "key": "https://github.com/legendsciber/morphe-patches"
     },
     "lennyRBLX": {
@@ -606,7 +606,7 @@
       "key": "https://github.com/meridianfresco/morphe-meta-patches"
     },
     "miguel": {
-      "sha": "43c69a73f8dc94de7df76383a89c0db5dfb3509e",
+      "sha": "9d8a85197c8b9545faafd68e75b6535262deda35",
       "key": "https://github.com/MiguelNinja19/miguel-morphe-patches"
     },
     "mojirs-rif": {

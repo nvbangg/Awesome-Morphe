@@ -1,5 +1,5 @@
 {
-    "version": "3.12.1",
+    "version": "3.13.1",
     "patches": [
         {
             "name": "NewX: Remove ads",
@@ -499,6 +499,8 @@
             "description": "Lets you hide selected items from the NewX navigation drawer.",
             "default": true,
             "dependencies": [
+                "BytecodePatch",
+                "BytecodePatch",
                 "BytecodePatch"
             ],
             "compatiblePackages": [

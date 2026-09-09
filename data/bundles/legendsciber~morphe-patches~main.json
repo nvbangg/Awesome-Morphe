@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-08T20:56:20",
-  "description": "## [1.46.0](https://github.com/legendsciber/morphe-patches/compare/v1.45.0...v1.46.0) (2026-09-08)\n\n### 🐛 Bug Fixes\n\n* **iap:** escape dollar sign in smali string templates ([a44a70e](https://github.com/legendsciber/morphe-patches/commit/a44a70e257a99ee70b67bac21a2fecc576637c13))\n\n### ✨ New Features\n\n* **iap:** add smali-only IAP bypass via launchBillingFlow interception ([0a74e17](https://github.com/legendsciber/morphe-patches/commit/0a74e177545456611ff0fe9cdf107f5f43e231e1))",
-  "download_url": "https://github.com/legendsciber/morphe-patches/releases/download/v1.46.0/patches-1.46.0.mpp",
+  "created_at": "2026-09-09T01:05:03",
+  "description": "## [1.46.5](https://github.com/legendsciber/morphe-patches/compare/v1.46.4...v1.46.5) (2026-09-09)\n\n### 🐛 Bug Fixes\n\n* **iap:** set purchaseState=1 and acknowledged=true in fake Purchase JSON ([7a65066](https://github.com/legendsciber/morphe-patches/commit/7a65066de3c2ef85ab06891c1ff17dbe1015aca9))",
+  "download_url": "https://github.com/legendsciber/morphe-patches/releases/download/v1.46.5/patches-1.46.5.mpp",
   "signature_download_url": "",
-  "version": "1.46.0"
+  "version": "1.46.5"
 }

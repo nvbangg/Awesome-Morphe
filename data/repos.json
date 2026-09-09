@@ -364,7 +364,7 @@
   "crimera/piko-newx": {
     "name": "Piko",
     "github": {
-      "main": "945f247cf5f27e6af9212e5fc148cb01044f91feb0a4b354b8bba5ee738587aa",
+      "main": "930ec5e8063b53965150821a79ee81c577755357c6ffe79661eaa17fc78ba806",
       "dev": null
     }
   },
@@ -927,7 +927,7 @@
   "legendsciber/morphe-patches": {
     "name": "legendsciber's Patches",
     "github": {
-      "main": "8d83a92e0c70d4430bf0ab77340e22d9fa08d0663a741ade11c35746555782b5",
+      "main": "4f29fe5a2ba6b5f15e41cbf4c99eb97cc24fc6790f6614842d67747ecd8dfbcd",
       "dev": null
     }
   },
@@ -1366,7 +1366,7 @@
   "SysAdminDoc/hushfeed": {
     "name": "Hushfeed",
     "github": {
-      "main": "36d912ca9e25cb05f1c5bb732f1fbf41c30abbcc4ecd688582273f335f1f3af1",
+      "main": "70168efcc3adec80d9808584abc143125c0bf89c6d89df8219bd49756a0568c6",
       "dev": null,
       "image": "4d092c078217f40dceb3b85b29d4c3f23e2a1cf3e46e32942b094d1e80453e31"
     }
@@ -1439,13 +1439,6 @@
     "github": {
       "main": "18b152a66a034b429b985ce77f8838b0af9850923ab1bf4d26a2b64f33a4622a",
       "dev": "c27dc069a5747dca5c7a9bec754a8c510cce8982dc7c4e18adf9d787143f3fa2"
-    }
-  },
-  "vomw/morphe-patches": {
-    "name": "Doom's Morphe Patches",
-    "github": {
-      "main": "e42d5824c23e9bcaa77dda7cb354c2cb345a809ee5ef285808cbe2a5322ca9ff",
-      "dev": "48193207460f0182d6e0f7d52635be9456b6e21fdc71e2802a8d6a4ab62c7b10"
     }
   },
   "wchill/patcheddit": {
