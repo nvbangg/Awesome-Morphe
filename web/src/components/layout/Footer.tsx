@@ -16,36 +16,43 @@ export function Footer() {
     <>
       <footer className="mt-4 border-t border-divider bg-background pt-4 pb-20 sm:pb-6">
         <div className="container mx-auto px-6 max-w-300 flex flex-col gap-3">
-          <a
-            href="https://awesome-morphe.vercel.app/"
-            className="flex items-center gap-3 no-underline hover:opacity-85 transition-opacity w-fit"
-          >
-            <img
-              alt=""
-              aria-hidden="true"
-              className="h-8 w-auto select-none"
-              src="assets/favicon.svg"
-              loading="lazy"
-              decoding="async"
-            />
-            <span className="font-bold text-xl leading-tight">
-              <span className="bg-primary-gradient bg-clip-text text-transparent">
-                Awesome
-              </span>{" "}
-              <span className="text-foreground">Morphe</span>
-            </span>
-          </a>
-          <p className="text-foreground-muted text-sm">
-            Explore all patch bundles from the{" "}
+          <div className="flex items-center gap-3 w-fit">
             <a
-              href="https://morphe.software/"
-              target="_blank"
-              className="font-semibold bg-primary-gradient bg-clip-text text-transparent no-underline hover:opacity-80 transition-opacity"
+              href="https://awesome-morphe.vercel.app/"
+              className="no-underline shrink-0 flex items-center hover:opacity-85 transition-opacity"
             >
-              Morphe
-            </a>{" "}
-            community
-          </p>
+              <img
+                alt=""
+                aria-hidden="true"
+                className="size-9 object-contain select-none"
+                src="assets/favicon.svg"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <div className="flex flex-col justify-center">
+              <a
+                href="https://awesome-morphe.vercel.app/"
+                className="font-bold text-lg leading-tight no-underline hover:opacity-85 transition-opacity"
+              >
+                <span className="bg-primary-gradient bg-clip-text text-transparent">
+                  Awesome
+                </span>{" "}
+                <span className="text-foreground">Morphe</span>
+              </a>
+              <span className="text-xs text-foreground-muted font-normal leading-tight mt-0.5">
+                Explore all patch bundles from the{" "}
+                <a
+                  href="https://morphe.software/"
+                  target="_blank"
+                  className="font-semibold bg-primary-gradient bg-clip-text text-transparent no-underline hover:opacity-80 transition-opacity"
+                >
+                  Morphe
+                </a>{" "}
+                community
+              </span>
+            </div>
+          </div>
           <div className="border-t border-divider pt-3 text-foreground-muted text-xs leading-relaxed flex flex-col gap-1.5">
             <p>
               <a
