@@ -171,12 +171,24 @@ def build_new_bundles(bundles_json: dict) -> dict:
     return dict(sorted(new_bundles.items(), key=lambda item: item[0].lower()))
 
 
+def count_app_patches(
+    bundles_dict: dict[str, dict[str, list[str]]],
+) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for bundle_apps in bundles_dict.values():
+        for package_name, patches in bundle_apps.items():
+            counts[package_name] = counts.get(package_name, 0) + len(patches)
+    return counts
+
+
 def build_json_diff(
     old_bundles: dict,
     new_bundles: dict,
     app_metadata: dict,
     bundle_order: dict[str, int],
+    app_patch_counts: dict[str, int] | None = None,
 ) -> dict:
+    app_patch_counts = app_patch_counts or {}
     json_diff = {}
 
     for repo, patches_dict in sorted(
@@ -192,7 +204,11 @@ def build_json_diff(
                 for package_name in sorted(
                     patches_dict,
                     key=lambda package_name: get_app_sort_key(
-                        package_name, app_metadata, len(patches_dict[package_name])
+                        package_name,
+                        app_metadata,
+                        app_patch_counts.get(
+                            package_name, len(patches_dict[package_name])
+                        ),
                     ),
                 )
             }
@@ -208,7 +224,9 @@ def build_json_diff(
             for package_name in sorted(
                 patches_dict,
                 key=lambda package_name: get_app_sort_key(
-                    package_name, app_metadata, len(patches_dict[package_name])
+                    package_name,
+                    app_metadata,
+                    app_patch_counts.get(package_name, len(patches_dict[package_name])),
                 ),
             ):
                 if package_name not in old_patches_dict:
@@ -277,7 +295,9 @@ def generate_markdown(
     bundle_names: dict,
     bundle_sources: dict,
     bundle_order: dict[str, int],
+    app_patch_counts: dict[str, int] | None = None,
 ) -> str:
+    app_patch_counts = app_patch_counts or {}
     known_apps = {
         package_name for bundle in old_history.values() for package_name in bundle
     }
@@ -364,7 +384,9 @@ def generate_markdown(
         for package_name in sorted(
             new_apps_map.keys(),
             key=lambda package_name: get_app_sort_key(
-                package_name, app_metadata, len(new_apps_map[package_name])
+                package_name,
+                app_metadata,
+                app_patch_counts.get(package_name, len(new_apps_map[package_name])),
             ),
         ):
             app_name = format_app_name(package_name, app_metadata)
@@ -381,7 +403,9 @@ def generate_markdown(
             key=lambda package_name: get_app_sort_key(
                 package_name,
                 app_metadata,
-                len(existing_apps_new_patches_map[package_name]),
+                app_patch_counts.get(
+                    package_name, len(existing_apps_new_patches_map[package_name])
+                ),
             ),
         ):
             app_name = format_app_name(package_name, app_metadata)
@@ -401,11 +425,14 @@ def generate_markdown(
                 key=lambda package_name: get_app_sort_key(
                     package_name,
                     app_metadata,
-                    len(
-                        json_diff.get(repo, {})
-                        .get("apps", {})
-                        .get(package_name, {})
-                        .get("patches", [])
+                    app_patch_counts.get(
+                        package_name,
+                        len(
+                            json_diff.get(repo, {})
+                            .get("apps", {})
+                            .get(package_name, {})
+                            .get("patches", [])
+                        ),
                     ),
                 ),
             )
@@ -447,7 +474,14 @@ def main() -> None:
     today_str = current_time.strftime(f"%B {current_time.day}, %Y")
 
     new_bundles = build_new_bundles(bundles_json)
-    json_diff = build_json_diff(old_history, new_bundles, app_metadata, bundle_order)
+    app_patch_counts = count_app_patches(new_bundles)
+    json_diff = build_json_diff(
+        old_history,
+        new_bundles,
+        app_metadata,
+        bundle_order,
+        app_patch_counts,
+    )
 
     if not json_diff:
         info_message = (
@@ -479,6 +513,7 @@ def main() -> None:
         bundle_names,
         bundle_sources,
         bundle_order,
+        app_patch_counts,
     ):
         WHATS_NEW_PATH.parent.mkdir(parents=True, exist_ok=True)
         WHATS_NEW_PATH.write_text(markdown_str + "\n", encoding="utf-8")
