@@ -290,6 +290,12 @@
       "dev": "f89ef349b205739566c085083713451220c3dddb984f55e12c07db21d3d60036"
     }
   },
+  "Burhanverse/test": {
+    "github": {
+      "main": "0ff91d26ce824a22f8cb3904213d537a311f19772163ebbb9e08c7dc1bd7f03c",
+      "dev": "adc9bd56adb6eb1ad79bbe1096971d6be3a548d86d0e99e6bd6b14f0ef0a8b24"
+    }
+  },
   "byehi98/okish-morphe-patches": {
     "name": "byehi98 Patches",
     "github": {
@@ -1447,6 +1453,12 @@
       "dev": "c27dc069a5747dca5c7a9bec754a8c510cce8982dc7c4e18adf9d787143f3fa2"
     }
   },
+  "vomw/morphe-patches": {
+    "github": {
+      "main": "e42d5824c23e9bcaa77dda7cb354c2cb345a809ee5ef285808cbe2a5322ca9ff",
+      "dev": "48193207460f0182d6e0f7d52635be9456b6e21fdc71e2802a8d6a4ab62c7b10"
+    }
+  },
   "wchill/patcheddit": {
     "name": "Patcheddit",
     "github": {
@@ -1515,8 +1527,8 @@
   "Zanuaimi/UniPatches": {
     "name": "Zanuaimi's UniPatches",
     "github": {
-      "main": "66b663a087953cb813f112c402681c4a1300ec0f0c1d31dceabe1f18c0290b68",
-      "dev": "66b663a087953cb813f112c402681c4a1300ec0f0c1d31dceabe1f18c0290b68",
+      "main": "54c141b928c9bab652b9c4e4f9d869248c178d671b4970f6adac5bec87a1e7c5",
+      "dev": "54c141b928c9bab652b9c4e4f9d869248c178d671b4970f6adac5bec87a1e7c5",
       "image": "d6033284f266e11ce96e3c2b4eb7a147f0a977ca25dca1d09bab05319dab5907"
     }
   },
