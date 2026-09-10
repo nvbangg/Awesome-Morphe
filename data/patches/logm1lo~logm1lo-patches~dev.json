@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.1.0",
+  "version": "1.2.0-dev.1",
   "patches": [
     {
       "name": "Dart Pro gates (libapp.so)",
@@ -20,6 +20,13 @@
           "targets": [
             {
               "version": "5.8.5",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "5.9.1",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -46,6 +53,13 @@
           "targets": [
             {
               "version": "5.8.5",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "5.9.1",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,

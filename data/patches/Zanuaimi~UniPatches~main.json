@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "patches": [
     {
       "name": "Bypass Emulator Detection",
@@ -1305,7 +1305,7 @@
       ]
     },
     {
-      "name": "UniPatches Universal Overlay Patch v2.1 (Experimental)",
+      "name": "UniPatches Universal Overlay Patch v2.2 (Experimental)",
       "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, and Hook modules make best-effort changes to app behavior. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons. This is experimental\nand may not work on all apps. UI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. If Control App Ads is patched\nwith its optional runtime policy enabled, its selected ad-control modules appear here\nautomatically; Universal Overlay does not patch ad SDKs by itself. When both patches are\nselected, Control App Ads attaches its runtime policy to this overlay's exact startup bridge,\nincluding an explicit Activity override, instead of selecting a separate Activity.\n\nAttribution: the idea and initial work for this Universal Overlay Patch are from Zanuaimi / Noobite.",
       "default": false,
       "dependencies": [
@@ -1315,7 +1315,7 @@
       "options": [
         {
           "key": "runtimeOverlaySelectedPreset",
-          "title": "Quick setup > 1. Choose preset",
+          "title": "Quick setup > Preset selection",
           "description": "Start here. Custom (UniPatches defaults) is the editable red UniPatches look. Other presets apply a complete visual style: Morphe blue, dark, light, ZArchiver-inspired, LuckyPatcher-inspired, or ReVanced-inspired. Presets never change selected modules or your title and repository details.",
           "required": false,
           "type": "kotlin.String",
@@ -1333,7 +1333,7 @@
         },
         {
           "key": "runtimeOverlayControlTheme",
-          "title": "Customize appearance > Button controls > Theme",
+          "title": "UI settings > Button controls > Theme",
           "description": "Geometry used by overlay controls. Settings, Action, and dropdown controls use Legacy square corners, Modern rounded corners, or Monet-style pill corners. Their fill and outline colors come from the overlay menu.",
           "required": false,
           "type": "kotlin.String",
@@ -1346,7 +1346,7 @@
         },
         {
           "key": "runtimeOverlayControlBackground",
-          "title": "Customize appearance > Button controls > Accent background color",
+          "title": "UI settings > Button controls > Accent background color",
           "description": "Background color for overlay controls.",
           "required": false,
           "type": "kotlin.String",
@@ -1355,7 +1355,7 @@
         },
         {
           "key": "runtimeOverlayControlForeground",
-          "title": "Customize appearance > Button controls > Accent foreground color",
+          "title": "UI settings > Button controls > Accent foreground color",
           "description": "Foreground color for control contents, such as text, slider progress, and checked checkbox state.",
           "required": false,
           "type": "kotlin.String",
@@ -1364,7 +1364,7 @@
         },
         {
           "key": "runtimeOverlayBottomButtonStyle",
-          "title": "Customize appearance > Button controls > Bottom buttons > Style",
+          "title": "UI settings > Bottom buttons > Style",
           "description": "Style of the repository, close-menu, and fully-close buttons.",
           "required": false,
           "type": "kotlin.String",
@@ -1377,7 +1377,7 @@
         },
         {
           "key": "runtimeOverlayBottomButtonShape",
-          "title": "Customize appearance > Button controls > Bottom buttons > Shape",
+          "title": "UI settings > Bottom buttons > Shape",
           "description": "Shape of bottom action button backgrounds.",
           "required": false,
           "type": "kotlin.String",
@@ -1389,7 +1389,7 @@
         },
         {
           "key": "runtimeOverlayBottomButtonPadding",
-          "title": "Customize appearance > Button controls > Bottom buttons > Add spacing",
+          "title": "UI settings > Bottom buttons > Add spacing",
           "description": "Add padding between the three bottom action buttons.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -1398,7 +1398,7 @@
         },
         {
           "key": "runtimeOverlayBottomButtonTextColor",
-          "title": "Customize appearance > Button controls > Bottom buttons > Text color",
+          "title": "UI settings > Bottom buttons > Text color",
           "description": "Text color of the three bottom action buttons.",
           "required": false,
           "type": "kotlin.String",
@@ -1407,7 +1407,7 @@
         },
         {
           "key": "runtimeOverlayBottomButtonBackground1",
-          "title": "Customize appearance > Button controls > Bottom buttons > Background color 1",
+          "title": "UI settings > Bottom buttons > Background color 1",
           "description": "First background color for solid or gradient bottom action buttons.",
           "required": false,
           "type": "kotlin.String",
@@ -1416,7 +1416,7 @@
         },
         {
           "key": "runtimeOverlayBottomButtonBackground2",
-          "title": "Customize appearance > Button controls > Bottom buttons > Background color 2",
+          "title": "UI settings > Bottom buttons > Background color 2",
           "description": "Second background color for gradient bottom action buttons.",
           "required": false,
           "type": "kotlin.String",
@@ -1425,7 +1425,7 @@
         },
         {
           "key": "runtimeOverlayMenuTextColor1",
-          "title": "Customize appearance > Colors > Text color 1 (title, lines, scrollbar)",
+          "title": "UI settings > Colors > Text color 1 (title, lines, scrollbar)",
           "description": "Color for the menu title, separator lines, and scrollbar thumb.",
           "required": false,
           "type": "kotlin.String",
@@ -1434,7 +1434,7 @@
         },
         {
           "key": "runtimeOverlayMenuTextColor2",
-          "title": "Customize appearance > Colors > Text color 2 (module names)",
+          "title": "UI settings > Colors > Text color 2 (module names)",
           "description": "Color for module names.",
           "required": false,
           "type": "kotlin.String",
@@ -1443,7 +1443,7 @@
         },
         {
           "key": "runtimeOverlayMenuTextColor3",
-          "title": "Customize appearance > Colors > Text color 3 (descriptions)",
+          "title": "UI settings > Colors > Text color 3 (descriptions)",
           "description": "Color for overlay and module descriptions.",
           "required": false,
           "type": "kotlin.String",
@@ -1452,7 +1452,7 @@
         },
         {
           "key": "runtimeOverlayMenuTextColor4",
-          "title": "Customize appearance > Colors > Text color 4 (monitor)",
+          "title": "UI settings > Colors > Text color 4 (monitor)",
           "description": "Color for monitor labels.",
           "required": false,
           "type": "kotlin.String",
@@ -1461,7 +1461,7 @@
         },
         {
           "key": "runtimeOverlayMenuTextColor5",
-          "title": "Customize appearance > Colors > Text color 5 (active)",
+          "title": "UI settings > Colors > Text color 5 (active)",
           "description": "Color for Active labels.",
           "required": false,
           "type": "kotlin.String",
@@ -1470,7 +1470,7 @@
         },
         {
           "key": "runtimeOverlayMenuTextColor6",
-          "title": "Customize appearance > Colors > Text color 6 (module separators)",
+          "title": "UI settings > Colors > Text color 6 (module separators)",
           "description": "Color for module separator text.",
           "required": false,
           "type": "kotlin.String",
@@ -1478,8 +1478,17 @@
           "values": null
         },
         {
+          "key": "runtimeOverlayMenuTextColor7",
+          "title": "UI settings > Colors > Text color 7 (control outlines)",
+          "description": "Color for Settings, Action, and dropdown control outlines. This is independent from the menu outline color.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "#FF5656",
+          "values": null
+        },
+        {
           "key": "runtimeOverlaySeparatorBackgroundColor",
-          "title": "Customize appearance > Colors > Module separator background",
+          "title": "UI settings > Colors > Module separator background",
           "description": "Used only with the Background behind text separator style.",
           "required": false,
           "type": "kotlin.String",
@@ -1488,7 +1497,7 @@
         },
         {
           "key": "runtimeOverlaySeparatorStyle",
-          "title": "Customize appearance > Layout > Module separator style",
+          "title": "UI settings > Module separators > Style",
           "description": "How module type separators and hints appear.",
           "required": false,
           "type": "kotlin.String",
@@ -1503,7 +1512,7 @@
         },
         {
           "key": "runtimeOverlayTitleIconPlacement",
-          "title": "Customize appearance > Layout > Title icon placement",
+          "title": "UI settings > Menu title > Icon placement",
           "description": "Show a non-clickable copy of the overlay icon beside the menu title.",
           "required": false,
           "type": "kotlin.String",
@@ -1517,7 +1526,7 @@
         },
         {
           "key": "runtimeOverlayTitleAlignment",
-          "title": "Customize appearance > Layout > Title alignment",
+          "title": "UI settings > Menu title > Alignment",
           "description": "Alignment of the overlay menu title.",
           "required": false,
           "type": "kotlin.String",
@@ -1530,7 +1539,7 @@
         },
         {
           "key": "runtimeOverlayTitleSeparator",
-          "title": "Customize appearance > Layout > Title separator",
+          "title": "UI settings > Menu title > Separator",
           "description": "Show a Text color 1 line below the title.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -1539,7 +1548,7 @@
         },
         {
           "key": "runtimeOverlayMenuCorners",
-          "title": "Customize appearance > Layout > Menu corners",
+          "title": "UI settings > Menu layout > Corners",
           "description": "Choose rounded or square menu corners.",
           "required": false,
           "type": "kotlin.String",
@@ -1551,7 +1560,7 @@
         },
         {
           "key": "runtimeOverlayMenuOutlineAnimation",
-          "title": "Customize appearance > Animation > Outline animation",
+          "title": "UI settings > Menu outline > Animation",
           "description": "Choose a static, horizontal, vertical, or rainbow menu outline animation.",
           "required": false,
           "type": "kotlin.String",
@@ -1565,7 +1574,7 @@
         },
         {
           "key": "runtimeOverlayOutlineAnimationSpeed",
-          "title": "Customize appearance > Animation > Outline speed",
+          "title": "UI settings > Menu outline > Animation speed",
           "description": "Use -10 to 10. Zero stops movement; positive vertical values move upward and negative values move downward.",
           "required": false,
           "type": "kotlin.Int",
@@ -1574,7 +1583,7 @@
         },
         {
           "key": "runtimeOverlayOpeningAnimation",
-          "title": "Customize appearance > Animation > Opening animation",
+          "title": "UI settings > Animations > Opening animation",
           "description": "Opening animation. Directional appearances also fade in the menu.",
           "required": false,
           "type": "kotlin.String",
@@ -1591,7 +1600,7 @@
         },
         {
           "key": "runtimeOverlayClosingAnimation",
-          "title": "Customize appearance > Animation > Closing animation",
+          "title": "UI settings > Animations > Closing animation",
           "description": "Closing animation. Directional disappearances also fade out the menu.",
           "required": false,
           "type": "kotlin.String",
@@ -1608,7 +1617,7 @@
         },
         {
           "key": "runtimeOverlayAnimationDuration",
-          "title": "Customize appearance > Animation > Duration (ms)",
+          "title": "UI settings > Animations > Duration (ms)",
           "description": "Duration for opening and closing animations. Negative values become zero.",
           "required": false,
           "type": "kotlin.Int",
@@ -1617,7 +1626,7 @@
         },
         {
           "key": "runtimeOverlayAnimationEasing",
-          "title": "Customize appearance > Animation > Motion curve",
+          "title": "UI settings > Animations > Motion curve",
           "description": "Motion curve for fade, directional, and scale animations.",
           "required": false,
           "type": "kotlin.String",
@@ -1629,7 +1638,7 @@
         },
         {
           "key": "runtimeOverlayOutlineWidthDp",
-          "title": "Customize appearance > Layout > Menu outline width (dp)",
+          "title": "UI settings > Menu outline > Width (dp)",
           "description": "Width of the menu, monitor, and confirmation outlines, from 1 to 8dp.",
           "required": false,
           "type": "kotlin.Int",
@@ -1638,7 +1647,7 @@
         },
         {
           "key": "runtimeOverlayTitle",
-          "title": "Customize appearance > Menu text > Title",
+          "title": "UI settings > Menu text > Title",
           "description": "Title shown in the overlay menu. Limited to 80 characters.",
           "required": false,
           "type": "kotlin.String",
@@ -1647,7 +1656,7 @@
         },
         {
           "key": "runtimeOverlayDescription",
-          "title": "Customize appearance > Menu text > Description",
+          "title": "UI settings > Menu text > Description",
           "description": "Description below the title. Limited to 500 characters.",
           "required": false,
           "type": "kotlin.String",
@@ -1656,7 +1665,7 @@
         },
         {
           "key": "runtimeOverlayAppendDescription",
-          "title": "Customize appearance > Menu text > Appended description",
+          "title": "UI settings > Menu text > Appended description",
           "description": "Optional text appended below the overlay description. Useful for short inspiration or attribution notes such as Inspired by Example. The main and appended descriptions share a combined 500-character limit.",
           "required": false,
           "type": "kotlin.String",
@@ -1665,7 +1674,7 @@
         },
         {
           "key": "runtimeOverlayDescriptionAlignment",
-          "title": "Customize appearance > Menu text > Description alignment",
+          "title": "UI settings > Menu text > Description alignment",
           "description": "Alignment of the main and appended overlay description text.",
           "required": false,
           "type": "kotlin.String",
@@ -1678,7 +1687,7 @@
         },
         {
           "key": "runtimeOverlayAppendDescriptionColor",
-          "title": "Customize appearance > Colors > Appended description",
+          "title": "UI settings > Colors > Appended description",
           "description": "Color of appended overlay-description text. Presets default to menu text color 3.",
           "required": false,
           "type": "kotlin.String",
@@ -1687,7 +1696,7 @@
         },
         {
           "key": "runtimeOverlayBackgroundColor",
-          "title": "Customize appearance > Colors > Menu background",
+          "title": "UI settings > Colors > Menu background",
           "description": "Overlay background color as #RRGGBB. Transparency is controlled separately.",
           "required": false,
           "type": "kotlin.String",
@@ -1696,7 +1705,7 @@
         },
         {
           "key": "runtimeOverlayBackgroundTransparency",
-          "title": "Customize appearance > Colors > Menu transparency (%)",
+          "title": "UI settings > Colors > Menu transparency (%)",
           "description": "Transparency of the overlay background from 0% to 100%. 80% matches the default Morphe-style background alpha.",
           "required": false,
           "type": "kotlin.Int",
@@ -1705,8 +1714,8 @@
         },
         {
           "key": "runtimeOverlayOutlineColor",
-          "title": "Customize appearance > Colors > Menu and control outline/text",
-          "description": "Color of the overlay menu outline, Settings/Action button outlines and text, and dropdown outlines and text. Use #RRGGBB. Animated gradient menu outlines keep their own gradient colors, but these controls still use this color.",
+          "title": "UI settings > Colors > Menu outline and text",
+          "description": "Color of the overlay menu outline and menu text. Use #RRGGBB. Animated gradient menu outlines keep their own gradient colors. Settings, Action, and dropdown control outlines use Text color 7.",
           "required": false,
           "type": "kotlin.String",
           "default": "#FF5656",
@@ -1714,7 +1723,7 @@
         },
         {
           "key": "runtimeOverlayRepositoryText",
-          "title": "Customize appearance > Bottom buttons > Repository text",
+          "title": "UI settings > Bottom buttons > Repository text",
           "description": "Text of the always-present repository button.",
           "required": false,
           "type": "kotlin.String",
@@ -1723,7 +1732,7 @@
         },
         {
           "key": "runtimeOverlayRepositoryUrl",
-          "title": "Customize appearance > Bottom buttons > Repository URL",
+          "title": "UI settings > Bottom buttons > Repository URL",
           "description": "URL opened by the repository button.",
           "required": false,
           "type": "kotlin.String",
@@ -1732,7 +1741,7 @@
         },
         {
           "key": "runtimeOverlayButtonText",
-          "title": "Customize appearance > Icon > Text",
+          "title": "UI settings > Floating button > Text",
           "description": "Text shown on the default floating icon. Maximum three characters.",
           "required": false,
           "type": "kotlin.String",
@@ -1741,7 +1750,7 @@
         },
         {
           "key": "runtimeOverlayIconBold",
-          "title": "Customize appearance > Icon > Bold text",
+          "title": "UI settings > Floating button > Bold text",
           "description": "Make the default floating-icon text bold.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -1750,7 +1759,7 @@
         },
         {
           "key": "runtimeOverlayButtonTextColor",
-          "title": "Customize appearance > Icon > Text color",
+          "title": "UI settings > Floating button > Text color",
           "description": "Text color for the default floating icon.",
           "required": false,
           "type": "kotlin.String",
@@ -1759,7 +1768,7 @@
         },
         {
           "key": "runtimeOverlayIconTextSizeSp",
-          "title": "Customize appearance > Icon > Text size (sp)",
+          "title": "UI settings > Floating button > Text size (sp)",
           "description": "Text size for the default floating icon, from 8 to 48sp.",
           "required": false,
           "type": "kotlin.Int",
@@ -1768,7 +1777,7 @@
         },
         {
           "key": "runtimeOverlayIconStyle",
-          "title": "Customize appearance > Icon > Type",
+          "title": "UI settings > Floating button > Icon type",
           "description": "Text is the simple default. Choose Multi-parts only when you want to build a drawn icon in Advanced settings.",
           "required": false,
           "type": "kotlin.String",
@@ -1780,8 +1789,8 @@
         },
         {
           "key": "runtimeOverlayIconParts",
-          "title": "Advanced > Multi-parts icon editor > Part list",
-          "description": "Use only when Icon part type is Multi-parts. Add one string per part.\n\nTemplate:\n<shape>|<x-position>|<y-position>|<x-scale>|<y-scale>|<rotation>|<fill>|<color-1>|<color-2>|<stroke>|<opacity>|<layer>|<text>\n\nTag values:\nshape = triangle, invertedTriangle, circle, square, roundedRect, chevron, z, line, arc, diamond, star, heart, or text.\nx/y position and X/Y scale = 0–100 percent. Different scales make rectangles or ovals.\nrotation = -360 to 360 degrees; for example 0, 45, or 90.\nfill = solid or gradient. Colors use #RRGGBB. stroke = 0–32. opacity = 0–100. Higher layer draws on top.\ntext is optional except for a text part, and is trimmed to three characters.\n\nValid examples:\ntriangle|50|50|55|55|0|solid|#4E97F0|#4E97F0|0|100|0\nchevron|50|52|64|72|0|solid|#FFFFFF|#FFFFFF|6|100|0\ninvertedTriangle|50|37|36|30|0|gradient|#E651A0|#6564D3|0|100|1\ntext|50|50|60|50|0|solid|#FFFFFF|#FFFFFF|0|100|2|LP\n\nMaximum 12 parts.",
+          "title": "UI settings > Floating button > Multi-parts icon editor > Part list",
+          "description": "Use only when Icon part type is Multi-parts. Add one string per part.\n\nTemplate:\n<shape>|<x-position>|<y-position>|<x-scale>|<y-scale>|<rotation>|<fill>|<color-1>|<color-2>|<stroke>|<opacity>|<layer>|<text>|<bold>\n\nTag values:\nshape = triangle, oval, circle, square, roundedRect, chevron, line, arc, diamond, star, heart, or text.\nx/y position and X/Y scale = 0–100 percent. Different scales make rectangles or ovals.\nrotation = -360 to 360 degrees; for example 0, 45, or 90.\nfill = solid or gradient. Colors use #RRGGBB. stroke = 0–32. opacity = 0–100. Higher layer draws on top.\ntext is optional except for a text part, and is trimmed to three characters. The optional bold field is true or false and applies only to text parts.\n\nValid examples:\ntriangle|50|50|55|55|0|solid|#4E97F0|#4E97F0|0|100|0\nchevron|50|52|64|72|0|solid|#FFFFFF|#FFFFFF|6|100|0\ntriangle|50|39|28|22|0|gradient|#E651A0|#6564D3|0|100|1\ntext|50|50|60|50|0|solid|#FFFFFF|#FFFFFF|0|100|2|LP|true\n\nMaximum 12 parts.",
           "required": false,
           "type": "kotlin.collections.List<kotlin.String>",
           "default": [],
@@ -1789,7 +1798,7 @@
         },
         {
           "key": "runtimeOverlayIconHighlight",
-          "title": "Advanced > Multi-parts icon editor > Add highlight",
+          "title": "UI settings > Floating button > Multi-parts icon editor > Add highlight",
           "description": "Add a subtle glossy highlight to the upper-left of a Multi-parts icon.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -1798,7 +1807,7 @@
         },
         {
           "key": "runtimeOverlayIconGradientBackground",
-          "title": "Customize appearance > Icon > Gradient background",
+          "title": "UI settings > Floating button > Gradient background",
           "description": "Blend floating-icon background color 1 into color 2. When disabled, only color 1 is used.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -1807,7 +1816,7 @@
         },
         {
           "key": "runtimeOverlayButtonBackgroundColor",
-          "title": "Customize appearance > Icon > Background color 1",
+          "title": "UI settings > Floating button > Background color 1",
           "description": "First floating-icon background color.",
           "required": false,
           "type": "kotlin.String",
@@ -1816,7 +1825,7 @@
         },
         {
           "key": "runtimeOverlayIconBackgroundColor2",
-          "title": "Customize appearance > Icon > Background color 2",
+          "title": "UI settings > Floating button > Background color 2",
           "description": "Second floating-icon background color. Use #RRGGBB.",
           "required": false,
           "type": "kotlin.String",
@@ -1825,7 +1834,7 @@
         },
         {
           "key": "runtimeOverlayIconGradientAngle",
-          "title": "Customize appearance > Icon > Gradient angle (degrees)",
+          "title": "UI settings > Floating button > Gradient angle (degrees)",
           "description": "Gradient direction: 0 degrees runs top to bottom and 90 runs left to right. Values wrap through 360 degrees.",
           "required": false,
           "type": "kotlin.Int",
@@ -1834,7 +1843,7 @@
         },
         {
           "key": "runtimeOverlayIconBackgroundStyle",
-          "title": "Customize appearance > Icon > Background style",
+          "title": "UI settings > Floating button > Background style",
           "description": "Choose a flat floating-icon background or faceted angular layers. Faceted mode suits geometric icons such as Z.",
           "required": false,
           "type": "kotlin.String",
@@ -1846,7 +1855,7 @@
         },
         {
           "key": "runtimeOverlayIconBackgroundColor3",
-          "title": "Customize appearance > Icon > Background color 3",
+          "title": "UI settings > Floating button > Background color 3",
           "description": "Third color used by Faceted layers. It is ignored when Background style is Flat. Use #RRGGBB.",
           "required": false,
           "type": "kotlin.String",
@@ -1855,7 +1864,7 @@
         },
         {
           "key": "runtimeOverlayIconBackgroundColor4",
-          "title": "Customize appearance > Icon > Background color 4",
+          "title": "UI settings > Floating button > Background color 4",
           "description": "Fourth color used by Faceted layers. It is ignored when Background style is Flat. Use #RRGGBB.",
           "required": false,
           "type": "kotlin.String",
@@ -1864,7 +1873,7 @@
         },
         {
           "key": "runtimeOverlayIconOutline",
-          "title": "Customize appearance > Icon > Outline",
+          "title": "UI settings > Floating button > Outline",
           "description": "Add a separate outline around the floating icon.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -1873,7 +1882,7 @@
         },
         {
           "key": "runtimeOverlayIconOutlineWidthDp",
-          "title": "Customize appearance > Icon > Outline width (dp)",
+          "title": "UI settings > Floating button > Outline width (dp)",
           "description": "Floating-icon outline width from 1 to 8dp. This is separate from the menu outline.",
           "required": false,
           "type": "kotlin.Int",
@@ -1882,7 +1891,7 @@
         },
         {
           "key": "runtimeOverlayIconOutlineColor",
-          "title": "Customize appearance > Icon > Outline color",
+          "title": "UI settings > Floating button > Outline color",
           "description": "Color used only when the icon outline is enabled.",
           "required": false,
           "type": "kotlin.String",
@@ -1891,7 +1900,7 @@
         },
         {
           "key": "runtimeOverlayIconOutlineGradient",
-          "title": "Customize appearance > Icon > Outline gradient",
+          "title": "UI settings > Floating button > Outline gradient",
           "description": "Blend two colors around the floating-icon outline.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -1900,7 +1909,7 @@
         },
         {
           "key": "runtimeOverlayIconOutlineColor2",
-          "title": "Customize appearance > Icon > Outline color 2",
+          "title": "UI settings > Floating button > Outline color 2",
           "description": "Second outline color used when Outline gradient is enabled. Use #RRGGBB.",
           "required": false,
           "type": "kotlin.String",
@@ -1909,7 +1918,7 @@
         },
         {
           "key": "runtimeOverlayIconOutlineGradientAngle",
-          "title": "Customize appearance > Icon > Outline gradient angle (degrees)",
+          "title": "UI settings > Floating button > Outline gradient angle (degrees)",
           "description": "Direction of the icon outline gradient. 0 degrees runs top to bottom and 90 degrees runs left to right.",
           "required": false,
           "type": "kotlin.Int",
@@ -1918,7 +1927,7 @@
         },
         {
           "key": "runtimeOverlayCustomIconImage",
-          "title": "Quick setup > 3. Optional icon image > Local image",
+          "title": "Quick setup > Optional icon image > Local image",
           "description": "Select a local PNG, JPG, JPEG, or WebP image file. This input has priority over the String Handler input when valid. Images are embedded during patching and scaled proportionally. Any supplied image takes full precedence over Text and Multi-parts icon rendering.",
           "required": false,
           "type": "kotlin.String",
@@ -1927,7 +1936,7 @@
         },
         {
           "key": "runtimeOverlayCustomIconImageInput",
-          "title": "Quick setup > 3. Optional icon image > Base64 or HTTPS image",
+          "title": "Quick setup > Optional icon image > Base64 or HTTPS image",
           "description": "Optional non-local image input. Valid examples: <base64 string here>, data:image/png;base64,<base64 string here>, or an HTTPS image URL. For image-to-Base64 conversion, use https://base64.guru/converter/encode/image. Used only when the Local Image input is empty or invalid. A supplied image takes full precedence over Text and Multi-parts icon rendering.",
           "required": false,
           "type": "kotlin.String",
@@ -1936,7 +1945,7 @@
         },
         {
           "key": "runtimeOverlayButtonShape",
-          "title": "Customize appearance > Floating button > Shape",
+          "title": "UI settings > Floating button > Shape",
           "description": "Shape of the floating icon background.",
           "required": false,
           "type": "kotlin.String",
@@ -1949,7 +1958,7 @@
         },
         {
           "key": "runtimeOverlayButtonSizeDp",
-          "title": "Customize appearance > Floating button > Size (dp)",
+          "title": "UI settings > Floating button > Size (dp)",
           "description": "Button size in density-independent pixels.",
           "required": false,
           "type": "kotlin.Int",
@@ -1958,7 +1967,7 @@
         },
         {
           "key": "runtimeOverlayButtonIdleOpacityPercent",
-          "title": "Customize appearance > Floating button > Idle opacity (%)",
+          "title": "UI settings > Floating button > Idle opacity (%)",
           "description": "Idle opacity from 10 to 100 percent. Higher values make the button less transparent.",
           "required": false,
           "type": "kotlin.Int",
@@ -1967,7 +1976,7 @@
         },
         {
           "key": "runtimeOverlayButtonDragVisibilityDurationSeconds",
-          "title": "Customize appearance > Floating button > Fully visible duration (seconds)",
+          "title": "UI settings > Floating button > Fully visible duration (seconds)",
           "description": "How long the overlay button stays fully visible after dragging before fading to its idle opacity. The timer resets while dragging and starts again when the finger is released. Use a value from 1 to 10 seconds.",
           "required": false,
           "type": "kotlin.Int",
@@ -1976,7 +1985,7 @@
         },
         {
           "key": "runtimeOverlayButtonPosition",
-          "title": "Customize appearance > Floating button > Initial position",
+          "title": "UI settings > Floating button > Initial position",
           "description": "Initial floating button position.",
           "required": false,
           "type": "kotlin.String",
@@ -2038,17 +2047,8 @@
           "values": null
         },
         {
-          "key": "runtimeOverlayResetUiToDefaults",
-          "title": "Advanced > Reset > Reset UI to UniPatches default",
-          "description": "Use the built-in UniPatches UI for this patched APK, ignoring the selected preset, imported preset, and appearance fields. Modules and title/repository details are kept.",
-          "required": false,
-          "type": "kotlin.Boolean",
-          "default": false,
-          "values": null
-        },
-        {
           "key": "runtimeOverlayResetIconToText",
-          "title": "Advanced > Reset > Reset icon to text",
+          "title": "UI settings > Floating button > Reset icon to text",
           "description": "Use the configured text icon for this patched APK and ignore image and Multi-parts icon inputs.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2056,8 +2056,35 @@
           "values": null
         },
         {
+          "key": "runtimeOverlayImportUiPreset",
+          "title": "Quick setup > Import / export UI presets > Import UI preset",
+          "description": "Optional JSON UI preset path. This is for advanced reuse and works only with Custom (UniPatches defaults). A valid file overrides appearance settings for this build; an invalid file safely uses the visible settings instead.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "",
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayExportUiPreset",
+          "title": "Quick setup > Import / export UI presets > Export UI preset",
+          "description": "Optional existing folder for exporting the final Custom UI preset as JSON. Leave blank to disable. Export errors are logged and never stop patching.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "",
+          "values": null
+        },
+        {
+          "key": "runtimeOverlayExportedUiPresetOutputName",
+          "title": "Quick setup > Import / export UI presets > Export file name",
+          "description": "Name of the exported JSON file. The .json suffix is added when needed; duplicate names receive -1, -2, and so on.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "UniversalOverlay.json",
+          "values": null
+        },
+        {
           "key": "runtimeOverlayActivateStatisticsOnLaunch",
-          "title": "Quick setup > 2. Overlay modules > Monitor behavior > Activate statistics on launch",
+          "title": "Quick setup > Module settings > Monitor behavior > Activate statistics on launch",
           "description": "Start selected statistic modules as soon as the app launches. Active is disabled by default.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2066,7 +2093,7 @@
         },
         {
           "key": "runtimeOverlayShowNoModulesWarning",
-          "title": "Quick setup > 2. Overlay modules > General > Show empty-module message",
+          "title": "Quick setup > Module settings > General > Show empty-module message",
           "description": "Show a message in the overlay when no Statistic, Activity, Hook, app-specific, or integrated module is selected. Control App Ads modules count only when that patch was also configured and patched successfully.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2075,7 +2102,7 @@
         },
         {
           "key": "runtimeOverlayEnableMonitorsOnLaunch",
-          "title": "Quick setup > 2. Overlay modules > Monitor behavior > Enable monitors on launch",
+          "title": "Quick setup > Module settings > Monitor behavior > Enable monitors on launch",
           "description": "Show selected statistic monitors as soon as the app launches. Monitor is disabled by default.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2084,7 +2111,7 @@
         },
         {
           "key": "runtimeOverlayStatisticMonitorPosition",
-          "title": "Quick setup > 2. Overlay modules > Monitor behavior > Monitor position",
+          "title": "Quick setup > Module settings > Monitor behavior > Monitor position",
           "description": "Show enabled statistic monitors from statistic modules above or below the overlay button.",
           "required": false,
           "type": "kotlin.String",
@@ -2097,7 +2124,7 @@
         },
         {
           "key": "runtimeOverlayMonitorScale",
-          "title": "Quick setup > 2. Overlay modules > Monitor behavior > Monitor panel size",
+          "title": "Quick setup > Module settings > Monitor behavior > Monitor panel size",
           "description": "Size multiplier for statistic monitor panels.",
           "required": false,
           "type": "kotlin.String",
@@ -2112,7 +2139,7 @@
         },
         {
           "key": "runtimeOverlayMonitorColumns",
-          "title": "Quick setup > 2. Overlay modules > Monitor behavior > Monitor columns",
+          "title": "Quick setup > Module settings > Monitor behavior > Monitor columns",
           "description": "Number of statistic monitor columns.",
           "required": false,
           "type": "kotlin.String",
@@ -2125,7 +2152,7 @@
         },
         {
           "key": "runtimeOverlayTemperatureFormat",
-          "title": "Quick setup > 2. Overlay modules > Monitor behavior > Temperature format",
+          "title": "Quick setup > Module settings > Monitor behavior > Temperature format",
           "description": "Temperature unit used by the Device Temperature menu value and monitor.",
           "required": false,
           "type": "kotlin.String",
@@ -2138,7 +2165,7 @@
         },
         {
           "key": "runtimeOverlayTimeFormat",
-          "title": "Quick setup > 2. Overlay modules > Monitor behavior > Time format",
+          "title": "Quick setup > Module settings > Monitor behavior > Time format",
           "description": "Clock format used by the System Time menu value and monitor. Timezone is shown in the menu value.",
           "required": false,
           "type": "kotlin.String",
@@ -2150,7 +2177,7 @@
         },
         {
           "key": "runtimeOverlayIncludeDeviceInformation",
-          "title": "Quick setup > 2. Overlay modules > Monitor > Device information",
+          "title": "Quick setup > Overlay modules > Monitor > Device information",
           "description": "Include read-only phone and Android device information.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2159,7 +2186,7 @@
         },
         {
           "key": "runtimeOverlayIncludeFps",
-          "title": "Quick setup > 2. Overlay modules > Monitor > FPS",
+          "title": "Quick setup > Overlay modules > Monitor > FPS",
           "description": "Include the approximate display frame-rate statistic module.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2168,7 +2195,7 @@
         },
         {
           "key": "runtimeOverlayIncludeDeviceTemperature",
-          "title": "Quick setup > 2. Overlay modules > Monitor > Device temperature",
+          "title": "Quick setup > Overlay modules > Monitor > Device temperature",
           "description": "Include battery-reported temperature in the selected temperature format.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2177,7 +2204,7 @@
         },
         {
           "key": "runtimeOverlayIncludeSystemTime",
-          "title": "Quick setup > 2. Overlay modules > Monitor > System time",
+          "title": "Quick setup > Overlay modules > Monitor > System time",
           "description": "Include the phone system time statistic module.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2186,7 +2213,7 @@
         },
         {
           "key": "runtimeOverlayIncludeSessionTime",
-          "title": "Quick setup > 2. Overlay modules > Monitor > App session time",
+          "title": "Quick setup > Overlay modules > Monitor > App session time",
           "description": "Include the in-process overlay session timer statistic module.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2195,7 +2222,7 @@
         },
         {
           "key": "runtimeOverlayIncludeBatteryStatus",
-          "title": "Quick setup > 2. Overlay modules > Monitor > Battery status",
+          "title": "Quick setup > Overlay modules > Monitor > Battery status",
           "description": "Include the current battery percentage statistic module.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2204,7 +2231,7 @@
         },
         {
           "key": "runtimeOverlayIncludeAppMemory",
-          "title": "Quick setup > 2. Overlay modules > Monitor > App memory usage",
+          "title": "Quick setup > Overlay modules > Monitor > App memory usage",
           "description": "Include approximate memory used by the current app process.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2213,7 +2240,7 @@
         },
         {
           "key": "runtimeOverlayIncludeNetworkStatus",
-          "title": "Quick setup > 2. Overlay modules > Monitor > Network status",
+          "title": "Quick setup > Overlay modules > Monitor > Network status",
           "description": "Include incoming and outgoing app network traffic monitors.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2222,7 +2249,7 @@
         },
         {
           "key": "runtimeOverlayIncludeKeepScreenAwake",
-          "title": "Quick setup > 2. Overlay modules > Activity controls > Keep screen awake",
+          "title": "Quick setup > Overlay modules > Activity controls > Keep screen awake",
           "description": "Include the keep-screen-awake activity module.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2231,7 +2258,7 @@
         },
         {
           "key": "runtimeOverlayIncludeFullscreen",
-          "title": "Quick setup > 2. Overlay modules > Activity controls > Fullscreen",
+          "title": "Quick setup > Overlay modules > Activity controls > Fullscreen",
           "description": "Include the fullscreen activity module.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2240,7 +2267,7 @@
         },
         {
           "key": "runtimeOverlayIncludeScreenshots",
-          "title": "Quick setup > 2. Overlay modules > Activity controls > Allow screenshots",
+          "title": "Quick setup > Overlay modules > Activity controls > Allow screenshots",
           "description": "Include the allow-screenshots activity module.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2249,7 +2276,7 @@
         },
         {
           "key": "runtimeOverlayIncludeAppBrightness",
-          "title": "Quick setup > 2. Overlay modules > Activity controls > App brightness",
+          "title": "Quick setup > Overlay modules > Activity controls > App brightness",
           "description": "Include a per-Activity brightness slider.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2258,7 +2285,7 @@
         },
         {
           "key": "runtimeOverlayIncludeRotationMode",
-          "title": "Quick setup > 2. Overlay modules > Activity controls > Rotation mode",
+          "title": "Quick setup > Overlay modules > Activity controls > Rotation mode",
           "description": "Include a per-Activity rotation mode selector.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2267,7 +2294,7 @@
         },
         {
           "key": "runtimeOverlayIncludeAppAudioMute",
-          "title": "Quick setup > 2. Overlay modules > Activity controls > App audio mute",
+          "title": "Quick setup > Overlay modules > Activity controls > App audio mute",
           "description": "Include a best-effort app audio mute toggle.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2276,7 +2303,7 @@
         },
         {
           "key": "runtimeOverlayIncludeDisableHaptics",
-          "title": "Advanced > Hook modules > Disable haptic feedback / vibrations",
+          "title": "Quick setup > Overlay modules > Hook modules > Disable haptic feedback / vibrations",
           "description": "Risk: broad runtime hook. Include a best-effort haptic and vibration suppression module only if the app needs it.",
           "required": false,
           "type": "kotlin.Boolean",
@@ -2285,38 +2312,11 @@
         },
         {
           "key": "runtimeOverlayIncludeDisableAnimations",
-          "title": "Advanced > Hook modules > Disable app animations",
+          "title": "Quick setup > Overlay modules > Hook modules > Disable app animations",
           "description": "Risk: broad runtime hook. Include a best-effort animation suppression module only if the app needs it.",
           "required": false,
           "type": "kotlin.Boolean",
           "default": false,
-          "values": null
-        },
-        {
-          "key": "runtimeOverlayImportUiPreset",
-          "title": "Advanced > Import / export > Import UI preset",
-          "description": "Optional JSON UI preset path. This is for advanced reuse and works only with Custom (UniPatches defaults). A valid file overrides appearance settings for this build; an invalid file safely uses the visible settings instead.",
-          "required": false,
-          "type": "kotlin.String",
-          "default": "",
-          "values": null
-        },
-        {
-          "key": "runtimeOverlayExportUiPreset",
-          "title": "Advanced > Import / export > Export UI preset",
-          "description": "Optional existing folder for exporting the final Custom UI preset as JSON. Leave blank to disable. Export errors are logged and never stop patching.",
-          "required": false,
-          "type": "kotlin.String",
-          "default": "",
-          "values": null
-        },
-        {
-          "key": "runtimeOverlayExportedUiPresetOutputName",
-          "title": "Advanced > Import / export > Export file name",
-          "description": "Name of the exported JSON file. The .json suffix is added when needed; duplicate names receive -1, -2, and so on.",
-          "required": false,
-          "type": "kotlin.String",
-          "default": "UniversalOverlay.json",
           "values": null
         }
       ]

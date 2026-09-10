@@ -238,7 +238,7 @@
     "name": "BlazeFTL Patches",
     "github": {
       "main": "fd47c89bb324242f8062c1b02cc7c150514b57b82455df562cf7ff91c2102c4f",
-      "dev": "df5cb46d6a20d56ba2437265469d5a755abd1c65b17c0c7eabc863918bf472c1"
+      "dev": "e05cb11ccd86992b1bb5c753951b2ac43a0d67b646e255356d994afc31b150be"
     }
   },
   "BlazeFTL/Morphe-Portal-Patches-New": {
@@ -364,7 +364,7 @@
   "crimera/piko-newx": {
     "name": "Piko",
     "github": {
-      "main": "eb6e09314d0a2833142e32167981d4677ffe3efbafe826daf55e1dac993046bf",
+      "main": "76ac7bd71e82a664f9adaa6a19de22d5dcc3d3fc630acd838251e97c7bf66821",
       "dev": null
     }
   },
@@ -378,7 +378,7 @@
   "d0nj/morphe-patches": {
     "name": "d0nj Patches",
     "github": {
-      "main": "ed383260b014234685c41129ec41d3ed26e0d6c57a8ce650435997f20a74bb12",
+      "main": "ad5affb12b7c791d3fa45cfd0ba7b71056cb5e8f2fddcd6734d1e0dcea5d0b4d",
       "dev": null
     }
   },
@@ -955,8 +955,8 @@
   "logm1lo/logm1lo-patches": {
     "name": "Logm1lo Patches",
     "github": {
-      "main": "316f7b0d08d85b6f943ff2629f8334d70599f69a4e8882168f03fb4cb1303db3",
-      "dev": "316f7b0d08d85b6f943ff2629f8334d70599f69a4e8882168f03fb4cb1303db3",
+      "main": "ea25f697bc1f270b62940157aa180a599be99ae89867d41c85c4be5ef296b506",
+      "dev": "dec7b6820b6cae10e02da3298ce9c233b1961f9287e898864ede7f8712a944e8",
       "image": "fa4e479b38915420affd9f6f95cb1cec05a75c99b1aa77d288c136f2fcbcc5b7"
     }
   },
@@ -1372,7 +1372,7 @@
   "SysAdminDoc/hushfeed": {
     "name": "Hushfeed",
     "github": {
-      "main": "aeb920f36ae8bb3b232f03e34575f29cf5c6ecddbf07aaa37a6bbc2a0216a07a",
+      "main": "cc82240c28a1702a43807db367dd70bec51d01c9ab226f1fd4bbd8cf9354dfe2",
       "dev": null,
       "image": "4d092c078217f40dceb3b85b29d4c3f23e2a1cf3e46e32942b094d1e80453e31"
     }
@@ -1436,8 +1436,8 @@
   "variablenine/morphe-patches": {
     "name": "variablenine Patches",
     "github": {
-      "main": "953c2a85e1946f8255d51ee3ab32d98edd34f2d51b2baf98ddee653a49f10efe",
-      "dev": "953c2a85e1946f8255d51ee3ab32d98edd34f2d51b2baf98ddee653a49f10efe"
+      "main": "eca6e9accd4cd47d3880fe2fb52bb5d40a6f65356df33ddf5a4cf966c7bf140f",
+      "dev": "eca6e9accd4cd47d3880fe2fb52bb5d40a6f65356df33ddf5a4cf966c7bf140f"
     }
   },
   "vladon/morphe-patches-navi": {
@@ -1515,8 +1515,8 @@
   "Zanuaimi/UniPatches": {
     "name": "Zanuaimi's UniPatches",
     "github": {
-      "main": "b74cbd450b6be00ee9026d8e685ca1cbc20e8c8e0d710736acdd782372db516c",
-      "dev": "b74cbd450b6be00ee9026d8e685ca1cbc20e8c8e0d710736acdd782372db516c",
+      "main": "0ed5643e5bd0c1a630bc662ee568fec77cb1b6fe527114812aca539b85c91c29",
+      "dev": "0ed5643e5bd0c1a630bc662ee568fec77cb1b6fe527114812aca539b85c91c29",
       "image": "d6033284f266e11ce96e3c2b4eb7a147f0a977ca25dca1d09bab05319dab5907"
     }
   },

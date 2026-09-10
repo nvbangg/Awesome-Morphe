@@ -27,7 +27,7 @@
       "appFirstSeen": {
         "com.Splitwise.SplitwiseMobile": 1777489987000
       },
-      "hotRank": 127
+      "hotRank": 126
     },
     {
       "source": "github",
@@ -160,7 +160,7 @@
       "appFirstSeen": {
         "com.isaakhanimann.journal": 1788373865104
       },
-      "hotRank": 63
+      "hotRank": 64
     },
     {
       "source": "github",
@@ -512,7 +512,7 @@
         "jp.co.sony.mc.cameraapp": 1788648088779,
         "com.sonymobile.photopro": 1788648088779
       },
-      "hotRank": 62
+      "hotRank": 65
     },
     {
       "source": "github",
@@ -558,7 +558,7 @@
       "appFirstSeen": {
         "com.theclashsoft.sofatime": 1785522950930
       },
-      "hotRank": 55
+      "hotRank": 56
     },
     {
       "source": "github",
@@ -691,7 +691,7 @@
         "com.android.chrome": 1787040197454,
         "com.pixilart.app": 1787040197454
       },
-      "hotRank": 65
+      "hotRank": 66
     },
     {
       "source": "github",
@@ -1990,7 +1990,7 @@
       "appFirstSeen": {
         "jp.naver.line.android": 1785099401187
       },
-      "hotRank": 13
+      "hotRank": 12
     },
     {
       "source": "github",
@@ -2398,7 +2398,7 @@
       "appFirstSeen": {
         "com.valvesoftware.steamlinkvr": 1786091478160
       },
-      "hotRank": 50
+      "hotRank": 49
     },
     {
       "source": "github",
@@ -2481,7 +2481,7 @@
       "appFirstSeen": {
         "com.alightcreative.motion": 1787300539778
       },
-      "hotRank": 73
+      "hotRank": 74
     },
     {
       "source": "github",
@@ -3045,7 +3045,7 @@
       "appFirstSeen": {
         "com.stremio.one": 1787731056985
       },
-      "hotRank": 92
+      "hotRank": 94
     },
     {
       "source": "github",
@@ -3104,7 +3104,7 @@
         "com.persapps.multitimer": 1782053444148,
         "com.ihealthlabs.MyVitalsPro": 1782053444148
       },
-      "hotRank": 133
+      "hotRank": 132
     },
     {
       "source": "github",
@@ -3150,7 +3150,7 @@
       "appFirstSeen": {
         "com.transsion.oraimohealth": 1788248708781
       },
-      "hotRank": 81
+      "hotRank": 82
     },
     {
       "source": "github",
@@ -3321,7 +3321,7 @@
         "com.ufovpn.connect.velnet": 1781596395094,
         "com.vpn.free.hotspot.secure.vpnify": 1781425538311
       },
-      "hotRank": 54
+      "hotRank": 55
     },
     {
       "source": "github",
@@ -3359,7 +3359,7 @@
       "appFirstSeen": {
         "com.sec.android.app.shealth": 1782236339824
       },
-      "hotRank": 84
+      "hotRank": 85
     },
     {
       "source": "github",
@@ -3468,7 +3468,7 @@
         "app.symfonik.music.player": 1776003728000,
         "org.withouthat.acalendar": 1776003728000
       },
-      "hotRank": 76
+      "hotRank": 77
     },
     {
       "source": "github",
@@ -4140,7 +4140,7 @@
         "abdelrahman.wifianalyzerpro"
       ],
       "stars": 26,
-      "updatedAt": 1788912000000,
+      "updatedAt": 1788998400000,
       "firstSeen": 1786267928590,
       "appFirstSeen": {
         "com.mxtech.videoplayer.ad": 1788533864792,
@@ -4160,7 +4160,7 @@
         "com.tester.wpswpatester": 1788107891385,
         "abdelrahman.wifianalyzerpro": 1788086505110
       },
-      "hotRank": 20
+      "hotRank": 22
     },
     {
       "source": "github",
@@ -4733,7 +4733,7 @@
         "com.dynamixsoftware.printershare": 1788377566976,
         "com.veewalabs.unitconverter": 1788405750997
       },
-      "hotRank": 77
+      "hotRank": 78
     },
     {
       "source": "github",
@@ -5267,7 +5267,7 @@
         "com.generalcomp.truecloud": 1783246898450,
         "com.nekki.vector": 1787150036176
       },
-      "hotRank": 12
+      "hotRank": 13
     },
     {
       "source": "github",
@@ -5412,7 +5412,7 @@
       "appFirstSeen": {
         "com.anime.witcher": 1787957215907
       },
-      "hotRank": 57
+      "hotRank": 58
     },
     {
       "source": "github",
@@ -5632,7 +5632,7 @@
         "com.x8bit.bitwarden": 1785156172223,
         "com.instagram.android": 1787989042119
       },
-      "hotRank": 42
+      "hotRank": 40
     },
     {
       "source": "github",
@@ -6545,7 +6545,7 @@
         "com.instagram.android": 1788480000000,
         "com.twitter.android": 1788998400000
       },
-      "stars": 5195,
+      "stars": 5196,
       "updatedAt": 1788998400000,
       "firstSeen": 1773154796000,
       "appFirstSeen": {
@@ -6641,13 +6641,13 @@
         "com.thien.novelreader"
       ],
       "stars": 5,
-      "updatedAt": 1788912000000,
+      "updatedAt": 1788998400000,
       "firstSeen": 1785585418458,
       "appFirstSeen": {
         "bitpit.launcher": 1788969841538,
         "com.thien.novelreader": 1785585418458
       },
-      "hotRank": 46
+      "hotRank": 53
     },
     {
       "source": "github",
@@ -6825,7 +6825,7 @@
         "com.fitness.debugger": 1787811911189,
         "com.izorg.munchkin": 1788751211745
       },
-      "hotRank": 59
+      "hotRank": 60
     },
     {
       "source": "github",
@@ -6859,7 +6859,7 @@
       "appFirstSeen": {
         "com.gdjztech.ringconn": 1788861307176
       },
-      "hotRank": 41
+      "hotRank": 43
     },
     {
       "source": "github",
@@ -6952,7 +6952,7 @@
         "com.brave.browser_nightly": 1786104963166,
         "io.github.jqssun.helium": 1786104963166
       },
-      "hotRank": 21
+      "hotRank": 20
     },
     {
       "source": "github",
@@ -7046,7 +7046,7 @@
         "com.google.android.apps.magazines": 1785149331689,
         "com.ebay.kleinanzeigen": 1785149331689
       },
-      "hotRank": 58
+      "hotRank": 59
     },
     {
       "source": "github",
@@ -9297,7 +9297,7 @@
         "dmytro.palamarchuk.dailyreminder": 1788562708557,
         "com.notch.touch": 1788562708557
       },
-      "hotRank": 87
+      "hotRank": 88
     },
     {
       "source": "github",
@@ -9337,7 +9337,7 @@
       "appFirstSeen": {
         "com.spotify.tv.android": 1788861816351
       },
-      "hotRank": 35
+      "hotRank": 39
     },
     {
       "source": "github",
@@ -9377,7 +9377,7 @@
       "appFirstSeen": {
         "com.letterboxd.letterboxd": 1784100903208
       },
-      "hotRank": 93
+      "hotRank": 92
     },
     {
       "source": "github",
@@ -9596,7 +9596,7 @@
         "com.rawcam.app": 1785468401751,
         "com.bolpatranepal.axios": 1786889351093
       },
-      "hotRank": 32
+      "hotRank": 33
     },
     {
       "source": "github",
@@ -9695,7 +9695,7 @@
       "appFirstSeen": {
         "ru.vk.store": 1787957737967
       },
-      "hotRank": 85
+      "hotRank": 87
     },
     {
       "source": "github",
@@ -9724,7 +9724,7 @@
       "appFirstSeen": {
         "io.strongapp.strong": 1785869599168
       },
-      "hotRank": 94
+      "hotRank": 93
     },
     {
       "source": "github",
@@ -9818,7 +9818,7 @@
       "appFirstSeen": {
         "com.sankakucomplex.channel.black": 1782472442332
       },
-      "hotRank": 72
+      "hotRank": 73
     },
     {
       "source": "github",
@@ -10000,7 +10000,7 @@
         "no.fishbuddy_playground.app": 1787189112876,
         "com.myfitnesspal.android": 1787164158548
       },
-      "hotRank": 78
+      "hotRank": 79
     },
     {
       "source": "github",
@@ -10046,7 +10046,7 @@
       "appFirstSeen": {
         "com.markatlarge.scrub": 1787386528816
       },
-      "hotRank": 131
+      "hotRank": 133
     },
     {
       "source": "github",
@@ -10158,7 +10158,7 @@
         "com.techkitlabs.movieparadise": 1785616305457,
         "com.astrapaging.vff": 1786984311736
       },
-      "hotRank": 79
+      "hotRank": 81
     },
     {
       "source": "github",
@@ -10825,7 +10825,7 @@
         "com.sofascore.results": 1771804800000,
         "cn.wps.moffice_eng": 1771286400000
       },
-      "stars": 1077,
+      "stars": 1078,
       "updatedAt": 1788739200000,
       "firstSeen": 1768941201000,
       "appFirstSeen": {
@@ -11048,7 +11048,7 @@
       "appFirstSeen": {
         "com.eksiteknoloji.eksisozluk": 1777893988000
       },
-      "hotRank": 118
+      "hotRank": 117
     },
     {
       "source": "github",
@@ -11351,7 +11351,7 @@
         "app.symfonik.music.player": 1786782790781,
         "com.streetwriters.notesnook": 1787505654989
       },
-      "hotRank": 9
+      "hotRank": 10
     },
     {
       "source": "github",
@@ -11725,7 +11725,7 @@
       "appFirstSeen": {
         "jp.nicovideo.nicobox": 1784887231838
       },
-      "hotRank": 75
+      "hotRank": 76
     },
     {
       "source": "gitlab",
@@ -11888,7 +11888,7 @@
         "com.laurencedawson.reddit_sync": 1781583945043,
         "tv.trakt.trakt": 1779377400000
       },
-      "hotRank": 88
+      "hotRank": 89
     },
     {
       "source": "github",
@@ -11929,7 +11929,7 @@
       "appFirstSeen": {
         "com.july.cricinfo": 1786994310888
       },
-      "hotRank": 126
+      "hotRank": 127
     },
     {
       "source": "github",
@@ -12285,7 +12285,7 @@
       "appUpdates": {
         "com.google.android.inputmethod.latin": 1788307200000
       },
-      "stars": 429,
+      "stars": 430,
       "updatedAt": 1788220800000,
       "firstSeen": 1775543003000,
       "appFirstSeen": {
@@ -13139,7 +13139,7 @@
       "appFirstSeen": {
         "com.discord": 1788648118660
       },
-      "hotRank": 51
+      "hotRank": 50
     },
     {
       "source": "github",
@@ -13213,6 +13213,12 @@
           "compatiblePackagesKey": 429
         },
         {
+          "name": "Swipe up diagnostic (temporary)",
+          "description": "Diagnostic build only. Swipe up on a key to delete a character, which proves whether the swipe gesture is being detected at all. Do not enable this at the same time as \"Swipe up to undo autocorrect\" — they attach to the same place and you would get both effects. Off by default, and this patch will be removed once it has answered its question.",
+          "preRelease": true,
+          "compatiblePackagesKey": 429
+        },
+        {
           "name": "Swipe up to undo autocorrect",
           "description": "Swipe up on the keyboard to put back the word an autocorrect replaced. Gboard has the same undo on backspace, behind a setting; this adds a gesture for it and works whether or not that setting is on. A swipe with nothing to undo does nothing. Off by default until it has been confirmed on a device.",
           "preRelease": true,
@@ -13222,14 +13228,14 @@
       "changelogUrl": "https://raw.githubusercontent.com/JZ6/Flexboard/dev/CHANGELOG.md",
       "avatarUrl": "https://avatars.githubusercontent.com/u/10971263?v=4&size=168",
       "deepLink": "https://morphe.software/add-source?github=JZ6/Flexboard",
-      "patchCount": 12,
+      "patchCount": 13,
       "targetApps": [
         "com.google.android.inputmethod.latin"
       ],
       "appUpdates": {
         "com.google.android.inputmethod.latin": 1788998400000
       },
-      "stars": 23,
+      "stars": 24,
       "updatedAt": 1788998400000,
       "firstSeen": 1786958060481,
       "appFirstSeen": {
@@ -13741,7 +13747,7 @@
         "jp.pxv.android": 1787212251235,
         "io.github.sds100.keymapper": 1784342313600
       },
-      "hotRank": 29
+      "hotRank": 30
     },
     {
       "source": "github",
@@ -13928,7 +13934,7 @@
         "com.brightstripe.parcels": 1781464495354,
         "com.yazio.android": 1781351420963
       },
-      "hotRank": 18
+      "hotRank": 16
     },
     {
       "source": "github",
@@ -13987,7 +13993,7 @@
       "appFirstSeen": {
         "mam.reader.ipusnas": 1786949281955
       },
-      "hotRank": 49
+      "hotRank": 48
     },
     {
       "source": "github",
@@ -14331,7 +14337,7 @@
         "com.brave.browser": 1787303946650,
         "com.vivaldi.browser.snapshot": 1787902864057
       },
-      "hotRank": 10
+      "hotRank": 9
     },
     {
       "source": "github",
@@ -14410,7 +14416,7 @@
         "com.instapaper.android": 1783552202503,
         "com.jndapp.depth.live.wallpaper": 1781162568074
       },
-      "hotRank": 117
+      "hotRank": 118
     },
     {
       "source": "github",
@@ -14515,7 +14521,7 @@
         "com.nekki.shadowfight": 1788319107459,
         "com.mediocre.smashhit": 1787845534294
       },
-      "hotRank": 37
+      "hotRank": 35
     },
     {
       "source": "github",
@@ -14574,7 +14580,7 @@
       "appFirstSeen": {
         "com.nuvio.tv": 1785919858436
       },
-      "hotRank": 48
+      "hotRank": 47
     },
     {
       "source": "github",
@@ -14615,7 +14621,7 @@
       "appFirstSeen": {
         "com.stremio.one": 1787647391952
       },
-      "hotRank": 83
+      "hotRank": 84
     },
     {
       "source": "github",
@@ -14658,14 +14664,17 @@
         "com.calistree.calistree",
         "com.jeffprod.cubesolver"
       ],
+      "appUpdates": {
+        "com.calistree.calistree": 1788998400000
+      },
       "stars": 8,
-      "updatedAt": 1786147200000,
+      "updatedAt": 1788998400000,
       "firstSeen": 1785926248177,
       "appFirstSeen": {
         "com.calistree.calistree": 1785926248177,
         "com.jeffprod.cubesolver": 1786153262639
       },
-      "hotRank": 89
+      "hotRank": 52
     },
     {
       "source": "github",
@@ -14708,13 +14717,13 @@
       "targetApps": [
         "com.soundcloud.android"
       ],
-      "stars": 1,
+      "stars": 2,
       "updatedAt": 1788048000000,
       "firstSeen": 1788861015980,
       "appFirstSeen": {
         "com.soundcloud.android": 1788861015980
       },
-      "hotRank": 43
+      "hotRank": 42
     },
     {
       "source": "github",
@@ -14948,7 +14957,7 @@
         "com.feralinteractive.laracroftgol_android": 1788793543722,
         "com.mad.DuckLifeSpace": 1788799329551
       },
-      "hotRank": 31
+      "hotRank": 32
     },
     {
       "source": "github",
@@ -15038,7 +15047,7 @@
       "appFirstSeen": {
         "com.letterboxd.letterboxd": 1788505551121
       },
-      "hotRank": 22
+      "hotRank": 21
     },
     {
       "source": "github",
@@ -18760,7 +18769,7 @@
       "targetApps": [
         "com.bandcamp.android"
       ],
-      "stars": 512,
+      "stars": 514,
       "updatedAt": 1788739200000,
       "firstSeen": 1783021319050,
       "appFirstSeen": {
@@ -18828,7 +18837,7 @@
         "com.ddsx_ayla_android": 1787262235126,
         "com.crunchyroll.crunchyroid": 1783420111086
       },
-      "hotRank": 60
+      "hotRank": 61
     },
     {
       "source": "github",
@@ -18893,7 +18902,7 @@
       "appFirstSeen": {
         "com.iptvprostreamplayer.v1": 1788086575215
       },
-      "hotRank": 64
+      "hotRank": 63
     },
     {
       "source": "github",
@@ -18922,7 +18931,7 @@
       "appFirstSeen": {
         "com.teamsnap.teamsnap": 1782279314009
       },
-      "hotRank": 132
+      "hotRank": 131
     },
     {
       "source": "gitlab",
@@ -19382,7 +19391,7 @@
       "targetApps": [
         "app.affine.pro"
       ],
-      "stars": 1,
+      "stars": 2,
       "updatedAt": 1788825600000,
       "firstSeen": 1788861442068,
       "appFirstSeen": {
@@ -19529,13 +19538,13 @@
       "appUpdates": {
         "com.chess": 1787529600000
       },
-      "stars": 65,
+      "stars": 67,
       "updatedAt": 1787529600000,
       "firstSeen": 1782804287706,
       "appFirstSeen": {
         "com.chess": 1782804287706
       },
-      "hotRank": 34
+      "hotRank": 29
     },
     {
       "source": "github",
@@ -19631,7 +19640,7 @@
       "appFirstSeen": {
         "com.microsoft.emmx": 1780738576635
       },
-      "hotRank": 56
+      "hotRank": 57
     },
     {
       "source": "github",
@@ -19717,7 +19726,7 @@
         "ru.bpc.mobilebank.bpc": 1786703409649,
         "com.algeria.selfcare.app.android": 1786703409649
       },
-      "hotRank": 67
+      "hotRank": 68
     },
     {
       "source": "github",
@@ -19791,7 +19800,7 @@
       "appFirstSeen": {
         "com.sony.songpal.mdr": 1787845534294
       },
-      "hotRank": 74
+      "hotRank": 75
     },
     {
       "source": "github",
@@ -19888,7 +19897,7 @@
         "com.rubenmayayo.reddit": 1787469691074,
         "com.fivemobile.thescore": 1787469691074
       },
-      "hotRank": 82
+      "hotRank": 83
     },
     {
       "source": "github",
@@ -20703,7 +20712,7 @@
       "appFirstSeen": {
         "com.battlelancer.seriesguide": 1785869077043
       },
-      "hotRank": 53
+      "hotRank": 54
     },
     {
       "source": "github",
@@ -23084,7 +23093,7 @@
         "com.google.android.verifier": 1787097600000,
         "com.facebook.orca": 1786924800000
       },
-      "stars": 617,
+      "stars": 619,
       "updatedAt": 1788825600000,
       "firstSeen": 1780395687718,
       "appFirstSeen": {
@@ -24448,7 +24457,7 @@
       "stars": 38,
       "updatedAt": 1784246400000,
       "firstSeen": 1784191866679,
-      "hotRank": 33
+      "hotRank": 34
     },
     {
       "source": "github",
@@ -24547,7 +24556,7 @@
         "com.google.android.googlequicksearchbox": 1788729322625,
         "com.google.android.apps.bard": 1788729322625
       },
-      "hotRank": 68
+      "hotRank": 70
     },
     {
       "source": "github",
@@ -24854,7 +24863,7 @@
         "com.marsvard.stickermakerforwhatsapp": 1787614808700,
         "com.vpnbottle.melon.free.unblock.fast.vpn": 1787648170434
       },
-      "hotRank": 52
+      "hotRank": 51
     },
     {
       "source": "github",
@@ -24960,7 +24969,7 @@
       "appFirstSeen": {
         "com.pinterest": 1784136283489
       },
-      "hotRank": 39
+      "hotRank": 37
     },
     {
       "source": "github",
@@ -25043,7 +25052,7 @@
       "appFirstSeen": {
         "com.honda.ms.dm.sab": 1787957215907
       },
-      "hotRank": 104
+      "hotRank": 105
     },
     {
       "source": "github",
@@ -25072,7 +25081,7 @@
       "appFirstSeen": {
         "com.imgur.mobile": 1786436060614
       },
-      "hotRank": 105
+      "hotRank": 104
     },
     {
       "source": "github",
@@ -25163,7 +25172,7 @@
         "com.roasterygames.devicestycoon": 1784887231838,
         "com.candywriter.bitlife": 1786886780404
       },
-      "hotRank": 71
+      "hotRank": 72
     },
     {
       "source": "github",
@@ -25349,7 +25358,7 @@
       "appFirstSeen": {
         "com.soundcloud.android": 1787782574232
       },
-      "hotRank": 66
+      "hotRank": 67
     },
     {
       "source": "github",
@@ -25868,7 +25877,7 @@
         "org.cygnusx1.continuum": 1767402720000,
         "me.edgan.redditslide": 1767402720000
       },
-      "hotRank": 30
+      "hotRank": 31
     },
     {
       "source": "github",
@@ -25978,7 +25987,7 @@
         "com.amazon.amazonvideo.livingroom": 1788338197155,
         "com.graymatrix.did": 1786703322126
       },
-      "hotRank": 47
+      "hotRank": 46
     },
     {
       "source": "github",
@@ -26281,7 +26290,7 @@
         "ru.ozon.app.android": 1778236605000,
         "com.wildberries.ru": 1778236605000
       },
-      "hotRank": 16
+      "hotRank": 18
     },
     {
       "source": "github",
@@ -26327,7 +26336,7 @@
         "com.robskie.tether": 1787469911694,
         "com.google.android.inputmethod.latin": 1788015971071
       },
-      "hotRank": 61
+      "hotRank": 62
     },
     {
       "source": "github",
@@ -26362,7 +26371,7 @@
       "appFirstSeen": {
         "br.com.zetabit.ios_standby": 1786476836015
       },
-      "hotRank": 70
+      "hotRank": 71
     },
     {
       "source": "github",
@@ -26397,7 +26406,7 @@
       "appFirstSeen": {
         "fr.keepcool.memberapp": 1788861273649
       },
-      "hotRank": 40
+      "hotRank": 41
     }
   ],
   "store": {
@@ -26772,8 +26781,10 @@
     },
     "com.footej.camera": {
       "name": "Footej Camera",
-      "category": "Other",
-      "firstSeen": 1788986100457
+      "category": "Photography & Design",
+      "firstSeen": 1788986100457,
+      "iconUrl": "https://play-lh.googleusercontent.com/Tm_Mg1mucvMWrTBGVnlBoZk0CJ_zzx4RwxdJLoKNimuYl0EjIrfOsK8CJ8vAOb7PgNtDHwmfRsTwHHITeihi=s128-rw",
+      "description": "The most simple yet powerful camera 2 app to capture your favorite moments!"
     },
     "com.clusterdev.malayalamkeyboard": {
       "name": "Manglish Keyboard",
@@ -34440,9 +34451,7 @@
         "packageName": "bitpit.launcher",
         "name": "Niagara Launcher",
         "targets": [
-          {
-            "version": "1.16.23"
-          }
+          {}
         ]
       }
     ],
@@ -37946,6 +37955,9 @@
         "targets": [
           {
             "version": "5.8.5"
+          },
+          {
+            "version": "5.9.1"
           }
         ]
       }
