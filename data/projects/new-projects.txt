@@ -1,9 +1,0 @@
-https://github.com/AndreFrelicot/morpher91
-https://github.com/HeyDunaX/MorpheL
-https://github.com/Hirvi86/youtube-morphe-mirror
-https://github.com/gnznovus/morpher
-https://github.com/DiegoCordova7/morphe-runtime
-https://github.com/Psyquix/Morphe
-https://github.com/JamesMorphed/morphed-website
-https://github.com/vomw/MorpheApp-MicroG-RE
-https://github.com/vomw/morphe-desktop

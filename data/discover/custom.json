@@ -62,10 +62,6 @@
   "https://github.com/heval99/Heval-Morphe-Patches": {
     "note": "Automatically added by GitHub Actions (Redirected/Renamed from heval99/morphe-patches)"
   },
-  "https://github.com/Burhanverse/test": {
-    "enabled": false,
-    "note": "Test Repository"
-  },
   "https://github.com/liongalahad/liongalahad-nuviotv-morphe-patches": {
     "note": "Automatically added by GitHub Actions (Redirected/Renamed from liongalahad/nuviotv-morphe-patches)"
   },
@@ -75,9 +71,5 @@
   },
   "https://github.com/liongalahad/liongalahad-stremio-morphe-patches": {
     "note": "Automatically added by GitHub Actions (Redirected/Renamed from liongalahad/stremio-androidTV-morphe-patches)"
-  },
-  "https://github.com/vomw/morphe-patches": {
-    "enabled": false,
-    "note": "Unavailable"
   }
 }
