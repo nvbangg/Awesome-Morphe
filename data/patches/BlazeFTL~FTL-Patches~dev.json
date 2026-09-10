@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.44.0-dev.44",
+  "version": "1.44.0-dev.47",
   "patches": [
     {
       "name": "APK Junk Cleanup",
@@ -505,6 +505,24 @@
       ]
     },
     {
+      "name": "DPI Resource Slimmer New",
+      "description": "Strips unselected screen density resource directories from res/ (e.g. drawable-mdpi, drawable-hdpi, mipmap-xhdpi). Density-independent resources (nodpi, anydpi) and orphan resources are safely preserved.",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": null,
+      "options": [
+        {
+          "key": "dpis",
+          "title": "DPI densities to keep",
+          "description": "Comma-separated screen densities to preserve (e.g. 'xxhdpi', 'xhdpi, xxhdpi', 'xxxhdpi'). Density-independent resources (nodpi, anydpi) and unquantified base directories are always preserved.",
+          "required": false,
+          "type": "kotlin.String",
+          "default": "xxhdpi",
+          "values": null
+        }
+      ]
+    },
+    {
       "name": "Disable Annoying Snaptube Notifications",
       "description": "Turns off the Toolbar, Recommended contents, and Tool notifications channels by default.",
       "default": false,
@@ -985,6 +1003,14 @@
       "options": []
     },
     {
+      "name": "PNG Asset Optimizer New",
+      "description": "Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.",
+      "default": false,
+      "dependencies": [],
+      "compatiblePackages": null,
+      "options": []
+    },
+    {
       "name": "Png Optimizer",
       "description": "Compresses PNG images without losing quality and strips hidden metadata (DPI, timestamps, text) to make the app smaller. Only rewrites files when the result is actually smaller.",
       "default": false,
@@ -1085,7 +1111,7 @@
         {
           "key": "targetDensity",
           "title": "Target density",
-          "description": "Density bucket to prefer for drawables and other non-mipmap resources; duplicates are stripped from every other bucket. If a particular resource was never shipped at this density, the next higher density available for it is kept instead, falling back to a lower one only if nothing higher exists either. Mipmaps ignore this and always keep their highest-quality copy.",
+          "description": "Density bucket to prefer for images and other graphics; duplicates are stripped from every other bucket. If a particular resource was never shipped at this density, the next higher density available for it is kept instead, falling back to a lower one only if nothing higher exists either. Launcher icons ignore this setting and always keep their highest-quality copy.",
           "required": false,
           "type": "kotlin.String",
           "default": "xhdpi",

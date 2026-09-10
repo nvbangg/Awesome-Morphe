@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "56100eaeaa2d1d1701d7e9d2ab866972b50b54fa",
+  "jman_tree_sha": "97d8c9cec7480852a86640fde62c785581c22ce2",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -294,7 +294,7 @@
       "key": null
     },
     "dual-vot": {
-      "sha": "c5963161defec3a5d8ce4893cee539a3845d31ca",
+      "sha": "67d534bda823c4a61d3881fe23d39fe584579755",
       "key": "https://github.com/sashade8-ship-it/dual-vot-patches"
     },
     "dumketo": {
@@ -362,7 +362,7 @@
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "094df7eaee5245c5f7e7464c09e191abef963e55",
+      "sha": "d64a5d6280ac1c1dd9282513e58cecd0daa4f357",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -546,7 +546,7 @@
       "key": null
     },
     "kveld": {
-      "sha": "d74c696ed9ff3991a82ddafe010a9d8d1d33884c",
+      "sha": "ac0d628fb4491607435addfc07402eebef412c51",
       "key": "https://github.com/kveld9/kveld-morphe-patches"
     },
     "lablazer": {
@@ -590,7 +590,7 @@
       "key": null
     },
     "logm1lo": {
-      "sha": "2a2cc7318743eb6c037c91f94d3638f52ef991dc",
+      "sha": "8213e11e69840d77c395940f58d4efa57e0cbdb0",
       "key": "https://github.com/logm1lo/logm1lo-patches"
     },
     "loskutov": {
@@ -886,7 +886,7 @@
       "key": "https://github.com/thejaustin/smartlauncher-morphe-patches"
     },
     "sofatime": {
-      "sha": "38708166cbda9cb021da95a416aa5be10a886dab",
+      "sha": "e370a011b6a6f36f09d8712645b7146f8ad48f74",
       "key": "https://github.com/alan7383/sofatime-patches"
     },
     "spookyexe": {
@@ -938,7 +938,7 @@
       "key": null
     },
     "unipatches": {
-      "sha": "121f9be3b9131613eb0e9d5619ae6a50e0126ec4",
+      "sha": "f51cc23066135587aaa7116f22fc9cc9f8ec8632",
       "key": "https://github.com/Zanuaimi/UniPatches"
     },
     "v4n1x": {

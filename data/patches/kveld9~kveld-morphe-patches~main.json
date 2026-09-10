@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.17.0",
+  "version": "1.18.0",
   "patches": [
     {
       "name": "Add AMOLED Theme",
@@ -139,15 +139,15 @@
       "dependencies": [],
       "compatiblePackages": [
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -167,15 +167,15 @@
       ],
       "compatiblePackages": [
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -275,15 +275,15 @@
       ],
       "compatiblePackages": [
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -346,15 +346,15 @@
       "dependencies": [],
       "compatiblePackages": [
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -413,15 +413,15 @@
           ]
         },
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -470,20 +470,20 @@
     },
     {
       "name": "Disable Background Sync & Periodic Sync",
-      "description": "Eliminates background wakeups, radio modem activity, and battery drain by neutralizing periodic and one-shot background sync tasks.",
+      "description": "Prevents Web Background Sync and Periodic Sync APIs from scheduling wakeups and background tasks in Android JobScheduler.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -496,7 +496,7 @@
     },
     {
       "name": "Disable Battery Status API & OS Listener",
-      "description": "Neutralizes the Android BatteryStatusManager broadcast listener to prevent continuous OS battery wakeups.",
+      "description": "Neutralizes the Battery Status API (navigator.getBattery) to prevent cross-site device fingerprinting and drops OS battery change broadcasts.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [
@@ -518,15 +518,15 @@
           ]
         },
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -544,15 +544,15 @@
       "dependencies": [],
       "compatiblePackages": [
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -794,15 +794,15 @@
       "dependencies": [],
       "compatiblePackages": [
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1002,15 +1002,15 @@
           ]
         },
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1148,15 +1148,15 @@
           ]
         },
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1207,15 +1207,15 @@
       "dependencies": [],
       "compatiblePackages": [
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1250,15 +1250,15 @@
           ]
         },
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1271,20 +1271,20 @@
     },
     {
       "name": "Vivaldi Startup Performance Optimization",
-      "description": "Optimizes cold startup time, eliminates background CPU/disk overhead, and guards against early CompositorView LayoutStateObserver crashes.",
+      "description": "Guards against fatal CompositorView NullPointerException crashes on cold startup and bypasses carrier partner customizations.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [
         {
-          "packageName": "com.vivaldi.browser.snapshot",
-          "name": "Vivaldi Browser Snapshot",
+          "packageName": "com.vivaldi.browser",
+          "name": "Vivaldi Browser - Fast & Safe",
           "description": null,
-          "apkFileType": "APK",
+          "apkFileType": "APKM",
           "appIconColor": "#EF3939",
           "signatures": null,
           "targets": [
             {
-              "version": "8.2.4147.50",
+              "version": "8.2.4147.58",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,

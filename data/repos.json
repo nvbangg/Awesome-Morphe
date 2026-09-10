@@ -42,7 +42,7 @@
   "alan7383/sofatime-patches": {
     "name": "SofaTime Patches",
     "github": {
-      "main": "55f879e66ee78e83417eb5432e514b2224b16592b7d03cadef2f60e2fbd8b029",
+      "main": "d492f89ad9085f35e8300d953624a5c8eb2172f852f2a7c33a4f566c3fb1bd3d",
       "dev": null
     }
   },
@@ -238,7 +238,7 @@
     "name": "BlazeFTL Patches",
     "github": {
       "main": "fd47c89bb324242f8062c1b02cc7c150514b57b82455df562cf7ff91c2102c4f",
-      "dev": "e05cb11ccd86992b1bb5c753951b2ac43a0d67b646e255356d994afc31b150be"
+      "dev": "750eb5503521af254b9ae55b90b0744d2c11447c1851bf921a18026f537d0f48"
     }
   },
   "BlazeFTL/Morphe-Portal-Patches-New": {
@@ -748,6 +748,13 @@
       "dev": "61406036952153c4a5215afa9c909b24dfc431a9b0deef770194062c71b0dfb6"
     }
   },
+  "ispacecase/patchweaver": {
+    "name": "Patchweaver",
+    "github": {
+      "main": "ef9f1b27c472b14a2900e8dec7b18285553132339937bb5dbf1dc546f4fbef80",
+      "dev": "ef9f1b27c472b14a2900e8dec7b18285553132339937bb5dbf1dc546f4fbef80"
+    }
+  },
   "isuruhg/cricinfo-tweaks": {
     "name": "ESPNcricinfo Ad & Tracking Removal",
     "github": {
@@ -919,7 +926,7 @@
   "kveld9/kveld-morphe-patches": {
     "name": "kveld9 Patches",
     "github": {
-      "main": "74913c26388ced3ba77cfd1314a35d1860648a564906ba74dcb76f8b152b33c6",
+      "main": "c6c6a4df7e0dab050b9b3e570679e82f1efb63957e89574307842a5615edb35f",
       "dev": null
     }
   },
@@ -1033,7 +1040,7 @@
     "name": "Morphe Patches",
     "github": {
       "main": "9e6f0dd8e884ea8578623b95f7bc143b7abda15d2b92b4d0bb2b905974f6f638",
-      "dev": "9e6f0dd8e884ea8578623b95f7bc143b7abda15d2b92b4d0bb2b905974f6f638",
+      "dev": "9ca322acace768e36a34446019a1ff7521598762f10812b53de2fe87a4247071",
       "image": "70105daca724c7354163f031c24067b34a8b630dd43839d65d3c5e858773cc02"
     }
   },
@@ -1258,7 +1265,7 @@
     "name": "De-Vanced Patches",
     "github": {
       "main": "ebc0a952131db2e426805aee00733e7910fcbbaaee8acc081a9e6336c230cecd",
-      "dev": "ebc0a952131db2e426805aee00733e7910fcbbaaee8acc081a9e6336c230cecd"
+      "dev": "8874b3cb24349020ee0a6e7ac4fe380c9bac44667e2ce38c84bcd2a056251352"
     }
   },
   "RoundSalmon4/morphe-patches-template": {
@@ -1308,8 +1315,8 @@
   "sashade8-ship-it/dual-vot-patches": {
     "name": "Dual VoT Patches",
     "github": {
-      "main": "82292fde512fd78fc66458a183d615df4eb788ec36aa6c5c06e1f1fc2a989aa9",
-      "dev": "82292fde512fd78fc66458a183d615df4eb788ec36aa6c5c06e1f1fc2a989aa9"
+      "main": "162ca189a59998ad46f5122407f137ff74d41fdde0003d06ca8abf96a5e47be4",
+      "dev": "b126e992570eb776e610d7962cd0189293b366390f07207873fcb9a035560a3d"
     }
   },
   "Seobject/Seobject-patches": {
@@ -1527,8 +1534,8 @@
   "Zanuaimi/UniPatches": {
     "name": "Zanuaimi's UniPatches",
     "github": {
-      "main": "54c141b928c9bab652b9c4e4f9d869248c178d671b4970f6adac5bec87a1e7c5",
-      "dev": "54c141b928c9bab652b9c4e4f9d869248c178d671b4970f6adac5bec87a1e7c5",
+      "main": "81dd6919ae1f9a165b891c78b5654e5bb40ccce5f07c6e2fd3f7670a5e89dd3a",
+      "dev": "81dd6919ae1f9a165b891c78b5654e5bb40ccce5f07c6e2fd3f7670a5e89dd3a",
       "image": "d6033284f266e11ce96e3c2b4eb7a147f0a977ca25dca1d09bab05319dab5907"
     }
   },
