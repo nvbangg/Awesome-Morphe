@@ -32,10 +32,11 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          TODAY=$(date -u +'%Y-%m-%d')
           git add data/projects/
           if ! git diff --staged --quiet; then
             git config --global user.name "github-actions[bot]"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
-            git commit -m "Update found projects"
+            git commit -m "Update found projects (${TODAY})"
             git push origin HEAD:main
           fi

@@ -81,7 +81,8 @@ jobs:
           if ! git diff --staged --quiet; then
             git config --global user.name "github-actions[bot]"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
-            git commit -m "Update history (${TODAY})"
+            COMMIT_MSG="Update history (${{ inputs.mode == 'weekly' && 'weekly ' || '' }}${TODAY})"
+            git commit -m "$COMMIT_MSG"
             git push origin HEAD:main
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
