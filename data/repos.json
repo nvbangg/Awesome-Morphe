@@ -238,7 +238,7 @@
     "name": "BlazeFTL Patches",
     "github": {
       "main": "fd47c89bb324242f8062c1b02cc7c150514b57b82455df562cf7ff91c2102c4f",
-      "dev": "6b5062e0aab463cd5d5c933001bc8b45fef736c1cb4392a1e685ff65ef066ac3"
+      "dev": "df5cb46d6a20d56ba2437265469d5a755abd1c65b17c0c7eabc863918bf472c1"
     }
   },
   "BlazeFTL/Morphe-Portal-Patches-New": {
@@ -358,7 +358,7 @@
     "name": "Piko",
     "github": {
       "main": "47b64bb13dc854871d478885e111d5b7bef31b8fbea83d6b7bd77dc141d692e7",
-      "dev": "2a2cdaad7a896b33769793b6bc00e3dd43c2d80f947cc82365c6946ea91dd640"
+      "dev": "8e96d4ac2d4162b64897339345ae17a3dea172ecefff5e01c2fe77be9fe91399"
     }
   },
   "crimera/piko-newx": {
@@ -378,7 +378,7 @@
   "d0nj/morphe-patches": {
     "name": "d0nj Patches",
     "github": {
-      "main": "5dd88258525ecccb4022000922da3e2fa702c4c47971087fe764dab02a05f59e",
+      "main": "ed383260b014234685c41129ec41d3ed26e0d6c57a8ce650435997f20a74bb12",
       "dev": null
     }
   },
@@ -717,7 +717,7 @@
   "ImNoammm/morphe-spotify-patches": {
     "name": "Morphe Spotify Patches",
     "github": {
-      "main": "241dcafe3fd0e75f0902a58527fafcb4483c3fadf0f4cca52806dc8627d64d16",
+      "main": null,
       "dev": null
     }
   },
@@ -771,8 +771,8 @@
   "JacobPlaysGames/CrimeRadar-Morphe-Patches": {
     "name": "CrimeRadar Patches",
     "github": {
-      "main": "dde80128853b51e2c1a85456f9f8b3d5cd123f7559c50f3e4aadfd7a35a32c82",
-      "dev": "dde80128853b51e2c1a85456f9f8b3d5cd123f7559c50f3e4aadfd7a35a32c82"
+      "main": "7180adfe715ac09b0d14ca8d1aefedad2192ddeb389c3f1d90075bb2114db074",
+      "dev": "7180adfe715ac09b0d14ca8d1aefedad2192ddeb389c3f1d90075bb2114db074"
     }
   },
   "jancerny2001/morphe-patches": {
@@ -843,7 +843,7 @@
     "name": "Flexboard",
     "github": {
       "main": "6e1c38cb4636b58bdee63ac64c3d723d196ea0b38a4c1d10fbdf0c97666c266d",
-      "dev": "63efe40557f676d9ba79c715e1ecc09f6bda292ddcf58c7ea96b23e0a02f008e"
+      "dev": "7412eaa4a708ec3699f2efab9c57cbaa81c9255ea863f73f188b054d0dcb69f5"
     }
   },
   "kareemlukitomo/morphe-patches": {
@@ -1035,7 +1035,7 @@
     "name": "mvaishak Letterboxd Patches",
     "github": {
       "main": "48af4e97c357615408c4ca4211aa01f7245b2423472676c7ea032763d344bc68",
-      "dev": "8bcca12fda29361f0c54958ae39e3b6267ccefa9a3ecc4889a710c64311bb851"
+      "dev": "87246bb63a41398ca09e6a711947121dcc64c34c2fa5c50ef6df772ed540f5aa"
     }
   },
   "mxkrgt/dbtcoach-morphe-patches": {

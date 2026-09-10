@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "26def45027506f18a58347fe3d43eff7f2bd5975",
+  "jman_tree_sha": "a1fb507b2b6e851a326d1afdc9f9ae65fd61e4bf",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -230,7 +230,7 @@
       "key": "https://github.com/isuruhg/cricinfo-tweaks"
     },
     "crimeradar": {
-      "sha": "ce98e54c8a4e77a7b3534f02e449d85456cd8c54",
+      "sha": "32687071e7d711c9730f786dda616cee519bd99f",
       "key": "https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches"
     },
     "csagataj2": {
@@ -346,7 +346,7 @@
       "key": "https://github.com/isuruhg/fin-tweaks"
     },
     "flexboard": {
-      "sha": "50e2e5a6e5c6fd535a9c2556fd800adc99f39594",
+      "sha": "49b46d7c622cb5907e5b0bd602c3ed9861193b3e",
       "key": "https://github.com/JZ6/Flexboard"
     },
     "forsyth47": {

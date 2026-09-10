@@ -1278,7 +1278,7 @@
           "compatiblePackagesKey": 18
         }
       ],
-      "hotRank": 129
+      "hotRank": 128
     },
     {
       "source": "github",
@@ -2243,7 +2243,7 @@
           "compatiblePackagesKey": 75
         }
       ],
-      "hotRank": 10
+      "hotRank": 11
     },
     {
       "source": "github",
@@ -2893,7 +2893,7 @@
       "repoDescription": "morphe patches for twitter and instagram",
       "avatarUrl": "https://avatars.githubusercontent.com/u/44558091?v=4&s=128",
       "stars": 3086,
-      "updatedAt": 1788744917000,
+      "updatedAt": 1789003243000,
       "firstSeen": 1773129596000,
       "appFirstSeen": {
         "com.instagram.android": 1773154796000,
@@ -3625,7 +3625,7 @@
           "compatiblePackagesKey": 112
         }
       ],
-      "hotRank": 55
+      "hotRank": 58
     },
     {
       "source": "github",
@@ -4383,7 +4383,7 @@
           "compatiblePackagesKey": 114
         }
       ],
-      "hotRank": 19
+      "hotRank": 23
     },
     {
       "source": "github",
@@ -4727,7 +4727,7 @@
           "compatiblePackagesKey": 131
         }
       ],
-      "hotRank": 73
+      "hotRank": 76
     },
     {
       "source": "github",
@@ -4765,7 +4765,7 @@
           "compatiblePackagesKey": 132
         }
       ],
-      "hotRank": 125
+      "hotRank": 124
     },
     {
       "source": "github",
@@ -5561,7 +5561,7 @@
           "compatiblePackagesKey": 174
         }
       ],
-      "hotRank": 18,
+      "hotRank": 19,
       "isArchived": true
     },
     {
@@ -5688,7 +5688,7 @@
           "compatiblePackagesKey": 179
         }
       ],
-      "hotRank": 53
+      "hotRank": 54
     },
     {
       "source": "github",
@@ -9159,7 +9159,7 @@
           "compatiblePackagesKey": 486
         }
       ],
-      "hotRank": 34
+      "hotRank": 18
     },
     {
       "source": "github",
@@ -9592,7 +9592,7 @@
           "compatiblePackagesKey": 498
         }
       ],
-      "hotRank": 8
+      "hotRank": 4
     },
     {
       "source": "gitlab",
@@ -10707,7 +10707,7 @@
           "compatiblePackagesKey": 535
         }
       ],
-      "hotRank": 39
+      "hotRank": 36
     },
     {
       "source": "github",
@@ -11067,7 +11067,7 @@
           "compatiblePackagesKey": 544
         }
       ],
-      "hotRank": 24
+      "hotRank": 25
     },
     {
       "source": "github",
@@ -11093,7 +11093,7 @@
           "compatiblePackagesKey": 546
         }
       ],
-      "hotRank": 85
+      "hotRank": 84
     },
     {
       "source": "github",
@@ -11472,7 +11472,7 @@
           "compatiblePackagesKey": 552
         }
       ],
-      "hotRank": 35
+      "hotRank": 34
     },
     {
       "source": "github",
@@ -15093,7 +15093,7 @@
           "compatiblePackagesKey": 599
         }
       ],
-      "hotRank": 11
+      "hotRank": 12
     },
     {
       "source": "github",
@@ -15270,7 +15270,7 @@
           "compatiblePackagesKey": 604
         }
       ],
-      "hotRank": 26
+      "hotRank": 27
     },
     {
       "source": "github",
@@ -16644,7 +16644,7 @@
           "compatiblePackagesKey": 658
         }
       ],
-      "hotRank": 87
+      "hotRank": 86
     },
     {
       "source": "github",
@@ -16722,7 +16722,7 @@
           "compatiblePackagesKey": 663
         }
       ],
-      "hotRank": 105
+      "hotRank": 103
     },
     {
       "source": "github",
@@ -16977,7 +16977,7 @@
           "compatiblePackagesKey": 675
         }
       ],
-      "hotRank": 41
+      "hotRank": 39
     },
     {
       "source": "github",
@@ -16998,7 +16998,7 @@
           "compatiblePackagesKey": 676
         }
       ],
-      "hotRank": 74
+      "hotRank": 72
     },
     {
       "source": "github",
@@ -18231,7 +18231,7 @@
           "default": false
         }
       ],
-      "hotRank": 27
+      "hotRank": 33
     },
     {
       "source": "github",
@@ -18603,7 +18603,7 @@
           "compatiblePackagesKey": 704
         }
       ],
-      "hotRank": 77
+      "hotRank": 75
     },
     {
       "source": "github",
@@ -18643,7 +18643,7 @@
           "compatiblePackagesKey": 706
         }
       ],
-      "hotRank": 72
+      "hotRank": 71
     },
     {
       "source": "github",
@@ -19535,7 +19535,7 @@
           "compatiblePackagesKey": 723
         }
       ],
-      "hotRank": 20
+      "hotRank": 21
     },
     {
       "source": "github",
@@ -20367,7 +20367,7 @@
           "compatiblePackagesKey": 766
         }
       ],
-      "hotRank": 25
+      "hotRank": 26
     },
     {
       "source": "github",
@@ -20403,7 +20403,7 @@
           "compatiblePackagesKey": 767
         }
       ],
-      "hotRank": 54
+      "hotRank": 55
     },
     {
       "source": "github",
@@ -20675,7 +20675,7 @@
       "repoDescription": "my personal morphe patches",
       "avatarUrl": "https://avatars.githubusercontent.com/u/246411244?v=4&s=128",
       "stars": 5,
-      "updatedAt": 1788965410000,
+      "updatedAt": 1789013468000,
       "firstSeen": 1785480547978,
       "appFirstSeen": {
         "com.thien.novelreader": 1785480547581,
@@ -20698,7 +20698,7 @@
           "compatiblePackagesKey": 774
         }
       ],
-      "hotRank": 57
+      "hotRank": 46
     },
     {
       "source": "github",
@@ -20719,7 +20719,7 @@
           "compatiblePackagesKey": 775
         }
       ],
-      "hotRank": 112
+      "hotRank": 111
     },
     {
       "source": "github",
@@ -20853,7 +20853,7 @@
           "compatiblePackagesKey": 779
         }
       ],
-      "hotRank": 52
+      "hotRank": 53
     },
     {
       "source": "github",
@@ -20950,7 +20950,7 @@
           "compatiblePackagesKey": 780
         }
       ],
-      "hotRank": 67
+      "hotRank": 65
     },
     {
       "source": "github",
@@ -21146,7 +21146,7 @@
           "compatiblePackagesKey": 790
         }
       ],
-      "hotRank": 124
+      "hotRank": 125
     },
     {
       "source": "github",
@@ -21416,7 +21416,7 @@
           "compatiblePackagesKey": 792
         }
       ],
-      "hotRank": 49
+      "hotRank": 50
     },
     {
       "source": "github",
@@ -21425,7 +21425,7 @@
       "repoDescription": "Morphe patches to remove ads, analytics, apk junk, debug info, duplicate graphics, unused languages, and use custom dpi☠️",
       "avatarUrl": "https://avatars.githubusercontent.com/u/139938337?v=4&s=128",
       "stars": 26,
-      "updatedAt": 1788987486000,
+      "updatedAt": 1789015258000,
       "firstSeen": 1786240845995,
       "appFirstSeen": {
         "com.snaptube.premium": 1786360281622,
@@ -21748,28 +21748,13 @@
         },
         {
           "name": "Remove Duplicate Graphics",
-          "description": "Keeps only one screen-density copy of every duplicated resource (drawables, layouts, and any other resource type shipped at multiple densities) and removes the rest, letting Android scale the kept copy. Mipmaps (the launcher icon) always keep their highest-quality copy instead of following the target density, since that's the one resource users actually see blown up on their home screen. Optionally strips device-specific resources (smartwatch, Android TV, etc.) entirely.",
+          "description": "Keeps only one screen-density copy of every duplicated resource (drawables, layouts, and any other resource type shipped at multiple densities) and removes the rest, letting Android scale the kept copy. Mipmaps (the launcher icon) always keep their highest-quality copy instead of following the target density, since that's the one resource users actually see blown up on their home screen.",
           "default": false,
           "options": [
             {
               "key": "targetDensity",
               "title": "Target density",
               "description": "Density bucket to prefer for drawables and other non-mipmap resources; duplicates are stripped from every other bucket. If a particular resource was never shipped at this density, the next higher density available for it is kept instead, falling back to a lower one only if nothing higher exists either. Mipmaps ignore this and always keep their highest-quality copy."
-            },
-            {
-              "key": "stripSmartwatch",
-              "title": "Remove smartwatch (Wear OS) resources",
-              "description": "Entirely removes resources qualified for smartwatches -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports."
-            },
-            {
-              "key": "stripAndroidTv",
-              "title": "Remove Android TV resources",
-              "description": "Entirely removes resources qualified for Android TV -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports."
-            },
-            {
-              "key": "stripOtherFormFactors",
-              "title": "Remove other device-specific resources (car, desk dock, VR headset)",
-              "description": "Entirely removes resources qualified for car head units, desk docks, or VR headsets -- not just duplicate copies, all of them -- regardless of density. Off by default since it changes what device types the app supports."
             }
           ]
         },
@@ -21984,7 +21969,7 @@
           "compatiblePackagesKey": 809
         }
       ],
-      "hotRank": 22
+      "hotRank": 20
     },
     {
       "source": "github",
@@ -22100,7 +22085,7 @@
           "compatiblePackagesKey": 817
         }
       ],
-      "hotRank": 107
+      "hotRank": 105
     },
     {
       "source": "github",
@@ -22126,7 +22111,7 @@
           "compatiblePackagesKey": 819
         }
       ],
-      "hotRank": 71
+      "hotRank": 70
     },
     {
       "source": "github",
@@ -23045,7 +23030,7 @@
           "compatiblePackagesKey": 820
         }
       ],
-      "hotRank": 70
+      "hotRank": 67
     },
     {
       "source": "github",
@@ -23423,7 +23408,7 @@
           "compatiblePackagesKey": 828
         }
       ],
-      "hotRank": 48
+      "hotRank": 49
     },
     {
       "source": "github",
@@ -23501,7 +23486,7 @@
       "repoDescription": "",
       "avatarUrl": "https://avatars.githubusercontent.com/u/10971263?v=4&s=128",
       "stars": 22,
-      "updatedAt": 1788997743000,
+      "updatedAt": 1789013762000,
       "firstSeen": 1786962892864,
       "appFirstSeen": {
         "com.google.android.inputmethod.latin": 1786962892801
@@ -23549,6 +23534,13 @@
           "compatiblePackagesKey": 124
         },
         {
+          "name": "Swipe up diagnostic (temporary)",
+          "description": "Diagnostic build only. Swipe up on a key to delete a character, which proves whether the swipe gesture is being detected at all. Do not enable this at the same time as \"Swipe up to undo autocorrect\" — they attach to the same place and you would get both effects. Off by default, and this patch will be removed once it has answered its question.",
+          "isPreRelease": true,
+          "default": false,
+          "compatiblePackagesKey": 124
+        },
+        {
           "name": "Swipe up to undo autocorrect",
           "description": "Swipe up on the keyboard to put back the word an autocorrect replaced. Gboard has the same undo on backspace, behind a setting; this adds a gesture for it and works whether or not that setting is on. A swipe with nothing to undo does nothing. Off by default until it has been confirmed on a device.",
           "isPreRelease": true,
@@ -23571,7 +23563,7 @@
           "compatiblePackagesKey": 124
         }
       ],
-      "hotRank": 23
+      "hotRank": 24
     },
     {
       "source": "github",
@@ -23678,7 +23670,7 @@
           "compatiblePackagesKey": 832
         }
       ],
-      "hotRank": 84
+      "hotRank": 85
     },
     {
       "source": "github",
@@ -23812,7 +23804,7 @@
           "compatiblePackagesKey": 836
         }
       ],
-      "hotRank": 111
+      "hotRank": 112
     },
     {
       "source": "gitlab",
@@ -24053,7 +24045,7 @@
           "compatiblePackagesKey": 850
         }
       ],
-      "hotRank": 63,
+      "hotRank": 78,
       "isPreRelease": true
     },
     {
@@ -24131,7 +24123,7 @@
           "compatiblePackagesKey": 851
         }
       ],
-      "hotRank": 58
+      "hotRank": 57
     },
     {
       "source": "github",
@@ -24433,7 +24425,7 @@
           "compatiblePackagesKey": 856
         }
       ],
-      "hotRank": 12
+      "hotRank": 10
     },
     {
       "source": "github",
@@ -24499,7 +24491,7 @@
           "compatiblePackagesKey": 860
         }
       ],
-      "hotRank": 75
+      "hotRank": 73
     },
     {
       "source": "github",
@@ -24556,37 +24548,7 @@
           "compatiblePackagesKey": 862
         }
       ],
-      "hotRank": 104
-    },
-    {
-      "source": "github",
-      "repo": "ImNoammm/morphe-spotify-patches",
-      "name": "Morphe Spotify",
-      "repoDescription": "Morphe patches for Spotify: a Morphe settings tile, and local files served from a Nextcloud/WebDAV folder.",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/268442138?v=4&s=128",
-      "stars": 8,
-      "updatedAt": 1787449541000,
-      "firstSeen": 1787424114510,
-      "appFirstSeen": {
-        "com.spotify.music": 1787424113681
-      },
-      "patches": [
-        {
-          "name": "Pin shortcuts on Home",
-          "description": "Keeps chosen playlists at the front of the shortcuts grid on Home. The order is kept on the device, so it does not depend on what the server sends. Set it under Settings, Morphe.",
-          "compatiblePackagesKey": 636
-        },
-        {
-          "name": "Local files from a server",
-          "description": "Adds a Nextcloud or WebDAV folder as a source of local files. Its tracks appear under Local Files and are streamed from the server instead of being stored on the device.",
-          "compatiblePackagesKey": 636
-        },
-        {
-          "name": "Morphe settings",
-          "description": "Adds a Morphe entry to Spotify's settings, which is where the settings of the other Morphe patches live.",
-          "compatiblePackagesKey": 636
-        }
-      ]
+      "hotRank": 106
     },
     {
       "source": "github",
@@ -24667,7 +24629,7 @@
           "compatiblePackagesKey": 868
         }
       ],
-      "hotRank": 62
+      "hotRank": 61
     },
     {
       "source": "github",
@@ -24716,7 +24678,7 @@
           "compatiblePackagesKey": 871
         }
       ],
-      "hotRank": 46
+      "hotRank": 45
     },
     {
       "source": "github",
@@ -24792,7 +24754,7 @@
           "compatiblePackagesKey": 594
         }
       ],
-      "hotRank": 43
+      "hotRank": 37
     },
     {
       "source": "github",
@@ -24853,7 +24815,7 @@
           "compatiblePackagesKey": 881
         }
       ],
-      "hotRank": 51
+      "hotRank": 52
     },
     {
       "source": "github",
@@ -25026,7 +24988,7 @@
           "compatiblePackagesKey": 885
         }
       ],
-      "hotRank": 4
+      "hotRank": 8
     },
     {
       "source": "github",
@@ -25069,7 +25031,7 @@
           "compatiblePackagesKey": 20
         }
       ],
-      "hotRank": 69
+      "hotRank": 66
     },
     {
       "source": "github",
@@ -25133,7 +25095,7 @@
           "compatiblePackagesKey": 887
         }
       ],
-      "hotRank": 103
+      "hotRank": 104
     },
     {
       "source": "github",
@@ -25218,7 +25180,7 @@
           "compatiblePackagesKey": 889
         }
       ],
-      "hotRank": 45
+      "hotRank": 48
     },
     {
       "source": "github",
@@ -25564,7 +25526,7 @@
           "compatiblePackagesKey": 903
         }
       ],
-      "hotRank": 106
+      "hotRank": 107
     },
     {
       "source": "github",
@@ -25586,7 +25548,7 @@
           "compatiblePackagesKey": 904
         }
       ],
-      "hotRank": 76
+      "hotRank": 74
     },
     {
       "source": "github",
@@ -25857,7 +25819,7 @@
           "compatiblePackagesKey": 906
         }
       ],
-      "hotRank": 61
+      "hotRank": 69
     },
     {
       "source": "github",
@@ -25878,7 +25840,7 @@
           "compatiblePackagesKey": 907
         }
       ],
-      "hotRank": 66
+      "hotRank": 64
     },
     {
       "source": "github",
@@ -25990,7 +25952,7 @@
           "compatiblePackagesKey": 913
         }
       ],
-      "hotRank": 78
+      "hotRank": 77
     },
     {
       "source": "github",
@@ -26969,7 +26931,7 @@
           "compatiblePackagesKey": 915
         }
       ],
-      "hotRank": 65
+      "hotRank": 63
     },
     {
       "source": "github",
@@ -26998,7 +26960,7 @@
       "repoDescription": " Morphe patches that re-theme Letterboxd for Android — Material You, OLED black, custom accent colour, and layout tweaks",
       "avatarUrl": "https://avatars.githubusercontent.com/u/27264154?v=4&s=128",
       "stars": 18,
-      "updatedAt": 1788922961000,
+      "updatedAt": 1789008500000,
       "firstSeen": 1788491531808,
       "appFirstSeen": {
         "com.letterboxd.letterboxd": 1788491523001
@@ -27051,7 +27013,7 @@
           "compatiblePackagesKey": 92
         }
       ],
-      "hotRank": 21
+      "hotRank": 22
     },
     {
       "source": "github",
@@ -27084,7 +27046,7 @@
           "compatiblePackagesKey": 919
         }
       ],
-      "hotRank": 86
+      "hotRank": 87
     },
     {
       "source": "github",
@@ -27105,7 +27067,7 @@
           "compatiblePackagesKey": 920
         }
       ],
-      "hotRank": 128
+      "hotRank": 130
     },
     {
       "source": "github",
@@ -28374,7 +28336,7 @@
           "compatiblePackagesKey": 922
         }
       ],
-      "hotRank": 64
+      "hotRank": 62
     },
     {
       "source": "github",
@@ -28405,7 +28367,7 @@
           "compatiblePackagesKey": 924
         }
       ],
-      "hotRank": 50
+      "hotRank": 51
     },
     {
       "source": "github",
@@ -30828,7 +30790,7 @@
           "compatiblePackagesKey": 931
         }
       ],
-      "hotRank": 38
+      "hotRank": 41
     },
     {
       "source": "github",
@@ -30872,7 +30834,7 @@
           "compatiblePackagesKey": 20
         }
       ],
-      "hotRank": 40
+      "hotRank": 43
     },
     {
       "source": "github",
@@ -30893,7 +30855,7 @@
           "compatiblePackagesKey": 932
         }
       ],
-      "hotRank": 36
+      "hotRank": 38
     },
     {
       "source": "github",
@@ -30919,7 +30881,7 @@
           "compatiblePackagesKey": 933
         }
       ],
-      "hotRank": 37
+      "hotRank": 40
     },
     {
       "source": "github",
@@ -31001,7 +30963,7 @@
           "compatiblePackagesKey": 935
         }
       ],
-      "hotRank": 33
+      "hotRank": 35
     },
     {
       "source": "github",
@@ -31010,7 +30972,7 @@
       "repoDescription": "Morphe patches for CrimeRadar - premium bypass and modifications",
       "avatarUrl": "https://avatars.githubusercontent.com/u/80339878?v=4&s=128",
       "stars": 1,
-      "updatedAt": 1788998489000,
+      "updatedAt": 1789002464000,
       "firstSeen": 1788929545695,
       "appFirstSeen": {
         "com.newsbreak.crimeradar": 1788929545008,
@@ -40298,6 +40260,16 @@
         "targets": [
           {
             "version": "1.16.23"
+          },
+          {
+            "version": "1.16.27"
+          },
+          {
+            "version": "1.16.28"
+          },
+          {
+            "version": null,
+            "isExperimental": true
           }
         ]
       }
