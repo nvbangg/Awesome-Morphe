@@ -172,7 +172,8 @@ def parse_timestamp(timestamp: Any) -> int:
 
 
 _REPO_URL_RE = re.compile(
-    r"(github|gitlab)\.com[:/]([^/#?]+)/([^/#?]+?)(?:\.git)?(?:[/#?]|$)", re.IGNORECASE
+    r"(?:raw\.)?(github|gitlab)(?:\.com|usercontent\.com)[:/]([^/#?]+)/([^/#?]+?)(?:\.git)?(?:[/#?]|$)",
+    re.IGNORECASE,
 )
 
 

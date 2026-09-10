@@ -14,6 +14,7 @@ from utils import (
     REPOS_JSON_PATH,
     build_repo_url,
     load_json,
+    parse_repo_url,
     parse_timestamp,
 )
 
@@ -140,6 +141,7 @@ def parse_patches_list(
 
 
 def load_branch_data(
+    source: str,
     file_prefix: str,
     branch: str,
     has_sha: bool,
@@ -154,10 +156,17 @@ def load_branch_data(
     if not bundle_file.exists():
         return None, None, "Missing `patches-bundle.json`"
     bundle = load_json(bundle_file)
-    if not isinstance(bundle, dict) or not (download_url := bundle.get("download_url")):
-        return None, None, "Missing `download_url` in `patches-bundle.json`"
-    if not isinstance(download_url, str) or not download_url.lower().endswith(".mpp"):
-        return None, None, "Invalid `download_url` in `patches-bundle.json`"
+    download_url = bundle.get("download_url") if isinstance(bundle, dict) else None
+    mpp_source, mpp_repo = (
+        parse_repo_url(download_url)
+        if isinstance(download_url, str) and download_url.lower().endswith(".mpp")
+        else (None, None)
+    )
+    if (
+        mpp_source != source
+        or mpp_repo.lower() != file_prefix.replace("~", "/").lower()
+    ):
+        return None, None, "Invalid `download_url`"
     if not list_file.exists():
         return None, None, "Missing `patches-list.json`"
     raw = load_json(list_file)
@@ -237,7 +246,7 @@ def process(
 
             cur_discovered_names = {}
             cur_main_bundle, cur_main_patches, main_reason = load_branch_data(
-                file_prefix, "main", bool(main_sha), cur_discovered_names
+                source, file_prefix, "main", bool(main_sha), cur_discovered_names
             )
             main_patch_names = (
                 {patch["name"] for patch in cur_main_patches if "name" in patch}
@@ -245,6 +254,7 @@ def process(
                 else set()
             )
             cur_dev_bundle, cur_dev_patches, dev_reason = load_branch_data(
+                source,
                 file_prefix,
                 "dev",
                 bool(dev_sha),

@@ -26,6 +26,7 @@ from utils import (
     fetch,
     get_auth_headers,
     load_json,
+    parse_repo_url,
     save_json,
 )
 
@@ -177,48 +178,67 @@ def process_repo_branch(
     try:
         bundle_data = json.loads(bundle_text)
         mpp_url = bundle_data.get("download_url")
-        if mpp_url and mpp_url.endswith(".mpp"):
-            mpp_file_path = MPP_DIR / f"{file_prefix}.mpp"
-            try:
-                mpp_bytes = fetch(mpp_url, binary=True)
-                MPP_DIR.mkdir(parents=True, exist_ok=True)
-                mpp_file_path.write_bytes(mpp_bytes)
-                has_mpp = True
-                bundle_name = extract_mpp_name(mpp_file_path)
-            except Exception as error:
-                if (
-                    isinstance(error, urllib.error.HTTPError)
-                    and error.code in UNAVAILABLE_HTTP_CODES
-                ):
-                    print(
-                        f"[-] {repo_url} ({branch}): `.mpp` file not found or taken down (HTTP {error.code})"
-                    )
-                    return (
-                        source,
-                        repo,
-                        branch,
-                        remote_sha,
-                        bundle_text,
-                        False,
-                        True,
-                        True,
-                        None,
-                        None,
-                    )
-                error_message = f"{repo_url} ({branch}): Failed: {error}"
-                print(f"[-] {error_message}")
+        mpp_source, mpp_repo = (
+            parse_repo_url(mpp_url)
+            if isinstance(mpp_url, str) and mpp_url.lower().endswith(".mpp")
+            else (None, None)
+        )
+        if mpp_source != source or mpp_repo.lower() != repo.lower():
+            print(f"[-] {repo_url} ({branch}): Invalid `download_url`")
+            return (
+                source,
+                repo,
+                branch,
+                remote_sha,
+                bundle_text,
+                False,
+                True,
+                True,
+                None,
+                None,
+            )
+
+        mpp_file_path = MPP_DIR / f"{file_prefix}.mpp"
+        try:
+            mpp_bytes = fetch(mpp_url, binary=True)
+            MPP_DIR.mkdir(parents=True, exist_ok=True)
+            mpp_file_path.write_bytes(mpp_bytes)
+            has_mpp = True
+            bundle_name = extract_mpp_name(mpp_file_path)
+        except Exception as error:
+            if (
+                isinstance(error, urllib.error.HTTPError)
+                and error.code in UNAVAILABLE_HTTP_CODES
+            ):
+                print(
+                    f"[-] {repo_url} ({branch}): `.mpp` file not found or taken down (HTTP {error.code})"
+                )
                 return (
                     source,
                     repo,
                     branch,
-                    current_sha,
+                    remote_sha,
+                    bundle_text,
+                    False,
+                    True,
+                    True,
                     None,
-                    False,
-                    False,
-                    False,
                     None,
-                    error_message,
                 )
+            error_message = f"{repo_url} ({branch}): Failed: {error}"
+            print(f"[-] {error_message}")
+            return (
+                source,
+                repo,
+                branch,
+                current_sha,
+                None,
+                False,
+                False,
+                False,
+                None,
+                error_message,
+            )
     except Exception:
         pass
 
@@ -315,9 +335,8 @@ def fetch_all_repos(fetch_images: bool = False) -> None:
             if bundle_name:
                 pending_repos_data.setdefault(repo, {})["name"] = bundle_name
 
+            file_prefix = f"{repo.replace('/', '~')}~{branch}"
             if not is_unavailable and new_sha is not None:
-                owner, repo_name = repo.split("/", 1)
-                file_prefix = f"{owner}~{repo_name}~{branch}"
                 if bundle_text:
                     save_json(
                         BUNDLES_DIR / f"{file_prefix}.json",
