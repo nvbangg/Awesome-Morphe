@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "patches": [
     {
       "name": "Enable Premium",
@@ -91,6 +91,39 @@
                 "ARMEABI_V7A": 117,
                 "X86_64": 117,
                 "X86": 117
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Enable VIP",
+      "description": "Enables the VIP features of the app.",
+      "default": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.halo.reels.movie.fast.pro",
+          "name": "Halo Reels Pro",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#FF1234",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.1.0",
+              "versionCodes": {
+                "ARM64_V8A": 1100,
+                "ARMEABI_V7A": 1100,
+                "X86_64": 1100,
+                "X86": 1100
               },
               "isExperimental": false,
               "minSdk": null,

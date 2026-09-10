@@ -364,7 +364,7 @@
   "crimera/piko-newx": {
     "name": "Piko",
     "github": {
-      "main": "76ac7bd71e82a664f9adaa6a19de22d5dcc3d3fc630acd838251e97c7bf66821",
+      "main": "767634eaad9f78578551e84d5eda82c46308037b3c775b894fba5185431a94b9",
       "dev": null
     }
   },
@@ -506,8 +506,8 @@
   "epxec/android-patches": {
     "name": "Epxec Patches",
     "github": {
-      "main": "18055fbc4934fa654a6b002ca9b89eaf51a4622b7fed71a489deb83968e86413",
-      "dev": "18055fbc4934fa654a6b002ca9b89eaf51a4622b7fed71a489deb83968e86413"
+      "main": "e0f097609c8177051a648c658f48bce44e1e03834f771b5516928a02db44683b",
+      "dev": "e0f097609c8177051a648c658f48bce44e1e03834f771b5516928a02db44683b"
     }
   },
   "ethan-manny/spotify-tv-crossfade": {
@@ -913,7 +913,7 @@
   "kveld9/kveld-morphe-patches": {
     "name": "kveld9 Patches",
     "github": {
-      "main": "e5c9967d7a5b2c59e86dc6a88e86e1037a543ddccd391bb64e14f74c44afb61d",
+      "main": "74913c26388ced3ba77cfd1314a35d1860648a564906ba74dcb76f8b152b33c6",
       "dev": null
     }
   },
@@ -1515,8 +1515,8 @@
   "Zanuaimi/UniPatches": {
     "name": "Zanuaimi's UniPatches",
     "github": {
-      "main": "0ed5643e5bd0c1a630bc662ee568fec77cb1b6fe527114812aca539b85c91c29",
-      "dev": "0ed5643e5bd0c1a630bc662ee568fec77cb1b6fe527114812aca539b85c91c29",
+      "main": "66b663a087953cb813f112c402681c4a1300ec0f0c1d31dceabe1f18c0290b68",
+      "dev": "66b663a087953cb813f112c402681c4a1300ec0f0c1d31dceabe1f18c0290b68",
       "image": "d6033284f266e11ce96e3c2b4eb7a147f0a977ca25dca1d09bab05319dab5907"
     }
   },

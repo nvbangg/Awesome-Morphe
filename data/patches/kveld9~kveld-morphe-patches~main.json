@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.16.0",
+  "version": "1.17.0",
   "patches": [
     {
       "name": "Add AMOLED Theme",
@@ -19,28 +19,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -66,28 +52,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -142,28 +114,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -353,28 +311,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -453,28 +397,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -648,28 +578,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -695,28 +611,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -742,28 +644,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -815,28 +703,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -862,28 +736,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -909,28 +769,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -982,28 +828,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1029,28 +861,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1076,28 +894,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1123,28 +927,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1170,28 +960,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1270,28 +1046,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1307,7 +1069,7 @@
           "description": "Comma-separated language codes to preserve (e.g. 'en, es, pt, fr, de'). English fallback is always retained.",
           "required": false,
           "type": "kotlin.String",
-          "default": "en, es",
+          "default": "en",
           "values": null
         }
       ]
@@ -1370,28 +1132,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1434,28 +1182,14 @@
           "signatures": null,
           "targets": [
             {
-              "version": "18.1.3.962075747-lite_beta-arm64-v8a",
+              "version": "18.2.4.969776716-lite_beta-arm64-v8a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
               "description": null
             },
             {
-              "version": "18.1.3.962075747-lite_beta-armeabi-v7a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-arm64-v8a",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "18.1.3.962075747-lite_release-armeabi-v7a",
+              "version": "18.2.4.969776716-lite_beta-armeabi-v7a",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,

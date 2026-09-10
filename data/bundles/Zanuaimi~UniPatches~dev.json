@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-10T09:08:34",
-  "description": "## [1.13.0](https://github.com/Zanuaimi/UniPatches/compare/v1.12.0...v1.13.0) (2026-09-10)\n\n### ✨ New Features\n\n* **overlay:** extend runtime configuration and icon parsing ([2ac99b5](https://github.com/Zanuaimi/UniPatches/commit/2ac99b5a8d343bf4f0046e8da504e73cb80d1985))\n* **overlay:** refine built-in preset visuals ([cb1cf3f](https://github.com/Zanuaimi/UniPatches/commit/cb1cf3f453e36db18239444d1a687842ae1b698d))",
-  "download_url": "https://github.com/Zanuaimi/UniPatches/releases/download/v1.13.0/patches-1.13.0.mpp",
+  "created_at": "2026-09-10T16:48:27",
+  "description": "## [1.14.2](https://github.com/Zanuaimi/UniPatches/compare/v1.14.1...v1.14.2) (2026-09-10)\n\n### 🐛 Bug Fixes\n\n* register fixes ([8af8e59](https://github.com/Zanuaimi/UniPatches/commit/8af8e59d11b669b1a0144a2403fc7faf7b0c37d6))",
+  "download_url": "https://github.com/Zanuaimi/UniPatches/releases/download/v1.14.2/patches-1.14.2.mpp",
   "signature_download_url": "",
-  "version": "1.13.0"
+  "version": "1.14.2"
 }

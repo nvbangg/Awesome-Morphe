@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "810774c037f9efe2f855fb49c7260acc86f404ab",
+  "jman_tree_sha": "56100eaeaa2d1d1701d7e9d2ab866972b50b54fa",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -422,7 +422,7 @@
       "key": "https://github.com/hu-liberator/patches"
     },
     "hushfeed": {
-      "sha": "9c601fc8c88311c20a2a04163cf7687ba828e3a2",
+      "sha": "8d96cefe6e9b3504ec088076452a77609e624e9f",
       "key": "https://github.com/SysAdminDoc/hushfeed"
     },
     "hxreborn": {
@@ -538,7 +538,7 @@
       "key": "https://github.com/kolaron/morphe-patches"
     },
     "kondratjev": {
-      "sha": "fdc3b320281f99233c4a6a9d18e294b45cf451dd",
+      "sha": "6913c72a970b0a33b78939240410ee7402be1919",
       "key": "https://github.com/kondratjev/morphe-patches"
     },
     "korhelyleves": {
@@ -566,7 +566,7 @@
       "key": null
     },
     "legendsciber": {
-      "sha": "6045b15c2d531f883588ebd11ca1b45aae4ae473",
+      "sha": "459c1c70a1c3e862fd1095440a1fe262cb9e9272",
       "key": "https://github.com/legendsciber/morphe-patches"
     },
     "lennyRBLX": {
@@ -894,7 +894,7 @@
       "key": "https://github.com/spookyexe/morphe-patches"
     },
     "steamlink": {
-      "sha": "01128d05dbf2302632ca7da0cab5d410bc8af558",
+      "sha": "99a7ac9aa96a95443e6c8a919f9e498752bc4bee",
       "key": "https://github.com/AngelDark92/steamlink-patches"
     },
     "stremio-androidtv": {
