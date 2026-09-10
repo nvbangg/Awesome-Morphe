@@ -96,4 +96,4 @@ jobs:
 
       - name: Cleanup old workflow runs
         run: |
-          gh run list -L 200 --json databaseId -q '.[].databaseId' | tail -n +91 | xargs -IID gh api "repos/$GITHUB_REPOSITORY/actions/runs/ID" -X DELETE || :
+          gh run list -L 500 --json databaseId -q '.[].databaseId' | tail -n +191 | xargs -IID gh api "repos/$GITHUB_REPOSITORY/actions/runs/ID" -X DELETE || :
