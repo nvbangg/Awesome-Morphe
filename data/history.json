@@ -872,10 +872,12 @@
       "Disable From Download Menu Of Browsers"
     ],
     "com.mxtech.videoplayer.ad": [
+      "Boost Splash Screen Time",
       "Clean Me Tab",
       "Configure Smart Enhance",
       "Configure SpeedUp overlay",
       "Disable Bottom Bar And Add Me Tab To Top",
+      "Remove Recycle Bin",
       "Sidebar & Player Defaults"
     ],
     "com.mxtech.videoplayer.pro": [
@@ -1021,6 +1023,7 @@
       "Fix Boost native image upload",
       "Fix Boost navigation bar overlap",
       "Fix Boost target SDK 35 compatibility",
+      "Fix Boost video rewind back buffer",
       "Fix Hide crash",
       "Fix Random subreddit",
       "Fix Redgifs API",
@@ -1276,7 +1279,8 @@
       "Fancy Pants Unlock Premium"
     ],
     "com.rebelbinary.onlyone": [
-      "Only One Free Store"
+      "Only One Free Store",
+      "Only One IAP billing bypass"
     ],
     "com.sidheinteractive.sif.DR": [
       "Into the Dead 2 Ad Removal & Instant Boost Rewards",
@@ -1695,6 +1699,10 @@
     ]
   },
   "d0nj/morphe-patches": {
+    "bitpit.launcher": [
+      "Remove analytics",
+      "Unlock Pro"
+    ],
     "com.thien.novelreader": [
       "Unlock premium"
     ]
@@ -3852,6 +3860,25 @@
       "Unlock Premium"
     ]
   },
+  "JacobPlaysGames/CrimeRadar-Morphe-Patches": {
+    "com.newsbreak.crimeradar": [
+      "Branding",
+      "Change package name",
+      "Debug Settings",
+      "Notification Limits Raised",
+      "Premium Bypass",
+      "Remove History Cap",
+      "Replay Minutes Override",
+      "Telemetry Kill"
+    ],
+    "com.scannerradio": [
+      "Branding",
+      "Change package name",
+      "Pairip DRM Bypass",
+      "Premium Bypass",
+      "Telemetry Kill"
+    ]
+  },
   "jancerny2001/morphe-patches": {
     "com.bootiq2.gtsisic": [
       "Enable card screenshot"
@@ -4155,6 +4182,7 @@
       "Suggested Settings",
       "Swipe Left to Delete",
       "Swipe Right to Undo",
+      "Swipe up to undo autocorrect",
       "Text Action Buttons",
       "Toolbar Hotkeys",
       "Vibration Slider Everywhere"
@@ -4337,9 +4365,6 @@
     "com.ornament.monitor": [
       "Unlock Premium"
     ],
-    "com.quvideo.wisemeal": [
-      "Unlock Premium"
-    ],
     "com.sillens.shapeupclub": [
       "Unlock Premium"
     ],
@@ -4350,14 +4375,6 @@
     ],
     "com.yazio.android": [
       "Unlock Premium"
-    ],
-    "ru.vk.store": [
-      "Disable Mine redesign",
-      "Disable ads",
-      "Disable analytics",
-      "Disable background scan",
-      "Disable gaming profile",
-      "Skip update auth"
     ],
     "xyz.rtrvr.pillo": [
       "Disable analytics",
@@ -4393,6 +4410,7 @@
       "Brave In-Product & Commercial Notification Optimizer",
       "Brave Origin",
       "Brave Startup Performance Optimization",
+      "DPI Resource Slimmer",
       "Disable Background Sync & Periodic Sync",
       "Disable Battery Status API & OS Listener",
       "Disable Pull To Refresh",
@@ -4406,6 +4424,7 @@
       "Allow Modified APK",
       "Block Telemetry",
       "Clone Gboard",
+      "DPI Resource Slimmer",
       "Disable Diagnostics",
       "Disable Google Primes",
       "Disable MDD Background Sync",
@@ -4426,6 +4445,7 @@
       "Block Vivaldi Telemetry",
       "Clean Speed Dial Bookmarks",
       "Close Tabs on Exit",
+      "DPI Resource Slimmer",
       "Disable Background Sync & Periodic Sync",
       "Disable Battery Status API & OS Listener",
       "Disable Chromium Tips & Notification Scheduler",
@@ -4726,7 +4746,7 @@
       "Playback speed",
       "PoToken provider",
       "Reload video",
-      "Remember livestream playback position",
+      "Remember live stream playback position",
       "Remove background playback restrictions",
       "Remove viewer discretion dialog",
       "Return YouTube Dislike",
@@ -5285,6 +5305,7 @@
       "Playback speed",
       "PoToken provider",
       "Reload video",
+      "Remember live stream playback position",
       "Remove background playback restrictions",
       "Remove viewer discretion dialog",
       "Return YouTube Dislike",
@@ -6703,7 +6724,7 @@
       "Playback speed",
       "PoToken provider",
       "Reload video",
-      "Remember livestream playback position",
+      "Remember live stream playback position",
       "Remove background playback restrictions",
       "Remove viewer discretion dialog",
       "Return YouTube Dislike",
@@ -6773,6 +6794,9 @@
     ],
     "com.clusterdev.malayalamkeyboard": [
       "Unlock Premium"
+    ],
+    "com.footej.camera": [
+      "Unlock Footej Camera Premium"
     ],
     "com.haibison.apksigner": [
       "APK Signer Unlock Pro",
@@ -6849,30 +6873,26 @@
       "Custom offline videos limit",
       "Diagnostic tools",
       "Disable login requirement",
-      "Disable long-press quick share",
-      "Disable long-press repost",
       "Disable screen capture detection",
       "Disable telemetry",
+      "Disable the long press quick share",
+      "Disable the long press repost",
       "Double-tap controls",
       "Downloads",
-      "Enable Live search",
-      "Enable non-personalized search",
       "Enable voice comments",
       "Expand activity list",
       "Feature Gate Lab",
       "Feature Gate Recorder",
       "Feed filter",
       "Feed tab navigation",
-      "Fit video to the screen",
+      "Fit the video to the screen",
       "Fix Google login",
       "Foldable split comment view",
       "Follow diagnostics",
       "Ghost mode",
-      "Hide BdTuring CAPTCHA popups",
       "Hide CAPTCHA popups",
       "Hide already seen videos",
       "Hide comment popup ads",
-      "Hide content warnings",
       "Hide feed LIVE button",
       "Hide feed follow button",
       "Hide feed save button",
@@ -6883,8 +6903,10 @@
       "Hide quick comment reactions",
       "Hide search suggestions",
       "Hide suggested accounts",
+      "Hide the risk control CAPTCHA",
       "Hide video overlays",
       "Hold-and-slide 2x lock",
+      "Keep the screen's refresh rate",
       "Long-press controls",
       "Not interested button",
       "Notification controls",
@@ -6898,13 +6920,15 @@
       "Sanitize sharing links",
       "Settings",
       "Share sheet tools",
+      "Show LIVE search",
       "Show author region",
-      "Show seekbar",
-      "Show seekbar thumbnail",
+      "Show the progress bar",
+      "Show the progress bar thumbnail",
+      "Skip content warnings",
       "Stop video looping",
       "Subtitle tools",
       "Translate comments",
-      "Uncap the refresh rate"
+      "Use non-personalized search"
     ]
   },
   "theabhishekbhujang/morphe-patches": {
@@ -7373,7 +7397,6 @@
   },
   "yann-soliman/morphe-patches": {
     "fr.keepcool.memberapp": [
-      "Keepcool: 30-day booking calendar",
       "Keepcool: allow plus in email",
       "Keepcool: booking availability dots"
     ]
@@ -7398,7 +7421,10 @@
       "Custom App Output Patch (Experimental, Enhanced)",
       "Disable Forced Online Checks (Experimental)",
       "PairIP Bypass Patch (Experimental, Enhanced)",
-      "UniPatches Universal Overlay Patch v1.4.1 (Experimental)"
+      "UniPatches Universal Overlay Patch v2.1 (Experimental)"
+    ],
+    "com.fingersoft.hillclimb": [
+      "Hill Climb Racing Overlay Example (Experimental)"
     ]
   },
   "zeldrisho/morphe-patches": {

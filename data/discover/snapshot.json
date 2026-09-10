@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "5321b44c47181b3a691b475a2a8671f25ae118e4",
+  "jman_tree_sha": "26def45027506f18a58347fe3d43eff7f2bd5975",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -294,7 +294,7 @@
       "key": null
     },
     "dual-vot": {
-      "sha": "eddd7f5287d95e34160f37f7fcd34a48ee59a848",
+      "sha": "c5963161defec3a5d8ce4893cee539a3845d31ca",
       "key": "https://github.com/sashade8-ship-it/dual-vot-patches"
     },
     "dumketo": {
@@ -362,7 +362,7 @@
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "1cd445c14eeb21a8f6de72024c7caa15ee5a5aa3",
+      "sha": "dd74078dfaac1c67b30b8180161551becf9fef14",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -422,7 +422,7 @@
       "key": "https://github.com/hu-liberator/patches"
     },
     "hushfeed": {
-      "sha": "aacdfaea85112434f6e4b825e605fb81fc52cf37",
+      "sha": "635621184936d67c94f3129b8e69dd8944e89206",
       "key": "https://github.com/SysAdminDoc/hushfeed"
     },
     "hxreborn": {
@@ -538,7 +538,7 @@
       "key": "https://github.com/kolaron/morphe-patches"
     },
     "kondratjev": {
-      "sha": "2eecfdbc1e62ee05e8d988e13d3ac8d03ca064d0",
+      "sha": "fdc3b320281f99233c4a6a9d18e294b45cf451dd",
       "key": "https://github.com/kondratjev/morphe-patches"
     },
     "korhelyleves": {
@@ -622,7 +622,7 @@
       "key": "https://github.com/Entree3k/Morning-Entree-Patches"
     },
     "morphe": {
-      "sha": "865f2f62de221322f668ebeee626680ac83c2adb",
+      "sha": "d8fb7b82f38750b0fc6e65d856fc25204f00d93c",
       "key": "https://github.com/MorpheApp/morphe-patches"
     },
     "morphe-google": {
@@ -938,7 +938,7 @@
       "key": null
     },
     "unipatches": {
-      "sha": "00adce1def8c2d56c7a810ef1eb9fbbaea7b30af",
+      "sha": "a514b23e6a557c30e2582e12bfe63b93744cb0d6",
       "key": "https://github.com/Zanuaimi/UniPatches"
     },
     "v4n1x": {

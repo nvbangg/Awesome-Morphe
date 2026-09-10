@@ -1,5 +1,175 @@
 [
   {
+    "date": "September 10, 2026",
+    "bundles": {
+      "MorpheApp/morphe-patches": {
+        "apps": {
+          "com.google.android.youtube": {
+            "patches": [
+              "Remember live stream playback position"
+            ]
+          }
+        }
+      },
+      "byehi98/okish-morphe-patches": {
+        "apps": {
+          "com.rebelbinary.onlyone": {
+            "patches": [
+              "Only One IAP billing bypass"
+            ]
+          }
+        }
+      },
+      "kveld9/kveld-morphe-patches": {
+        "apps": {
+          "com.google.android.inputmethod.latin": {
+            "patches": [
+              "DPI Resource Slimmer"
+            ]
+          },
+          "com.brave.browser": {
+            "patches": [
+              "DPI Resource Slimmer"
+            ]
+          },
+          "com.vivaldi.browser.snapshot": {
+            "patches": [
+              "DPI Resource Slimmer"
+            ]
+          }
+        }
+      },
+      "BlazeFTL/FTL-Patches": {
+        "apps": {
+          "com.mxtech.videoplayer.ad": {
+            "patches": [
+              "Boost Splash Screen Time",
+              "Remove Recycle Bin"
+            ]
+          }
+        }
+      },
+      "JZ6/Flexboard": {
+        "apps": {
+          "com.google.android.inputmethod.latin": {
+            "patches": [
+              "Swipe up to undo autocorrect"
+            ]
+          }
+        }
+      },
+      "shuhaibnc/morphe-patches": {
+        "apps": {
+          "com.footej.camera": {
+            "patches": [
+              "Unlock Footej Camera Premium"
+            ],
+            "isNew": true
+          }
+        }
+      },
+      "d0nj/morphe-patches": {
+        "apps": {
+          "bitpit.launcher": {
+            "patches": [
+              "Remove analytics",
+              "Unlock Pro"
+            ],
+            "isNew": true
+          }
+        }
+      },
+      "brealorg/breal-morphe-patches": {
+        "apps": {
+          "com.rubenmayayo.reddit": {
+            "patches": [
+              "Fix Boost video rewind back buffer"
+            ]
+          }
+        }
+      },
+      "sashade8-ship-it/dual-vot-patches": {
+        "apps": {
+          "com.google.android.youtube": {
+            "patches": [
+              "Remember live stream playback position"
+            ]
+          }
+        }
+      },
+      "Zanuaimi/UniPatches": {
+        "apps": {
+          "com.fingersoft.hillclimb": {
+            "patches": [
+              "Hill Climb Racing Overlay Example (Experimental)"
+            ],
+            "isNew": true
+          },
+          "__universal__": {
+            "patches": [
+              "UniPatches Universal Overlay Patch v2.1 (Experimental)"
+            ]
+          }
+        }
+      },
+      "SysAdminDoc/hushfeed": {
+        "apps": {
+          "com.zhiliaoapp.musically": {
+            "patches": [
+              "Disable the long press quick share",
+              "Disable the long press repost",
+              "Fit the video to the screen",
+              "Hide the risk control CAPTCHA",
+              "Keep the screen's refresh rate",
+              "Show LIVE search",
+              "Show the progress bar",
+              "Show the progress bar thumbnail",
+              "Skip content warnings",
+              "Use non-personalized search"
+            ]
+          }
+        }
+      },
+      "JacobPlaysGames/CrimeRadar-Morphe-Patches": {
+        "apps": {
+          "com.scannerradio": {
+            "patches": [
+              "Branding",
+              "Change package name",
+              "Pairip DRM Bypass",
+              "Premium Bypass",
+              "Telemetry Kill"
+            ],
+            "isNew": true
+          },
+          "com.newsbreak.crimeradar": {
+            "patches": [
+              "Branding",
+              "Change package name",
+              "Debug Settings",
+              "Notification Limits Raised",
+              "Premium Bypass",
+              "Remove History Cap",
+              "Replay Minutes Override",
+              "Telemetry Kill"
+            ],
+            "isNew": true
+          }
+        },
+        "isNew": true
+      },
+      "ozeroztas/Morphe-Patch": {
+        "apps": {
+          "com.google.android.youtube": {
+            "patches": [
+              "Remember live stream playback position"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
     "date": "September 9, 2026",
     "bundles": {
       "rushiranpise/morphe-patches": {
@@ -3968,352 +4138,6 @@
               "Remove AI News",
               "Remove Ads",
               "Remove ChatGPT"
-            ]
-          }
-        }
-      }
-    }
-  },
-  {
-    "date": "August 27, 2026",
-    "bundles": {
-      "Educal72/educal-patches": {
-        "apps": {
-          "aculix.viddit.downloader": {
-            "patches": [
-              "Unlock Premium"
-            ],
-            "isNew": true
-          }
-        },
-        "isNew": true
-      },
-      "jackblk/morphe-patches": {
-        "apps": {
-          "net.relaxio.sleepo": {
-            "patches": [
-              "Unlock Premium"
-            ],
-            "isNew": true
-          }
-        },
-        "isNew": true
-      },
-      "AzukiSensei/aniskip-stremio": {
-        "apps": {
-          "com.stremio.one": {
-            "patches": [
-              "Stremio AniSkip"
-            ],
-            "isNew": true
-          }
-        },
-        "isNew": true
-      },
-      "canh0chua/Morphe-patches": {
-        "apps": {
-          "com.viber.voip": {
-            "patches": [
-              "Secondary Viber Device"
-            ],
-            "isNew": true
-          }
-        },
-        "isNew": true
-      },
-      "Dan1elTheMan1el/Morphe-Patches": {
-        "apps": {
-          "com.fitness.debugger": {
-            "patches": [
-              "Custom Branding",
-              "Material You Theme",
-              "Remove Bottom Banner Ad",
-              "Unlimited Time Bypass"
-            ],
-            "isNew": true
-          },
-          "me.pokeraid": {
-            "patches": [
-              "Bounty Daily Reward Shortcut",
-              "Disable Ads",
-              "Disable Analytics",
-              "Hide News Banners",
-              "Material You Theme",
-              "Quick Join Button"
-            ],
-            "isNew": true
-          }
-        },
-        "isNew": true
-      },
-      "Seobject/Seobject-patches": {
-        "apps": {
-          "com.google.android.apps.youtube.music": {
-            "patches": [
-              "Pin playlists"
-            ],
-            "isNew": true
-          },
-          "com.discord": {
-            "patches": [
-              "Bunny"
-            ],
-            "isNew": true
-          }
-        },
-        "isNew": true
-      },
-      "jaredcat/morphe-patches": {
-        "apps": {
-          "com.lumenate.lumenateaa": {
-            "patches": [
-              "Unlock Premium"
-            ],
-            "isNew": true
-          },
-          "org.monroeinstitute.expand": {
-            "patches": [
-              "Disable Analytics",
-              "Unlock Plus"
-            ],
-            "isNew": true
-          }
-        },
-        "isNew": true
-      },
-      "MorpheApp/morphe-patches": {
-        "apps": {
-          "com.google.android.youtube": {
-            "patches": [
-              "Disable scrolling speed limit",
-              "Save to Watch later"
-            ]
-          }
-        }
-      },
-      "rushiranpise/morphe-patches": {
-        "apps": {
-          "com.reddit.frontpage": {
-            "patches": [
-              "Hide Awards",
-              "Hide Comment Score",
-              "Hide NSFW Posts",
-              "Hide Post Score",
-              "Hide Repost Button"
-            ]
-          },
-          "com.sociallite.android": {
-            "patches": [
-              "Unlock Premium"
-            ]
-          }
-        }
-      },
-      "jasonwu1994/Gboard-patches": {
-        "apps": {
-          "com.google.android.inputmethod.latin": {
-            "patches": [
-              "Floating Web Search",
-              "Top Toolbar Item Count"
-            ]
-          }
-        }
-      },
-      "hoo-dles/morphe-patches": {
-        "apps": {
-          "com.lingodeer": {
-            "patches": [
-              "Enable Premium (ROOT)"
-            ],
-            "isNew": true
-          },
-          "com.sbs.diet": {
-            "patches": [
-              "Enable Premium (ROOT)"
-            ]
-          },
-          "com.sbs.train": {
-            "patches": [
-              "Enable Premium (ROOT)"
-            ]
-          }
-        }
-      },
-      "RookieEnough/De-Vanced": {
-        "apps": {
-          "com.strava": {
-            "patches": [
-              "Add route export"
-            ]
-          }
-        }
-      },
-      "hxreborn/morphe-patches": {
-        "apps": {
-          "photo.editor.photoeditor.photoeditorpro": {
-            "patches": [
-              "Hide ads",
-              "Inspect AI requests",
-              "Show AI progress",
-              "Speed up AI tools",
-              "Spoof signature",
-              "Unlock premium"
-            ],
-            "isNew": true
-          }
-        }
-      },
-      "byehi98/okish-morphe-patches": {
-        "apps": {
-          "com.rebelbinary.onlyone": {
-            "patches": [
-              "Only One Free Store",
-              "Only One License Bypass"
-            ],
-            "isNew": true
-          },
-          "com.blingame.haaktestb": {
-            "patches": [
-              "HAAK Free Purchases and Unlocked Paid Content"
-            ],
-            "isNew": true
-          }
-        }
-      },
-      "ajstrick81/morphe-androidtv-patches": {
-        "apps": {
-          "com.wbd.hbomax": {
-            "patches": [
-              "HBO Max - Prefer Ad-Free Stream"
-            ]
-          }
-        }
-      },
-      "Entree3k/Morning-Entree-Patches": {
-        "apps": {
-          "ginlemon.flowerfree": {
-            "patches": [
-              "Enable Pro"
-            ],
-            "isNew": true
-          },
-          "bitpit.launcher": {
-            "patches": [
-              "Enable Niagara Pro"
-            ],
-            "isNew": true
-          },
-          "com.ss.squarehome2": {
-            "patches": [
-              "Enable Premium"
-            ],
-            "isNew": true
-          },
-          "ru.execbit.aiolauncher": {
-            "patches": [
-              "Enable Premium"
-            ],
-            "isNew": true
-          }
-        }
-      },
-      "BlazeFTL/FTL-Patches": {
-        "apps": {
-          "videoplayer.videodownloader.downloader": {
-            "patches": [
-              "Boost Splash Screen"
-            ]
-          },
-          "calendar.agenda.schedule.event.advance.calendar.planner": {
-            "patches": [
-              "Skip/Boost splash screen"
-            ]
-          }
-        }
-      },
-      "riky-dev/morphe-patches": {
-        "apps": {
-          "com.lemon.lvoverseas": {
-            "patches": [
-              "Hide AI Lab Tab",
-              "Hide False Hopes Features",
-              "Remove security notice",
-              "Suppress Telemetry and Trackers",
-              "Unlock Premium"
-            ],
-            "isNew": true
-          }
-        }
-      },
-      "shuhaibnc/morphe-patches": {
-        "apps": {
-          "com.haibison.apksigner": {
-            "patches": [
-              "APK Signer Unlock Pro",
-              "Disable Forground Services Warning"
-            ],
-            "isNew": true
-          }
-        }
-      },
-      "Kecerim24/morphe-patches": {
-        "apps": {
-          "cz.destil.settleup": {
-            "patches": [
-              "Remove ads",
-              "Unlock premium"
-            ],
-            "isNew": true
-          }
-        }
-      },
-      "legendsciber/morphe-patches": {
-        "apps": {
-          "com.block.juggle": {
-            "patches": [
-              "Ad Removal + Subscription"
-            ],
-            "isNew": true
-          }
-        }
-      },
-      "AngelDark92/steamlink-patches": {
-        "apps": {
-          "com.valvesoftware.steamlinkvr": {
-            "patches": [
-              "Experimental VRLink unmanaged full space",
-              "Experimental XR projection quality settings",
-              "Experimental XR projection settings stripped",
-              "Experimental XR projection trace control"
-            ]
-          }
-        }
-      },
-      "Jl4cTuk/morphe-patches": {
-        "apps": {
-          "ru.ozon.app.android": {
-            "patches": [
-              "Disable tip notifications"
-            ]
-          },
-          "ru.vk.store": {
-            "patches": [
-              "Disable background hooks",
-              "Disable gaming profile",
-              "Disable invasive permissions",
-              "Disable push services",
-              "Restore secure-session compatibility",
-              "Restrict background work to updates",
-              "Skip update authentication"
-            ]
-          }
-        }
-      },
-      "subenoeva/roadsync-patches": {
-        "apps": {
-          "com.honda.ms.dm.sab": {
-            "patches": [
-              "Offline pairing"
             ]
           }
         }

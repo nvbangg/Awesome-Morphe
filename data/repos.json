@@ -771,8 +771,8 @@
   "JacobPlaysGames/CrimeRadar-Morphe-Patches": {
     "name": "CrimeRadar Patches",
     "github": {
-      "main": "c3602c379c6440790ebff8ecec606c81c189fe715186dd32a03644e40dceb0ea",
-      "dev": "c3602c379c6440790ebff8ecec606c81c189fe715186dd32a03644e40dceb0ea"
+      "main": "dde80128853b51e2c1a85456f9f8b3d5cd123f7559c50f3e4aadfd7a35a32c82",
+      "dev": "dde80128853b51e2c1a85456f9f8b3d5cd123f7559c50f3e4aadfd7a35a32c82"
     }
   },
   "jancerny2001/morphe-patches": {
@@ -843,7 +843,7 @@
     "name": "Flexboard",
     "github": {
       "main": "6e1c38cb4636b58bdee63ac64c3d723d196ea0b38a4c1d10fbdf0c97666c266d",
-      "dev": "6e1c38cb4636b58bdee63ac64c3d723d196ea0b38a4c1d10fbdf0c97666c266d"
+      "dev": "63efe40557f676d9ba79c715e1ecc09f6bda292ddcf58c7ea96b23e0a02f008e"
     }
   },
   "kareemlukitomo/morphe-patches": {
@@ -1302,8 +1302,8 @@
   "sashade8-ship-it/dual-vot-patches": {
     "name": "Dual VoT Patches",
     "github": {
-      "main": "048ab00e9e19a121f1ea5e968ecc0fb6607494b87796a302960f39f2365bd280",
-      "dev": "048ab00e9e19a121f1ea5e968ecc0fb6607494b87796a302960f39f2365bd280"
+      "main": "82292fde512fd78fc66458a183d615df4eb788ec36aa6c5c06e1f1fc2a989aa9",
+      "dev": "82292fde512fd78fc66458a183d615df4eb788ec36aa6c5c06e1f1fc2a989aa9"
     }
   },
   "Seobject/Seobject-patches": {
