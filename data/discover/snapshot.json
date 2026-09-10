@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "a1fb507b2b6e851a326d1afdc9f9ae65fd61e4bf",
+  "jman_tree_sha": "810774c037f9efe2f855fb49c7260acc86f404ab",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -230,7 +230,7 @@
       "key": "https://github.com/isuruhg/cricinfo-tweaks"
     },
     "crimeradar": {
-      "sha": "32687071e7d711c9730f786dda616cee519bd99f",
+      "sha": "529fab947ffbe111cd3d0e91e52a9a5cd9488344",
       "key": "https://github.com/JacobPlaysGames/CrimeRadar-Morphe-Patches"
     },
     "csagataj2": {
@@ -238,7 +238,7 @@
       "key": "https://github.com/csagataj2/morphe-patches"
     },
     "d0nj": {
-      "sha": "51d47639b6af14b850ce661596d7e5c9b24417e4",
+      "sha": "a87559cc390fe54ec675043a26c8bc274f3a85cd",
       "key": "https://github.com/d0nj/morphe-patches"
     },
     "d4n3436": {
@@ -346,7 +346,7 @@
       "key": "https://github.com/isuruhg/fin-tweaks"
     },
     "flexboard": {
-      "sha": "49b46d7c622cb5907e5b0bd602c3ed9861193b3e",
+      "sha": "77bc2e549707752cb1aae8bbc1cba14b14ca2ea9",
       "key": "https://github.com/JZ6/Flexboard"
     },
     "forsyth47": {
@@ -362,7 +362,7 @@
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "dd74078dfaac1c67b30b8180161551becf9fef14",
+      "sha": "094df7eaee5245c5f7e7464c09e191abef963e55",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -422,7 +422,7 @@
       "key": "https://github.com/hu-liberator/patches"
     },
     "hushfeed": {
-      "sha": "635621184936d67c94f3129b8e69dd8944e89206",
+      "sha": "9c601fc8c88311c20a2a04163cf7687ba828e3a2",
       "key": "https://github.com/SysAdminDoc/hushfeed"
     },
     "hxreborn": {
@@ -574,7 +574,7 @@
       "key": null
     },
     "letterboxd": {
-      "sha": "f62121c872698145c79b03f91b2fd1f09df30832",
+      "sha": "80b3878e28917c92a32defda130642e2d0f2028f",
       "key": "https://github.com/mvaishak/letterboxd-morphe-patches"
     },
     "letterboxd-stremio": {
@@ -590,7 +590,7 @@
       "key": null
     },
     "logm1lo": {
-      "sha": "07676f68a982f0032b237d2229891061c9b0abea",
+      "sha": "2a2cc7318743eb6c037c91f94d3638f52ef991dc",
       "key": "https://github.com/logm1lo/logm1lo-patches"
     },
     "loskutov": {
@@ -706,7 +706,7 @@
       "key": "https://github.com/alejandrobellver/pichiwa-patches"
     },
     "piko": {
-      "sha": "021cf14492123601b46d2e26ea6b51f2f4a2f1a7",
+      "sha": "2768262fc8e5b3cb192f9d56e804170b4a82450a",
       "key": "https://github.com/crimera/piko"
     },
     "piko-shim": {
@@ -938,7 +938,7 @@
       "key": null
     },
     "unipatches": {
-      "sha": "a514b23e6a557c30e2582e12bfe63b93744cb0d6",
+      "sha": "121f9be3b9131613eb0e9d5619ae6a50e0126ec4",
       "key": "https://github.com/Zanuaimi/UniPatches"
     },
     "v4n1x": {
@@ -950,7 +950,7 @@
       "key": "https://github.com/pmaxhogan/vantage-patches"
     },
     "variablenine": {
-      "sha": "63bc37b16251b54992acbaaf1a93f2199b2db907",
+      "sha": "51f4d8f2427677a6af3ca73762f2ed1fa1ba5556",
       "key": "https://github.com/variablenine/morphe-patches"
     },
     "vernoxvernax": {
@@ -986,7 +986,7 @@
       "key": "https://github.com/Xhehab/Xhehab-Patches"
     },
     "xob0t": {
-      "sha": "bff66888bf08d4843ae5c8291681b8b776733388",
+      "sha": "71fe742e8b99f17cea3dfa8808493617a0c00de9",
       "key": "https://github.com/xob0t/morphe-patches"
     },
     "xperia-1v-camera": {
