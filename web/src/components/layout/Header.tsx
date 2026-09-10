@@ -8,7 +8,7 @@ export function Header() {
         <div className="flex items-center gap-3 shrink-0">
           <a
             href="https://awesome-morphe.vercel.app/"
-            className="no-underline shrink-0 flex items-center"
+            className="no-underline shrink-0 flex items-center hover:opacity-85 transition-opacity"
           >
             <img
               alt=""
@@ -21,16 +21,19 @@ export function Header() {
           <div className="flex flex-col justify-center">
             <a
               href="https://awesome-morphe.vercel.app/"
-              className="font-bold text-lg text-foreground hover:text-primary transition-colors leading-tight no-underline"
+              className="font-bold text-lg leading-tight no-underline hover:opacity-85 transition-opacity"
             >
-              Awesome Morphe
+              <span className="bg-primary-gradient bg-clip-text text-transparent">
+                Awesome
+              </span>{" "}
+              <span className="text-foreground">Morphe</span>
             </a>
             <span className="hidden lg:block text-xs text-foreground-muted font-normal leading-tight mt-0.5">
               Explore all patch bundles from the{" "}
               <a
                 href="https://morphe.software/"
                 target="_blank"
-                className="font-semibold text-primary no-underline hover:opacity-80 transition-opacity"
+                className="font-semibold bg-primary-gradient bg-clip-text text-transparent no-underline hover:opacity-80 transition-opacity"
               >
                 Morphe
               </a>{" "}
@@ -46,9 +49,9 @@ export function Header() {
             href="https://github.com/nvbangg/awesome-morphe"
             target="_blank"
             title="Awesome Morphe Repository"
-            className="inline-flex items-center justify-center h-8 px-3 rounded-lg font-semibold text-xs gap-1.5 transition-all bg-foreground text-background hover:opacity-90 border-none no-underline"
+            className="inline-flex items-center justify-center h-9 w-9 md:w-auto md:px-3 rounded-lg font-semibold text-xs gap-1.5 transition-all bg-foreground text-background hover:opacity-90 border-none no-underline shrink-0 select-none"
           >
-            <GitHubIcon className="size-4" />
+            <GitHubIcon className="size-4 shrink-0" />
             <span className="hidden md:inline">GitHub</span>
           </a>
         </div>

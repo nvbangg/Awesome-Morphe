@@ -18,7 +18,7 @@ export function Footer() {
         <div className="container mx-auto px-6 max-w-300 flex flex-col gap-3">
           <a
             href="https://awesome-morphe.vercel.app/"
-            className="flex items-center gap-3 no-underline group w-fit"
+            className="flex items-center gap-3 no-underline hover:opacity-85 transition-opacity w-fit"
           >
             <img
               alt=""
@@ -28,12 +28,23 @@ export function Footer() {
               loading="lazy"
               decoding="async"
             />
-            <span className="font-bold text-xl text-foreground group-hover:text-primary transition-colors">
-              Awesome Morphe
+            <span className="font-bold text-xl leading-tight">
+              <span className="bg-primary-gradient bg-clip-text text-transparent">
+                Awesome
+              </span>{" "}
+              <span className="text-foreground">Morphe</span>
             </span>
           </a>
           <p className="text-foreground-muted text-sm">
-            Explore all patch bundles from the Morphe community.
+            Explore all patch bundles from the{" "}
+            <a
+              href="https://morphe.software/"
+              target="_blank"
+              className="font-semibold bg-primary-gradient bg-clip-text text-transparent no-underline hover:opacity-80 transition-opacity"
+            >
+              Morphe
+            </a>{" "}
+            community
           </p>
           <div className="border-t border-divider pt-3 text-foreground-muted text-xs leading-relaxed flex flex-col gap-1.5">
             <p>

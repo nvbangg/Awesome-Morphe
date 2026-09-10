@@ -12,16 +12,16 @@ export const ThemeToggle = memo(function ThemeToggle() {
       id="theme-toggle"
       aria-label="Toggle theme"
       onClick={() => setTheme(isDarkMode ? "light" : "dark")}
-      className="inline-flex items-center justify-center size-8 md:w-auto md:pl-2 md:pr-2.5 rounded-full font-semibold text-xs gap-1 transition-all bg-foreground text-background hover:opacity-90 border-none cursor-pointer shrink-0"
+      className="inline-flex items-center justify-center h-9 w-9 md:w-auto md:px-3 rounded-full font-semibold text-xs gap-1.5 transition-all bg-foreground text-background hover:opacity-90 border-none cursor-pointer shrink-0 select-none"
     >
       {isDarkMode ? (
         <>
-          <Sun className="size-4 text-warning fill-warning" />
+          <Sun className="size-4 text-warning fill-warning shrink-0" />
           <span className="hidden md:inline">Light</span>
         </>
       ) : (
         <>
-          <Moon className="size-4 text-secondary fill-secondary" />
+          <Moon className="size-4 text-secondary fill-secondary shrink-0" />
           <span className="hidden md:inline">Dark</span>
         </>
       )}
