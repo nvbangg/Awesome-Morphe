@@ -4463,7 +4463,7 @@
         "fr.tramb.park4night": 1773147404000,
         "cz.seznam.mapy": 1773147404000
       },
-      "hotRank": 17
+      "hotRank": 18
     },
     {
       "source": "github",
@@ -6545,7 +6545,7 @@
         "com.instagram.android": 1788480000000,
         "com.twitter.android": 1788998400000
       },
-      "stars": 5196,
+      "stars": 5197,
       "updatedAt": 1788998400000,
       "firstSeen": 1773154796000,
       "appFirstSeen": {
@@ -6647,7 +6647,7 @@
         "bitpit.launcher": 1788969841538,
         "com.thien.novelreader": 1785585418458
       },
-      "hotRank": 53
+      "hotRank": 51
     },
     {
       "source": "github",
@@ -6825,7 +6825,7 @@
         "com.fitness.debugger": 1787811911189,
         "com.izorg.munchkin": 1788751211745
       },
-      "hotRank": 60
+      "hotRank": 61
     },
     {
       "source": "github",
@@ -6859,7 +6859,7 @@
       "appFirstSeen": {
         "com.gdjztech.ringconn": 1788861307176
       },
-      "hotRank": 43
+      "hotRank": 44
     },
     {
       "source": "github",
@@ -14329,7 +14329,7 @@
         "com.vivaldi.browser.snapshot": 1788912000000,
         "com.brave.browser": 1788566400000
       },
-      "stars": 44,
+      "stars": 45,
       "updatedAt": 1788912000000,
       "firstSeen": 1787303946650,
       "appFirstSeen": {
@@ -14674,7 +14674,7 @@
         "com.calistree.calistree": 1785926248177,
         "com.jeffprod.cubesolver": 1786153262639
       },
-      "hotRank": 52
+      "hotRank": 53
     },
     {
       "source": "github",
@@ -18837,7 +18837,7 @@
         "com.ddsx_ayla_android": 1787262235126,
         "com.crunchyroll.crunchyroid": 1783420111086
       },
-      "hotRank": 61
+      "hotRank": 60
     },
     {
       "source": "github",
@@ -19773,7 +19773,7 @@
         "io.funswitch.blocker": 1787331231206,
         "droom.sleepIfUCan": 1769904000000
       },
-      "hotRank": 44
+      "hotRank": 43
     },
     {
       "source": "github",
@@ -23093,7 +23093,7 @@
         "com.google.android.verifier": 1787097600000,
         "com.facebook.orca": 1786924800000
       },
-      "stars": 619,
+      "stars": 620,
       "updatedAt": 1788825600000,
       "firstSeen": 1780395687718,
       "appFirstSeen": {
@@ -24727,7 +24727,7 @@
       "appUpdates": {
         "com.facebook.katana": 1788739200000
       },
-      "stars": 62,
+      "stars": 63,
       "updatedAt": 1788739200000,
       "firstSeen": 1787675763757,
       "appFirstSeen": {
@@ -24863,7 +24863,7 @@
         "com.marsvard.stickermakerforwhatsapp": 1787614808700,
         "com.vpnbottle.melon.free.unblock.fast.vpn": 1787648170434
       },
-      "hotRank": 51
+      "hotRank": 52
     },
     {
       "source": "github",
@@ -26276,13 +26276,13 @@
         "com.wildberries.ru"
       ],
       "appUpdates": {
+        "com.idamob.tinkoff.android": 1788998400000,
         "com.wildberries.ru": 1788912000000,
         "ru.ozon.app.android": 1788825600000,
-        "com.idamob.tinkoff.android": 1788393600000,
         "com.avito.android": 1788307200000
       },
       "stars": 41,
-      "updatedAt": 1788912000000,
+      "updatedAt": 1788998400000,
       "firstSeen": 1778236605000,
       "appFirstSeen": {
         "com.avito.android": 1778236605000,
@@ -26290,7 +26290,7 @@
         "ru.ozon.app.android": 1778236605000,
         "com.wildberries.ru": 1778236605000
       },
-      "hotRank": 18
+      "hotRank": 17
     },
     {
       "source": "github",
@@ -43468,6 +43468,10 @@
         "packageName": "com.idamob.tinkoff.android",
         "name": "TBank",
         "targets": [
+          {
+            "version": "8.2.3",
+            "versionCode": 13126
+          },
           {
             "version": "8.2.1",
             "versionCode": 13085

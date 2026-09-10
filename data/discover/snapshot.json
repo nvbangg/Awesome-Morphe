@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "cf7afa2890e763c15c7e62d42200589f0da27445",
+  "jman_tree_sha": "810774c037f9efe2f855fb49c7260acc86f404ab",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -238,7 +238,7 @@
       "key": "https://github.com/csagataj2/morphe-patches"
     },
     "d0nj": {
-      "sha": "a81b44f8fe8a4d9beb3a03872b3a8ecbd33e81de",
+      "sha": "a87559cc390fe54ec675043a26c8bc274f3a85cd",
       "key": "https://github.com/d0nj/morphe-patches"
     },
     "d4n3436": {
@@ -362,7 +362,7 @@
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "603bc28ee626783c5ffa8db50eda5c6a5f32bf53",
+      "sha": "094df7eaee5245c5f7e7464c09e191abef963e55",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -422,7 +422,7 @@
       "key": "https://github.com/hu-liberator/patches"
     },
     "hushfeed": {
-      "sha": "635621184936d67c94f3129b8e69dd8944e89206",
+      "sha": "9c601fc8c88311c20a2a04163cf7687ba828e3a2",
       "key": "https://github.com/SysAdminDoc/hushfeed"
     },
     "hxreborn": {
@@ -590,7 +590,7 @@
       "key": null
     },
     "logm1lo": {
-      "sha": "07676f68a982f0032b237d2229891061c9b0abea",
+      "sha": "2a2cc7318743eb6c037c91f94d3638f52ef991dc",
       "key": "https://github.com/logm1lo/logm1lo-patches"
     },
     "loskutov": {
@@ -938,7 +938,7 @@
       "key": null
     },
     "unipatches": {
-      "sha": "a514b23e6a557c30e2582e12bfe63b93744cb0d6",
+      "sha": "121f9be3b9131613eb0e9d5619ae6a50e0126ec4",
       "key": "https://github.com/Zanuaimi/UniPatches"
     },
     "v4n1x": {
@@ -950,7 +950,7 @@
       "key": "https://github.com/pmaxhogan/vantage-patches"
     },
     "variablenine": {
-      "sha": "63bc37b16251b54992acbaaf1a93f2199b2db907",
+      "sha": "51f4d8f2427677a6af3ca73762f2ed1fa1ba5556",
       "key": "https://github.com/variablenine/morphe-patches"
     },
     "vernoxvernax": {
@@ -986,7 +986,7 @@
       "key": "https://github.com/Xhehab/Xhehab-Patches"
     },
     "xob0t": {
-      "sha": "bff66888bf08d4843ae5c8291681b8b776733388",
+      "sha": "71fe742e8b99f17cea3dfa8808493617a0c00de9",
       "key": "https://github.com/xob0t/morphe-patches"
     },
     "xperia-1v-camera": {

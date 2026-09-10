@@ -1,5 +1,5 @@
 {
-  "version": "1.12.13",
+  "version": "1.12.14",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -140,6 +140,13 @@
           "appIconColor": "#FFDD2D",
           "signatures": null,
           "targets": [
+            {
+              "version": "8.2.3",
+              "versionCode": 13126,
+              "isExperimental": false,
+              "minSdk": 28,
+              "description": null
+            },
             {
               "version": "8.2.1",
               "versionCode": 13085,
@@ -607,6 +614,13 @@
           "appIconColor": "#FFDD2D",
           "signatures": null,
           "targets": [
+            {
+              "version": "8.2.3",
+              "versionCode": 13126,
+              "isExperimental": false,
+              "minSdk": 28,
+              "description": null
+            },
             {
               "version": "8.2.1",
               "versionCode": 13085,

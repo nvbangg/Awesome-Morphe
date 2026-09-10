@@ -140,7 +140,7 @@
     "name": "Steam Link GalaxyXR Patches",
     "github": {
       "main": "611eaa3130db1136b4bc183cea1e9e75a4eacd88384b5f6d24058fb384e690b5",
-      "dev": "611eaa3130db1136b4bc183cea1e9e75a4eacd88384b5f6d24058fb384e690b5"
+      "dev": "f862c7492db849211855a7cba90399d34353df1e9a6530d0b7b87acc1b40ebf1"
     }
   },
   "anxyis/anxy-patches": {
@@ -878,8 +878,8 @@
   "kondratjev/morphe-patches": {
     "name": "Kondratjev Patches",
     "github": {
-      "main": "adb0ea7adde8232aea7bb44435cb5fa7dd43c2bbcaa6da997303cc2e1e7f78d3",
-      "dev": "adb0ea7adde8232aea7bb44435cb5fa7dd43c2bbcaa6da997303cc2e1e7f78d3"
+      "main": "acb1e47c42580165f0762128716c06519b4d149db35b728b9fc1ab6fcd8de381",
+      "dev": "acb1e47c42580165f0762128716c06519b4d149db35b728b9fc1ab6fcd8de381"
     }
   },
   "kontsevoye/emorphe-patches": {
@@ -934,7 +934,7 @@
   "legendsciber/morphe-patches": {
     "name": "legendsciber's Patches",
     "github": {
-      "main": "3ff13836d67b50fbf1cfb4c2f3f5fee08919e8eee3e7904391aa622564971f4b",
+      "main": "f48287b69ed111398deeb9445ea5c302983eb64ef0344b43cdc02a8e10f2a85f",
       "dev": null
     }
   },
@@ -956,7 +956,7 @@
     "name": "Logm1lo Patches",
     "github": {
       "main": "ea25f697bc1f270b62940157aa180a599be99ae89867d41c85c4be5ef296b506",
-      "dev": "dec7b6820b6cae10e02da3298ce9c233b1961f9287e898864ede7f8712a944e8",
+      "dev": "ea25f697bc1f270b62940157aa180a599be99ae89867d41c85c4be5ef296b506",
       "image": "fa4e479b38915420affd9f6f95cb1cec05a75c99b1aa77d288c136f2fcbcc5b7"
     }
   },
@@ -1372,7 +1372,7 @@
   "SysAdminDoc/hushfeed": {
     "name": "Hushfeed",
     "github": {
-      "main": "cc82240c28a1702a43807db367dd70bec51d01c9ab226f1fd4bbd8cf9354dfe2",
+      "main": "a3a191c8a09ca4687f116ee60e46a2457f337120b447e4c7ac571205d28ea672",
       "dev": null,
       "image": "4d092c078217f40dceb3b85b29d4c3f23e2a1cf3e46e32942b094d1e80453e31"
     }
@@ -1472,8 +1472,8 @@
   "xob0t/morphe-patches": {
     "name": "xob0t Morphe Patches",
     "github": {
-      "main": "740312f5b1ffb91ac0ffc3710675db92d0a6f597ada7a2c1e5925d3b1642e376",
-      "dev": "740312f5b1ffb91ac0ffc3710675db92d0a6f597ada7a2c1e5925d3b1642e376"
+      "main": "4898ef2695de221c5bddbc940a0ee68aad5f7df268af47aa205c067119f4c5ba",
+      "dev": "4898ef2695de221c5bddbc940a0ee68aad5f7df268af47aa205c067119f4c5ba"
     }
   },
   "XTapped/morphe-patches": {
