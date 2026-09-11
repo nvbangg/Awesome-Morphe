@@ -413,7 +413,7 @@
         "com.tubitv": 1784505600000,
         "com.univision.prendetv": 1783814400000
       },
-      "stars": 183,
+      "stars": 184,
       "updatedAt": 1782432000000,
       "firstSeen": 1779696344214,
       "appFirstSeen": {
@@ -512,7 +512,7 @@
         "jp.co.sony.mc.cameraapp": 1788648088779,
         "com.sonymobile.photopro": 1788648088779
       },
-      "hotRank": 66
+      "hotRank": 67
     },
     {
       "source": "github",
@@ -558,7 +558,7 @@
       "appFirstSeen": {
         "com.theclashsoft.sofatime": 1785522950930
       },
-      "hotRank": 54
+      "hotRank": 47
     },
     {
       "source": "github",
@@ -691,7 +691,7 @@
         "com.android.chrome": 1787040197454,
         "com.pixilart.app": 1787040197454
       },
-      "hotRank": 67
+      "hotRank": 68
     },
     {
       "source": "github",
@@ -798,7 +798,7 @@
         "io.foodvisor.foodvisor": 1778105036000,
         "com.roidapp.photogrid": 1778105036000
       },
-      "hotRank": 134
+      "hotRank": 135
     },
     {
       "source": "github",
@@ -1716,7 +1716,7 @@
         "net.daum.android.map": 1788825600000,
         "com.onyx.galaxy.global.note": 1788393600000
       },
-      "stars": 151,
+      "stars": 152,
       "updatedAt": 1788825600000,
       "firstSeen": 1774756607000,
       "appFirstSeen": {
@@ -1730,7 +1730,7 @@
         "net.daum.android.map": 1788287354763,
         "com.nhn.android.nmap": 1788861015980
       },
-      "hotRank": 23
+      "hotRank": 22
     },
     {
       "source": "github",
@@ -1990,7 +1990,7 @@
       "appFirstSeen": {
         "jp.naver.line.android": 1785099401187
       },
-      "hotRank": 13
+      "hotRank": 12
     },
     {
       "source": "github",
@@ -2069,7 +2069,7 @@
       "appFirstSeen": {
         "com.findthefirellc.findthefire": 1786267928589
       },
-      "hotRank": 130
+      "hotRank": 131
     },
     {
       "source": "github",
@@ -2418,7 +2418,7 @@
       "appFirstSeen": {
         "com.valvesoftware.steamlinkvr": 1786091478160
       },
-      "hotRank": 44
+      "hotRank": 43
     },
     {
       "source": "github",
@@ -3170,7 +3170,7 @@
       "appFirstSeen": {
         "com.transsion.oraimohealth": 1788248708781
       },
-      "hotRank": 85
+      "hotRank": 84
     },
     {
       "source": "github",
@@ -3341,7 +3341,7 @@
         "com.ufovpn.connect.velnet": 1781596395094,
         "com.vpn.free.hotspot.secure.vpnify": 1781425538311
       },
-      "hotRank": 58
+      "hotRank": 51
     },
     {
       "source": "github",
@@ -3488,7 +3488,7 @@
         "app.symfonik.music.player": 1776003728000,
         "org.withouthat.acalendar": 1776003728000
       },
-      "hotRank": 70
+      "hotRank": 69
     },
     {
       "source": "github",
@@ -4030,6 +4030,27 @@
           "compatiblePackagesKey": 140
         },
         {
+          "name": "DPI Resource Slimmer New",
+          "description": "Strips unselected screen density resource directories from res/ (e.g. drawable-mdpi, drawable-hdpi, mipmap-xhdpi). Density-independent resources (nodpi, anydpi) and orphan resources are safely preserved.",
+          "options": [
+            {
+              "key": "dpis",
+              "title": "DPI densities to keep",
+              "description": "Comma-separated screen densities to preserve (e.g. 'xxhdpi', 'xhdpi, xxhdpi', 'xxxhdpi'). Density-independent resources (nodpi, anydpi) and unquantified base directories are always preserved.",
+              "required": false,
+              "type": "kotlin.String",
+              "default": "xxhdpi",
+              "values": null
+            }
+          ],
+          "preRelease": true
+        },
+        {
+          "name": "PNG Asset Optimizer New",
+          "description": "Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.",
+          "preRelease": true
+        },
+        {
           "name": "Remove Recycle Bin",
           "description": "Disables the Recycle Bin and removes it from the Me tab; deleted files are removed permanently.",
           "default": true,
@@ -4140,7 +4161,7 @@
       "repoDescription": "Morphe patches to remove ads, analytics, apk junk, debug info, duplicate graphics, unused languages, and use custom dpi☠️",
       "avatarUrl": "https://avatars.githubusercontent.com/u/139938337?v=4&size=168",
       "deepLink": "https://morphe.software/add-source?github=BlazeFTL/FTL-Patches",
-      "patchCount": 61,
+      "patchCount": 63,
       "targetApps": [
         "com.mxtech.videoplayer.ad",
         "videoplayer.videodownloader.downloader",
@@ -4180,7 +4201,7 @@
         "com.tester.wpswpatester": 1788107891385,
         "abdelrahman.wifianalyzerpro": 1788086505110
       },
-      "hotRank": 19
+      "hotRank": 20
     },
     {
       "source": "github",
@@ -4708,7 +4729,7 @@
         "com.pinterest": 1782206425615,
         "easy.sudoku.puzzle.solver.free": 1785577233427
       },
-      "hotRank": 26
+      "hotRank": 25
     },
     {
       "source": "github",
@@ -5432,7 +5453,7 @@
       "appFirstSeen": {
         "com.anime.witcher": 1787957215907
       },
-      "hotRank": 51
+      "hotRank": 50
     },
     {
       "source": "github",
@@ -5565,7 +5586,7 @@
         "com.citymapper.app.release": 1785083063805,
         "com.yanstarstudio.joss.undercover": 1788467842630
       },
-      "hotRank": 37
+      "hotRank": 36
     },
     {
       "source": "github",
@@ -5652,7 +5673,7 @@
         "com.x8bit.bitwarden": 1785156172223,
         "com.instagram.android": 1787989042119
       },
-      "hotRank": 40
+      "hotRank": 39
     },
     {
       "source": "github",
@@ -5715,7 +5736,7 @@
       "appFirstSeen": {
         "com.aspiro.tidal": 1785585799039
       },
-      "hotRank": 110
+      "hotRank": 112
     },
     {
       "source": "github",
@@ -6565,7 +6586,7 @@
         "com.instagram.android": 1788480000000,
         "com.twitter.android": 1788998400000
       },
-      "stars": 5202,
+      "stars": 5205,
       "updatedAt": 1788998400000,
       "firstSeen": 1773154796000,
       "appFirstSeen": {
@@ -6624,7 +6645,7 @@
       "appFirstSeen": {
         "hu.dorsum.clavis.kincstar.mobile": 1787902864057
       },
-      "hotRank": 108
+      "hotRank": 110
     },
     {
       "source": "github",
@@ -6632,6 +6653,12 @@
       "name": "d0nj patches",
       "author": "d0nj",
       "patches": [
+        {
+          "name": "Fix home screen numbers tile",
+          "description": "Niagara's Channels feature registers a diagnostic tip whose message is a giant fingerprint of concatenated hashCode() integers of up to 30 channel items (~850 digits). Because the provider accepts every tip request, this shows up as a tile of giant numbers on the home feed whenever the channel list refreshes, which happens when apps are installed, updated or removed (for example through ADB). Makes the provider decline tip requests so the diagnostic tip is never shown.",
+          "default": true,
+          "compatiblePackagesKey": 201
+        },
         {
           "name": "Remove analytics",
           "description": "Disables all telemetry in Niagara Launcher: the weekly usage-report upload (app launches, notification metadata, survey responses), retention milestone events, GDPR consent sync, Singular attribution sessions and events (advertising ID, app set ID, install referrer, FCM token) and the runtime Firebase Analytics opt-in.",
@@ -6655,19 +6682,19 @@
       "repoDescription": "my personal morphe patches",
       "avatarUrl": "https://avatars.githubusercontent.com/u/246411244?v=4&size=168",
       "deepLink": "https://morphe.software/add-source?github=d0nj/morphe-patches",
-      "patchCount": 3,
+      "patchCount": 4,
       "targetApps": [
         "bitpit.launcher",
         "com.thien.novelreader"
       ],
       "stars": 5,
-      "updatedAt": 1788998400000,
+      "updatedAt": 1789084800000,
       "firstSeen": 1785585418458,
       "appFirstSeen": {
         "bitpit.launcher": 1788969841538,
         "com.thien.novelreader": 1785585418458
       },
-      "hotRank": 39
+      "hotRank": 60
     },
     {
       "source": "github",
@@ -6845,7 +6872,7 @@
         "com.fitness.debugger": 1787811911189,
         "com.izorg.munchkin": 1788751211745
       },
-      "hotRank": 62
+      "hotRank": 59
     },
     {
       "source": "github",
@@ -6879,7 +6906,7 @@
       "appFirstSeen": {
         "com.gdjztech.ringconn": 1788861307176
       },
-      "hotRank": 57
+      "hotRank": 71
     },
     {
       "source": "github",
@@ -7066,7 +7093,7 @@
         "com.google.android.apps.magazines": 1785149331689,
         "com.ebay.kleinanzeigen": 1785149331689
       },
-      "hotRank": 60
+      "hotRank": 56
     },
     {
       "source": "github",
@@ -7094,7 +7121,7 @@
       "appFirstSeen": {
         "co.reclub": 1788593605709
       },
-      "hotRank": 132
+      "hotRank": 134
     },
     {
       "source": "github",
@@ -7122,7 +7149,7 @@
       "appFirstSeen": {
         "com.imperihome.lite": 1784316101094
       },
-      "hotRank": 116
+      "hotRank": 118
     },
     {
       "source": "github",
@@ -9325,7 +9352,7 @@
         "com.notch.touch": 1788562708557,
         "com.halo.reels.movie.fast.pro": 1789066726628
       },
-      "hotRank": 63
+      "hotRank": 61
     },
     {
       "source": "github",
@@ -9365,7 +9392,7 @@
       "appFirstSeen": {
         "com.spotify.tv.android": 1788861816351
       },
-      "hotRank": 47
+      "hotRank": 55
     },
     {
       "source": "github",
@@ -9439,7 +9466,7 @@
       "appFirstSeen": {
         "com.laironcorp.sunrisealarm": 1785750565077
       },
-      "hotRank": 111
+      "hotRank": 113
     },
     {
       "source": "github",
@@ -9817,7 +9844,7 @@
         "com.disney.disneyplus": 1787555983088,
         "com.viki.android": 1787689227794
       },
-      "hotRank": 42
+      "hotRank": 41
     },
     {
       "source": "github",
@@ -10028,7 +10055,7 @@
         "no.fishbuddy_playground.app": 1787189112876,
         "com.myfitnesspal.android": 1787164158548
       },
-      "hotRank": 83
+      "hotRank": 87
     },
     {
       "source": "github",
@@ -10074,7 +10101,7 @@
       "appFirstSeen": {
         "com.markatlarge.scrub": 1787386528816
       },
-      "hotRank": 135
+      "hotRank": 137
     },
     {
       "source": "github",
@@ -10186,7 +10213,7 @@
         "com.techkitlabs.movieparadise": 1785616305457,
         "com.astrapaging.vff": 1786984311736
       },
-      "hotRank": 86
+      "hotRank": 85
     },
     {
       "source": "github",
@@ -10227,7 +10254,7 @@
       "appFirstSeen": {
         "com.slowlyapp": 1787469771325
       },
-      "hotRank": 107
+      "hotRank": 109
     },
     {
       "source": "github",
@@ -10955,7 +10982,7 @@
         "se.hedekonsult.sparkle": 1786949194669,
         "com.overdevs.at4k": 1786949194669
       },
-      "hotRank": 113
+      "hotRank": 115
     },
     {
       "source": "github",
@@ -11043,7 +11070,7 @@
         "hu.mav.emmapp": 1785919717167,
         "hu.idokep.idokep": 1785919717167
       },
-      "hotRank": 109
+      "hotRank": 111
     },
     {
       "source": "github",
@@ -11076,7 +11103,7 @@
       "appFirstSeen": {
         "com.eksiteknoloji.eksisozluk": 1777893988000
       },
-      "hotRank": 118
+      "hotRank": 108
     },
     {
       "source": "github",
@@ -11664,7 +11691,7 @@
       "appUpdates": {
         "com.zhiliaoapp.musically": 1788739200000
       },
-      "stars": 328,
+      "stars": 330,
       "updatedAt": 1788739200000,
       "firstSeen": 1780156086693,
       "appFirstSeen": {
@@ -11753,7 +11780,7 @@
       "appFirstSeen": {
         "jp.nicovideo.nicobox": 1784887231838
       },
-      "hotRank": 79
+      "hotRank": 78
     },
     {
       "source": "gitlab",
@@ -11893,7 +11920,7 @@
       ],
       "changelogUrl": "https://gitlab.com/IMXEren/mix-patches/-/raw/dev/CHANGELOG.md",
       "repoDescription": "Mix Patches",
-      "avatarUrl": "https://gitlab.com/uploads/-/system/user/avatar/41449487/avatar.png?v=1788998522",
+      "avatarUrl": "https://gitlab.com/uploads/-/system/user/avatar/41449487/avatar.png?v=1789084804",
       "deepLink": "https://morphe.software/add-source?gitlab=IMXEren/mix-patches",
       "patchCount": 12,
       "targetApps": [
@@ -11946,7 +11973,7 @@
       "appFirstSeen": {
         "org.fdroid.fdroid": 1789066726628
       },
-      "hotRank": 25
+      "hotRank": 26
     },
     {
       "source": "github",
@@ -11987,7 +12014,7 @@
       "appFirstSeen": {
         "com.july.cricinfo": 1786994310888
       },
-      "hotRank": 128
+      "hotRank": 130
     },
     {
       "source": "github",
@@ -12343,7 +12370,7 @@
       "appUpdates": {
         "com.google.android.inputmethod.latin": 1788307200000
       },
-      "stars": 466,
+      "stars": 487,
       "updatedAt": 1788220800000,
       "firstSeen": 1775543003000,
       "appFirstSeen": {
@@ -13019,7 +13046,7 @@
         "com.ninegag.android.app": 1781427843830,
         "com.imdb.mobile": 1771585164000
       },
-      "hotRank": 12
+      "hotRank": 9
     },
     {
       "source": "github",
@@ -13197,7 +13224,7 @@
       "appFirstSeen": {
         "com.discord": 1788648118660
       },
-      "hotRank": 49
+      "hotRank": 45
     },
     {
       "source": "github",
@@ -13271,6 +13298,12 @@
           "compatiblePackagesKey": 432
         },
         {
+          "name": "Enable Rambler",
+          "description": "Exposes Google Rambler — Gboard's agentic dictation, which rewrites what you say into composed text — as a choice in Voice settings. It is not switched on for you: the feature uses a Google server, has its own quota and asks for consent, so picking it is left to you. Off by default and not yet confirmed working on a device.",
+          "preRelease": true,
+          "compatiblePackagesKey": 432
+        },
+        {
           "name": "Swipe up diagnostic (temporary)",
           "description": "Diagnostic build only. Swipe up on a key to delete a character, which proves whether the swipe gesture is being detected at all. Do not enable this at the same time as \"Swipe up to undo autocorrect\" — they attach to the same place and you would get both effects. Off by default, and this patch will be removed once it has answered its question.",
           "preRelease": true,
@@ -13286,15 +13319,15 @@
       "changelogUrl": "https://raw.githubusercontent.com/JZ6/Flexboard/dev/CHANGELOG.md",
       "avatarUrl": "https://avatars.githubusercontent.com/u/10971263?v=4&size=168",
       "deepLink": "https://morphe.software/add-source?github=JZ6/Flexboard",
-      "patchCount": 13,
+      "patchCount": 14,
       "targetApps": [
         "com.google.android.inputmethod.latin"
       ],
       "appUpdates": {
-        "com.google.android.inputmethod.latin": 1788998400000
+        "com.google.android.inputmethod.latin": 1789084800000
       },
       "stars": 24,
-      "updatedAt": 1788998400000,
+      "updatedAt": 1789084800000,
       "firstSeen": 1786958060481,
       "appFirstSeen": {
         "com.google.android.inputmethod.latin": 1786958060481
@@ -13805,7 +13838,7 @@
         "jp.pxv.android": 1787212251235,
         "io.github.sds100.keymapper": 1784342313600
       },
-      "hotRank": 31
+      "hotRank": 32
     },
     {
       "source": "github",
@@ -14051,7 +14084,7 @@
       "appFirstSeen": {
         "mam.reader.ipusnas": 1786949281955
       },
-      "hotRank": 48
+      "hotRank": 44
     },
     {
       "source": "github",
@@ -14110,6 +14143,10 @@
       "author": "kveld9",
       "patches": [
         {
+          "name": "APK Junk Cleaner",
+          "description": "Strips non-functional build metadata, compiler properties, Kotlin coroutines debug tables, and duplicate license texts from META-INF and APK root."
+        },
+        {
           "name": "Add AMOLED Theme",
           "description": "Adds a selectable Pure Black AMOLED theme using Gboard's native color_black theme package, without replacing Dark, Light, System Auto, or Dynamic Color.",
           "default": true,
@@ -14128,6 +14165,12 @@
           "compatiblePackagesKey": 480
         },
         {
+          "name": "Block Hevy Telemetry & Trackers",
+          "description": "Neutralizes Sentry crash reporting, Adjust attribution, Facebook AppEvents, Branch referral tracking, and WearOS background sync.",
+          "default": true,
+          "compatiblePackagesKey": 481
+        },
+        {
           "name": "Block Telemetry",
           "description": "Disables background metrics dispatch, event logging, daily pings, and crash reporting.",
           "default": true,
@@ -14136,13 +14179,13 @@
         {
           "name": "Block Vivaldi Sync",
           "description": "Redirects bifrost.vivaldi.com to 0.0.0.0 in libchrome.so to completely disable Vivaldi account synchronization for an air-gapped experience.",
-          "compatiblePackagesKey": 481
+          "compatiblePackagesKey": 482
         },
         {
           "name": "Block Vivaldi Telemetry",
           "description": "Blocks Vivaldi usage statistics, crash reporting, Crashpad endpoints, and DirectMatch suggestions.",
           "default": true,
-          "compatiblePackagesKey": 481
+          "compatiblePackagesKey": 482
         },
         {
           "name": "Brave In-Product & Commercial Notification Optimizer",
@@ -14166,7 +14209,7 @@
           "name": "Clean Speed Dial Bookmarks",
           "description": "Removes sponsored commercial affiliate bookmarks, hides the 3-dot customize button, and disables phantom touch actions on the blank Start Page.",
           "default": true,
-          "compatiblePackagesKey": 481
+          "compatiblePackagesKey": 482
         },
         {
           "name": "Clone Gboard",
@@ -14188,7 +14231,7 @@
         {
           "name": "Close Tabs on Exit",
           "description": "Prevents tab restoration on startup, ensuring Vivaldi always opens with a clean Start Page session regardless of how the app was terminated.",
-          "compatiblePackagesKey": 481
+          "compatiblePackagesKey": 482
         },
         {
           "name": "DPI Resource Slimmer",
@@ -14203,8 +14246,7 @@
               "default": "xxhdpi",
               "values": null
             }
-          ],
-          "compatiblePackagesKey": 482
+          ]
         },
         {
           "name": "Disable Background Sync & Periodic Sync",
@@ -14214,13 +14256,13 @@
         },
         {
           "name": "Disable Background Sync & Periodic Sync",
-          "description": "Eliminates background wakeups, radio modem activity, and battery drain by neutralizing periodic and one-shot background sync tasks.",
+          "description": "Prevents Web Background Sync and Periodic Sync APIs from scheduling wakeups and background tasks in Android JobScheduler.",
           "default": true,
-          "compatiblePackagesKey": 481
+          "compatiblePackagesKey": 482
         },
         {
           "name": "Disable Battery Status API & OS Listener",
-          "description": "Neutralizes the Android BatteryStatusManager broadcast listener to prevent continuous OS battery wakeups.",
+          "description": "Neutralizes the Battery Status API (navigator.getBattery) to prevent cross-site device fingerprinting and drops OS battery change broadcasts.",
           "default": true,
           "compatiblePackagesKey": 483
         },
@@ -14228,7 +14270,7 @@
           "name": "Disable Chromium Tips & Notification Scheduler",
           "description": "Eliminates periodic background wakeups, native library loading, and in-product promotional tips from Chromium tips scheduler.",
           "default": true,
-          "compatiblePackagesKey": 481
+          "compatiblePackagesKey": 482
         },
         {
           "name": "Disable Diagnostics",
@@ -14274,7 +14316,7 @@
           "name": "Disable Vivaldi Prompts & In-App Popups",
           "description": "Disables in-app donation prompts, search engine switch promos, rate-app popups, background privacy report alarms, and default browser promotional handlers.",
           "default": true,
-          "compatiblePackagesKey": 481
+          "compatiblePackagesKey": 482
         },
         {
           "name": "Disable WorkManager",
@@ -14305,6 +14347,18 @@
           "compatiblePackagesKey": 479
         },
         {
+          "name": "Hevy Battery Optimization & Background Sync Killer",
+          "description": "Disables background WorkManager alarms, periodic job schedulers, Firebase messaging wakeups, and DataTransport schedulers to eliminate battery drain in sleep.",
+          "default": true,
+          "compatiblePackagesKey": 481
+        },
+        {
+          "name": "Hevy Resource Slimmer",
+          "description": "Strips embedded onboarding MP4 tutorial video, heavy IMG.LY photo editor stickers/textures, and compiler junk metadata.",
+          "default": true,
+          "compatiblePackagesKey": 481
+        },
+        {
           "name": "Locale PAK Slimmer",
           "description": "Strips unselected language resource PAKs from assets/locales/.",
           "options": [
@@ -14323,7 +14377,6 @@
         {
           "name": "Locale Resource Slimmer",
           "description": "Strips unselected language translation directories from res/ (e.g. values-*, raw-*, xml-*). Base fallback resources with no language qualifiers are always preserved.",
-          "default": true,
           "options": [
             {
               "key": "locales",
@@ -14334,8 +14387,7 @@
               "default": "en",
               "values": null
             }
-          ],
-          "compatiblePackagesKey": 479
+          ]
         },
         {
           "name": "Native Bloat Slimmer",
@@ -14344,8 +14396,7 @@
         },
         {
           "name": "PNG Asset Optimizer",
-          "description": "Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy.",
-          "compatiblePackagesKey": 482
+          "description": "Losslessly recompresses PNG assets with maximum zlib compression and strips non-rendering metadata chunks (pHYs, tEXt, tIME) while preserving 9-patch structures and pixel accuracy."
         },
         {
           "name": "Resource Slimmer",
@@ -14357,7 +14408,7 @@
           "name": "Resource Slimmer",
           "description": "Strips bundled stock wallpapers and sponsored Speed Dial thumbnails to reduce APK size.",
           "default": true,
-          "compatiblePackagesKey": 481
+          "compatiblePackagesKey": 482
         },
         {
           "name": "Skip First Run",
@@ -14366,36 +14417,44 @@
           "compatiblePackagesKey": 483
         },
         {
-          "name": "Vivaldi Startup Performance Optimization",
-          "description": "Optimizes cold startup time, eliminates background CPU/disk overhead, and guards against early CompositorView LayoutStateObserver crashes.",
-          "default": true,
+          "name": "Unlock Pro",
+          "description": "Unlocks local Hevy Pro capabilities (unlimited workout routines, routine folders, advanced graphs, and local analytics) by dynamically enabling the offline-Pro grace period in Hermes Bytecode (HBC96).",
           "compatiblePackagesKey": 481
+        },
+        {
+          "name": "Vivaldi Startup Performance Optimization",
+          "description": "Guards against fatal CompositorView NullPointerException crashes on cold startup and bypasses carrier partner customizations.",
+          "default": true,
+          "compatiblePackagesKey": 482
         }
       ],
       "changelogUrl": "https://raw.githubusercontent.com/kveld9/kveld-morphe-patches/main/CHANGELOG.md",
       "repoDescription": "Custom Morphe patches for Brave Browser and GBoard Lite on Android.",
       "avatarUrl": "https://avatars.githubusercontent.com/u/179108235?v=4&size=168",
       "deepLink": "https://morphe.software/add-source?github=kveld9/kveld-morphe-patches",
-      "patchCount": 38,
+      "patchCount": 43,
       "targetApps": [
         "com.google.android.inputmethod.latin",
         "com.brave.browser",
-        "com.vivaldi.browser.snapshot"
+        "com.hevy",
+        "com.vivaldi.browser"
       ],
       "appUpdates": {
+        "com.hevy": 1789084800000,
+        "com.vivaldi.browser": 1788998400000,
         "com.google.android.inputmethod.latin": 1788998400000,
-        "com.vivaldi.browser.snapshot": 1788912000000,
         "com.brave.browser": 1788566400000
       },
       "stars": 45,
-      "updatedAt": 1788998400000,
+      "updatedAt": 1789084800000,
       "firstSeen": 1787303946650,
       "appFirstSeen": {
         "com.google.android.inputmethod.latin": 1787303946650,
         "com.brave.browser": 1787303946650,
-        "com.vivaldi.browser.snapshot": 1787902864057
+        "com.hevy": 1789097178541,
+        "com.vivaldi.browser": 1789097178541
       },
-      "hotRank": 9
+      "hotRank": 13
     },
     {
       "source": "github",
@@ -14424,7 +14483,7 @@
       "appFirstSeen": {
         "cz.etesty.autoskola": 1785848629712
       },
-      "hotRank": 112
+      "hotRank": 114
     },
     {
       "source": "github",
@@ -14638,7 +14697,7 @@
       "appFirstSeen": {
         "com.nuvio.tv": 1785919858436
       },
-      "hotRank": 46
+      "hotRank": 42
     },
     {
       "source": "github",
@@ -14679,7 +14738,7 @@
       "appFirstSeen": {
         "com.stremio.one": 1787647391952
       },
-      "hotRank": 73
+      "hotRank": 74
     },
     {
       "source": "github",
@@ -14732,7 +14791,7 @@
         "com.calistree.calistree": 1785926248177,
         "com.jeffprod.cubesolver": 1786153262639
       },
-      "hotRank": 50
+      "hotRank": 48
     },
     {
       "source": "github",
@@ -14781,7 +14840,7 @@
       "appFirstSeen": {
         "com.soundcloud.android": 1788861015980
       },
-      "hotRank": 55
+      "hotRank": 66
     },
     {
       "source": "github",
@@ -15105,7 +15164,7 @@
       "appFirstSeen": {
         "com.letterboxd.letterboxd": 1788505551121
       },
-      "hotRank": 22
+      "hotRank": 23
     },
     {
       "source": "github",
@@ -18895,7 +18954,7 @@
         "com.ddsx_ayla_android": 1787262235126,
         "com.crunchyroll.crunchyroid": 1783420111086
       },
-      "hotRank": 61
+      "hotRank": 54
     },
     {
       "source": "github",
@@ -18989,7 +19048,7 @@
       "appFirstSeen": {
         "com.teamsnap.teamsnap": 1782279314009
       },
-      "hotRank": 131
+      "hotRank": 132
     },
     {
       "source": "gitlab",
@@ -19427,7 +19486,7 @@
         "com.rk.taskmanager": 1783446492226,
         "com.frontrow.vlog": 1778457600000
       },
-      "hotRank": 20
+      "hotRank": 19
     },
     {
       "source": "github",
@@ -19455,7 +19514,7 @@
       "appFirstSeen": {
         "app.affine.pro": 1788861442068
       },
-      "hotRank": 43
+      "hotRank": 53
     },
     {
       "source": "github",
@@ -19636,7 +19695,7 @@
       "appFirstSeen": {
         "com.netbiscuits.kicker": 1788338197155
       },
-      "hotRank": 84
+      "hotRank": 83
     },
     {
       "source": "github",
@@ -19698,7 +19757,7 @@
       "appFirstSeen": {
         "com.microsoft.emmx": 1780738576635
       },
-      "hotRank": 59
+      "hotRank": 57
     },
     {
       "source": "github",
@@ -19777,14 +19836,14 @@
         "ru.bpc.mobilebank.bpc",
         "com.algeria.selfcare.app.android"
       ],
-      "stars": 9,
+      "stars": 10,
       "firstSeen": 1786703409649,
       "appFirstSeen": {
         "app.progres.webetu": 1786703409649,
         "ru.bpc.mobilebank.bpc": 1786703409649,
         "com.algeria.selfcare.app.android": 1786703409649
       },
-      "hotRank": 69
+      "hotRank": 62
     },
     {
       "source": "github",
@@ -19831,7 +19890,7 @@
         "io.funswitch.blocker": 1787331231206,
         "droom.sleepIfUCan": 1769904000000
       },
-      "hotRank": 41
+      "hotRank": 40
     },
     {
       "source": "github",
@@ -19858,7 +19917,7 @@
       "appFirstSeen": {
         "com.sony.songpal.mdr": 1787845534294
       },
-      "hotRank": 78
+      "hotRank": 79
     },
     {
       "source": "github",
@@ -19886,7 +19945,7 @@
       "appFirstSeen": {
         "ru.oneme.app": 1774798841000
       },
-      "hotRank": 137
+      "hotRank": 128
     },
     {
       "source": "github",
@@ -19919,7 +19978,7 @@
       "appFirstSeen": {
         "com.nfo.me.android": 1784629087177
       },
-      "hotRank": 115
+      "hotRank": 116
     },
     {
       "source": "github",
@@ -19955,7 +20014,7 @@
         "com.rubenmayayo.reddit": 1787469691074,
         "com.fivemobile.thescore": 1787469691074
       },
-      "hotRank": 87
+      "hotRank": 86
     },
     {
       "source": "github",
@@ -20706,16 +20765,16 @@
         "ginlemon.iconpackstudio"
       ],
       "appUpdates": {
+        "com.google.android.apps.photos": 1788998400000,
         "com.strava": 1788652800000,
-        "com.google.android.apps.photos": 1788134400000,
         "jp.pxv.android": 1788134400000,
         "com.facebook.orca": 1786492800000,
         "com.google.android.apps.recorder": 1778630400000,
         "com.google.android.apps.magazines": 1775088000000,
         "com.zhiliaoapp.musically": 1775088000000
       },
-      "stars": 1222,
-      "updatedAt": 1788652800000,
+      "stars": 1224,
+      "updatedAt": 1788998400000,
       "firstSeen": 1772385009000,
       "appFirstSeen": {
         "com.strava": 1772385009000,
@@ -20770,7 +20829,7 @@
       "appFirstSeen": {
         "com.battlelancer.seriesguide": 1785869077043
       },
-      "hotRank": 56
+      "hotRank": 52
     },
     {
       "source": "github",
@@ -23151,7 +23210,7 @@
         "com.google.android.verifier": 1787097600000,
         "com.facebook.orca": 1786924800000
       },
-      "stars": 628,
+      "stars": 630,
       "updatedAt": 1788825600000,
       "firstSeen": 1780395687718,
       "appFirstSeen": {
@@ -24608,13 +24667,13 @@
         "com.google.android.googlequicksearchbox",
         "com.google.android.apps.bard"
       ],
-      "stars": 1,
+      "stars": 2,
       "firstSeen": 1788729322625,
       "appFirstSeen": {
         "com.google.android.googlequicksearchbox": 1788729322625,
         "com.google.android.apps.bard": 1788729322625
       },
-      "hotRank": 71
+      "hotRank": 58
     },
     {
       "source": "github",
@@ -24840,7 +24899,7 @@
         "com.urbandroid.kinestop": 1783972075822,
         "com.delphicoder.flud": 1783972075822
       },
-      "hotRank": 117
+      "hotRank": 105
     },
     {
       "source": "github",
@@ -24921,7 +24980,7 @@
         "com.marsvard.stickermakerforwhatsapp": 1787614808700,
         "com.vpnbottle.melon.free.unblock.fast.vpn": 1787648170434
       },
-      "hotRank": 52
+      "hotRank": 49
     },
     {
       "source": "github",
@@ -25027,7 +25086,7 @@
       "appFirstSeen": {
         "com.pinterest": 1784136283489
       },
-      "hotRank": 36
+      "hotRank": 37
     },
     {
       "source": "github",
@@ -25110,7 +25169,7 @@
       "appFirstSeen": {
         "com.honda.ms.dm.sab": 1787957215907
       },
-      "hotRank": 106
+      "hotRank": 107
     },
     {
       "source": "github",
@@ -25139,7 +25198,7 @@
       "appFirstSeen": {
         "com.imgur.mobile": 1786436060614
       },
-      "hotRank": 105
+      "hotRank": 106
     },
     {
       "source": "github",
@@ -25179,7 +25238,7 @@
         "harmonium.music.gameg.real.harmoniumfree": 1787118198367,
         "com.psslabs.rhythm": 1787118198367
       },
-      "hotRank": 114
+      "hotRank": 117
     },
     {
       "source": "github",
@@ -25230,7 +25289,7 @@
         "com.roasterygames.devicestycoon": 1784887231838,
         "com.candywriter.bitlife": 1786886780404
       },
-      "hotRank": 74
+      "hotRank": 73
     },
     {
       "source": "github",
@@ -25416,7 +25475,7 @@
       "appFirstSeen": {
         "com.soundcloud.android": 1787782574232
       },
-      "hotRank": 68
+      "hotRank": 70
     },
     {
       "source": "github",
@@ -25935,7 +25994,7 @@
         "org.cygnusx1.continuum": 1767402720000,
         "me.edgan.redditslide": 1767402720000
       },
-      "hotRank": 32
+      "hotRank": 31
     },
     {
       "source": "github",
@@ -26045,7 +26104,7 @@
         "com.amazon.amazonvideo.livingroom": 1788338197155,
         "com.graymatrix.did": 1786703322126
       },
-      "hotRank": 45
+      "hotRank": 46
     },
     {
       "source": "github",
@@ -26464,7 +26523,7 @@
       "appFirstSeen": {
         "fr.keepcool.memberapp": 1788861273649
       },
-      "hotRank": 53
+      "hotRank": 63
     }
   ],
   "store": {
@@ -26954,12 +27013,19 @@
       "iconUrl": "https://play-lh.googleusercontent.com/UBrZnuXGb-QACU0uUdF5r_n5nx5oBbdfPyEbtsr0xXv00RN7rpaTVu3GjLeE90aHFmNlbaCmm8vNcmY0eE98U9E=s128-rw",
       "description": "Fast internet with AI, Adblock &amp; VPN. Browse on a safe, incognito web browser."
     },
-    "com.vivaldi.browser.snapshot": {
-      "name": "Vivaldi Browser Snapshot",
-      "category": "Productivity",
-      "firstSeen": 1787902864057,
-      "iconUrl": "https://play-lh.googleusercontent.com/u_sNt2pCdAsRu_h7gH8z6mc5Ae0u-sATVHjjzjUSJ7Q3E50jvtRD6bxIORbueyIu5w1AihpJ-MX9wiQISWiWug=s128-rw",
-      "description": "Download the latest Snapshot version of Vivaldi Browser"
+    "com.hevy": {
+      "name": "Hevy",
+      "category": "Lifestyle, Fitness & Sports",
+      "firstSeen": 1782878745129,
+      "iconUrl": "https://play-lh.googleusercontent.com/bLlRnwjt0tKva6ob0ZrtxkUs-z4MhQ4cPIOnXeh_knD8QVAXSLFiMGyKo2kLF7PV2uSK1Wly1L4q-6Sv1k13=s128-rw",
+      "description": "Gym Log &amp; Workout Tracker | Fitness Journal, Training &amp; Weight Lifting Planner"
+    },
+    "com.vivaldi.browser": {
+      "name": "Vivaldi Browser - Fast & Safe",
+      "category": "Social & Communication",
+      "firstSeen": 1789097178541,
+      "iconUrl": "https://play-lh.googleusercontent.com/RNTChezdp-FkUkw6pldhlIi3uCeP_J6fQ0x5NwWfVV9tTdFZidR-z1V9MNVHww4sNdNLOQLw0yW6NJjVF1H0Fw=s128-rw",
+      "description": "Powerful, Personal &amp; Private web browser! Fast browsing, 0 tracking, ad blocker."
     },
     "com.alightcreative.motion": {
       "name": "Alight Motion Pro",
@@ -28648,13 +28714,6 @@
       "firstSeen": 1781686482508,
       "iconUrl": "https://play-lh.googleusercontent.com/4u6esDstTbJIet24X_6zkSn0I3e3OQcu6Ev5eEv6hh--DZ7C9Sc5aqPT-encPc1pTr2SBhljInJpzTfmNEdq=s128-rw",
       "description": "Dopamine Reset &amp; Detox"
-    },
-    "com.hevy": {
-      "name": "Hevy",
-      "category": "Lifestyle, Fitness & Sports",
-      "firstSeen": 1782878745129,
-      "iconUrl": "https://play-lh.googleusercontent.com/bLlRnwjt0tKva6ob0ZrtxkUs-z4MhQ4cPIOnXeh_knD8QVAXSLFiMGyKo2kLF7PV2uSK1Wly1L4q-6Sv1k13=s128-rw",
-      "description": "Gym Log &amp; Workout Tracker | Fitness Journal, Training &amp; Weight Lifting Planner"
     },
     "com.camerasideas.instashot": {
       "name": "InShot",
@@ -34570,9 +34629,7 @@
         "packageName": "com.thien.novelreader",
         "name": "AI Audio Novel Reader",
         "targets": [
-          {
-            "version": "3.3.23"
-          }
+          {}
         ]
       }
     ],
@@ -37900,11 +37957,22 @@
     ],
     [
       {
-        "packageName": "com.vivaldi.browser.snapshot",
-        "name": "Vivaldi Browser Snapshot",
+        "packageName": "com.hevy",
+        "name": "Hevy - Gym Log Workout Tracker",
         "targets": [
           {
-            "version": "8.2.4147.50"
+            "version": "3.1.13"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "packageName": "com.vivaldi.browser",
+        "name": "Vivaldi Browser - Fast & Safe",
+        "targets": [
+          {
+            "version": "8.2.4147.58"
           }
         ]
       }
@@ -37920,43 +37988,11 @@
         ]
       },
       {
-        "packageName": "com.google.android.inputmethod.latin",
-        "name": "Gboard Lite",
+        "packageName": "com.vivaldi.browser",
+        "name": "Vivaldi Browser - Fast & Safe",
         "targets": [
           {
-            "version": "18.2.4.969776716-lite_beta-arm64-v8a"
-          },
-          {
-            "version": "18.2.4.969776716-lite_beta-armeabi-v7a"
-          }
-        ]
-      },
-      {
-        "packageName": "com.vivaldi.browser.snapshot",
-        "name": "Vivaldi Browser Snapshot",
-        "targets": [
-          {
-            "version": "8.2.4147.50"
-          }
-        ]
-      }
-    ],
-    [
-      {
-        "packageName": "com.brave.browser",
-        "name": "Brave Private Web Browser, VPN",
-        "targets": [
-          {
-            "version": "1.94.121"
-          }
-        ]
-      },
-      {
-        "packageName": "com.vivaldi.browser.snapshot",
-        "name": "Vivaldi Browser Snapshot",
-        "targets": [
-          {
-            "version": "8.2.4147.50"
+            "version": "8.2.4147.58"
           }
         ]
       }
@@ -38913,7 +38949,9 @@
         "packageName": "com.google.android.apps.photos",
         "name": "Google Photos",
         "targets": [
-          {}
+          {
+            "version": "7.90.0.971743778"
+          }
         ]
       }
     ],

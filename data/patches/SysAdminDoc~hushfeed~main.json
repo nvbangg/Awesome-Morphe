@@ -1,5 +1,5 @@
 {
-  "version": "v0.29.0",
+  "version": "v0.30.0",
   "appNames": {
     "com.zhiliaoapp.musically": "TikTok"
   },
@@ -1753,7 +1753,8 @@
       "description": "Adds the Hushfeed settings screen to TikTok.",
       "use": true,
       "dependencies": [
-        "BytecodePatch"
+        "BytecodePatch",
+        "RawResourcePatch"
       ],
       "compatiblePackages": {
         "com.zhiliaoapp.musically": [

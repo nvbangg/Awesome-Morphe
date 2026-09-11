@@ -171,6 +171,13 @@
       "dev": null
     }
   },
+  "areteruhiro/Haiagaru-Morphe": {
+    "name": "Haiagaru",
+    "github": {
+      "main": "955e597e1419577d619c6b6fd7b22f02d248629e64f345ca4926b3a366ddd12e",
+      "dev": null
+    }
+  },
   "ARHCOS/arhcos-patches": {
     "name": "UserXYZ Patches",
     "github": {
@@ -370,7 +377,7 @@
   "crimera/piko-newx": {
     "name": "Piko",
     "github": {
-      "main": "767634eaad9f78578551e84d5eda82c46308037b3c775b894fba5185431a94b9",
+      "main": "992ad010a793bec7eebf9d7efd54991f2da7257b3d0f754f1fa763918eba7d29",
       "dev": null
     }
   },
@@ -384,7 +391,7 @@
   "d0nj/morphe-patches": {
     "name": "d0nj Patches",
     "github": {
-      "main": "ad5affb12b7c791d3fa45cfd0ba7b71056cb5e8f2fddcd6734d1e0dcea5d0b4d",
+      "main": "c9b1b68b010bffa7c7dc0859ff873f377ed91f0291c9b8e8cbe5516191217160",
       "dev": null
     }
   },
@@ -857,7 +864,7 @@
     "name": "Flexboard",
     "github": {
       "main": "6e1c38cb4636b58bdee63ac64c3d723d196ea0b38a4c1d10fbdf0c97666c266d",
-      "dev": "c988124a8483febc3ff050fbf74e739b4c9d31d1b7c05f03ff452ea2a2af1be8"
+      "dev": "de2f230c93d597859a43242beafdd60c7b88842762ef5d821433773a8004ec63"
     }
   },
   "kareemlukitomo/morphe-patches": {
@@ -927,7 +934,7 @@
   "kveld9/kveld-morphe-patches": {
     "name": "kveld9 Patches",
     "github": {
-      "main": "c6c6a4df7e0dab050b9b3e570679e82f1efb63957e89574307842a5615edb35f",
+      "main": "56f2fd751aa4924acdcff98fba2fd02129d42bceb3e1df509e9aefd2b815fecf",
       "dev": null
     }
   },
@@ -1386,7 +1393,7 @@
   "SysAdminDoc/hushfeed": {
     "name": "Hushfeed",
     "github": {
-      "main": "a3a191c8a09ca4687f116ee60e46a2457f337120b447e4c7ac571205d28ea672",
+      "main": "226b78903c2b98c6ff3176efcacb10b10a434544398e39f1d5bfdda3b3248caf",
       "dev": null,
       "image": "4d092c078217f40dceb3b85b29d4c3f23e2a1cf3e46e32942b094d1e80453e31"
     }
