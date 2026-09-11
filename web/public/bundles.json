@@ -6,7 +6,7 @@
       "name": "MorpheApp",
       "repoDescription": "Morphe Patches",
       "avatarUrl": "https://raw.githubusercontent.com/MorpheApp/morphe-patches/main/patches-bundle.png",
-      "stars": 3564,
+      "stars": 3580,
       "updatedAt": 1789075550000,
       "firstSeen": 1767200400000,
       "appFirstSeen": {
@@ -1286,7 +1286,7 @@
       "name": "Hoodles",
       "repoDescription": "🍃 Patches for Morphe",
       "avatarUrl": "https://avatars.githubusercontent.com/u/207470673?v=4&s=128",
-      "stars": 1076,
+      "stars": 1081,
       "updatedAt": 1788743532000,
       "firstSeen": 1768916001000,
       "appFirstSeen": {
@@ -2251,8 +2251,8 @@
       "name": "De-Vanced",
       "repoDescription": "De-Vanced exists because the old way started getting frustrating, so I migrated everything to Morphe and turned it into a better, cleaner place to keep the experience alive.",
       "avatarUrl": "https://avatars.githubusercontent.com/u/128968367?v=4&s=128",
-      "stars": 1220,
-      "updatedAt": 1789076258000,
+      "stars": 1224,
+      "updatedAt": 1789077880000,
       "firstSeen": 1772359809000,
       "appFirstSeen": {
         "com.letterboxd.letterboxd": 1773594609000,
@@ -2693,7 +2693,7 @@
       "name": "Brosssh",
       "repoDescription": "🧩 Distraction free Instagram + few patches for apps I care about",
       "avatarUrl": "https://avatars.githubusercontent.com/u/44944126?v=4&s=128",
-      "stars": 327,
+      "stars": 328,
       "updatedAt": 1788248749000,
       "firstSeen": 1773122204000,
       "appFirstSeen": {
@@ -2892,7 +2892,7 @@
       "name": "Piko",
       "repoDescription": "morphe patches for twitter and instagram",
       "avatarUrl": "https://avatars.githubusercontent.com/u/44558091?v=4&s=128",
-      "stars": 3086,
+      "stars": 3098,
       "updatedAt": 1789003243000,
       "firstSeen": 1773129596000,
       "appFirstSeen": {
@@ -3654,7 +3654,7 @@
       "name": "Ample",
       "repoDescription": "morphe patches for kakaotalk/dcinside",
       "avatarUrl": "https://avatars.githubusercontent.com/u/240258030?v=4&s=128",
-      "stars": 133,
+      "stars": 135,
       "updatedAt": 1788852883000,
       "firstSeen": 1774731407000,
       "appFirstSeen": {
@@ -4412,7 +4412,7 @@
       "name": "Gboard",
       "repoDescription": "Morphe patches for Gboard with practical upgrades for global users and Taiwan-focused enhancements.",
       "avatarUrl": "https://avatars.githubusercontent.com/u/21318815?v=4&s=128",
-      "stars": 429,
+      "stars": 482,
       "updatedAt": 1788345532000,
       "firstSeen": 1775517803000,
       "appFirstSeen": {
@@ -4658,7 +4658,7 @@
       "name": "Binarymend",
       "repoDescription": "A collection of unofficial Android patches built with the Morphe framework",
       "avatarUrl": "https://avatars.githubusercontent.com/u/274918240?v=4&s=128",
-      "stars": 147,
+      "stars": 148,
       "updatedAt": 1777294186000,
       "firstSeen": 1775978528000,
       "appFirstSeen": {
@@ -5717,7 +5717,7 @@
       "name": "ajstrick81",
       "repoDescription": "Patches for Android TV apks",
       "avatarUrl": "https://avatars.githubusercontent.com/u/229211337?v=4&s=128",
-      "stars": 182,
+      "stars": 183,
       "updatedAt": 1788917829000,
       "firstSeen": 1779671144000,
       "appFirstSeen": {
@@ -5964,7 +5964,7 @@
       "name": "Metra TikTok",
       "repoDescription": "This repository is a Morphe patch source for TikTok.  It continues the work from earlier community TikTok patch sets, including ReVanced, with the patches adapted for Morphe and tested against newer TikTok builds. The current target version is TikTok 46.2.3",
       "avatarUrl": "https://raw.githubusercontent.com/icysymmetra/tiktok-patches-for-morphe/main/patches-bundle.png",
-      "stars": 325,
+      "stars": 329,
       "updatedAt": 1788819811000,
       "firstSeen": 1780130886000,
       "appFirstSeen": {
@@ -6265,7 +6265,7 @@
       "name": "Doom",
       "repoDescription": "New mask, same task.                                                                 All patches answer to Doom.",
       "avatarUrl": "https://raw.githubusercontent.com/rushiranpise/morphe-patches/main/patches-bundle.png",
-      "stars": 616,
+      "stars": 629,
       "updatedAt": 1788844505000,
       "firstSeen": 1780370487000,
       "appFirstSeen": {
@@ -9191,7 +9191,7 @@
       "name": "Hooman",
       "repoDescription": "Patches for morphe",
       "avatarUrl": "https://avatars.githubusercontent.com/u/64605756?v=4&s=128",
-      "stars": 187,
+      "stars": 190,
       "updatedAt": 1787680854000,
       "firstSeen": 1781506735000,
       "appFirstSeen": {
@@ -9628,7 +9628,7 @@
       "name": "RVX",
       "repoDescription": "🧩 Patches for ReVanced",
       "avatarUrl": "https://avatars.githubusercontent.com/u/70171475?v=4&s=128",
-      "stars": 660,
+      "stars": 662,
       "updatedAt": 1788536632000,
       "firstSeen": 1781599059000,
       "appFirstSeen": {
@@ -11407,7 +11407,7 @@
       "name": "Prathxm",
       "repoDescription": "Custom Patches for Chess.com with offline Stockfish 16.1 integration, puzzle system, and local analysis tools for learning chess",
       "avatarUrl": "https://avatars.githubusercontent.com/u/185752095?v=4&s=128",
-      "stars": 64,
+      "stars": 68,
       "updatedAt": 1787588104000,
       "firstSeen": 1782779087000,
       "appFirstSeen": {
@@ -11497,7 +11497,7 @@
       "name": "Nai",
       "repoDescription": "A curated collection of Morphe patches that tune, unlock and declutter Android games. Skip ads, bypass license checks, hide root, force orientations and more, all from a single patcher.",
       "avatarUrl": "https://avatars.githubusercontent.com/u/122532548?v=4&s=128",
-      "stars": 509,
+      "stars": 518,
       "updatedAt": 1788804200000,
       "firstSeen": 1782996119000,
       "appFirstSeen": {
@@ -15170,7 +15170,7 @@
       "name": "bufferk",
       "repoDescription": "",
       "avatarUrl": "https://avatars.githubusercontent.com/u/82165524?v=4&s=128",
-      "stars": 108,
+      "stars": 109,
       "updatedAt": 1784401043000,
       "firstSeen": 1783323212000,
       "appFirstSeen": {
@@ -15257,7 +15257,7 @@
       "name": "franticg33k",
       "repoDescription": "",
       "avatarUrl": "https://avatars.githubusercontent.com/u/300474278?v=4&s=128",
-      "stars": 20,
+      "stars": 21,
       "updatedAt": 1788570357000,
       "firstSeen": 1783378026000,
       "appFirstSeen": {
@@ -15847,7 +15847,7 @@
       "name": "PichiWA",
       "repoDescription": "PichiWA Patches - parches Morphe para WhatsApp",
       "avatarUrl": "https://avatars.githubusercontent.com/u/239148905?v=4&s=128",
-      "stars": 76,
+      "stars": 77,
       "updatedAt": 1784634862000,
       "firstSeen": 1783810687000,
       "appFirstSeen": {
@@ -16709,7 +16709,7 @@
       "name": "MiguelNinja19",
       "repoDescription": "🧩Patches for Morphe, made with AI",
       "avatarUrl": "https://avatars.githubusercontent.com/u/212266985?v=4&s=128",
-      "stars": 27,
+      "stars": 28,
       "updatedAt": 1788903653000,
       "firstSeen": 1784103515000,
       "appFirstSeen": {
@@ -16877,7 +16877,7 @@
       "name": "Pinterest Morphed",
       "repoDescription": "Morphe patches for Pinterest — removes ads, ad SDKs, trackers and analytics for a clean, distraction-free feed.",
       "avatarUrl": "https://avatars.githubusercontent.com/u/110749727?v=4&s=128",
-      "stars": 30,
+      "stars": 31,
       "updatedAt": 1786242383000,
       "firstSeen": 1784111083000,
       "appFirstSeen": {
@@ -16985,7 +16985,7 @@
       "name": "variablenine",
       "repoDescription": "",
       "avatarUrl": "https://avatars.githubusercontent.com/u/103234275?v=4&s=128",
-      "stars": 3,
+      "stars": 4,
       "updatedAt": 1789031553000,
       "firstSeen": 1784164349000,
       "appFirstSeen": {
@@ -19527,7 +19527,7 @@
       "name": "Morning Entree",
       "repoDescription": "A collection of unofficial Android patches built with the Morphe framework. Patches are for educational purposes only, modifying apps can be against terms and services",
       "avatarUrl": "https://avatars.githubusercontent.com/u/28127566?v=4&s=128",
-      "stars": 35,
+      "stars": 36,
       "updatedAt": 1788884842000,
       "firstSeen": 1785036993248,
       "appFirstSeen": {
@@ -21396,7 +21396,7 @@
       "name": "BlazeFTL",
       "repoDescription": "Morphe patches to remove ads, analytics, apk junk, debug info, duplicate graphics, unused languages, and use custom dpi☠️",
       "avatarUrl": "https://avatars.githubusercontent.com/u/139938337?v=4&s=128",
-      "stars": 26,
+      "stars": 27,
       "updatedAt": 1789074030000,
       "firstSeen": 1786240845995,
       "appFirstSeen": {
@@ -22125,7 +22125,7 @@
       "name": "RabehX",
       "repoDescription": "Free-time patches for apps",
       "avatarUrl": "https://avatars.githubusercontent.com/u/64314390?v=4&s=128",
-      "stars": 9,
+      "stars": 10,
       "updatedAt": 1786654800000,
       "firstSeen": 1786685987544,
       "appFirstSeen": {
@@ -22571,7 +22571,7 @@
       "name": "riky",
       "repoDescription": "Personal Morphe patch bundle",
       "avatarUrl": "https://avatars.githubusercontent.com/u/58308241?v=4&s=128",
-      "stars": 17,
+      "stars": 18,
       "updatedAt": 1788860548000,
       "firstSeen": 1786941974043,
       "appFirstSeen": {
@@ -22640,8 +22640,8 @@
       "name": "Flexboard",
       "repoDescription": "",
       "avatarUrl": "https://avatars.githubusercontent.com/u/10971263?v=4&s=128",
-      "stars": 22,
-      "updatedAt": 1789013762000,
+      "stars": 24,
+      "updatedAt": 1789081434000,
       "firstSeen": 1786962892864,
       "appFirstSeen": {
         "com.google.android.inputmethod.latin": 1786962892801
@@ -22655,6 +22655,13 @@
         {
           "name": "Bypass Gboard Signature",
           "description": "Bypass Gboard's signature whitelist checks and force them to pass.",
+          "compatiblePackagesKey": 124
+        },
+        {
+          "name": "Enable Rambler",
+          "description": "Exposes Google Rambler — Gboard's agentic dictation, which rewrites what you say into composed text — as a choice in Voice settings. It is not switched on for you: the feature uses a Google server, has its own quota and asks for consent, so picking it is left to you. Off by default and not yet confirmed working on a device.",
+          "isPreRelease": true,
+          "default": false,
           "compatiblePackagesKey": 124
         },
         {
@@ -22757,7 +22764,7 @@
       "name": "RuStore Privacy",
       "repoDescription": "Selectable RuStore privacy patches for Morphe with verified automatic releases.",
       "avatarUrl": "https://raw.githubusercontent.com/Freeman022026/rustore-privacy-patches/main/patches-bundle.png",
-      "stars": 3,
+      "stars": 4,
       "updatedAt": 1788523464000,
       "firstSeen": 1787021898591,
       "appFirstSeen": {
@@ -22902,7 +22909,7 @@
       "repo": "IMXEren/mix-patches",
       "name": "Mix",
       "repoDescription": "Mix Patches",
-      "avatarUrl": "https://gitlab.com/uploads/-/system/user/avatar/41449487/avatar.png?v=1788998522&width=128",
+      "avatarUrl": "https://gitlab.com/uploads/-/system/user/avatar/41449487/avatar.png?v=1789084804&width=128",
       "stars": 2,
       "updatedAt": 1788904213000,
       "firstSeen": 1787114443138,
@@ -23145,7 +23152,7 @@
       "name": "Anime Witcher",
       "repoDescription": "Anime Witcher Morphe Patches",
       "avatarUrl": "https://avatars.githubusercontent.com/u/119059457?v=4&s=128",
-      "stars": 5,
+      "stars": 6,
       "updatedAt": 1788632127000,
       "firstSeen": 1787194765188,
       "appFirstSeen": {
@@ -23278,7 +23285,7 @@
       "name": "kveld9",
       "repoDescription": "Custom Morphe patches for Brave Browser and GBoard Lite on Android.",
       "avatarUrl": "https://avatars.githubusercontent.com/u/179108235?v=4&s=128",
-      "stars": 43,
+      "stars": 45,
       "updatedAt": 1789076142000,
       "firstSeen": 1787251436744,
       "appFirstSeen": {
@@ -23694,7 +23701,7 @@
       "name": "XTapped",
       "repoDescription": "A collection of my patches",
       "avatarUrl": "https://avatars.githubusercontent.com/u/30569190?v=4&s=128",
-      "stars": 4,
+      "stars": 3,
       "updatedAt": 1788073615000,
       "firstSeen": 1787437810697,
       "appFirstSeen": {
@@ -23953,7 +23960,7 @@
       "name": "Froggo",
       "repoDescription": "",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7357354?v=4&s=128",
-      "stars": 62,
+      "stars": 65,
       "updatedAt": 1788773987000,
       "firstSeen": 1787675089909,
       "appFirstSeen": {
@@ -24642,7 +24649,7 @@
       "name": "Piko",
       "repoDescription": "New X on Android compatible piko builds",
       "avatarUrl": "https://avatars.githubusercontent.com/u/44558091?v=4&s=128",
-      "stars": 277,
+      "stars": 286,
       "updatedAt": 1789050916000,
       "firstSeen": 1787987199523,
       "appFirstSeen": {
@@ -25050,8 +25057,8 @@
       "name": "Dual VoT",
       "repoDescription": "Unofficial Dual VoT patches: Google/other and Yandex voice-over translation in one Morphe Manager source",
       "avatarUrl": "https://avatars.githubusercontent.com/u/235972620?v=4&s=128",
-      "stars": 11,
-      "updatedAt": 1789074720000,
+      "stars": 12,
+      "updatedAt": 1789080578000,
       "firstSeen": 1788323754967,
       "appFirstSeen": {
         "com.google.android.youtube": 1788323746993,
@@ -25604,7 +25611,7 @@
         },
         {
           "name": "Navigation bar",
-          "description": "Adds options to hide and change the bottom navigation bar (such as the Shorts button)  and the upper navigation toolbar.",
+          "description": "Adds options to hide and change the bottom navigation bar (such as the Shorts button) and the upper navigation toolbar.",
           "compatiblePackagesKey": 0
         },
         {
@@ -25988,7 +25995,7 @@
       "name": "Epxec",
       "repoDescription": "Patches for \"useful\" apps",
       "avatarUrl": "https://avatars.githubusercontent.com/u/324753774?v=4&s=128",
-      "stars": 0,
+      "stars": 1,
       "updatedAt": 1789056715000,
       "firstSeen": 1788569953691,
       "appFirstSeen": {
@@ -26048,8 +26055,8 @@
       "name": "Zanuaimi's UniPatches",
       "repoDescription": "Curated list of universal patches for Morphe, including community-driven patches with enhancements and original patches, focusing on quality over quantity",
       "avatarUrl": "https://raw.githubusercontent.com/Zanuaimi/UniPatches/main/patches-bundle.png",
-      "stars": 7,
-      "updatedAt": 1789068407000,
+      "stars": 8,
+      "updatedAt": 1789079707000,
       "firstSeen": 1788582465944,
       "appFirstSeen": {
         "__universal__": 1788582458169,
@@ -26097,7 +26104,7 @@
         },
         {
           "name": "Configure App Ads Patch ( Experimental, Enhanced, Has Overlay Addon )",
-          "description": "A merged ad-control patch based on Nai64's No Ads and Ads Free Rewards patches, plus\nliteral-host blocking inspired by Entree and Adobo. Block common ad formats, choose the\nSDKs to target, optionally grant ad rewards without an ad, and redirect matching literal\nad/tracker hosts embedded in the APK.\n\nHost filters are small embedded subsets inspired by uBlock Origin, EasyList, AdGuard,\nOISD, HaGeZi Pro mini, Privacy Essentials, EasyPrivacy, and Peter Lowe's list; they are\nnot downloaded full subscriptions. Each filter is independently toggleable. They only\naffect hosts stored as literal strings by the app; they cannot block dynamically generated\nhosts, encrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nThis patch includes an optional overlay addon. To use the addon, patch Configure App Ads\ntogether with Universal Overlay or an app-specific overlay, enable “Overlay integration >\nEnable runtime controls”, and select one or more of its three overlay addon modules:\n“Block Ads”, “Rewards without ads”, and “Block ad/tracking hosts”. The selected modules\nappear under “Ad control hook modules” in the shared overlay, with initial values copied\nfrom this patch's ad settings. If no overlay patch is selected, the normal static ad\ncontrols still work but these runtime addon modules are not available.\nRuntime changes last for the current app process and affect only methods and literal hosts\nsuccessfully instrumented by this patch. Its policy is attached to the selected overlay's\nown startup bridge, including a manual Activity override; it does not independently choose\nan Application or Activity. Native, dynamically generated, unsupported, or unrecognized\nSDK paths remain unchanged.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
+          "description": "A merged ad-control patch based on Nai64's No Ads and Ads Free Rewards patches, plus\nliteral-host blocking inspired by Entree and Adobo. Block common ad formats, choose the\nSDKs to target, optionally grant ad rewards without an ad, and redirect matching literal\nad/tracker hosts embedded in the APK.\n\nHost filters are small embedded subsets inspired by uBlock Origin, EasyList, AdGuard,\nOISD, HaGeZi Pro mini, Privacy Essentials, EasyPrivacy, and Peter Lowe's list; they are\nnot downloaded full subscriptions. Each filter is independently toggleable. They only\naffect hosts stored as literal strings by the app; they cannot block dynamically generated\nhosts, encrypted traffic, or requests made entirely inside Google Play services.\n\nCompatibility: when combined with Disable Forced Online Checks, keep that patch's “Exclude\nad SDK and networking code” option enabled; otherwise blocked ad hosts may be treated as\nonline and retried. PairIP Firebase cleanup/removal can disable Firebase-backed reward,\nsign-in, billing, and attribution flows, which this patch cannot restore.\n\nThis patch includes an optional Universal Overlay addon. To use the addon, patch Configure App Ads\ntogether with Universal Overlay, enable “Overlay integration >\nEnable runtime controls”, and select one or more of its three overlay addon modules:\n“Block Ads”, “Rewards without ads”, and “Block ad/tracking hosts”. The selected modules\nappear under “Ad control hook modules” in Universal Overlay, with initial values copied\nfrom this patch's ad settings. Universal Overlay is required for the runtime policy to be\ninstalled; if it is not selected, the normal static ad controls still work but these\nruntime addon modules are not available.\nRuntime changes last for the current app process and affect only methods and literal hosts\nsuccessfully instrumented by this patch. Its policy is attached to the selected overlay's\nown startup bridge, including a manual Activity override; it does not independently choose\nan Application or Activity. Native, dynamically generated, unsupported, or unrecognized\nSDK paths remain unchanged.\n\nCredits: Nai64Patches from Nai64; host-blocking approach inspired by Entree and Adobo.",
           "default": false,
           "options": [
             {
@@ -26263,7 +26270,7 @@
             {
               "key": "adsRuntimeHookModules",
               "title": "Overlay integration > Enable runtime controls",
-              "description": "Optional. Enable this and one or more controls below, then patch this together with Universal Overlay or an app-specific overlay. The controls appear in that overlay; they are session-only and affect only methods and literal hosts instrumented by this patch."
+              "description": "Optional. Enable this and one or more controls below, then select Universal Overlay in the same patch operation. The controls appear in Universal Overlay; they are session-only and affect only methods and literal hosts instrumented by this patch. Without Universal Overlay, the runtime policy is not installed."
             },
             {
               "key": "adsRuntimeBlockAdsModule",
@@ -26273,7 +26280,7 @@
             {
               "key": "adsRuntimeRewardsModule",
               "title": "Overlay integration > Runtime controls > Rewards without ads",
-              "description": "Add one Rewards without ads settings control to the overlay. It changes supported reward availability and policy for the current app session. Requires Enable runtime controls and Rewards without ads > Enable; unsupported and native reward paths remain unchanged."
+              "description": "Add one Rewards without ads settings control to Universal Overlay. Its initial checkbox values mirror Rewards without ads when that patch-time option is enabled; the runtime control remains available when it is disabled. Requires Enable runtime controls and Universal Overlay; unsupported and native reward paths remain unchanged."
             },
             {
               "key": "adsRuntimeHostsModule",
@@ -26754,7 +26761,7 @@
           ]
         },
         {
-          "name": "UniPatches Universal Overlay Patch v2.3.1 (Experimental)",
+          "name": "UniPatches Universal Overlay Patch v2.4.0 (Experimental)",
           "description": "A customizable in-app overlay for Android apps and games. For a quick first build: choose a visual\npreset, select the overlay modules you want, optionally supply an icon image, then patch. Modules\nare excluded and disabled by default. Monitor modules show information, Activity modules control\nthe current Activity, and Hook modules make best-effort changes to app behavior. Text is the\ndefault legacy icon; an optional image replaces it completely, while the advanced Multi-parts editor\nsupports custom drawn icons, and can be conveniently made in Icon Builder local website in UniPatches repo.\n\nThis is an experimental patch and may not work on all apps. UI presets can save and reuse supported appearance and advanced icon\nsettings. The title, description, repository button text, and repository button URL remain\ncontrolled by the visible Morphe settings. Module selections and module behavior are excluded\nbecause hook and module combinations can be app-specific. \n\nIf Control App Ads is patched with its optional runtime policy enabled, its selected ad-control modules appear here\nautomatically; Universal Overlay does not patch ad SDKs by itself. When both patches are\nselected, Control App Ads attaches its runtime policy to this overlay's exact startup bridge,\nincluding an explicit Activity override, instead of selecting a separate Activity.\n\nAttribution: The idea and initial works of Universal Overlay Patch are from Zanuaimi / Noobite.",
           "default": false,
           "options": [
@@ -29350,7 +29357,7 @@
       "source": "github",
       "repo": "SysAdminDoc/hushfeed",
       "name": "Hushfeed",
-      "repoDescription": "Hushfeed v0.27.0: a quieter TikTok. 70 patches for TikTok 46.2.3.",
+      "repoDescription": "Hushfeed v0.29.0: a Morphe patch bundle with 71 patches for TikTok 46.2.3. Fewer accidental taps, less noise, more control over the feed, inbox, comments and downloads.",
       "avatarUrl": "https://raw.githubusercontent.com/SysAdminDoc/hushfeed/main/patches-bundle.png",
       "stars": 6,
       "updatedAt": 1789015160000,
@@ -29792,7 +29799,7 @@
       "name": "Psylos",
       "repoDescription": "",
       "avatarUrl": "https://avatars.githubusercontent.com/u/289309337?v=4&s=128",
-      "stars": 1,
+      "stars": 2,
       "updatedAt": 1788094780000,
       "firstSeen": 1788842442448,
       "appFirstSeen": {
@@ -29836,7 +29843,7 @@
       "name": "AFFiNE No-GMS",
       "repoDescription": "",
       "avatarUrl": "https://avatars.githubusercontent.com/u/45492894?v=4&s=128",
-      "stars": 1,
+      "stars": 2,
       "updatedAt": 1788852512000,
       "firstSeen": 1788842442448,
       "appFirstSeen": {
@@ -29883,7 +29890,7 @@
       "name": "Zeldris",
       "repoDescription": "Yet another Morphe Patches",
       "avatarUrl": "https://avatars.githubusercontent.com/u/80939130?v=4&s=128",
-      "stars": 1,
+      "stars": 2,
       "updatedAt": 1788971015000,
       "firstSeen": 1788842442448,
       "appFirstSeen": {
@@ -30058,7 +30065,7 @@
       "repo": "ispacecase/patchweaver",
       "name": "Patchweaver",
       "repoDescription": "Personal Morphe patches (F-Droid selectable install backend)",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/173310662?v=4&s=128",
+      "avatarUrl": "https://raw.githubusercontent.com/ispacecase/patchweaver/main/patches-bundle.png",
       "stars": 0,
       "updatedAt": 1789057986000,
       "firstSeen": 1789076397225,

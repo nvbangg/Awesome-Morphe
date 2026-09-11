@@ -4,17 +4,6 @@
       "Enable Features"
     ]
   },
-  "adderalladmiral/psychonaut-journal-patches": {
-    "com.isaakhanimann.journal": [
-      "Clone",
-      "Custom substances database",
-      "Hide bottom tabs",
-      "Hide feedback section",
-      "Purge RevenueCat",
-      "Remove internet permission",
-      "Unlock premium"
-    ]
-  },
   "ajstrick81/morphe-androidtv-patches": {
     "com.amazon.amazonvideo.livingroom": [
       "Bundle native ad-strip hook",
@@ -444,16 +433,6 @@
       "Wide search bar"
     ]
   },
-  "andersonlucasg3/PetalMaps-NonHuawei": {
-    "com.huawei.maps.app": [
-      "AccountPicker WebView force",
-      "Anti-Repack Bypass",
-      "Change package name",
-      "Huawei login fix",
-      "Main activity orientation fix",
-      "Manufacturer Check Bypass"
-    ]
-  },
   "andrewliang25/morphe-patches": {
     "jp.naver.line.android": [
       "Disable LINE Premium",
@@ -491,6 +470,7 @@
   },
   "AngelDark92/steamlink-patches": {
     "com.valvesoftware.steamlinkvr": [
+      "Android Surface actual video (experimental)",
       "Android XR native permission names",
       "Appear on top (legacy)",
       "Change package name",
@@ -835,6 +815,8 @@
       "Add Save Data",
       "Add Toast",
       "Change Display Size",
+      "DPI Resource Slimmer New",
+      "PNG Asset Optimizer New",
       "Png Optimizer",
       "Remove Ads",
       "Remove Ads Lite (Adobo)",
@@ -1652,8 +1634,6 @@
       "NewX: Browse tweet object",
       "NewX: Custom font",
       "NewX: Custom sharing domain",
-      "NewX: Customize default media tab",
-      "NewX: Customize default reply sorting",
       "NewX: Customize drawer items",
       "NewX: Customize inline actions",
       "NewX: Customize navigation bar items",
@@ -1682,6 +1662,9 @@
       "NewX: Restore Twitter branding",
       "NewX: Restore timeline position",
       "NewX: Server error logging",
+      "NewX: Set default media tab",
+      "NewX: Set default profile post sorting",
+      "NewX: Set default reply sorting",
       "NewX: Share post as image",
       "NewX: Show poll results",
       "NewX: Show sensitive media",
@@ -3100,6 +3083,9 @@
     "com.apktools.app.decompile": [
       "Enable Premium"
     ],
+    "com.halo.reels.movie.fast.pro": [
+      "Enable VIP"
+    ],
     "com.notch.touch": [
       "Enable Premium"
     ],
@@ -3119,12 +3105,6 @@
       "Add Stremio button",
       "Hide Video Store",
       "Hide Where to Watch"
-    ]
-  },
-  "eZ4RK0/morphe-patches": {
-    "com.laironcorp.sunrisealarm": [
-      "Disable license check",
-      "Unlock premium"
     ]
   },
   "fangkampanat/gmaps-patches": {
@@ -3802,13 +3782,6 @@
       "Example Patch"
     ]
   },
-  "ImNoammm/morphe-spotify-patches": {
-    "com.spotify.music": [
-      "Local files from a server",
-      "Morphe settings",
-      "Pin shortcuts on Home"
-    ]
-  },
   "IMXEren/mix-patches": {
     "__universal__": [
       "Clone app",
@@ -3846,6 +3819,11 @@
       "Abstract shim layer",
       "Abstract shim layer for method",
       "Abstract shim layer for native library"
+    ]
+  },
+  "ispacecase/patchweaver": {
+    "org.fdroid.fdroid": [
+      "Selectable install backend"
     ]
   },
   "isuruhg/cricinfo-tweaks": {
@@ -4176,12 +4154,14 @@
     "com.google.android.inputmethod.latin": [
       "Bigger Toolbar",
       "Bypass Gboard Signature",
+      "Enable Rambler",
       "Hidden Features",
       "Hidden Features (unconfirmed)",
       "Install as Gboard Clone",
       "Suggested Settings",
       "Swipe Left to Delete",
       "Swipe Right to Undo",
+      "Swipe up diagnostic (temporary)",
       "Swipe up to undo autocorrect",
       "Text Action Buttons",
       "Toolbar Hotkeys",
@@ -4334,11 +4314,6 @@
       "Enable Premium"
     ]
   },
-  "kolaron/morphe-patches": {
-    "cz.mafra.jizdnirady": [
-      "Disable ads"
-    ]
-  },
   "kondratjev/morphe-patches": {
     "__universal__": [
       "Change version code",
@@ -4440,7 +4415,7 @@
       "PNG Asset Optimizer",
       "Resource Slimmer"
     ],
-    "com.vivaldi.browser.snapshot": [
+    "com.vivaldi.browser": [
       "Block Vivaldi Sync",
       "Block Vivaldi Telemetry",
       "Clean Speed Dial Bookmarks",
@@ -4506,13 +4481,6 @@
       "Mark SDH Subtitles",
       "Random Episode",
       "Remove SDH Annotations",
-      "Side-by-side installation"
-    ]
-  },
-  "liongalahad/liongalahad-stremio-morphe-patches": {
-    "com.stremio.one": [
-      "Addon reordering",
-      "Multi-account",
       "Side-by-side installation"
     ]
   },
@@ -5187,162 +5155,6 @@
   "osirisad/teamsnap-patches": {
     "com.teamsnap.teamsnap": [
       "Disable ads"
-    ]
-  },
-  "ozeroztas/Morphe-Patch": {
-    "__universal__": [
-      "Change installer source",
-      "Clone app",
-      "Disable Play Store updates",
-      "Override certificate pinning"
-    ],
-    "com.google.android.apps.youtube.music": [
-      "App refresh rate",
-      "Bypass certificate checks",
-      "Change header",
-      "Change miniplayer color",
-      "Change start page",
-      "Check watch history domain name resolution",
-      "Crossfade",
-      "Custom branding",
-      "Disable DRC audio",
-      "Disable QUIC protocol",
-      "Disable dislike redirection",
-      "Downloads",
-      "Enable debugging",
-      "Enable exclusive audio playback",
-      "Enable forced miniplayer",
-      "Enable swipe to dismiss miniplayer",
-      "Force original audio",
-      "GmsCore support",
-      "Hide ads",
-      "Hide buttons",
-      "Hide filter bar",
-      "Hide flyout menu components",
-      "Hide layout components",
-      "Hide music action buttons",
-      "Miniplayer previous and next buttons",
-      "Navigation bar",
-      "Network proxy",
-      "Play albums songs",
-      "PoToken provider",
-      "Remember repeat state",
-      "Remember shuffle state",
-      "Remove background playback restrictions",
-      "Remove viewer discretion dialog",
-      "Return YouTube Dislike",
-      "Sanitize sharing links",
-      "Scrobbling",
-      "Settings menu filter",
-      "SponsorBlock",
-      "Spoof app version",
-      "Spoof video streams",
-      "Theme",
-      "Third-party lyrics"
-    ],
-    "com.google.android.youtube": [
-      "Add to queue",
-      "Alternative thumbnails",
-      "Ambient mode",
-      "App refresh rate",
-      "Bypass image region restrictions",
-      "Bypass link redirects",
-      "Captions",
-      "Change form factor",
-      "Change header",
-      "Change start page",
-      "Check watch history domain name resolution",
-      "Copy video link",
-      "Custom branding",
-      "Custom player overlay opacity",
-      "Disable DRC audio",
-      "Disable QUIC protocol",
-      "Disable Shorts resuming on startup",
-      "Disable double tap actions",
-      "Disable fullscreen gestures",
-      "Disable haptic feedback",
-      "Disable layout updates",
-      "Disable player popup panels",
-      "Disable playlist autoplay",
-      "Disable rolling number animations",
-      "Disable scrolling speed limit",
-      "Disable sign in to TV popup",
-      "Disable video codecs",
-      "Double tap to seek",
-      "Downloads",
-      "Enable debugging",
-      "Exit fullscreen mode",
-      "Force original audio",
-      "Fullscreen video scale",
-      "GmsCore support",
-      "Hide Shorts components",
-      "Hide ads",
-      "Hide autoplay preview",
-      "Hide end screen cards",
-      "Hide end screen suggested video",
-      "Hide info cards",
-      "Hide layout components",
-      "Hide player flyout menu components",
-      "Hide player overlay buttons",
-      "Hide related video overlay",
-      "Hide related videos",
-      "Hide timestamp",
-      "Hide video action buttons",
-      "Loop video",
-      "Media notification controls",
-      "Miniplayer",
-      "Mute button",
-      "Navigation bar",
-      "Network proxy",
-      "Open Shorts in regular player",
-      "Open channel of live avatar",
-      "Open links externally",
-      "Open system share sheet",
-      "Open videos fullscreen",
-      "Override YouTube Music buttons",
-      "Play all",
-      "Playback in feeds",
-      "Playback speed",
-      "PoToken provider",
-      "Reload video",
-      "Remember live stream playback position",
-      "Remove background playback restrictions",
-      "Remove viewer discretion dialog",
-      "Return YouTube Dislike",
-      "Sanitize sharing links",
-      "Save to Watch later",
-      "Seekbar",
-      "Settings menu filter",
-      "Shorts autoplay",
-      "SponsorBlock",
-      "Spoof app version",
-      "Spoof device dimensions",
-      "Spoof video streams",
-      "Swipe controls",
-      "Theme",
-      "Video quality",
-      "Voice over translation",
-      "Wide search bar"
-    ],
-    "com.reddit.frontpage": [
-      "Custom branding name for Reddit",
-      "Custom font",
-      "Disable modern home",
-      "Disable screenshot popup",
-      "Force system font",
-      "Hide Ask button",
-      "Hide Reddit search",
-      "Hide Trending shelves",
-      "Hide ads",
-      "Hide communities shelf",
-      "Hide navigation buttons",
-      "Hide sidebar components",
-      "Open links directly",
-      "Open links externally",
-      "Remove subreddit dialog",
-      "Sanitize sharing links",
-      "Show view count",
-      "Spoof signature"
     ]
   },
   "Pa-kon/morphe-screenshot-patches": {
@@ -6903,6 +6715,7 @@
       "Hide quick comment reactions",
       "Hide search suggestions",
       "Hide suggested accounts",
+      "Hide the launcher shortcuts",
       "Hide the risk control CAPTCHA",
       "Hide video overlays",
       "Hold-and-slide 2x lock",
@@ -7119,6 +6932,7 @@
       "Playback speed",
       "PoToken provider",
       "Reload video",
+      "Remember live stream playback position",
       "Remove background playback restrictions",
       "Remove viewer discretion dialog",
       "Return YouTube Dislike",
@@ -7416,15 +7230,15 @@
     "__universal__": [
       "Bypass Emulator Detection",
       "Bypass Forced Updates (Experimental)",
-      "Control App Ads Patch (Experimental, Enhanced)",
+      "Configure App Ads Patch ( Experimental, Enhanced, Has Overlay Addon )",
       "Custom App Display Patch (Experimental, Enhanced)",
       "Custom App Output Patch (Experimental, Enhanced)",
       "Disable Forced Online Checks (Experimental)",
       "PairIP Bypass Patch (Experimental, Enhanced)",
-      "UniPatches Universal Overlay Patch v2.1 (Experimental)"
+      "UniPatches Universal Overlay Patch v2.4.0 (Experimental)"
     ],
     "com.fingersoft.hillclimb": [
-      "Hill Climb Racing Overlay Example (Experimental)"
+      "Hill Climb Racing Example Overlay Addon"
     ]
   },
   "zeldrisho/morphe-patches": {

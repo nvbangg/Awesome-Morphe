@@ -752,7 +752,8 @@
     "name": "Patchweaver",
     "github": {
       "main": "ef9f1b27c472b14a2900e8dec7b18285553132339937bb5dbf1dc546f4fbef80",
-      "dev": "ef9f1b27c472b14a2900e8dec7b18285553132339937bb5dbf1dc546f4fbef80"
+      "dev": "ef9f1b27c472b14a2900e8dec7b18285553132339937bb5dbf1dc546f4fbef80",
+      "image": "39c63f4e6fcf96124c75006b3fc7f9c3a4c79732b717eed87dc8abcc27067afa"
     }
   },
   "isuruhg/cricinfo-tweaks": {
@@ -856,7 +857,7 @@
     "name": "Flexboard",
     "github": {
       "main": "6e1c38cb4636b58bdee63ac64c3d723d196ea0b38a4c1d10fbdf0c97666c266d",
-      "dev": "7412eaa4a708ec3699f2efab9c57cbaa81c9255ea863f73f188b054d0dcb69f5"
+      "dev": "c988124a8483febc3ff050fbf74e739b4c9d31d1b7c05f03ff452ea2a2af1be8"
     }
   },
   "kareemlukitomo/morphe-patches": {
@@ -1264,8 +1265,8 @@
   "RookieEnough/De-Vanced": {
     "name": "De-Vanced Patches",
     "github": {
-      "main": "ebc0a952131db2e426805aee00733e7910fcbbaaee8acc081a9e6336c230cecd",
-      "dev": "8874b3cb24349020ee0a6e7ac4fe380c9bac44667e2ce38c84bcd2a056251352"
+      "main": "f98aa892ac2d6c5dcb1a01b27cb44d99ff3d016d6c83a24425853f86a742191d",
+      "dev": "f98aa892ac2d6c5dcb1a01b27cb44d99ff3d016d6c83a24425853f86a742191d"
     }
   },
   "RoundSalmon4/morphe-patches-template": {
@@ -1316,7 +1317,7 @@
     "name": "Dual VoT Patches",
     "github": {
       "main": "162ca189a59998ad46f5122407f137ff74d41fdde0003d06ca8abf96a5e47be4",
-      "dev": "b126e992570eb776e610d7962cd0189293b366390f07207873fcb9a035560a3d"
+      "dev": "d5c8a82cf57eb1d39ec4e70bb5f09dcccc9bd41d22df7b2c35111e83b557247a"
     }
   },
   "Seobject/Seobject-patches": {
@@ -1463,7 +1464,8 @@
   "vomw/morphe-patches": {
     "github": {
       "main": "e42d5824c23e9bcaa77dda7cb354c2cb345a809ee5ef285808cbe2a5322ca9ff",
-      "dev": "48193207460f0182d6e0f7d52635be9456b6e21fdc71e2802a8d6a4ab62c7b10"
+      "dev": "48193207460f0182d6e0f7d52635be9456b6e21fdc71e2802a8d6a4ab62c7b10",
+      "image": "b6a3c0d3e2e7764bc1e0a2a0741fe7e4098ce5b0b78be9e3a695bae84f1c3af1"
     }
   },
   "wchill/patcheddit": {
@@ -1534,8 +1536,8 @@
   "Zanuaimi/UniPatches": {
     "name": "Zanuaimi's UniPatches",
     "github": {
-      "main": "81dd6919ae1f9a165b891c78b5654e5bb40ccce5f07c6e2fd3f7670a5e89dd3a",
-      "dev": "81dd6919ae1f9a165b891c78b5654e5bb40ccce5f07c6e2fd3f7670a5e89dd3a",
+      "main": "a01085534fc7576d762c8bb6d5c8b9fc9105eeef1fc571a7aedbde4167189c29",
+      "dev": "a01085534fc7576d762c8bb6d5c8b9fc9105eeef1fc571a7aedbde4167189c29",
       "image": "d6033284f266e11ce96e3c2b4eb7a147f0a977ca25dca1d09bab05319dab5907"
     }
   },
