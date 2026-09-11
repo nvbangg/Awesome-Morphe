@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.16.0",
+  "version": "1.17.0",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -159,6 +159,132 @@
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "All-In-One",
+      "description": "Enables video playback and downloads, removes ads and upsell prompts, and bypasses the region block. Requires Android 10 or later.",
+      "default": true,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.community.oneroom",
+          "name": "MovieBox",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#30E66D",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "4.0.02.0828.03",
+              "versionCodes": {
+                "ARM64_V8A": 50020125,
+                "ARMEABI_V7A": 50020125,
+                "X86_64": 50020125,
+                "X86": 50020125
+              },
+              "isExperimental": false,
+              "minSdk": 29,
+              "description": null
+            },
+            {
+              "version": "4.0.02.0831.03",
+              "versionCodes": {
+                "ARM64_V8A": 50020126,
+                "ARMEABI_V7A": 50020126,
+                "X86_64": 50020126,
+                "X86": 50020126
+              },
+              "isExperimental": false,
+              "minSdk": 29,
+              "description": null
+            },
+            {
+              "version": "4.0.02.0903.02",
+              "versionCodes": {
+                "ARM64_V8A": 50020128,
+                "ARMEABI_V7A": 50020128,
+                "X86_64": 50020128,
+                "X86": 50020128
+              },
+              "isExperimental": false,
+              "minSdk": 29,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Block telemetry",
+      "description": "Blocks the Umeng, ByteDance and ad network analytics endpoints.",
+      "default": true,
+      "dependencies": [
+        "RawResourcePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.gstarmc.android",
+          "name": "DWG FastView",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#1AACAC",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "5.19.4",
+              "versionCodes": {
+                "ARM64_V8A": 614,
+                "ARMEABI_V7A": 614,
+                "X86_64": 614,
+                "X86": 614
+              },
+              "isExperimental": false,
+              "minSdk": 26,
+              "description": null
+            },
+            {
+              "version": "5.19.6",
+              "versionCodes": {
+                "ARM64_V8A": 616,
+                "ARMEABI_V7A": 616,
+                "X86_64": 616,
+                "X86": 616
+              },
+              "isExperimental": false,
+              "minSdk": 26,
+              "description": null
+            },
+            {
+              "version": "5.20.0",
+              "versionCodes": {
+                "ARM64_V8A": 620,
+                "ARMEABI_V7A": 620,
+                "X86_64": 620,
+                "X86": 620
+              },
+              "isExperimental": false,
+              "minSdk": 26,
+              "description": null
+            },
+            {
+              "version": "5.21.0",
+              "versionCodes": {
+                "ARM64_V8A": 630,
+                "ARMEABI_V7A": 630,
+                "X86_64": 630,
+                "X86": 630
+              },
+              "isExperimental": false,
+              "minSdk": 26,
               "description": null
             }
           ]
@@ -408,6 +534,75 @@
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Hide rating dialog",
+      "description": "Removes the prompt asking for a store review.",
+      "default": true,
+      "dependencies": [
+        "RawResourcePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.gstarmc.android",
+          "name": "DWG FastView",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#1AACAC",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "5.19.4",
+              "versionCodes": {
+                "ARM64_V8A": 614,
+                "ARMEABI_V7A": 614,
+                "X86_64": 614,
+                "X86": 614
+              },
+              "isExperimental": false,
+              "minSdk": 26,
+              "description": null
+            },
+            {
+              "version": "5.19.6",
+              "versionCodes": {
+                "ARM64_V8A": 616,
+                "ARMEABI_V7A": 616,
+                "X86_64": 616,
+                "X86": 616
+              },
+              "isExperimental": false,
+              "minSdk": 26,
+              "description": null
+            },
+            {
+              "version": "5.20.0",
+              "versionCodes": {
+                "ARM64_V8A": 620,
+                "ARMEABI_V7A": 620,
+                "X86_64": 620,
+                "X86": 620
+              },
+              "isExperimental": false,
+              "minSdk": 26,
+              "description": null
+            },
+            {
+              "version": "5.21.0",
+              "versionCodes": {
+                "ARM64_V8A": 630,
+                "ARMEABI_V7A": 630,
+                "X86_64": 630,
+                "X86": 630
+              },
+              "isExperimental": false,
+              "minSdk": 26,
               "description": null
             }
           ]
@@ -915,6 +1110,75 @@
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock premium",
+      "description": "Unlocks the paid drawing, annotation and measurement tools, and removes ads.",
+      "default": true,
+      "dependencies": [
+        "RawResourcePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.gstarmc.android",
+          "name": "DWG FastView",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#1AACAC",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "5.19.4",
+              "versionCodes": {
+                "ARM64_V8A": 614,
+                "ARMEABI_V7A": 614,
+                "X86_64": 614,
+                "X86": 614
+              },
+              "isExperimental": false,
+              "minSdk": 26,
+              "description": null
+            },
+            {
+              "version": "5.19.6",
+              "versionCodes": {
+                "ARM64_V8A": 616,
+                "ARMEABI_V7A": 616,
+                "X86_64": 616,
+                "X86": 616
+              },
+              "isExperimental": false,
+              "minSdk": 26,
+              "description": null
+            },
+            {
+              "version": "5.20.0",
+              "versionCodes": {
+                "ARM64_V8A": 620,
+                "ARMEABI_V7A": 620,
+                "X86_64": 620,
+                "X86": 620
+              },
+              "isExperimental": false,
+              "minSdk": 26,
+              "description": null
+            },
+            {
+              "version": "5.21.0",
+              "versionCodes": {
+                "ARM64_V8A": 630,
+                "ARMEABI_V7A": 630,
+                "X86_64": 630,
+                "X86": 630
+              },
+              "isExperimental": false,
+              "minSdk": 26,
               "description": null
             }
           ]

@@ -1,33 +1,7 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "patches": [
-    {
-      "name": "Add English TTS voices",
-      "description": "Adds English piper voices to AI Audio Novel Reader by injecting a voice catalog for the English novel language mode (37 voices from rhasspy/piper-voices, downloaded on first use) and fetching the missing English espeak-ng phonemization data (~170 KB, one time). Vietnamese voices are not affected.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.thien.novelreader",
-          "name": "AI Audio Novel Reader",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#6200EE",
-          "signatures": null,
-          "targets": [
-            {
-              "version": null,
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
     {
       "name": "Fix home screen numbers tile",
       "description": "Niagara's Channels feature registers a diagnostic tip whose message is a giant fingerprint of concatenated hashCode() integers of up to 30 channel items (~850 digits). Because the provider accepts every tip request, this shows up as a tile of giant numbers on the home feed whenever the channel list refreshes, which happens when apps are installed, updated or removed (for example through ADB). Makes the provider decline tip requests so the diagnostic tip is never shown.",

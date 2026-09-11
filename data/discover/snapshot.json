@@ -1,5 +1,5 @@
 {
-  "jman_tree_sha": "af092907d123917d967ca3bd6f72b085a48ca8c7",
+  "jman_tree_sha": "bd3384fb5d04f02c15244b7088b956ebe73803f2",
   "jman_bundles": {
     "1fexd": {
       "sha": "4428619fe1755f86c0bd9d8fb5762fcc8c17b43a",
@@ -238,7 +238,7 @@
       "key": "https://github.com/csagataj2/morphe-patches"
     },
     "d0nj": {
-      "sha": "a87559cc390fe54ec675043a26c8bc274f3a85cd",
+      "sha": "f6c1f64a1baf5518f2597097c7f1fc01c6546d4c",
       "key": "https://github.com/d0nj/morphe-patches"
     },
     "d4n3436": {
@@ -346,7 +346,7 @@
       "key": "https://github.com/isuruhg/fin-tweaks"
     },
     "flexboard": {
-      "sha": "680b0fb600da6df040ad2a11f71f6f15c808deda",
+      "sha": "8b5a44c84a6535239f1751f1a59237f7c08d18bd",
       "key": "https://github.com/JZ6/Flexboard"
     },
     "forsyth47": {
@@ -362,7 +362,7 @@
       "key": "https://github.com/SapitoSucio/FroggoMorphePatches"
     },
     "ftl": {
-      "sha": "d64a5d6280ac1c1dd9282513e58cecd0daa4f357",
+      "sha": "68a9539a62c7ca56164de6c664875d56e458c038",
       "key": "https://github.com/BlazeFTL/FTL-Patches"
     },
     "ftl-portal": {
@@ -422,7 +422,7 @@
       "key": "https://github.com/hu-liberator/patches"
     },
     "hushfeed": {
-      "sha": "8d96cefe6e9b3504ec088076452a77609e624e9f",
+      "sha": "30a586694a63a4a6fe5937446bace067e7528f20",
       "key": "https://github.com/SysAdminDoc/hushfeed"
     },
     "hxreborn": {
@@ -466,7 +466,7 @@
       "key": "https://github.com/ImNoammm/morphe-spotify-patches"
     },
     "imxeren": {
-      "sha": "7422d5715491a407aca2271cafbe1a98101ce9ce",
+      "sha": "d17ebc020a762193c3f84f72c64870394dcaff2b",
       "key": "https://gitlab.com/IMXEren/mix-patches"
     },
     "inotia00": {
@@ -546,7 +546,7 @@
       "key": null
     },
     "kveld": {
-      "sha": "6200ce2cebb9e2e6b5ed421d6c74b1c1e4d4d63a",
+      "sha": "74c1e586a74dfd33e4073a9e7d351b6ab2803e90",
       "key": "https://github.com/kveld9/kveld-morphe-patches"
     },
     "lablazer": {

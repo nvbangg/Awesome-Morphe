@@ -245,7 +245,7 @@
     "name": "BlazeFTL Patches",
     "github": {
       "main": "fd47c89bb324242f8062c1b02cc7c150514b57b82455df562cf7ff91c2102c4f",
-      "dev": "750eb5503521af254b9ae55b90b0744d2c11447c1851bf921a18026f537d0f48"
+      "dev": "83d2a54cd5392598b6dc00e3c4f6d41bf4bb8052b294fcb0353c2d6296c7ae97"
     }
   },
   "BlazeFTL/Morphe-Portal-Patches-New": {
@@ -391,7 +391,7 @@
   "d0nj/morphe-patches": {
     "name": "d0nj Patches",
     "github": {
-      "main": "c9b1b68b010bffa7c7dc0859ff873f377ed91f0291c9b8e8cbe5516191217160",
+      "main": "45a656bb31927811012c2cd2f258c26cb6eaca023821452587a5725b17e3c360",
       "dev": null
     }
   },
@@ -519,8 +519,8 @@
   "epxec/android-patches": {
     "name": "Epxec Patches",
     "github": {
-      "main": "e0f097609c8177051a648c658f48bce44e1e03834f771b5516928a02db44683b",
-      "dev": "e0f097609c8177051a648c658f48bce44e1e03834f771b5516928a02db44683b"
+      "main": "c87e58f943ae92f78fd579f6fd2e957e6a9f9ecf83a67ba44fdda087ac6301ca",
+      "dev": "c87e58f943ae92f78fd579f6fd2e957e6a9f9ecf83a67ba44fdda087ac6301ca"
     }
   },
   "ethan-manny/spotify-tv-crossfade": {
@@ -694,7 +694,7 @@
   "hxreborn/morphe-patches": {
     "name": "hxreborn Patches",
     "github": {
-      "main": "243fa6c6e148ac3b3f2c588c05a5b44021833ca2667eea88e6897830e1a087b3",
+      "main": "f658e477aaa4d407c4a61990abb0060567200864d30eeb3e2c34fb67766326c2",
       "dev": null
     }
   },
@@ -702,7 +702,7 @@
     "name": "Metra TikTok Patches",
     "github": {
       "main": "4c73b76db0ffa0685e64df957999dd672e582350807bc87e1a5c29f42c76e382",
-      "dev": "94e70fb8f491daa91d70888a13885cae7efbd8d63010db6f73995ac9a1a9b875",
+      "dev": "355075cdec3af01b363aeaa4c1558f1d09ea16926b69232a24df6063195f4079",
       "image": "36eedf355790b1b243f2c4977b2ba14c9e640d48c48240d4ff436045a57922c6"
     }
   },
@@ -737,8 +737,8 @@
   "IMXEren/mix-patches": {
     "name": "Mix Patches",
     "gitlab": {
-      "main": "d6b21131a3f5f4f0db0731fa9dfe9d5554240f4107c14d84f358d1a357505f11",
-      "dev": "d6b21131a3f5f4f0db0731fa9dfe9d5554240f4107c14d84f358d1a357505f11"
+      "main": "ac9da532c72cf55e652eb4a3336c9fab4118c4ab04927622fb45fa0308f3ef45",
+      "dev": "ac9da532c72cf55e652eb4a3336c9fab4118c4ab04927622fb45fa0308f3ef45"
     }
   },
   "inotia00/proguard-patches": {
@@ -864,7 +864,7 @@
     "name": "Flexboard",
     "github": {
       "main": "6e1c38cb4636b58bdee63ac64c3d723d196ea0b38a4c1d10fbdf0c97666c266d",
-      "dev": "de2f230c93d597859a43242beafdd60c7b88842762ef5d821433773a8004ec63"
+      "dev": "614b3d647981fb3a5539348b25cae5289daa264c8d2ee2104dfbbf52c3cc5504"
     }
   },
   "kareemlukitomo/morphe-patches": {
